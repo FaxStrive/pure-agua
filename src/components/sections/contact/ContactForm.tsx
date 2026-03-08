@@ -8,6 +8,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { viewportConfig } from "@/lib/animations";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { TextAnimate } from "@/components/magicui/text-animate";
+import WaterCaustics from "@/components/animations/water-caustics";
 
 export function ContactForm() {
   const { t } = useLanguage();
@@ -53,6 +55,11 @@ export function ContactForm() {
 
   return (
     <section className="relative py-24 lg:py-32 bg-[var(--color-surface)] overflow-hidden">
+      {/* Section backgrounds */}
+      <div className="absolute -top-20 -right-32 w-[500px] h-[500px] rounded-full pointer-events-none" style={{ background: "radial-gradient(circle, rgba(8,73,120,0.03) 0%, transparent 70%)" }} />
+      <div className="absolute -bottom-20 -left-20 w-[400px] h-[400px] rounded-full pointer-events-none" style={{ background: "radial-gradient(circle, rgba(0,159,227,0.02) 0%, transparent 70%)" }} />
+      <WaterCaustics variant="light" speed={14} className="opacity-60" />
+
       <div className="relative container-custom">
         <div className="grid lg:grid-cols-[1fr,1.4fr] gap-10 lg:gap-16">
           {/* Left - Contact Info */}
@@ -69,9 +76,9 @@ export function ContactForm() {
               </span>
             </div>
 
-            <h2 className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-5">
+            <TextAnimate animation="blurInUp" by="word" as="h2" className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-5">
               {t("contactForm", "heading")}
-            </h2>
+            </TextAnimate>
             <p className="text-[var(--color-muted)] leading-relaxed mb-10">
               {t("contactForm", "description")}
             </p>

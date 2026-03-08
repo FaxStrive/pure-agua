@@ -77,7 +77,7 @@ export default function InlineCTABanner({
             </Link>
             {showPhone && (
               <a
-                href="tel:+1"
+                href="tel:+14077732883"
                 className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${
                   variant === "subtle"
                     ? "text-[var(--color-text-muted)] hover:text-[var(--color-primary)]"

@@ -11,14 +11,14 @@ import { translations } from "@/lib/i18n/translations";
 export function Testimonials() {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 });
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [active, setActive] = useState(0);
   const [direction, setDirection] = useState(0);
 
   const testimonials = translations.testimonials.reviews.map((r) => ({
     name: r.name,
     location: r.location,
-    text: r.text[language],
+    text: r.text,
     rating: 5,
   }));
 
@@ -101,9 +101,7 @@ export function Testimonials() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-white/50 mb-10 leading-relaxed"
             >
-              {language === "es"
-                ? "Escuche de familias reales en el Centro de Florida que transformaron su agua."
-                : "Hear from real Central Florida families who transformed their water."}
+              {"Hear from real Central Florida families who transformed their water."}
             </motion.p>
 
             {/* Navigation arrows + dots */}
@@ -217,7 +215,7 @@ export function Testimonials() {
               fillColor="var(--color-accent)"
               className="text-base font-semibold px-8 py-4 border-[var(--color-accent)] text-[var(--color-accent)]"
             >
-              {language === "es" ? "Unase a Nuestros Clientes Felices" : "Join Our Happy Customers"}
+              {"Join Our Happy Customers"}
               <ArrowRight className="w-5 h-5 ml-2" />
             </WaterButton>
           </Link>

@@ -6,16 +6,17 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 const benefitIcons = [DollarSign, GraduationCap, Heart, Calendar, Car, Users];
 
 interface BenefitItem {
-  title: { en: string; es: string };
-  description: { en: string; es: string };
+  title: string;
+  description: string;
 }
 
 export function Benefits() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const benefits = getTranslationArray<BenefitItem>("careersPage", "benefits");
 
@@ -40,9 +41,9 @@ export function Benefits() {
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("careersPage", "benefitsLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("careersPage", "benefitsHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <motion.div
@@ -61,10 +62,10 @@ export function Benefits() {
                     <Icon className="w-5 h-5 text-[var(--color-primary)]" />
                   </div>
                   <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-2">
-                    {benefit.title[language]}
+                    {benefit.title}
                   </h3>
                   <p className="text-sm text-[var(--color-muted)] leading-relaxed">
-                    {benefit.description[language]}
+                    {benefit.description}
                   </p>
                 </GlassLiftCard>
               </motion.div>

@@ -2,15 +2,15 @@
 
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 import { Droplets, Shield, Sparkles, Zap, Heart, PiggyBank, Check } from "lucide-react";
 
 const featureIcons = [Droplets, Shield, Sparkles, Zap, Heart, PiggyBank, Check, Droplets];
 
 interface FeatureItem {
-  title: LocalizedString;
-  description: LocalizedString;
+  title: string;
+  description: string;
 }
 
 interface ServiceFeaturesProps {
@@ -19,7 +19,7 @@ interface ServiceFeaturesProps {
 }
 
 export function ServiceFeatures({ translationSection, layout = "grid" }: ServiceFeaturesProps) {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const features = getTranslationArray<FeatureItem>(translationSection, "features");
   if (features.length === 0) return null;
@@ -76,10 +76,10 @@ export function ServiceFeatures({ translationSection, layout = "grid" }: Service
                     <Icon className="w-5 h-5 text-[var(--color-primary)]" />
                   </div>
                   <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-2">
-                    {feature.title[language]}
+                    {feature.title}
                   </h3>
                   <p className="text-sm text-[var(--color-muted)] leading-relaxed">
-                    {feature.description[language]}
+                    {feature.description}
                   </p>
                 </motion.div>
               );
@@ -105,10 +105,10 @@ export function ServiceFeatures({ translationSection, layout = "grid" }: Service
                 </div>
                 <div className="flex-1 text-center md:text-left">
                   <h3 className="text-xl font-bold text-[var(--color-foreground)] mb-2">
-                    {feature.title[language]}
+                    {feature.title}
                   </h3>
                   <p className="text-[var(--color-muted)] leading-relaxed">
-                    {feature.description[language]}
+                    {feature.description}
                   </p>
                 </div>
               </motion.div>
@@ -137,10 +137,10 @@ export function ServiceFeatures({ translationSection, layout = "grid" }: Service
                   </div>
                   <div>
                     <h3 className="font-bold text-[var(--color-foreground)] mb-1">
-                      {feature.title[language]}
+                      {feature.title}
                     </h3>
                     <p className="text-sm text-[var(--color-muted)] leading-relaxed">
-                      {feature.description[language]}
+                      {feature.description}
                     </p>
                   </div>
                 </motion.div>

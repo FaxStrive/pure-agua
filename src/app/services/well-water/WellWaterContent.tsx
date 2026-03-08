@@ -12,7 +12,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig } from "@/lib/animations";
 import { RelatedServices } from "@/components/sections/services/shared/RelatedServices";
 import { Testimonials } from "@/components/sections/Testimonials";
@@ -22,78 +22,77 @@ import InlineCTABanner from "@/components/conversion/InlineCTABanner";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
-import WaterCaustics from "@/components/animations/water-caustics";
 
 interface ProblemItem {
-  problem: LocalizedString;
-  solution: LocalizedString;
-  cause: LocalizedString;
+  problem: string;
+  solution: string;
+  cause: string;
 }
 
 interface ProcessStep {
-  title: LocalizedString;
-  description: LocalizedString;
+  title: string;
+  description: string;
 }
 
 interface FAQItem {
-  question: LocalizedString;
-  answer: LocalizedString;
+  question: string;
+  answer: string;
 }
 
 /* Contaminant testing cards with severity levels */
 const wellContaminants = [
   {
-    name: { en: "Iron & Rust", es: "Hierro y Oxido" },
+    name: "Iron & Rust",
     icon: Flame,
     safeRange: "<0.3 ppm",
     floridaAvg: "1.5-5.0 ppm",
     severity: "high" as const,
-    symptoms: { en: "Orange staining on fixtures, metallic taste, rusty laundry", es: "Manchas naranjas en griferias, sabor metalico, ropa oxidada" },
+    symptoms: "Orange staining on fixtures, metallic taste, rusty laundry",
   },
   {
-    name: { en: "Sulfur / H2S", es: "Azufre / H2S" },
+    name: "Sulfur / H2S",
     icon: FlaskConical,
     safeRange: "<0.05 ppm",
     floridaAvg: "0.5-3.0 ppm",
     severity: "high" as const,
-    symptoms: { en: "Rotten egg smell, corroded pipes, black stains", es: "Olor a huevo podrido, tuberias corroidas, manchas negras" },
+    symptoms: "Rotten egg smell, corroded pipes, black stains",
   },
   {
-    name: { en: "Bacteria / E. Coli", es: "Bacterias / E. Coli" },
+    name: "Bacteria / E. Coli",
     icon: Bug,
     safeRange: "0 CFU/100mL",
     floridaAvg: "1-500 CFU",
     severity: "critical" as const,
-    symptoms: { en: "Health risk, gastrointestinal illness, unsafe for drinking", es: "Riesgo de salud, enfermedades gastrointestinales, insegura para beber" },
+    symptoms: "Health risk, gastrointestinal illness, unsafe for drinking",
   },
   {
-    name: { en: "Hardness (Calcium)", es: "Dureza (Calcio)" },
+    name: "Hardness (Calcium)",
     icon: Droplets,
     safeRange: "<60 ppm",
     floridaAvg: "120-400 ppm",
     severity: "moderate" as const,
-    symptoms: { en: "Scale buildup, dry skin, appliance damage, soap scum", es: "Acumulacion de sarro, piel seca, danos a electrodomesticos" },
+    symptoms: "Scale buildup, dry skin, appliance damage, soap scum",
   },
   {
-    name: { en: "Tannins", es: "Taninos" },
+    name: "Tannins",
     icon: Droplets,
     safeRange: "<0.5 ppm",
     floridaAvg: "1.0-5.0 ppm",
     severity: "moderate" as const,
-    symptoms: { en: "Yellow/brown water color, musty taste, stained laundry", es: "Color amarillo/marron del agua, sabor rancio, ropa manchada" },
+    symptoms: "Yellow/brown water color, musty taste, stained laundry",
   },
   {
-    name: { en: "pH Imbalance", es: "Desequilibrio de pH" },
+    name: "pH Imbalance",
     icon: FlaskConical,
     safeRange: "6.5-8.5",
     floridaAvg: "5.5-6.5 (acidic)",
     severity: "moderate" as const,
-    symptoms: { en: "Corroded pipes, blue-green stains on copper, metallic taste", es: "Tuberias corroidas, manchas azul-verde en cobre, sabor metalico" },
+    symptoms: "Corroded pipes, blue-green stains on copper, metallic taste",
   },
 ];
 
 export function WellWaterContent() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const problems = getTranslationArray<ProblemItem>("wellWaterPage", "problems");
   const steps = getTranslationArray<ProcessStep>("wellWaterPage", "processSteps");
   const faqItems = getTranslationArray<FAQItem>("wellWaterPage", "faq");
@@ -131,8 +130,8 @@ export function WellWaterContent() {
             >
               <motion.div className="rounded-2xl overflow-hidden shadow-2xl shadow-[var(--color-primary)]/10" style={{ y: imgY }}>
                 <Image
-                  src="https://images.pexels.com/photos/2962405/pexels-photo-2962405.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Well water treatment and filtration system"
+                  src="/images/well-water-testing.jpeg"
+                  alt="Laboratory water quality testing with flask"
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover aspect-[4/3]"
@@ -151,10 +150,10 @@ export function WellWaterContent() {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-amber-800">
-                      {language === "es" ? "Agua de Pozo Florida" : "Florida Well Water"}
+                      Florida Well Water
                     </p>
                     <p className="text-xs text-amber-600">
-                      {language === "es" ? "Necesita tratamiento personalizado" : "Needs custom treatment"}
+                      Needs custom treatment
                     </p>
                   </div>
                 </div>
@@ -193,23 +192,23 @@ export function WellWaterContent() {
       </section>
 
       {/* Contaminant Testing Cards with Severity */}
-      <ContaminantTestingCards language={language} />
+      <ContaminantTestingCards />
 
       {/* Inline CTA */}
       <InlineCTABanner
-        headline={language === "es" ? "No sabe que hay en su agua de pozo?" : "Don't Know What's in Your Well Water?"}
-        subtext={language === "es" ? "Ofrecemos pruebas gratuitas de agua con resultados detallados." : "We offer free water testing with detailed results and recommendations."}
-        buttonText={language === "es" ? "Prueba Gratis de Agua" : "Free Water Test"}
+        headline="Don't Know What's in Your Well Water?"
+        subtext="We offer free water testing with detailed results and recommendations."
+        buttonText="Free Water Test"
         variant="gradient"
       />
 
       {/* Problems & Solutions */}
       {problems.length > 0 && (
-        <ProblemSolutionSection problems={problems} language={language} />
+        <ProblemSolutionSection problems={problems} />
       )}
 
       {/* Process - Vertical Timeline with Animated Connector */}
-      <ProcessTimeline steps={steps} language={language} label={t("wellWaterPage", "processLabel")} heading={t("wellWaterPage", "processHeading")} />
+      <ProcessTimeline steps={steps} label={t("wellWaterPage", "processLabel")} heading={t("wellWaterPage", "processHeading")} />
 
       {/* FAQ */}
       {faqItems.length > 0 && (
@@ -250,10 +249,10 @@ export function WellWaterContent() {
                     className="bg-white rounded-xl border border-[var(--color-border)] px-6 data-[state=open]:shadow-md data-[state=open]:border-[var(--color-primary)]/20 transition-all"
                   >
                     <AccordionTrigger className="text-left font-semibold text-[var(--color-foreground)] hover:text-[var(--color-primary)] py-5 text-base">
-                      {item.question[language]}
+                      {item.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-[var(--color-muted)] leading-relaxed pb-5">
-                      {item.answer[language]}
+                      {item.answer}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -273,14 +272,14 @@ export function WellWaterContent() {
 
 /* -------- Sub-components -------- */
 
-function ContaminantTestingCards({ language }: { language: "en" | "es" }) {
+function ContaminantTestingCards() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   const severityColors = {
-    critical: { bg: "bg-red-50", border: "border-red-200", badge: "bg-red-100 text-red-700", label: language === "es" ? "Critico" : "Critical" },
-    high: { bg: "bg-amber-50", border: "border-amber-200", badge: "bg-amber-100 text-amber-700", label: language === "es" ? "Alto" : "High" },
-    moderate: { bg: "bg-yellow-50", border: "border-yellow-200", badge: "bg-yellow-100 text-yellow-700", label: language === "es" ? "Moderado" : "Moderate" },
+    critical: { bg: "bg-red-50", border: "border-red-200", badge: "bg-red-100 text-red-700", label: "Critical" },
+    high: { bg: "bg-amber-50", border: "border-amber-200", badge: "bg-amber-100 text-amber-700", label: "High" },
+    moderate: { bg: "bg-yellow-50", border: "border-yellow-200", badge: "bg-yellow-100 text-yellow-700", label: "Moderate" },
   };
 
   return (
@@ -302,16 +301,14 @@ function ContaminantTestingCards({ language }: { language: "en" | "es" }) {
         >
           <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-amber-500 mb-4">
             <span className="w-8 h-px bg-amber-400" />
-            {language === "es" ? "Prueba de Contaminantes" : "Contaminant Testing"}
+            Contaminant Testing
             <span className="w-8 h-px bg-amber-400" />
           </span>
           <h2 className="heading-md font-bold text-[var(--color-foreground)]">
-            {language === "es" ? "Que Encontramos en Pozos de Florida" : "What We Find in Florida Wells"}
+            What We Find in Florida Wells
           </h2>
           <p className="text-[var(--color-muted)] mt-4 max-w-xl mx-auto">
-            {language === "es"
-              ? "Los pozos de Florida frecuentemente exceden los limites seguros para estos contaminantes comunes."
-              : "Florida wells frequently exceed safe limits for these common contaminants."}
+            Florida wells frequently exceed safe limits for these common contaminants.
           </p>
         </motion.div>
 
@@ -331,7 +328,7 @@ function ContaminantTestingCards({ language }: { language: "en" | "es" }) {
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-2">
                         <Icon className="w-4 h-4 text-[var(--color-primary)]" />
-                        <h3 className="text-sm font-bold text-[var(--color-foreground)]">{item.name[language]}</h3>
+                        <h3 className="text-sm font-bold text-[var(--color-foreground)]">{item.name}</h3>
                       </div>
                       <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${sev.badge}`}>
                         {sev.label}
@@ -341,19 +338,19 @@ function ContaminantTestingCards({ language }: { language: "en" | "es" }) {
                     <div className="grid grid-cols-2 gap-2 mb-3">
                       <div className="p-2 rounded-lg bg-green-50">
                         <p className="text-[10px] uppercase font-semibold text-green-600 mb-0.5">
-                          {language === "es" ? "Limite Seguro" : "Safe Limit"}
+                          Safe Limit
                         </p>
                         <p className="text-xs font-bold text-green-700">{item.safeRange}</p>
                       </div>
                       <div className={`p-2 rounded-lg ${sev.bg}`}>
                         <p className="text-[10px] uppercase font-semibold text-amber-600 mb-0.5">
-                          {language === "es" ? "Prom. Florida" : "FL Average"}
+                          FL Average
                         </p>
                         <p className="text-xs font-bold text-amber-700">{item.floridaAvg}</p>
                       </div>
                     </div>
 
-                    <p className="text-xs text-[var(--color-muted)] leading-relaxed">{item.symptoms[language]}</p>
+                    <p className="text-xs text-[var(--color-muted)] leading-relaxed">{item.symptoms}</p>
                   </div>
                 </GlassLiftCard>
               </motion.div>
@@ -365,7 +362,7 @@ function ContaminantTestingCards({ language }: { language: "en" | "es" }) {
   );
 }
 
-function ProblemSolutionSection({ problems, language }: { problems: ProblemItem[]; language: "en" | "es" }) {
+function ProblemSolutionSection({ problems }: { problems: ProblemItem[] }) {
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
@@ -384,11 +381,11 @@ function ProblemSolutionSection({ problems, language }: { problems: ProblemItem[
         >
           <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-[var(--color-primary)] mb-4">
             <span className="w-8 h-px bg-[var(--color-primary)]" />
-            {language === "es" ? "Problemas Comunes de Pozos" : "Common Well Water Issues"}
+            Common Well Water Issues
             <span className="w-8 h-px bg-[var(--color-primary)]" />
           </span>
           <h2 className="heading-md font-bold text-[var(--color-foreground)]">
-            {language === "es" ? "Problemas que Resolvemos" : "Problems We Solve"}
+            Problems We Solve
           </h2>
         </motion.div>
 
@@ -406,18 +403,18 @@ function ProblemSolutionSection({ problems, language }: { problems: ProblemItem[
                 <div className="flex items-center gap-3 mb-2">
                   <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0" />
                   <span className="text-sm font-bold text-amber-700 uppercase tracking-wider">
-                    {item.cause[language]}
+                    {item.cause}
                   </span>
                 </div>
                 <p className="text-sm text-amber-800/70 leading-relaxed">
-                  {item.problem[language]}
+                  {item.problem}
                 </p>
               </div>
               <div className="p-5 bg-white">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 shrink-0 mt-0.5" />
                   <p className="text-sm text-[var(--color-foreground)] leading-relaxed">
-                    {item.solution[language]}
+                    {item.solution}
                   </p>
                 </div>
               </div>
@@ -429,7 +426,7 @@ function ProblemSolutionSection({ problems, language }: { problems: ProblemItem[
   );
 }
 
-function ProcessTimeline({ steps, language, label, heading }: { steps: ProcessStep[]; language: "en" | "es"; label: string; heading: string }) {
+function ProcessTimeline({ steps, label, heading }: { steps: ProcessStep[]; label: string; heading: string }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -438,13 +435,12 @@ function ProcessTimeline({ steps, language, label, heading }: { steps: ProcessSt
   const lineHeight = useTransform(scrollYProgress, [0.1, 0.8], ["0%", "100%"]);
 
   return (
-    <section ref={ref} className="relative py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-[var(--color-dark)] via-[var(--color-dark)] to-[rgba(8,73,120,0.95)]">
-      <WaterCaustics variant="dark" speed={10} />
-      <div className="absolute inset-0 pointer-events-none">
-        <div
-          className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full"
-          style={{ background: "linear-gradient(160deg, rgba(0,159,227,0.08) 0%, transparent 40%, rgba(59,214,245,0.04) 100%)" }}
-        />
+    <section ref={ref} className="relative py-24 lg:py-32 overflow-hidden bg-[var(--color-dark)]">
+      <div className="absolute inset-0">
+        <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+          <source src="/videos/whole-home-process-bg.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-[var(--color-dark)]/[0.92]" />
       </div>
 
       <div className="relative container-custom z-10">
@@ -491,10 +487,10 @@ function ProcessTimeline({ steps, language, label, heading }: { steps: ProcessSt
                   </div>
                   <div className="flex-1 pb-2">
                     <h3 className="text-lg font-bold text-white mb-1">
-                      {step.title[language]}
+                      {step.title}
                     </h3>
                     <p className="text-white/50 leading-relaxed">
-                      {step.description[language]}
+                      {step.description}
                     </p>
                   </div>
                 </motion.div>
@@ -504,7 +500,7 @@ function ProcessTimeline({ steps, language, label, heading }: { steps: ProcessSt
         </div>
 
         <motion.div
-          className="text-center mt-14"
+          className="flex justify-center mt-14"
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={viewportConfig}
@@ -517,7 +513,7 @@ function ProcessTimeline({ steps, language, label, heading }: { steps: ProcessSt
               borderRadius="100px"
               className="text-sm font-semibold px-8 py-4"
             >
-              {language === "es" ? "Programe Su Prueba de Agua" : "Schedule Your Water Test"}
+              Schedule Your Water Test
               <ArrowRight className="w-4 h-4 ml-2" />
             </ShimmerButton>
           </Link>

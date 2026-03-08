@@ -22,7 +22,6 @@ export function Footer() {
     { href: "/services/reverse-osmosis", label: t("common", "reverseOsmosis") },
     { href: "/services/water-softening", label: t("common", "waterSoftening") },
     { href: "/services/well-water", label: t("common", "wellWater") },
-    { href: "/services", label: t("common", "allServices") },
   ];
 
   const supportLinks = [
@@ -187,11 +186,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-[var(--color-primary)] mt-0.5 shrink-0" />
-                <span className="text-white/60 text-sm">Central Florida</span>
+                <span className="text-white/60 text-sm">3705 Eagle Isle Circle, Kissimmee, FL 34746</span>
               </li>
               <li>
                 <a
-                  href="tel:+1"
+                  href="tel:+14077732883"
                   className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-sm"
                 >
                   <Phone className="w-4 h-4 shrink-0" />
@@ -200,7 +199,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:thekingforever93@yahoo.com"
+                  href="mailto:info@pureaguaenterprise.com"
                   className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-sm"
                 >
                   <Mail className="w-4 h-4 shrink-0" />

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig } from "@/lib/animations";
 import {
   Accordion,
@@ -12,8 +12,8 @@ import {
 } from "@/components/ui/accordion";
 
 interface FAQItem {
-  question: LocalizedString;
-  answer: LocalizedString;
+  question: string;
+  answer: string;
 }
 
 interface ServiceFAQProps {
@@ -21,7 +21,7 @@ interface ServiceFAQProps {
 }
 
 export function ServiceFAQ({ translationSection }: ServiceFAQProps) {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const faqItems = getTranslationArray<FAQItem>(translationSection, "faq");
 
@@ -67,10 +67,10 @@ export function ServiceFAQ({ translationSection }: ServiceFAQProps) {
                 className="bg-white rounded-xl border border-[var(--color-border)] px-6 data-[state=open]:shadow-md data-[state=open]:border-[var(--color-primary)]/20 transition-all"
               >
                 <AccordionTrigger className="text-left font-semibold text-[var(--color-foreground)] hover:text-[var(--color-primary)] py-5 text-base">
-                  {item.question[language]}
+                  {item.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-[var(--color-muted)] leading-relaxed pb-5">
-                  {item.answer[language]}
+                  {item.answer}
                 </AccordionContent>
               </AccordionItem>
             ))}

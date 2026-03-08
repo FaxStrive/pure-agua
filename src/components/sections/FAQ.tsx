@@ -12,11 +12,11 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { translations } from "@/lib/i18n/translations";
 
 export function FAQ() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const faqs = translations.faq.questions.map((q) => ({
-    question: q.question[language],
-    answer: q.answer[language],
+    question: q.question,
+    answer: q.answer,
   }));
 
   const half = Math.ceil(faqs.length / 2);

@@ -7,14 +7,15 @@ import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 import { Button } from "@/components/ui/button";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 interface Guide {
-  title: { en: string; es: string };
-  description: { en: string; es: string };
+  title: string;
+  description: string;
 }
 
 export function DownloadGuides() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const guides = getTranslationArray<Guide>("resourcesPage", "guides");
 
@@ -39,9 +40,9 @@ export function DownloadGuides() {
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("resourcesPage", "guidesLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("resourcesPage", "guidesHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <motion.div
@@ -58,10 +59,10 @@ export function DownloadGuides() {
                   <FileText className="w-7 h-7 text-[var(--color-primary)]" />
                 </div>
                 <h3 className="font-bold text-[var(--color-foreground)] mb-2">
-                  {guide.title[language]}
+                  {guide.title}
                 </h3>
                 <p className="text-sm text-[var(--color-muted)] leading-relaxed mb-5">
-                  {guide.description[language]}
+                  {guide.description}
                 </p>
                 <Button
                   variant="outline"

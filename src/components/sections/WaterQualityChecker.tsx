@@ -248,7 +248,7 @@ const zipToUtility: Record<string, string> = {
 type Step = "zip" | "results" | "unlocked";
 
 export function WaterQualityChecker() {
-  const { language } = useLanguage();
+  useLanguage();
   const sectionRef = useRef<HTMLElement>(null);
   const [step, setStep] = useState<Step>("zip");
   const [zip, setZip] = useState("");
@@ -262,83 +262,41 @@ export function WaterQualityChecker() {
   const [, setFormSubmitted] = useState(false);
 
   const t = (key: string): string => {
-    const strings: Record<string, Record<string, string>> = {
-      sectionLabel: {
-        en: "Water Quality Check",
-        es: "Verificacion de Calidad del Agua",
-      },
-      heading: {
-        en: "What's Really In Your Water?",
-        es: "Que Hay Realmente en Tu Agua?",
-      },
-      subheading: {
-        en: "Enter your zip code to see contaminants detected in your local water supply, based on EWG testing data.",
-        es: "Ingresa tu codigo postal para ver los contaminantes detectados en tu suministro de agua local.",
-      },
-      placeholder: { en: "Enter zip code", es: "Ingresa codigo postal" },
-      checkButton: { en: "Check My Water", es: "Verificar Mi Agua" },
-      zipError: {
-        en: "We currently serve the Central Florida area. Enter a Kissimmee or Orlando zip code.",
-        es: "Actualmente servimos el area de Florida Central. Ingresa un codigo postal de Kissimmee u Orlando.",
-      },
-      invalidZip: {
-        en: "Please enter a valid 5-digit zip code.",
-        es: "Ingresa un codigo postal valido de 5 digitos.",
-      },
-      utilityLabel: { en: "Your Water Utility", es: "Tu Compania de Agua" },
-      serving: { en: "Serving", es: "Sirviendo a" },
-      people: { en: "people", es: "personas" },
-      sourceLabel: { en: "Water Source", es: "Fuente de Agua" },
-      contaminantsFound: {
-        en: "Contaminants Detected",
-        es: "Contaminantes Detectados",
-      },
-      detected: { en: "Detected", es: "Detectado" },
-      ewgLimit: { en: "EWG Guideline", es: "Guia del EWG" },
-      legalLimit: { en: "Legal Limit", es: "Limite Legal" },
-      timesOver: { en: "times above EWG guideline", es: "veces sobre la guia del EWG" },
-      healthRisk: { en: "Health Risk", es: "Riesgo de Salud" },
-      unlockTitle: {
-        en: "See All Contaminants + Get a Free Analysis",
-        es: "Ver Todos los Contaminantes + Obtener un Analisis Gratis",
-      },
-      unlockDesc: {
-        en: "Enter your contact info to unlock the full report and schedule a free in-home water test.",
-        es: "Ingresa tu informacion de contacto para desbloquear el informe completo y programar una prueba gratis.",
-      },
-      nameLabel: { en: "Full Name", es: "Nombre Completo" },
-      emailLabel: { en: "Email", es: "Correo Electronico" },
-      phoneLabel: { en: "Phone", es: "Telefono" },
-      unlockButton: {
-        en: "Unlock Full Report",
-        es: "Desbloquear Informe Completo",
-      },
-      moreContaminants: {
-        en: "more contaminants detected",
-        es: "mas contaminantes detectados",
-      },
-      ewgSource: {
-        en: "Data sourced from EWG Tap Water Database",
-        es: "Datos del EWG Tap Water Database",
-      },
-      fullReportReady: {
-        en: "Full Report Unlocked",
-        es: "Informe Completo Desbloqueado",
-      },
-      weWillContact: {
-        en: "We'll reach out to schedule your free in-home water test.",
-        es: "Nos comunicaremos para programar tu prueba de agua gratis.",
-      },
-      scheduleNow: {
-        en: "Schedule Water Test Now",
-        es: "Programar Prueba de Agua",
-      },
-      tryAnother: { en: "Check Another Zip", es: "Verificar Otro Codigo" },
-      exceeds: { en: "EXCEEDS", es: "EXCEDE" },
-      withinLimits: { en: "Within limits", es: "Dentro de limites" },
-      poweredBy: { en: "Powered by EWG data", es: "Con datos del EWG" },
+    const strings: Record<string, string> = {
+      sectionLabel: "Water Quality Check",
+      heading: "What's Really In Your Water?",
+      subheading: "Enter your zip code to see contaminants detected in your local water supply, based on EWG testing data.",
+      placeholder: "Enter zip code",
+      checkButton: "Check My Water",
+      zipError: "We currently serve the Central Florida area. Enter a Kissimmee or Orlando zip code.",
+      invalidZip: "Please enter a valid 5-digit zip code.",
+      utilityLabel: "Your Water Utility",
+      serving: "Serving",
+      people: "people",
+      sourceLabel: "Water Source",
+      contaminantsFound: "Contaminants Detected",
+      detected: "Detected",
+      ewgLimit: "EWG Guideline",
+      legalLimit: "Legal Limit",
+      timesOver: "times above EWG guideline",
+      healthRisk: "Health Risk",
+      unlockTitle: "See All Contaminants + Get a Free Analysis",
+      unlockDesc: "Enter your contact info to unlock the full report and schedule a free in-home water test.",
+      nameLabel: "Full Name",
+      emailLabel: "Email",
+      phoneLabel: "Phone",
+      unlockButton: "Unlock Full Report",
+      moreContaminants: "more contaminants detected",
+      ewgSource: "Data sourced from EWG Tap Water Database",
+      fullReportReady: "Full Report Unlocked",
+      weWillContact: "We'll reach out to schedule your free in-home water test.",
+      scheduleNow: "Schedule Water Test Now",
+      tryAnother: "Check Another Zip",
+      exceeds: "EXCEEDS",
+      withinLimits: "Within limits",
+      poweredBy: "Powered by EWG data",
     };
-    return strings[key]?.[language] || key;
+    return strings[key] || key;
   };
 
   const handleZipSubmit = (e: React.FormEvent) => {
@@ -449,9 +407,7 @@ export function WaterQualityChecker() {
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-[var(--color-foreground)]">
-                          {language === "en"
-                            ? "Check Your Water Quality"
-                            : "Verifica la Calidad de Tu Agua"}
+                          Check Your Water Quality
                         </h3>
                         <p className="text-xs text-[var(--color-muted)]">
                           {t("poweredBy")}
@@ -496,9 +452,7 @@ export function WaterQualityChecker() {
                     )}
 
                     <p className="mt-4 text-xs text-[var(--color-muted)] text-center">
-                      {language === "en"
-                        ? "Serving Kissimmee, Orlando, St. Cloud, Celebration, and surrounding areas"
-                        : "Sirviendo Kissimmee, Orlando, St. Cloud, Celebration y areas cercanas"}
+                      Serving Kissimmee, Orlando, St. Cloud, Celebration, and surrounding areas
                     </p>
                   </form>
                 </motion.div>

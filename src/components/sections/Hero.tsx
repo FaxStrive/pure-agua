@@ -60,7 +60,7 @@ function FloatingOrb({
 }
 
 export function Hero() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const heroRef = useRef<HTMLDivElement>(null);
 
   // --- Scroll-based effects (existing) ---
@@ -110,7 +110,7 @@ export function Hero() {
   return (
     <section
       ref={heroRef}
-      className="relative min-h-screen flex items-center overflow-hidden"
+      className="relative min-h-screen flex items-center overflow-hidden -mt-20"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
@@ -276,7 +276,7 @@ export function Hero() {
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <Link href="/services">
+            <Link href="/services/whole-home">
               <Button
                 size="lg"
                 variant="outline"
@@ -296,9 +296,9 @@ export function Hero() {
             style={{ x: statsX }}
           >
             {[
-              { value: "10+", label: translations.hero.stats.years[language] },
-              { value: "500+", label: translations.hero.stats.clients[language] },
-              { value: "100%", label: translations.hero.stats.satisfaction[language] },
+              { value: "10+", label: translations.hero.stats.years },
+              { value: "500+", label: translations.hero.stats.clients },
+              { value: "100%", label: translations.hero.stats.satisfaction },
             ].map((stat, i) => (
               <div key={i} className="flex items-center gap-3">
                 {i > 0 && (

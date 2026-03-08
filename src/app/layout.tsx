@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 import { NavbarWithBanner } from "@/components/conversion/ConversionElements";
 import { Footer } from "@/components/layout/Footer";
 import { ChatWidget } from "@/components/layout/ChatWidget";
@@ -56,16 +55,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="antialiased overflow-x-hidden">
-        <LanguageProvider>
-          <NavbarWithBanner />
-          {children}
-          <Footer />
-          <ChatWidget />
-          <ExitIntentPopup />
-          <SocialProofToast />
-          <StickyBottomBar />
-          <FloatingCTA />
-        </LanguageProvider>
+        <NavbarWithBanner />
+        {children}
+        <Footer />
+        <ChatWidget />
+        <ExitIntentPopup />
+        <SocialProofToast />
+        <StickyBottomBar />
+        <FloatingCTA />
       </body>
     </html>
   );

@@ -32,32 +32,32 @@ const serviceImages = [
 const serviceIds = ["whole-home", "reverse-osmosis", "water-softening", "well-water"];
 
 export function Services() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const services = [
     {
       ...serviceImages[0],
       id: serviceIds[0],
-      title: translations.services.wholeHome.title[language],
-      description: translations.services.wholeHome.description[language],
+      title: translations.services.wholeHome.title,
+      description: translations.services.wholeHome.description,
     },
     {
       ...serviceImages[1],
       id: serviceIds[1],
-      title: translations.services.reverseOsmosis.title[language],
-      description: translations.services.reverseOsmosis.description[language],
+      title: translations.services.reverseOsmosis.title,
+      description: translations.services.reverseOsmosis.description,
     },
     {
       ...serviceImages[2],
       id: serviceIds[2],
-      title: translations.services.waterSoftening.title[language],
-      description: translations.services.waterSoftening.description[language],
+      title: translations.services.waterSoftening.title,
+      description: translations.services.waterSoftening.description,
     },
     {
       ...serviceImages[3],
       id: serviceIds[3],
-      title: translations.services.wellWater.title[language],
-      description: translations.services.wellWater.description[language],
+      title: translations.services.wellWater.title,
+      description: translations.services.wellWater.description,
     },
   ];
 

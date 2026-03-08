@@ -8,18 +8,19 @@ import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 interface Plan {
-  name: { en: string; es: string };
+  name: string;
   rate: string;
-  term: { en: string; es: string };
-  description: { en: string; es: string };
-  features: { en: string[]; es: string[] };
+  term: string;
+  description: string;
+  features: string[];
   popular?: boolean;
 }
 
 export function FinancingOptions() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const plans = getTranslationArray<Plan>("financingPage", "plans");
 
@@ -44,9 +45,9 @@ export function FinancingOptions() {
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("financingPage", "optionsLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("financingPage", "optionsHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <motion.div
@@ -84,28 +85,28 @@ export function FinancingOptions() {
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 flex items-center gap-1 bg-[var(--color-primary)] text-white px-4 py-1 rounded-full text-xs font-bold">
                   <Star className="w-3 h-3" />
-                  {language === "en" ? "Most Popular" : "Mas Popular"}
+                  Most Popular
                 </div>
               )}
 
               <div className="text-center mb-6">
                 <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-2">
-                  {plan.name[language]}
+                  {plan.name}
                 </h3>
                 <div className="text-4xl font-bold text-[var(--color-primary)] mb-1">
                   {plan.rate}
                 </div>
                 <p className="text-sm text-[var(--color-muted)]">
-                  APR / {plan.term[language]}
+                  APR / {plan.term}
                 </p>
               </div>
 
               <p className="text-sm text-[var(--color-muted)] text-center mb-6 leading-relaxed">
-                {plan.description[language]}
+                {plan.description}
               </p>
 
               <ul className="space-y-3 mb-8">
-                {plan.features[language].map((feature, fi) => (
+                {plan.features.map((feature, fi) => (
                   <li key={fi} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-0.5" />
                     <span className="text-sm text-[var(--color-foreground)]">{feature}</span>

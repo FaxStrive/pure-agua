@@ -3,13 +3,13 @@
 import { motion } from "framer-motion";
 import { AlertTriangle, CheckCircle } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 
 interface ProblemItem {
-  problem: LocalizedString;
-  solution: LocalizedString;
-  cause: LocalizedString;
+  problem: string;
+  solution: string;
+  cause: string;
 }
 
 interface WellWaterProblemsProps {
@@ -17,7 +17,7 @@ interface WellWaterProblemsProps {
 }
 
 export function WellWaterProblems({ translationSection }: WellWaterProblemsProps) {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const problems = getTranslationArray<ProblemItem>(translationSection, "problems");
   if (problems.length === 0) return null;
@@ -65,18 +65,18 @@ export function WellWaterProblems({ translationSection }: WellWaterProblemsProps
                 <div className="flex items-center gap-3 mb-2">
                   <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0" />
                   <span className="text-sm font-bold text-amber-700 uppercase tracking-wider">
-                    {item.cause[language]}
+                    {item.cause}
                   </span>
                 </div>
                 <p className="text-sm text-amber-800/70 leading-relaxed">
-                  {item.problem[language]}
+                  {item.problem}
                 </p>
               </div>
               <div className="p-5 bg-white">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 shrink-0 mt-0.5" />
                   <p className="text-sm text-[var(--color-foreground)] leading-relaxed">
-                    {item.solution[language]}
+                    {item.solution}
                   </p>
                 </div>
               </div>

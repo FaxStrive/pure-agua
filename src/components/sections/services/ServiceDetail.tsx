@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Filter, Droplets, Waves, Pipette, Check } from "lucide-react";
 import Image from "next/image";
 import { viewportConfig } from "@/lib/animations";
-import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { translations } from "@/lib/i18n/translations";
 
 const serviceIcons = [Filter, Droplets, Waves, Pipette];
@@ -29,15 +28,13 @@ const serviceImages = [
 ];
 
 export function ServiceDetail() {
-  const { language } = useLanguage();
-
   const services = translations.serviceDetail.services.map((s, i) => ({
     id: serviceIds[i],
     icon: serviceIcons[i],
-    title: s.title[language],
-    subtitle: s.subtitle[language],
-    description: s.description[language],
-    features: s.features[language],
+    title: s.title,
+    subtitle: s.subtitle,
+    description: s.description,
+    features: s.features,
     image: serviceImages[i].src,
     imageAlt: serviceImages[i].alt,
   }));

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { MapPin, Clock, Mail } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { getTranslationArray } from "@/lib/i18n/getTranslationData";
-import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
+import { viewportConfig, staggerContainer, staggerItem, blurReveal } from "@/lib/animations";
 import {
   Accordion,
   AccordionContent,
@@ -12,49 +12,47 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { WaterButton } from "@/components/ui/water-button";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 interface Position {
-  title: { en: string; es: string };
-  type: { en: string; es: string };
-  location: { en: string; es: string };
-  description: { en: string; es: string };
+  title: string;
+  type: string;
+  location: string;
+  description: string;
 }
 
 export function OpenPositions() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const positions = getTranslationArray<Position>("careersPage", "positions");
 
   return (
     <section className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-white" />
-      <div
-        className="absolute top-0 right-1/3 w-[500px] h-[500px] rounded-full pointer-events-none"
-        style={{
-          background: "radial-gradient(circle, rgba(0,159,227,0.03) 0%, transparent 70%)",
-        }}
-      />
+      <div className="absolute inset-0 bg-[var(--color-surface)]" />
+      <div className="absolute top-0 right-1/3 w-[500px] h-[500px] rounded-full pointer-events-none" style={{ background: "radial-gradient(circle, rgba(0,159,227,0.04) 0%, transparent 70%)" }} />
+      <div className="absolute -bottom-20 -left-20 w-[400px] h-[400px] rounded-full pointer-events-none" style={{ background: "radial-gradient(circle, rgba(59,214,245,0.03) 0%, transparent 70%)" }} />
 
       <div className="container-custom relative max-w-3xl mx-auto">
         <motion.div
           className="text-center mb-12"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={blurReveal.initial}
+          whileInView={blurReveal.animate}
           viewport={viewportConfig}
+          transition={blurReveal.transition}
         >
           <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-[var(--color-primary)] mb-4">
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("careersPage", "positionsLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("careersPage", "positionsHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <motion.div
           variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
+          initial="initial"
+          whileInView="animate"
           viewport={viewportConfig}
         >
           <Accordion type="single" collapsible className="space-y-4">
@@ -67,33 +65,33 @@ export function OpenPositions() {
                   <AccordionTrigger className="py-5 hover:no-underline">
                     <div className="text-left">
                       <h3 className="font-bold text-[var(--color-foreground)] text-lg mb-1">
-                        {pos.title[language]}
+                        {pos.title}
                       </h3>
                       <div className="flex items-center gap-4 text-sm text-[var(--color-muted)]">
                         <span className="flex items-center gap-1">
                           <Clock className="w-3.5 h-3.5" />
-                          {pos.type[language]}
+                          {pos.type}
                         </span>
                         <span className="flex items-center gap-1">
                           <MapPin className="w-3.5 h-3.5" />
-                          {pos.location[language]}
+                          {pos.location}
                         </span>
                       </div>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pb-6">
                     <p className="text-[var(--color-muted)] leading-relaxed mb-6">
-                      {pos.description[language]}
+                      {pos.description}
                     </p>
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                      <a href="mailto:thekingforever93@yahoo.com">
+                      <a href="mailto:info@pureaguaenterprise.com">
                         <WaterButton className="px-6 py-2.5 text-sm">
                           <Mail className="w-4 h-4" />
                           {t("careersPage", "applyNow")}
                         </WaterButton>
                       </a>
                       <p className="text-xs text-[var(--color-muted)]">
-                        {t("careersPage", "applyInstructions")} thekingforever93@yahoo.com
+                        {t("careersPage", "applyInstructions")} info@pureaguaenterprise.com
                       </p>
                     </div>
                   </AccordionContent>

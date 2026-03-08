@@ -8,8 +8,8 @@ export function WellWaterHeroClient() {
 
   return (
     <InnerPageHero
-      image="https://images.pexels.com/photos/2962405/pexels-photo-2962405.jpeg?auto=compress&cs=tinysrgb&w=1920"
-      imageAlt="Well water treatment and filtration system"
+      image="/images/well-water-hero.jpeg"
+      imageAlt="Sunlight sparkling on clean water surface"
       label={t("wellWaterPage", "heroLabel")}
       headline1={t("wellWaterPage", "heroHeadline1")}
       headline2={t("wellWaterPage", "heroHeadline2")}
@@ -19,7 +19,7 @@ export function WellWaterHeroClient() {
       ctaHref="/contact"
       breadcrumbs={[
         { label: t("common", "home"), href: "/" },
-        { label: t("common", "services"), href: "/services" },
+        { label: t("common", "services") },
         { label: t("common", "wellWater") },
       ]}
     />

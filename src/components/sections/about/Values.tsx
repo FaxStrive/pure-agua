@@ -2,32 +2,37 @@
 
 import { motion } from "framer-motion";
 import { Heart, Shield, Zap, Users, Leaf, Award } from "lucide-react";
-import { viewportConfig, slideRevealLeft, slideRevealRight, easeOutQuart } from "@/lib/animations";
+import { viewportConfig, slideRevealLeft, slideRevealRight, easeOutQuart, blurReveal } from "@/lib/animations";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { translations } from "@/lib/i18n/translations";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 const valueIcons = [Heart, Shield, Zap, Users, Leaf, Award];
 
 export function Values() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const values = translations.values.items.map((item, i) => ({
     icon: valueIcons[i],
-    title: item.title[language],
-    description: item.description[language],
+    title: item.title,
+    description: item.description,
   }));
 
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
+      {/* Section background */}
+      <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(135deg, transparent 0%, rgba(0,159,227,0.03) 50%, transparent 100%)" }} />
+      <div className="absolute -top-20 -right-20 w-[500px] h-[500px] rounded-full pointer-events-none" style={{ background: "radial-gradient(circle, rgba(0,159,227,0.04) 0%, transparent 70%)" }} />
+
       <div className="relative container-custom">
         {/* Header */}
         <motion.div
           className="max-w-2xl mb-16"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={blurReveal.initial}
+          whileInView={blurReveal.animate}
           viewport={viewportConfig}
-          transition={{ duration: 0.6 }}
+          transition={blurReveal.transition}
         >
           <div className="flex items-center gap-3 mb-6">
             <div className="w-10 h-px bg-[var(--color-primary)]" />
@@ -35,9 +40,9 @@ export function Values() {
               {t("values", "label")}
             </span>
           </div>
-          <h2 className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-5">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-5">
             {t("values", "heading")}
-          </h2>
+          </TextAnimate>
           <p className="text-lg text-[var(--color-muted)] leading-relaxed">
             {t("values", "subheading")}
           </p>

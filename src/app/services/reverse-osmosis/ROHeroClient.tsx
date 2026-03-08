@@ -8,8 +8,8 @@ export function ROHeroClient() {
 
   return (
     <InnerPageHero
-      image="https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=1920"
-      imageAlt="Crystal clear reverse osmosis purified water"
+      image="/images/ro-hero-faucet.jpeg"
+      imageAlt="Hand turning on a modern kitchen faucet with pure filtered water flowing"
       label={t("reverseOsmosisPage", "heroLabel")}
       headline1={t("reverseOsmosisPage", "heroHeadline1")}
       headline2={t("reverseOsmosisPage", "heroHeadline2")}
@@ -19,7 +19,7 @@ export function ROHeroClient() {
       ctaHref="/contact"
       breadcrumbs={[
         { label: t("common", "home"), href: "/" },
-        { label: t("common", "services"), href: "/services" },
+        { label: t("common", "services") },
         { label: t("common", "reverseOsmosis") },
       ]}
     />

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { viewportConfig } from "@/lib/animations";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 export function CultureSection() {
   const { t } = useLanguage();
@@ -30,9 +31,9 @@ export function CultureSection() {
               <span className="w-8 h-px bg-[var(--color-primary)]" />
               {t("careersPage", "cultureLabel")}
             </span>
-            <h2 className="heading-md font-bold text-[var(--color-foreground)] mb-6">
+            <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)] mb-6">
               {t("careersPage", "cultureHeading")}
-            </h2>
+            </TextAnimate>
             <p className="text-[var(--color-muted)] leading-relaxed">
               {t("careersPage", "cultureDescription")}
             </p>

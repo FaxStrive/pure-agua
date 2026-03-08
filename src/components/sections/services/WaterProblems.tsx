@@ -9,13 +9,13 @@ import { translations } from "@/lib/i18n/translations";
 const problemIcons = [Shell, FlaskConical, Bug, Thermometer, Droplets, AlertTriangle];
 
 export function WaterProblems() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const problems = translations.waterProblems.problems.map((p, i) => ({
     icon: problemIcons[i],
-    title: p.title[language],
-    description: p.description[language],
-    solution: p.solution[language],
+    title: p.title,
+    description: p.description,
+    solution: p.solution,
   }));
 
   return (

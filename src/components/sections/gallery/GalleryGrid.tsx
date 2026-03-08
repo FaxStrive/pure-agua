@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { viewportConfig } from "@/lib/animations";
+import { viewportConfig, scaleUpReveal } from "@/lib/animations";
 
 type Category = "all" | "installations" | "before-after" | "team";
 
@@ -14,7 +14,7 @@ interface GalleryItem {
   src: string;
   alt: string;
   category: Category;
-  caption: { en: string; es: string };
+  caption: string;
 }
 
 const galleryItems: GalleryItem[] = [
@@ -23,68 +23,68 @@ const galleryItems: GalleryItem[] = [
     src: "https://images.pexels.com/photos/6444260/pexels-photo-6444260.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Whole home filtration system installed",
     category: "installations",
-    caption: { en: "Whole home filtration system - Kissimmee, FL", es: "Sistema de filtracion para toda la casa - Kissimmee, FL" },
+    caption: "Whole home filtration system - Kissimmee, FL",
   },
   {
     id: 2,
     src: "https://images.pexels.com/photos/6444368/pexels-photo-6444368.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Water softener installation",
     category: "installations",
-    caption: { en: "Water softener installation - Orlando, FL", es: "Instalacion de ablandador de agua - Orlando, FL" },
+    caption: "Water softener installation - Orlando, FL",
   },
   {
     id: 3,
     src: "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Clean filtered water glass",
     category: "before-after",
-    caption: { en: "Crystal clear water after RO installation", es: "Agua cristalina despues de instalacion de OI" },
+    caption: "Crystal clear water after RO installation",
   },
   {
     id: 4,
     src: "https://images.pexels.com/photos/6032817/pexels-photo-6032817.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Pure water pouring",
     category: "before-after",
-    caption: { en: "Before and after whole home filtration", es: "Antes y despues de filtracion para toda la casa" },
+    caption: "Before and after whole home filtration",
   },
   {
     id: 5,
     src: "https://images.pexels.com/photos/4262413/pexels-photo-4262413.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Happy family with clean water",
     category: "team",
-    caption: { en: "Satisfied customers in St. Cloud, FL", es: "Clientes satisfechos en St. Cloud, FL" },
+    caption: "Satisfied customers in St. Cloud, FL",
   },
   {
     id: 6,
     src: "https://images.pexels.com/photos/2339722/pexels-photo-2339722.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Water filtration equipment",
     category: "installations",
-    caption: { en: "Multi-stage well water treatment system", es: "Sistema de tratamiento de agua de pozo de multiples etapas" },
+    caption: "Multi-stage well water treatment system",
   },
   {
     id: 7,
     src: "https://images.pexels.com/photos/6489083/pexels-photo-6489083.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Water system maintenance",
     category: "installations",
-    caption: { en: "Reverse osmosis under-sink installation", es: "Instalacion de osmosis inversa bajo el fregadero" },
+    caption: "Reverse osmosis under-sink installation",
   },
   {
     id: 8,
     src: "https://images.pexels.com/photos/2499417/pexels-photo-2499417.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Well water treatment",
     category: "before-after",
-    caption: { en: "Well water before and after iron removal", es: "Agua de pozo antes y despues de eliminacion de hierro" },
+    caption: "Well water before and after iron removal",
   },
   {
     id: 9,
     src: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Team at work",
     category: "team",
-    caption: { en: "Our installation team on site", es: "Nuestro equipo de instalacion en sitio" },
+    caption: "Our installation team on site",
   },
 ];
 
 export function GalleryGrid() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [activeFilter, setActiveFilter] = useState<Category>("all");
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
@@ -120,15 +120,18 @@ export function GalleryGrid() {
 
   return (
     <section className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-white" />
+      <div className="absolute inset-0 bg-[var(--color-surface)]" />
+      <div className="absolute -bottom-32 -left-32 w-[600px] h-[600px] rounded-full pointer-events-none" style={{ background: "radial-gradient(circle, rgba(8,73,120,0.04) 0%, transparent 70%)" }} />
+      <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(160deg, transparent 0%, rgba(59,214,245,0.02) 60%, transparent 100%)" }} />
 
       <div className="container-custom relative">
         {/* Filters */}
         <motion.div
           className="flex flex-wrap gap-2 justify-center mb-10"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={scaleUpReveal.initial}
+          whileInView={scaleUpReveal.animate}
           viewport={viewportConfig}
+          transition={scaleUpReveal.transition}
         >
           {filters.map((filter) => (
             <button
@@ -169,7 +172,7 @@ export function GalleryGrid() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                   <p className="text-white text-sm font-medium">
-                    {item.caption[language]}
+                    {item.caption}
                   </p>
                 </div>
               </motion.div>
@@ -241,7 +244,7 @@ export function GalleryGrid() {
               />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                 <p className="text-white text-lg font-medium">
-                  {filtered[selectedIndex].caption[language]}
+                  {filtered[selectedIndex].caption}
                 </p>
               </div>
             </motion.div>

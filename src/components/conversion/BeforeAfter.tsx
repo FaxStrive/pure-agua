@@ -11,34 +11,28 @@ interface ComparisonItem {
   afterImage: string;
   beforeAlt: string;
   afterAlt: string;
-  label: { en: string; es: string };
+  label: string;
 }
 
 const comparisons: ComparisonItem[] = [
   {
-    beforeImage: "",
-    afterImage: "",
-    beforeAlt: "Before water filtration - client photo needed",
-    afterAlt: "After water filtration - client photo needed",
-    label: {
-      en: "Before & After Water Filtration",
-      es: "Antes y Despues de Filtracion de Agua",
-    },
+    beforeImage: "/images/before-after/before-dirty-water.jpg",
+    afterImage: "/images/before-after/after-clear-water.jpg",
+    beforeAlt: "Glass with cloudy, unfiltered tap water showing mineral deposits",
+    afterAlt: "Glass with crystal clear filtered water after Pure Agua filtration",
+    label: "Tap Water Filtration Results",
   },
   {
-    beforeImage: "",
-    afterImage: "",
-    beforeAlt: "Before well water treatment - client photo needed",
-    afterAlt: "After well water treatment - client photo needed",
-    label: {
-      en: "Well Water Treatment Results",
-      es: "Resultados de Tratamiento de Agua de Pozo",
-    },
+    beforeImage: "/images/before-after/before-old-faucet.jpg",
+    afterImage: "/images/before-after/after-clean-faucet.jpg",
+    beforeAlt: "Faucet with mineral buildup and hard water stains",
+    afterAlt: "Clean chrome faucet with clear water flowing freely",
+    label: "Hard Water Scale Removal",
   },
 ];
 
 function Slider({ comparison }: { comparison: ComparisonItem }) {
-  const { language, t } = useLanguage();
+  const { t } = useLanguage();
   const containerRef = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
@@ -174,7 +168,7 @@ function Slider({ comparison }: { comparison: ComparisonItem }) {
       </div>
 
       <p className="text-center text-sm text-[var(--color-muted)]">
-        {comparison.label[language]} &middot;{" "}
+        {comparison.label} &middot;{" "}
         <span className="text-[var(--color-primary)]">
           {t("beforeAfter", "dragToCompare")}
         </span>

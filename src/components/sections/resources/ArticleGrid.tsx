@@ -6,14 +6,15 @@ import { ArrowRight, BookOpen } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
+import { TextAnimate } from "@/components/magicui/text-animate";
 interface Article {
-  title: { en: string; es: string };
-  excerpt: { en: string; es: string };
-  category: { en: string; es: string };
+  title: string;
+  excerpt: string;
+  category: string;
 }
 
 export function ArticleGrid() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [activeFilter, setActiveFilter] = useState("all");
 
   const articles = getTranslationArray<Article>("resourcesPage", "articles");
@@ -27,7 +28,7 @@ export function ArticleGrid() {
 
   const filtered = activeFilter === "all"
     ? articles
-    : articles.filter((a) => a.category.en === activeFilter);
+    : articles.filter((a) => a.category === activeFilter);
 
   return (
     <section className="section-padding relative overflow-hidden">
@@ -50,9 +51,9 @@ export function ArticleGrid() {
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("resourcesPage", "articlesLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("resourcesPage", "articlesHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <motion.div
@@ -86,7 +87,7 @@ export function ArticleGrid() {
           <AnimatePresence mode="popLayout">
             {filtered.map((article) => (
               <motion.article
-                key={article.title.en}
+                key={article.title}
                 layout
                 variants={staggerItem}
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -100,14 +101,14 @@ export function ArticleGrid() {
                     <BookOpen className="w-5 h-5 text-[var(--color-primary)]" />
                   </div>
                   <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-primary)]">
-                    {article.category[language]}
+                    {article.category}
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  {article.title[language]}
+                  {article.title}
                 </h3>
                 <p className="text-sm text-[var(--color-muted)] leading-relaxed mb-4">
-                  {article.excerpt[language]}
+                  {article.excerpt}
                 </p>
                 <span className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-primary)] group-hover:gap-2 transition-all">
                   {t("resourcesPage", "readMore")}

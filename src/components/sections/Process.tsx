@@ -20,14 +20,14 @@ const stepImages = [
 
 export function Process() {
   const sectionRef = useRef<HTMLElement>(null);
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const isInView = useInView(sectionRef, { once: true, amount: 0.15 });
 
   const steps = translations.process.steps.map((step, i) => ({
     icon: stepIcons[i],
     number: String(i + 1).padStart(2, "0"),
-    title: step.title[language],
-    description: step.description[language],
+    title: step.title,
+    description: step.description,
   }));
 
   return (
@@ -136,7 +136,7 @@ export function Process() {
         >
           <Link href="/contact">
             <WaterButton className="text-base font-semibold px-8 py-4">
-              {language === "es" ? "Programe Su Consulta Gratis" : "Schedule Free Consultation"}
+              {"Schedule Free Consultation"}
               <ArrowRight className="w-5 h-5 ml-2" />
             </WaterButton>
           </Link>

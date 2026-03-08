@@ -16,8 +16,8 @@ export function AboutHero() {
         { label: t("common", "home"), href: "/" },
         { label: t("common", "about") },
       ]}
-      image="https://images.pexels.com/photos/6032817/pexels-photo-6032817.jpeg?auto=compress&cs=tinysrgb&w=1920"
-      imageAlt="Pure clean water"
+      image="/images/about-hero.jpeg"
+      imageAlt="Crystal clear blue water surface with bokeh light"
       variant="primary"
       ctaText={t("nav", "freeWaterTest")}
       ctaHref="/contact"

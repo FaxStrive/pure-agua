@@ -20,7 +20,7 @@ interface NavItem {
   dropdown?: DropdownItem[];
 }
 
-export function Navbar({ promoBannerVisible = false }: { promoBannerVisible?: boolean }) {
+export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -47,25 +47,10 @@ export function Navbar({ promoBannerVisible = false }: { promoBannerVisible?: bo
         { href: "/services/reverse-osmosis", label: t("common", "reverseOsmosis") },
         { href: "/services/water-softening", label: t("common", "waterSoftening") },
         { href: "/services/well-water", label: t("common", "wellWater") },
-        { href: "/services", label: t("common", "allServices") },
       ],
     },
-    {
-      label: t("common", "company"),
-      dropdown: [
-        { href: "/about", label: t("common", "about") },
-        { href: "/gallery", label: t("common", "gallery") },
-        { href: "/careers", label: t("common", "careers") },
-      ],
-    },
-    {
-      label: t("common", "support"),
-      dropdown: [
-        { href: "/warranty", label: t("common", "warranty") },
-        { href: "/financing", label: t("common", "financing") },
-        { href: "/resources", label: t("common", "resources") },
-      ],
-    },
+    { href: "/about", label: t("common", "about") },
+    { href: "/gallery", label: t("common", "gallery") },
     { href: "/contact", label: t("nav", "contact") },
   ];
 
@@ -95,12 +80,11 @@ export function Navbar({ promoBannerVisible = false }: { promoBannerVisible?: bo
   return (
     <>
       <motion.header
-        className={`fixed left-0 right-0 z-50 transition-all duration-500 ${
+        className={`z-50 transition-all duration-500 ${
           isTransparent
             ? "bg-transparent"
             : "bg-white/80 backdrop-blur-xl shadow-sm border-b border-[var(--color-primary)]/8"
         }`}
-        style={{ top: promoBannerVisible ? 44 : 0 }}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -179,7 +163,7 @@ export function Navbar({ promoBannerVisible = false }: { promoBannerVisible?: bo
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+1"
+              href="tel:+14077732883"
               className={`flex items-center gap-2 text-sm font-medium transition-colors ${
                 isTransparent
                   ? "text-white/70 hover:text-white"
@@ -302,7 +286,7 @@ export function Navbar({ promoBannerVisible = false }: { promoBannerVisible?: bo
                   </Button>
                 </Link>
                 <a
-                  href="tel:+1"
+                  href="tel:+14077732883"
                   className="flex items-center justify-center gap-2 mt-4 text-[var(--color-muted)] font-medium"
                 >
                   <Phone className="w-4 h-4" />

@@ -6,6 +6,7 @@ import { DollarSign } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { viewportConfig } from "@/lib/animations";
 import { NumberTicker } from "@/components/magicui/number-ticker";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 export function PaymentCalculator() {
   const { t } = useLanguage();
@@ -45,9 +46,9 @@ export function PaymentCalculator() {
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("financingPage", "calculatorLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("financingPage", "calculatorHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <motion.div

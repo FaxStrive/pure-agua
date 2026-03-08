@@ -2,7 +2,6 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { Check, Droplets, Shield, Sparkles as SparklesIcon, Zap, Heart, PiggyBank, ArrowRight } from "lucide-react";
 import {
@@ -23,7 +22,6 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
-import WaterCaustics from "@/components/animations/water-caustics";
 
 const featureIcons = [Droplets, Shield, SparklesIcon, Zap, Heart, PiggyBank];
 
@@ -44,16 +42,16 @@ interface FAQItem {
 
 /* Contaminant data with animated removal bars */
 const contaminants = [
-  { name: { en: "Chlorine & Chloramines", es: "Cloro y Cloraminas" }, removal: 99, color: "#009FE3" },
-  { name: { en: "Sediment & Turbidity", es: "Sedimento y Turbidez" }, removal: 99, color: "#3BD6F5" },
-  { name: { en: "Iron & Manganese", es: "Hierro y Manganeso" }, removal: 95, color: "#10B981" },
-  { name: { en: "Sulfur & Hydrogen Sulfide", es: "Azufre y Sulfuro de Hidrogeno" }, removal: 98, color: "#F59E0B" },
-  { name: { en: "Pesticides & Herbicides", es: "Pesticidas y Herbicidas" }, removal: 97, color: "#8B5CF6" },
-  { name: { en: "VOCs & Industrial Chemicals", es: "COV y Quimicos Industriales" }, removal: 96, color: "#EC4899" },
+  { name: "Chlorine & Chloramines", removal: 99, color: "#009FE3" },
+  { name: "Sediment & Turbidity", removal: 99, color: "#3BD6F5" },
+  { name: "Iron & Manganese", removal: 95, color: "#10B981" },
+  { name: "Sulfur & Hydrogen Sulfide", removal: 98, color: "#F59E0B" },
+  { name: "Pesticides & Herbicides", removal: 97, color: "#8B5CF6" },
+  { name: "VOCs & Industrial Chemicals", removal: 96, color: "#EC4899" },
 ];
 
 export function WholeHomeContent() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const features = getTranslationArray<FeatureItem>("wholeHomePage", "features");
   const steps = getTranslationArray<ProcessStep>("wholeHomePage", "processSteps");
   const faqItems = getTranslationArray<FAQItem>("wholeHomePage", "faq");
@@ -90,13 +88,15 @@ export function WholeHomeContent() {
               transition={{ duration: 0.7 }}
             >
               <motion.div className="rounded-2xl overflow-hidden shadow-2xl shadow-[var(--color-primary)]/10" style={{ y: imageY }}>
-                <Image
-                  src="https://images.pexels.com/photos/327090/pexels-photo-327090.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Clean sparkling water being poured from whole home filtration"
-                  width={800}
-                  height={600}
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="w-full h-auto object-cover aspect-[4/3]"
-                />
+                >
+                  <source src="/videos/whole-home-water.mp4" type="video/mp4" />
+                </video>
               </motion.div>
               {/* Floating accent badge */}
               <motion.div
@@ -112,10 +112,10 @@ export function WholeHomeContent() {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-[var(--color-foreground)]">
-                      {language === "es" ? "5-7 Anos" : "5-7 Year"}
+                      5-7 Year
                     </p>
                     <p className="text-xs text-[var(--color-muted)]">
-                      {language === "es" ? "Vida del Filtro" : "Filter Media Life"}
+                      Filter Media Life
                     </p>
                   </div>
                 </div>
@@ -155,8 +155,8 @@ export function WholeHomeContent() {
                       <Check className="w-3 h-3 text-[var(--color-primary)]" />
                     </div>
                     <div>
-                      <span className="text-sm font-semibold text-[var(--color-foreground)]">{feature.title[language]}</span>
-                      <span className="text-sm text-[var(--color-muted)]"> &mdash; {feature.description[language]}</span>
+                      <span className="text-sm font-semibold text-[var(--color-foreground)]">{feature.title}</span>
+                      <span className="text-sm text-[var(--color-muted)]"> &mdash; {feature.description}</span>
                     </div>
                   </motion.div>
                 ))}
@@ -181,13 +181,13 @@ export function WholeHomeContent() {
       </section>
 
       {/* Contaminant Removal Section - Animated bars */}
-      <ContaminantSection language={language} />
+      <ContaminantSection />
 
       {/* Inline CTA */}
       <InlineCTABanner
-        headline={language === "es" ? "Preocupado por la calidad de su agua?" : "Concerned About Your Water Quality?"}
-        subtext={language === "es" ? "Programe una prueba gratuita y descubra exactamente que hay en su agua." : "Schedule a free water test and find out exactly what's in your water."}
-        buttonText={language === "es" ? "Prueba Gratis" : "Free Water Test"}
+        headline="Concerned About Your Water Quality?"
+        subtext="Schedule a free water test and find out exactly what's in your water."
+        buttonText="Free Water Test"
         variant="accent"
       />
 
@@ -238,10 +238,10 @@ export function WholeHomeContent() {
                         <Icon className="w-5 h-5 text-[var(--color-primary)]" />
                       </div>
                       <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-2">
-                        {feature.title[language]}
+                        {feature.title}
                       </h3>
                       <p className="text-sm text-[var(--color-muted)] leading-relaxed">
-                        {feature.description[language]}
+                        {feature.description}
                       </p>
                     </div>
                   </GlassLiftCard>
@@ -252,18 +252,19 @@ export function WholeHomeContent() {
         </div>
       </section>
 
-      {/* Process - Dark section with numbered steps and Sparkles */}
+      {/* Process - Dark section with video background */}
       <section className="relative py-24 lg:py-32 overflow-hidden bg-[var(--color-dark)]">
-        <WaterCaustics variant="dark" speed={10} />
-        <div className="absolute inset-0 pointer-events-none">
-          <div
-            className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full"
-            style={{ background: "linear-gradient(160deg, rgba(0,159,227,0.08) 0%, transparent 40%, rgba(59,214,245,0.04) 100%)" }}
-          />
-          <div
-            className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full"
-            style={{ background: "linear-gradient(200deg, rgba(59,214,245,0.05) 0%, transparent 40%, rgba(0,159,227,0.03) 100%)" }}
-          />
+        <div className="absolute inset-0">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/videos/whole-home-process-bg.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-[var(--color-dark)]/[0.92]" />
         </div>
 
         <div className="relative container-custom z-10">
@@ -299,23 +300,19 @@ export function WholeHomeContent() {
                   <span className="text-5xl sm:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white/20 to-white/5 leading-none">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <motion.div
-                    className="absolute inset-0 rounded-full border-2 border-[var(--color-accent)]/20 scale-150 opacity-0 group-hover:opacity-100 group-hover:scale-[2]"
-                    transition={{ duration: 0.5 }}
-                  />
                 </div>
-                <h3 className="text-base sm:text-xl font-bold text-white mb-2">
-                  {step.title[language]}
+                <h3 className="text-base sm:text-xl font-bold text-white mb-2" style={{ textShadow: "0 1px 8px rgba(0,0,0,0.5)" }}>
+                  {step.title}
                 </h3>
-                <p className="text-sm text-white/50 leading-relaxed max-w-xs mx-auto">
-                  {step.description[language]}
+                <p className="text-sm text-white/70 leading-relaxed max-w-xs mx-auto" style={{ textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}>
+                  {step.description}
                 </p>
               </motion.div>
             ))}
           </div>
 
           <motion.div
-            className="text-center mt-14"
+            className="flex justify-center mt-14"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={viewportConfig}
@@ -337,7 +334,7 @@ export function WholeHomeContent() {
       </section>
 
       {/* Stats Strip */}
-      <StatsStrip language={language} />
+      <StatsStrip />
 
       {/* FAQ */}
       {faqItems.length > 0 && (
@@ -379,10 +376,10 @@ export function WholeHomeContent() {
                     className="bg-white rounded-xl border border-[var(--color-border)] px-6 data-[state=open]:shadow-md data-[state=open]:border-[var(--color-primary)]/20 transition-all"
                   >
                     <AccordionTrigger className="text-left font-semibold text-[var(--color-foreground)] hover:text-[var(--color-primary)] py-5 text-base">
-                      {item.question[language]}
+                      {item.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-[var(--color-muted)] leading-relaxed pb-5">
-                      {item.answer[language]}
+                      {item.answer}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -402,7 +399,7 @@ export function WholeHomeContent() {
 
 /* -------- Sub-components -------- */
 
-function ContaminantSection({ language }: { language: "en" | "es" }) {
+function ContaminantSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
@@ -425,16 +422,14 @@ function ContaminantSection({ language }: { language: "en" | "es" }) {
         >
           <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-[var(--color-primary)] mb-4">
             <span className="w-8 h-px bg-[var(--color-primary)]" />
-            {language === "es" ? "Eliminacion de Contaminantes" : "Contaminant Removal"}
+            Contaminant Removal
             <span className="w-8 h-px bg-[var(--color-primary)]" />
           </span>
           <h2 className="heading-md font-bold text-[var(--color-foreground)]">
-            {language === "es" ? "Que Eliminamos" : "What We Remove"}
+            What We Remove
           </h2>
           <p className="text-[var(--color-muted)] mt-4 max-w-xl mx-auto">
-            {language === "es"
-              ? "Nuestros sistemas de filtracion de toda la casa eliminan una amplia gama de contaminantes."
-              : "Our whole-home filtration systems remove a wide range of contaminants from every water source in your home."}
+            Our whole-home filtration systems remove a wide range of contaminants from every water source in your home.
           </p>
         </motion.div>
 
@@ -448,7 +443,7 @@ function ContaminantSection({ language }: { language: "en" | "es" }) {
             >
               <div className="flex items-center justify-between mb-1.5">
                 <span className="text-sm font-semibold text-[var(--color-foreground)]">
-                  {item.name[language]}
+                  {item.name}
                 </span>
                 <span className="text-sm font-bold" style={{ color: item.color }}>
                   {item.removal}%
@@ -471,15 +466,15 @@ function ContaminantSection({ language }: { language: "en" | "es" }) {
   );
 }
 
-function StatsStrip({ language }: { language: "en" | "es" }) {
+function StatsStrip() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
 
   const stats = [
-    { value: 500, suffix: "+", label: language === "es" ? "Sistemas Instalados" : "Systems Installed" },
-    { value: 99, suffix: "%", label: language === "es" ? "Eliminacion Contaminantes" : "Contaminant Removal" },
-    { value: 10, suffix: "+", label: language === "es" ? "Anos de Experiencia" : "Years Experience" },
-    { value: 100, suffix: "%", label: language === "es" ? "Satisfaccion Garantizada" : "Satisfaction Guaranteed" },
+    { value: 500, suffix: "+", label: "Systems Installed" },
+    { value: 99, suffix: "%", label: "Contaminant Removal" },
+    { value: 10, suffix: "+", label: "Years Experience" },
+    { value: 100, suffix: "%", label: "Satisfaction Guaranteed" },
   ];
 
   return (

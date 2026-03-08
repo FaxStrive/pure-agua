@@ -20,7 +20,7 @@ const stats = [
 export function Stats() {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.5 });
-  const { language } = useLanguage();
+  useLanguage();
 
   return (
     <section ref={sectionRef} className="relative py-20 overflow-hidden">
@@ -74,7 +74,7 @@ export function Stats() {
           transition={{ duration: 0.6, ease: easeOutExpo }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-foreground)]">
-            {language === "es" ? "Pure Agua en Numeros" : "Pure Agua by the Numbers"}
+            {"Pure Agua by the Numbers"}
           </h2>
           <div
             className="mx-auto mt-3 rounded-full bg-[var(--color-primary)]"
@@ -107,7 +107,7 @@ export function Stats() {
                   <span>{stat.suffix}</span>
                 </div>
                 <div className="text-sm text-[var(--color-text-secondary)] font-medium">
-                  {language === "es" ? stat.labelEs : stat.labelEn}
+                  {stat.labelEn}
                 </div>
               </div>
               {i < stats.length - 1 && (
@@ -125,7 +125,7 @@ export function Stats() {
         >
           <Link href="/contact">
             <WaterButton className="text-sm font-semibold px-6 py-3">
-              {language === "es" ? "Obtenga Su Prueba Gratis" : "Get Your Free Water Test"}
+              {"Get Your Free Water Test"}
               <ArrowRight className="w-4 h-4 ml-2" />
             </WaterButton>
           </Link>

@@ -8,8 +8,8 @@ export function WaterSofteningHeroClient() {
 
   return (
     <InnerPageHero
-      image="https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?auto=compress&cs=tinysrgb&w=1920"
-      imageAlt="Soft water flowing from modern faucet"
+      image="/images/water-softening-hero.jpeg"
+      imageAlt="Woman showering with soft filtered water"
       label={t("waterSofteningPage", "heroLabel")}
       headline1={t("waterSofteningPage", "heroHeadline1")}
       headline2={t("waterSofteningPage", "heroHeadline2")}
@@ -19,7 +19,7 @@ export function WaterSofteningHeroClient() {
       ctaHref="/contact"
       breadcrumbs={[
         { label: t("common", "home"), href: "/" },
-        { label: t("common", "services"), href: "/services" },
+        { label: t("common", "services") },
         { label: t("common", "waterSoftening") },
       ]}
     />

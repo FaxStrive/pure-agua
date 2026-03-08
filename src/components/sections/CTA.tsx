@@ -12,7 +12,7 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 export function CTA() {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.3 });
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <section ref={sectionRef} className="relative py-24 lg:py-32 overflow-hidden">
@@ -70,7 +70,7 @@ export function CTA() {
                 </ShimmerButton>
               </Link>
             </MagneticWrapper>
-            <a href="tel:+1">
+            <a href="tel:+14077732883">
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
@@ -91,15 +91,15 @@ export function CTA() {
           >
             <span className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-              {language === "es" ? "Gratis, Sin Compromiso" : "Free, No Obligation"}
+              {"Free, No Obligation"}
             </span>
             <span className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-              {language === "es" ? "Instalacion Profesional" : "Professional Installation"}
+              {"Professional Installation"}
             </span>
             <span className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-              {language === "es" ? "Garantia Total" : "100% Satisfaction Guaranteed"}
+              {"100% Satisfaction Guaranteed"}
             </span>
           </motion.div>
         </motion.div>

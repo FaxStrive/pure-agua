@@ -26,7 +26,7 @@ export function ChatWidget() {
     {
       icon: Phone,
       label: t("chatWidget", "callNow"),
-      href: "tel:+1",
+      href: "tel:+14077732883",
       primary: false,
     },
   ];

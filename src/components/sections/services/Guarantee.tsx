@@ -10,7 +10,7 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 export function Guarantee() {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.3 });
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <section ref={sectionRef} className="relative py-20 md:py-28 overflow-hidden">
@@ -41,9 +41,9 @@ export function Guarantee() {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-5"
         >
-          {language === "es" ? "Nuestra " : "Our "}
+          {"Our "}
           <span className="text-[var(--color-accent)]">
-            {language === "es" ? "Garantia" : "Guarantee"}
+            {"Guarantee"}
           </span>
         </motion.h2>
 
@@ -67,16 +67,16 @@ export function Guarantee() {
               fillColor="var(--color-accent)"
               className="text-base font-semibold px-8 py-4 border-[var(--color-accent)] text-[var(--color-accent)]"
             >
-              {language === "es" ? "Programe Prueba Gratis" : "Schedule Free Water Test"}
+              {"Schedule Free Water Test"}
               <ArrowRight className="w-5 h-5 ml-2" />
             </WaterButton>
           </Link>
           <a
-            href="tel:+1"
+            href="tel:+14077732883"
             className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors font-medium"
           >
             <Phone className="w-5 h-5" />
-            {language === "es" ? "O llamenos" : "Or call us"}
+            {"Or call us"}
           </a>
         </motion.div>
       </div>

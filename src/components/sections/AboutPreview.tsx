@@ -9,7 +9,7 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { translations } from "@/lib/i18n/translations";
 
 export function AboutPreview() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <section className="relative overflow-hidden">
@@ -67,9 +67,9 @@ export function AboutPreview() {
             {/* Value props - simple list */}
             <div className="space-y-4 mb-10">
               {[
-                translations.aboutPreview.familyValues.title[language],
-                translations.aboutPreview.communityFirst.title[language],
-                translations.aboutPreview.localExperts.title[language],
+                translations.aboutPreview.familyValues.title,
+                translations.aboutPreview.communityFirst.title,
+                translations.aboutPreview.localExperts.title,
               ].map((value, i) => (
                 <motion.div
                   key={value}

@@ -43,8 +43,8 @@ interface RelatedServicesProps {
 }
 
 export function RelatedServices({ currentSlug }: RelatedServicesProps) {
-  const { t, language } = useLanguage();
-  const servicesData = getTranslationSection("services") as Record<string, { title?: { en: string; es: string }; description?: { en: string; es: string } }> | null;
+  const { t } = useLanguage();
+  const servicesData = getTranslationSection("services") as Record<string, { title?: string; description?: string }> | null;
 
   const related = allServices.filter((s) => s.slug !== currentSlug);
 
@@ -94,10 +94,10 @@ export function RelatedServices({ currentSlug }: RelatedServicesProps) {
                     <Icon className="w-6 h-6 text-[var(--color-primary)]" />
                   </div>
                   <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-2">
-                    {servicesData?.[service.titleKey]?.title?.[language] ?? service.titleKey}
+                    {servicesData?.[service.titleKey]?.title ?? service.titleKey}
                   </h3>
                   <p className="text-sm text-[var(--color-muted)] mb-4 line-clamp-2">
-                    {servicesData?.[service.descKey]?.description?.[language] ?? ""}
+                    {servicesData?.[service.descKey]?.description ?? ""}
                   </p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-primary)] group-hover:gap-2 transition-all">
                     {t("common", "learnMore")}

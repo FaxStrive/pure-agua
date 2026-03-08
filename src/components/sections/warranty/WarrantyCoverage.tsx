@@ -3,15 +3,16 @@
 import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 import { WaterEdge } from "@/components/animations/water-edge";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 export function WarrantyCoverage() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
-  const covered = getTranslationArray<LocalizedString>("warrantyPage", "covered");
-  const notCovered = getTranslationArray<LocalizedString>("warrantyPage", "notCovered");
+  const covered = getTranslationArray<string>("warrantyPage", "covered");
+  const notCovered = getTranslationArray<string>("warrantyPage", "notCovered");
 
   return (
     <section className="section-padding relative overflow-hidden">
@@ -34,9 +35,9 @@ export function WarrantyCoverage() {
             <span className="w-8 h-px bg-[var(--color-primary)]" />
             {t("warrantyPage", "coverageLabel")}
           </span>
-          <h2 className="heading-md font-bold text-[var(--color-foreground)]">
+          <TextAnimate animation="blurInUp" by="word" as="h2" className="heading-md font-bold text-[var(--color-foreground)]">
             {t("warrantyPage", "coverageHeading")}
-          </h2>
+          </TextAnimate>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -53,7 +54,7 @@ export function WarrantyCoverage() {
                 <Check className="w-5 h-5 text-green-600" />
               </div>
               <h3 className="text-xl font-bold text-green-800">
-                {language === "en" ? "What Is Covered" : "Que Esta Cubierto"}
+                {t("warrantyPage", "whatIsCovered")}
               </h3>
             </div>
             <ul className="space-y-4">
@@ -61,7 +62,7 @@ export function WarrantyCoverage() {
                 <motion.li key={i} variants={staggerItem} className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-green-500 shrink-0 mt-0.5" />
                   <span className="text-green-800/80 text-sm leading-relaxed">
-                    {item[language]}
+                    {item}
                   </span>
                 </motion.li>
               ))}
@@ -82,7 +83,7 @@ export function WarrantyCoverage() {
                 <X className="w-5 h-5 text-red-500" />
               </div>
               <h3 className="text-xl font-bold text-red-800">
-                {language === "en" ? "What Is Not Covered" : "Que No Esta Cubierto"}
+                {t("warrantyPage", "whatIsNotCovered")}
               </h3>
             </div>
             <ul className="space-y-4">
@@ -90,7 +91,7 @@ export function WarrantyCoverage() {
                 <motion.li key={i} variants={staggerItem} className="flex items-start gap-3">
                   <X className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
                   <span className="text-red-800/80 text-sm leading-relaxed">
-                    {item[language]}
+                    {item}
                   </span>
                 </motion.li>
               ))}

@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 import { X, Check } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, staggerContainer, staggerItem } from "@/lib/animations";
 
 interface ComparisonItem {
-  before: LocalizedString;
-  after: LocalizedString;
+  before: string;
+  after: string;
 }
 
 interface BeforeAfterComparisonProps {
@@ -16,7 +16,7 @@ interface BeforeAfterComparisonProps {
 }
 
 export function BeforeAfterComparison({ translationSection }: BeforeAfterComparisonProps) {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const items = getTranslationArray<ComparisonItem>(translationSection, "beforeAfterItems");
   if (items.length === 0) return null;
@@ -65,7 +65,7 @@ export function BeforeAfterComparison({ translationSection }: BeforeAfterCompari
                   <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
                 <p className="text-sm text-red-800/70 leading-relaxed">
-                  {item.before[language]}
+                  {item.before}
                 </p>
               </div>
               <div className="flex items-start gap-3 p-5 bg-green-50/50">
@@ -73,7 +73,7 @@ export function BeforeAfterComparison({ translationSection }: BeforeAfterCompari
                   <Check className="w-3.5 h-3.5 text-green-600" />
                 </div>
                 <p className="text-sm text-green-800/70 leading-relaxed">
-                  {item.after[language]}
+                  {item.after}
                 </p>
               </div>
             </motion.div>

@@ -54,7 +54,7 @@ export function StickyBottomBar() {
               </span>
               <div className="flex items-center gap-2 flex-1 ml-auto justify-end">
                 <a
-                  href="tel:+1"
+                  href="tel:+14077732883"
                   className="flex items-center gap-1.5 bg-white/15 hover:bg-white/25 text-white rounded-full px-4 py-2 text-xs font-semibold transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />

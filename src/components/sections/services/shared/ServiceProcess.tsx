@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { getTranslationArray, type LocalizedString } from "@/lib/i18n/getTranslationData";
+import { getTranslationArray } from "@/lib/i18n/getTranslationData";
 import { viewportConfig, cascadeItem, easeOutExpo } from "@/lib/animations";
 
 interface ProcessStep {
-  title: LocalizedString;
-  description: LocalizedString;
+  title: string;
+  description: string;
 }
 
 interface ServiceProcessProps {
@@ -15,7 +15,7 @@ interface ServiceProcessProps {
 }
 
 export function ServiceProcess({ translationSection }: ServiceProcessProps) {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   const steps = getTranslationArray<ProcessStep>(translationSection, "processSteps");
   if (steps.length === 0) return null;
@@ -71,10 +71,10 @@ export function ServiceProcess({ translationSection }: ServiceProcessProps) {
                   </div>
                   <div className="flex-1 pb-2">
                     <h3 className="text-lg font-bold text-[var(--color-foreground)] mb-1">
-                      {step.title[language]}
+                      {step.title}
                     </h3>
                     <p className="text-[var(--color-muted)] leading-relaxed">
-                      {step.description[language]}
+                      {step.description}
                     </p>
                   </div>
                 </motion.div>

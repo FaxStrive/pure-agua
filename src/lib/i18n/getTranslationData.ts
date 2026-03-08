@@ -1,8 +1,10 @@
 import { translations } from "./translations";
-import type { Language } from "./translations";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type AnySection = Record<string, any>;
+
+/** Kept for backward compat -- 10+ files import this type. Now just a string. */
+export type LocalizedString = string;
 
 export function getTranslationSection(section: string): AnySection | null {
   const data = (translations as Record<string, unknown>)[section];
@@ -18,11 +20,10 @@ export function getTranslationArray<T>(section: string, key: string): T[] {
   return arr as T[];
 }
 
-export interface LocalizedString {
-  en: string;
-  es: string;
-}
-
-export function localized(item: LocalizedString, language: Language): string {
-  return item[language] || item.en;
+/**
+ * Returns a plain string from a translation entry.
+ * Now that translations are flat English strings, this is a simple passthrough.
+ */
+export function localized(item: string): string {
+  return item;
 }

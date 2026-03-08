@@ -6,6 +6,7 @@ import { Stats } from "@/components/sections/Stats";
 import { WaterQualityChecker } from "@/components/sections/WaterQualityChecker";
 import { Services } from "@/components/sections/Services";
 import { Process } from "@/components/sections/Process";
+import { WaterBottleSavings } from "@/components/sections/WaterBottleSavings";
 import { AboutPreview } from "@/components/sections/AboutPreview";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
@@ -20,6 +21,7 @@ export default function Home() {
       <WaterQualityChecker />
       <Services />
       <Process />
+      <WaterBottleSavings />
       <AboutPreview />
       <Testimonials />
       <FAQ />

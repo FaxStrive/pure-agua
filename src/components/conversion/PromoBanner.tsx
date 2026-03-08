@@ -8,7 +8,7 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 
 const STORAGE_KEY = "pureagua-promo-dismissed";
 
-export function PromoBanner({ onVisibilityChange }: { onVisibilityChange?: (visible: boolean) => void }) {
+export function PromoBanner() {
   const [visible, setVisible] = useState(false);
   const { t } = useLanguage();
 
@@ -17,27 +17,25 @@ export function PromoBanner({ onVisibilityChange }: { onVisibilityChange?: (visi
     if (!dismissed) {
       const timer = setTimeout(() => {
         setVisible(true);
-        onVisibilityChange?.(true);
       }, 2000);
       return () => clearTimeout(timer);
     }
-  }, [onVisibilityChange]);
+  }, []);
 
   const dismiss = () => {
     setVisible(false);
     sessionStorage.setItem(STORAGE_KEY, "true");
-    onVisibilityChange?.(false);
   };
 
   return (
     <AnimatePresence>
       {visible && (
         <motion.div
-          className="fixed top-0 left-0 right-0 z-[60]"
-          initial={{ y: -60 }}
-          animate={{ y: 0 }}
-          exit={{ y: -60 }}
+          initial={{ height: 0, opacity: 0 }}
+          animate={{ height: "auto", opacity: 1 }}
+          exit={{ height: 0, opacity: 0 }}
           transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
+          className="overflow-hidden"
         >
           <div
             className="relative overflow-hidden"

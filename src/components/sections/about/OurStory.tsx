@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { viewportConfig } from "@/lib/animations";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 export function OurStory() {
   const { t } = useLanguage();
@@ -27,9 +27,9 @@ export function OurStory() {
               </span>
             </div>
 
-            <h2 className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-6">
+            <TextAnimate animation="blurInUp" by="word" as="h2" className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-6">
               {t("ourStory", "heading")}
-            </h2>
+            </TextAnimate>
 
             <div className="space-y-4 text-[var(--color-muted)] leading-relaxed">
               <p>{t("ourStory", "p1")}</p>
@@ -47,14 +47,17 @@ export function OurStory() {
           viewport={viewportConfig}
           transition={{ duration: 0.8 }}
         >
-          <Image
-            src="https://images.pexels.com/photos/6032817/pexels-photo-6032817.jpeg?auto=compress&cs=tinysrgb&w=1000"
-            alt="Pouring clean filtered water into a glass"
-            fill
-            className="object-cover"
-            sizes="(max-width: 1024px) 100vw, 50vw"
-          />
-          <div className="absolute inset-0 bg-[var(--color-dark)]/10" />
+          <div className="absolute inset-0 bg-[var(--color-surface)] flex items-center justify-center">
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[var(--color-primary)]/10 flex items-center justify-center">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />
+                </svg>
+              </div>
+              <p className="text-lg font-semibold text-[var(--color-dark)]">Family Photo Here</p>
+              <p className="text-sm text-[var(--color-dark)]/50 mt-1">Client to provide</p>
+            </div>
+          </div>
 
           {/* Floating card */}
           <motion.div

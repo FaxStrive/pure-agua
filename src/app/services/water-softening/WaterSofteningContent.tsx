@@ -23,7 +23,6 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
-import WaterCaustics from "@/components/animations/water-caustics";
 
 interface ComparisonItem {
   before: LocalizedString;
@@ -44,32 +43,32 @@ interface FAQItem {
 const hardWaterImpacts = [
   {
     icon: Home,
-    title: { en: "Pipe & Fixture Damage", es: "Danos a Tuberias" },
-    cost: { en: "$3,000+ in repairs", es: "$3,000+ en reparaciones" },
-    description: { en: "Scale buildup clogs pipes, reduces water pressure, and corrodes fixtures over time.", es: "La acumulacion de sarro obstruye tuberias, reduce la presion del agua y corroe las instalaciones." },
+    title: "Pipe & Fixture Damage",
+    cost: "$3,000+ in repairs",
+    description: "Scale buildup clogs pipes, reduces water pressure, and corrodes fixtures over time.",
   },
   {
     icon: Droplets,
-    title: { en: "Appliance Breakdown", es: "Danos a Electrodomesticos" },
-    cost: { en: "50% shorter lifespan", es: "50% menos vida util" },
-    description: { en: "Water heaters, dishwashers, and washing machines fail years earlier due to mineral deposits.", es: "Calentadores, lavavajillas y lavadoras fallan anos antes debido a depositos minerales." },
+    title: "Appliance Breakdown",
+    cost: "50% shorter lifespan",
+    description: "Water heaters, dishwashers, and washing machines fail years earlier due to mineral deposits.",
   },
   {
     icon: Shirt,
-    title: { en: "Laundry & Cleaning", es: "Lavado y Limpieza" },
-    cost: { en: "2x more soap needed", es: "2x mas jabon necesario" },
-    description: { en: "Hard water prevents soap from lathering properly, leaving residue on clothes, dishes, and surfaces.", es: "El agua dura impide que el jabon haga espuma correctamente, dejando residuos en ropa, platos y superficies." },
+    title: "Laundry & Cleaning",
+    cost: "2x more soap needed",
+    description: "Hard water prevents soap from lathering properly, leaving residue on clothes, dishes, and surfaces.",
   },
   {
     icon: SparklesIcon,
-    title: { en: "Skin & Hair Issues", es: "Problemas de Piel y Cabello" },
-    cost: { en: "Daily discomfort", es: "Incomodidad diaria" },
-    description: { en: "Mineral deposits dry out skin, cause eczema flare-ups, and leave hair dull and brittle.", es: "Los depositos minerales resecan la piel, causan brotes de eczema y dejan el cabello opaco y quebradizo." },
+    title: "Skin & Hair Issues",
+    cost: "Daily discomfort",
+    description: "Mineral deposits dry out skin, cause eczema flare-ups, and leave hair dull and brittle.",
   },
 ];
 
 export function WaterSofteningContent() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const beforeAfterItems = getTranslationArray<ComparisonItem>("waterSofteningPage", "beforeAfterItems");
   const steps = getTranslationArray<ProcessStep>("waterSofteningPage", "processSteps");
   const faqItems = getTranslationArray<FAQItem>("waterSofteningPage", "faq");
@@ -117,7 +116,7 @@ export function WaterSofteningContent() {
               </p>
 
               {/* Quick stats with NumberTicker */}
-              <QuickStats language={language} />
+              <QuickStats />
 
               <motion.div
                 className="mt-8"
@@ -145,8 +144,8 @@ export function WaterSofteningContent() {
             >
               <motion.div className="rounded-2xl overflow-hidden shadow-2xl shadow-[var(--color-primary)]/10" style={{ y: imgY }}>
                 <Image
-                  src="https://images.pexels.com/photos/4262413/pexels-photo-4262413.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Family enjoying soft water at home"
+                  src="/images/water-softening-family.jpeg"
+                  alt="Family with kids drinking clean water in kitchen"
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover aspect-[4/3]"
@@ -158,33 +157,28 @@ export function WaterSofteningContent() {
       </section>
 
       {/* Hard Water Impact Cards with GlassLiftCard */}
-      <HardWaterImpactSection language={language} />
+      <HardWaterImpactSection />
 
       {/* Inline CTA */}
       <InlineCTABanner
-        headline={language === "es" ? "El agua dura esta danando su hogar?" : "Is Hard Water Damaging Your Home?"}
-        subtext={language === "es" ? "Descubra su nivel de dureza del agua con una prueba gratuita." : "Find out your water hardness level with a free test."}
-        buttonText={language === "es" ? "Prueba Gratis" : "Free Water Test"}
+        headline="Is Hard Water Damaging Your Home?"
+        subtext="Find out your water hardness level with a free test."
+        buttonText="Free Water Test"
         variant="subtle"
       />
 
       {/* Enhanced Before/After Comparison */}
       {beforeAfterItems.length > 0 && (
-        <BeforeAfterSection items={beforeAfterItems} language={language} />
+        <BeforeAfterSection items={beforeAfterItems} />
       )}
 
       {/* Process - Dark section with Sparkles */}
       <section className="relative py-24 lg:py-32 overflow-hidden bg-[var(--color-dark)]">
-        <WaterCaustics variant="dark" speed={10} />
-        <div className="absolute inset-0 pointer-events-none">
-          <div
-            className="absolute top-0 left-0 w-[600px] h-[600px] rounded-full"
-            style={{ background: "linear-gradient(160deg, rgba(59,214,245,0.05) 0%, transparent 40%, rgba(0,159,227,0.03) 100%)" }}
-          />
-          <div
-            className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full"
-            style={{ background: "linear-gradient(200deg, rgba(0,159,227,0.05) 0%, transparent 40%, rgba(59,214,245,0.03) 100%)" }}
-          />
+        <div className="absolute inset-0">
+          <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+            <source src="/videos/whole-home-process-bg.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-[var(--color-dark)]/[0.92]" />
         </div>
 
         <div className="relative container-custom z-10">
@@ -220,17 +214,17 @@ export function WaterSofteningContent() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="text-base sm:text-xl font-bold text-white mb-2">
-                  {step.title[language]}
+                  {step.title}
                 </h3>
                 <p className="text-sm text-white/50 leading-relaxed max-w-xs mx-auto">
-                  {step.description[language]}
+                  {step.description}
                 </p>
               </motion.div>
             ))}
           </div>
 
           <motion.div
-            className="text-center mt-14"
+            className="flex justify-center mt-14"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={viewportConfig}
@@ -243,7 +237,7 @@ export function WaterSofteningContent() {
                 borderRadius="100px"
                 className="text-sm font-semibold px-8 py-4"
               >
-                {language === "es" ? "Programe Instalacion" : "Schedule Installation"}
+                {"Schedule Installation"}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </ShimmerButton>
             </Link>
@@ -290,10 +284,10 @@ export function WaterSofteningContent() {
                     className="bg-white rounded-xl border border-[var(--color-border)] px-6 data-[state=open]:shadow-md data-[state=open]:border-[var(--color-primary)]/20 transition-all"
                   >
                     <AccordionTrigger className="text-left font-semibold text-[var(--color-foreground)] hover:text-[var(--color-primary)] py-5 text-base">
-                      {item.question[language]}
+                      {item.question}
                     </AccordionTrigger>
                     <AccordionContent className="text-[var(--color-muted)] leading-relaxed pb-5">
-                      {item.answer[language]}
+                      {item.answer}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
@@ -313,14 +307,14 @@ export function WaterSofteningContent() {
 
 /* -------- Sub-components -------- */
 
-function QuickStats({ language }: { language: "en" | "es" }) {
+function QuickStats() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
 
   const stats = [
-    { value: 99, suffix: "%", label: language === "es" ? "Reduccion de Sarro" : "Scale Reduction" },
-    { value: 50, suffix: "%", label: language === "es" ? "Menos Jabon" : "Less Soap Needed" },
-    { value: 2, suffix: "x", label: language === "es" ? "Vida de Electrodom." : "Appliance Lifespan" },
+    { value: 99, suffix: "%", label: "Scale Reduction" },
+    { value: 50, suffix: "%", label: "Less Soap Needed" },
+    { value: 2, suffix: "x", label: "Appliance Lifespan" },
   ];
 
   return (
@@ -344,7 +338,7 @@ function QuickStats({ language }: { language: "en" | "es" }) {
   );
 }
 
-function HardWaterImpactSection({ language }: { language: "en" | "es" }) {
+function HardWaterImpactSection() {
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-[var(--color-surface)]" />
@@ -364,11 +358,11 @@ function HardWaterImpactSection({ language }: { language: "en" | "es" }) {
         >
           <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-amber-500 mb-4">
             <span className="w-8 h-px bg-amber-400" />
-            {language === "es" ? "Impacto del Agua Dura" : "Hard Water Impact"}
+            {"Hard Water Impact"}
             <span className="w-8 h-px bg-amber-400" />
           </span>
           <h2 className="heading-md font-bold text-[var(--color-foreground)]">
-            {language === "es" ? "El Costo Oculto del Agua Dura" : "The Hidden Cost of Hard Water"}
+            {"The Hidden Cost of Hard Water"}
           </h2>
         </motion.div>
 
@@ -390,11 +384,11 @@ function HardWaterImpactSection({ language }: { language: "en" | "es" }) {
                         <Icon className="w-5 h-5 text-amber-500" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-base font-bold text-[var(--color-foreground)] mb-1">{item.title[language]}</h3>
+                        <h3 className="text-base font-bold text-[var(--color-foreground)] mb-1">{item.title}</h3>
                         <span className="inline-block text-xs font-semibold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full mb-2">
-                          {item.cost[language]}
+                          {item.cost}
                         </span>
-                        <p className="text-sm text-[var(--color-muted)] leading-relaxed">{item.description[language]}</p>
+                        <p className="text-sm text-[var(--color-muted)] leading-relaxed">{item.description}</p>
                       </div>
                     </div>
                   </div>
@@ -408,7 +402,7 @@ function HardWaterImpactSection({ language }: { language: "en" | "es" }) {
   );
 }
 
-function BeforeAfterSection({ items, language }: { items: ComparisonItem[]; language: "en" | "es" }) {
+function BeforeAfterSection({ items }: { items: ComparisonItem[] }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
@@ -430,11 +424,11 @@ function BeforeAfterSection({ items, language }: { items: ComparisonItem[]; lang
         >
           <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-[var(--color-primary)] mb-4">
             <span className="w-8 h-px bg-[var(--color-primary)]" />
-            {language === "es" ? "Agua Dura vs. Agua Suave" : "Hard Water vs. Soft Water"}
+            {"Hard Water vs. Soft Water"}
             <span className="w-8 h-px bg-[var(--color-primary)]" />
           </span>
           <h2 className="heading-md font-bold text-[var(--color-foreground)]">
-            {language === "es" ? "Vea la Diferencia" : "See the Difference"}
+            {"See the Difference"}
           </h2>
         </motion.div>
 
@@ -452,7 +446,7 @@ function BeforeAfterSection({ items, language }: { items: ComparisonItem[]; lang
                   <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
                 <p className="text-sm text-red-800/70 leading-relaxed">
-                  {item.before[language]}
+                  {item.before}
                 </p>
               </div>
               <div className="flex items-start gap-3 p-5 bg-green-50/50">
@@ -460,7 +454,7 @@ function BeforeAfterSection({ items, language }: { items: ComparisonItem[]; lang
                   <Check className="w-3.5 h-3.5 text-green-600" />
                 </div>
                 <p className="text-sm text-green-800/70 leading-relaxed">
-                  {item.after[language]}
+                  {item.after}
                 </p>
               </div>
             </motion.div>
