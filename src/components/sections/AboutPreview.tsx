@@ -12,79 +12,81 @@ export function AboutPreview() {
   const { t } = useLanguage();
 
   return (
-    <section className="relative overflow-hidden">
-      <div className="grid lg:grid-cols-2 lg:min-h-[600px]">
-        {/* Left - Image full bleed */}
-        <motion.div
-          className="relative min-h-[400px] lg:min-h-full"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={viewportConfig}
-          transition={{ duration: 0.8 }}
-        >
-          {/* Team photo placeholder */}
-          <div className="absolute inset-0 bg-[var(--color-surface)] flex items-center justify-center">
-            <span className="text-lg font-medium text-[var(--color-muted)] tracking-wide uppercase">[Team Photo]</span>
-          </div>
+    <section className="relative overflow-hidden py-24 lg:py-32">
+      {/* Background */}
+      <div className="absolute inset-0 bg-[var(--color-surface)]" />
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 50% 50% at 20% 30%, rgba(8,73,120,0.04) 0%, transparent 60%), radial-gradient(ellipse 40% 40% at 80% 70%, rgba(59,214,245,0.03) 0%, transparent 60%)",
+        }}
+      />
 
-          {/* Floating card */}
+      <div className="container-custom relative">
+        <div className="max-w-3xl mx-auto text-center">
           <motion.div
-            className="absolute bottom-8 right-8 bg-white rounded-2xl p-5 shadow-2xl shadow-black/10"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={viewportConfig}
-            transition={{ delay: 0.5, duration: 0.5 }}
+            transition={{ duration: 0.6 }}
           >
-            <div className="flex items-center gap-3">
-              <div className="w-14 h-14 rounded-xl bg-[var(--color-primary)] flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">10+</span>
-              </div>
-              <div>
-                <p className="text-sm font-bold text-[var(--color-foreground)]">{t("aboutPreview", "yearsServing")}</p>
-                <p className="text-xs text-[var(--color-muted)]">{t("hero", "centralFlorida")}</p>
-              </div>
-            </div>
+            <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-[var(--color-primary)] mb-4">
+              <span className="w-8 h-px bg-[var(--color-primary)]" />
+              {t("aboutPreview", "label")}
+              <span className="w-8 h-px bg-[var(--color-primary)]" />
+            </span>
           </motion.div>
-        </motion.div>
 
-        {/* Right - Content */}
-        <div className="flex items-center px-8 lg:px-16 xl:px-24 py-16 lg:py-24 bg-[var(--color-surface)]">
-          <motion.div
-            className="max-w-lg"
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
+          <motion.h2
+            className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-6"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={viewportConfig}
-            transition={{ duration: 0.7 }}
+            transition={{ delay: 0.1, duration: 0.6 }}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-[var(--color-foreground)] leading-tight mb-6">
-              {t("aboutPreview", "heading")}
-            </h2>
+            {t("aboutPreview", "heading")}
+          </motion.h2>
 
-            <p className="text-lg text-[var(--color-muted)] leading-relaxed mb-8">
-              {t("aboutPreview", "description")}
-            </p>
+          <motion.p
+            className="text-lg text-[var(--color-muted)] leading-relaxed mb-10"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewportConfig}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            {t("aboutPreview", "description")}
+          </motion.p>
 
-            {/* Value props - simple list */}
-            <div className="space-y-4 mb-10">
-              {[
-                translations.aboutPreview.familyValues.title,
-                translations.aboutPreview.communityFirst.title,
-                translations.aboutPreview.localExperts.title,
-              ].map((value, i) => (
-                <motion.div
-                  key={value}
-                  className="flex items-center gap-3"
-                  initial={{ opacity: 0, x: 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={viewportConfig}
-                  transition={{ delay: 0.3 + i * 0.1 }}
-                >
-                  <div className="w-2 h-2 rounded-full bg-[var(--color-primary)]" />
-                  <span className="text-[var(--color-foreground)] font-medium">{value}</span>
-                </motion.div>
-              ))}
-            </div>
+          {/* Value props */}
+          <motion.div
+            className="flex flex-wrap justify-center gap-6 mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewportConfig}
+            transition={{ delay: 0.3, duration: 0.6 }}
+          >
+            {[
+              { title: translations.aboutPreview.familyValues.title },
+              { title: translations.aboutPreview.communityFirst.title },
+              { title: translations.aboutPreview.localExperts.title },
+            ].map((value) => (
+              <div
+                key={value.title}
+                className="flex items-center gap-3 px-5 py-3 rounded-full bg-white border border-[var(--color-border)] shadow-sm"
+              >
+                <div className="w-2 h-2 rounded-full bg-[var(--color-primary)]" />
+                <span className="text-sm font-medium text-[var(--color-foreground)]">{value.title}</span>
+              </div>
+            ))}
+          </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewportConfig}
+            transition={{ delay: 0.4, duration: 0.6 }}
+          >
             <Link href="/about">
               <Button
                 variant="outline"

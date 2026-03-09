@@ -248,7 +248,7 @@ export const translations = {
     label: "About Pure Agua Enterprises",
     headline1: "A Family Committed to",
     headline2: "Cleaner Water.",
-    description: "We are a younger, thriving company that keeps up with modern changes and are eager to make a difference in every home we serve.",
+    description: "Led by a younger generation that keeps up with modern changes, we are eager to make a difference in every home we serve.",
   },
 
   // Our Story
@@ -1071,7 +1071,7 @@ export const translations = {
     heroDescription: "Join a growing, family-owned company that is making a real difference in Central Florida homes. We are looking for passionate people.",
     cultureLabel: "Our Culture",
     cultureHeading: "Why Work at Pure Agua?",
-    cultureDescription: "At Pure Agua, you are not just an employee, you are family. We believe in treating our team with the same care we give our customers. We are a young, thriving company with a mission to improve water quality for every Central Florida family. If you are passionate about making a difference and want to grow with us, we would love to hear from you.",
+    cultureDescription: "At Pure Agua, you are not just an employee, you are family. We believe in treating our team with the same care we give our customers. Led by a younger generation with a mission to improve water quality for every Central Florida family, we are always growing. If you are passionate about making a difference and want to grow with us, we would love to hear from you.",
     benefitsLabel: "Benefits",
     benefitsHeading: "What We Offer",
     benefits: [

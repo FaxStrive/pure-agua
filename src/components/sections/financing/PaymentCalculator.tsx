@@ -123,7 +123,7 @@ export function PaymentCalculator() {
                 <input
                   type="range"
                   min={6}
-                  max={84}
+                  max={144}
                   step={6}
                   value={term}
                   onChange={(e) => setTerm(Number(e.target.value))}
@@ -131,7 +131,7 @@ export function PaymentCalculator() {
                 />
                 <div className="flex justify-between text-xs text-[var(--color-muted)] mt-1">
                   <span>6</span>
-                  <span>84</span>
+                  <span>144</span>
                 </div>
               </div>
             </div>
