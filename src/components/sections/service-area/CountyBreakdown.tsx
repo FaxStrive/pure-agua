@@ -19,7 +19,7 @@ export function CountyBreakdown() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/videos/county-breakdown-bg.mov" type="video/mp4" />
+          <source src="/videos/county-breakdown-bg.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-[var(--color-dark)]/85" />
       </div>
