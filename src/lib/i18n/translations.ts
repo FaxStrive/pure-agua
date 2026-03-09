@@ -5,6 +5,10 @@ export const translations = {
     about: "About",
     services: "Services",
     contact: "Contact",
+    beforeAfter: "Before & After",
+    testimonials: "Testimonials",
+    serviceArea: "Service Area",
+    faq: "FAQ",
     callUs: "(407) 773-2883",
     freeWaterTest: "Free Water Test",
   },
@@ -552,6 +556,10 @@ export const translations = {
     financing: "Financing",
     resources: "Resources",
     careers: "Careers",
+    beforeAfter: "Before & After",
+    testimonials: "Testimonials",
+    serviceArea: "Service Area",
+    faq: "FAQ",
     allServices: "All Services",
     company: "Company",
     support: "Support",
@@ -1190,6 +1198,345 @@ export const translations = {
     heading: "Get a Free Quote Today",
     callUs: "Call Us Now",
     bookNow: "Book Online",
+  },
+
+  // ============================
+  // FAQ PAGE
+  // ============================
+  faqPage: {
+    heroLabel: "Frequently Asked Questions",
+    heroHeadline1: "Frequently Asked",
+    heroHeadline2: "Questions.",
+    heroDescription: "Find answers to common questions about water filtration, installation, pricing, and maintenance.",
+    searchPlaceholder: "Search questions...",
+    categories: {
+      all: "All",
+      waterQuality: "Water Quality",
+      installation: "Installation",
+      pricing: "Pricing",
+      maintenance: "Maintenance",
+      general: "General",
+    },
+    questions: [
+      {
+        question: "What does the free water test include?",
+        answer: "Our comprehensive water test analyzes your home's water for hardness, chlorine levels, pH, iron, sediment, TDS (total dissolved solids), and other common Central Florida contaminants. We test water from multiple faucets to get a complete picture of your water quality. The test is completely free with no obligation to purchase.",
+        category: "waterQuality",
+      },
+      {
+        question: "How long does installation take?",
+        answer: "Most installations are completed in a single day, typically 4-6 hours depending on the system type. Our certified technicians arrive prepared with everything needed and handle the entire process from start to finish. We also clean up after ourselves, so you can start enjoying pure water immediately.",
+        category: "installation",
+      },
+      {
+        question: "Do you service well water and city water?",
+        answer: "Yes! We design custom solutions for both city water and well water systems. Central Florida's city water often contains high chlorine and hard minerals, while well water can have iron, sulfur, and sediment issues. We address each situation with the right combination of filtration technology.",
+        category: "waterQuality",
+      },
+      {
+        question: "What areas do you serve in Central Florida?",
+        answer: "We proudly serve a wide area across Central Florida including Kissimmee, Orlando, St. Cloud, Celebration, Davenport, Poinciana, Winter Garden, Apopka, Sanford, Winter Haven, Lakeland, Haines City, Clermont, Lake Nona, Winter Park, and Altamonte Springs. We cover Osceola, Orange, Polk, Seminole, and Lake counties.",
+        category: "general",
+      },
+      {
+        question: "How much does a water filtration system cost?",
+        answer: "Every home is different, which is why we provide custom quotes based on your specific water quality test results. Systems typically range from $800 for an under-sink RO to $3,500+ for a complete whole-home system. We offer flexible financing options including 0% interest for 12 months to make clean water accessible for every family.",
+        category: "pricing",
+      },
+      {
+        question: "Is maintenance required for the filtration system?",
+        answer: "All filtration systems benefit from periodic maintenance to ensure optimal performance. We offer maintenance plans that include filter replacements and system checks. Our team will walk you through the maintenance schedule during installation so there are no surprises.",
+        category: "maintenance",
+      },
+      {
+        question: "What is the difference between a water softener and a water filter?",
+        answer: "A water filter removes contaminants like chlorine, sediment, and chemicals from your water. A water softener specifically addresses hard water by removing calcium and magnesium minerals that cause scale buildup. Many Central Florida homes benefit from both -- a whole-home filter for contaminant removal and a softener for hard water treatment.",
+        category: "waterQuality",
+      },
+      {
+        question: "Do I need a permit for installation?",
+        answer: "In most cases, residential water filtration installations in Central Florida do not require a permit. However, certain modifications to plumbing may require one depending on your county. We handle all permitting requirements if needed, so you do not have to worry about it.",
+        category: "installation",
+      },
+      {
+        question: "Can I install the system myself?",
+        answer: "While some under-sink RO systems can be DIY-installed, we strongly recommend professional installation for all systems. Improper installation can void the warranty, cause leaks, or result in poor water quality. Our professional installation ensures everything works correctly from day one and is covered by our lifetime warranty.",
+        category: "installation",
+      },
+      {
+        question: "How do I know which system is right for my home?",
+        answer: "That is exactly what our free water test is for. We analyze your water quality, discuss your concerns and goals, and recommend the system that best addresses your specific needs. There is no one-size-fits-all solution -- every recommendation is customized for your home.",
+        category: "general",
+      },
+      {
+        question: "Do you offer financing?",
+        answer: "Yes! We offer several financing options including 0% interest for 12 months, low monthly payments with fixed 5.99% APR for 60 months, and extended 84-month terms. No money down is required, and the application process takes just minutes.",
+        category: "pricing",
+      },
+      {
+        question: "What is your warranty coverage?",
+        answer: "Every system we install comes with our comprehensive lifetime warranty. This covers all filtration system components, control valves, filter media, installation workmanship, and system performance. The warranty is valid for as long as you own your home and is even transferable to a new owner if you sell.",
+        category: "general",
+      },
+      {
+        question: "How often do filters need to be replaced?",
+        answer: "It depends on the system type. Whole-home carbon filters typically last 5-7 years. RO pre/post filters should be changed every 6-12 months (about $13 per filter), and the RO membrane lasts 2-3 years. Water softener systems mainly need salt refills (about one 40-pound bag per month). We offer maintenance plans that handle all replacements for you.",
+        category: "maintenance",
+      },
+      {
+        question: "Will a filtration system affect my water pressure?",
+        answer: "No. Our systems are designed to maintain optimal water pressure throughout your home. We size every system based on your home's plumbing and water demand to ensure you will not notice any decrease in flow or pressure.",
+        category: "installation",
+      },
+      {
+        question: "Is filtered water safe for babies and pets?",
+        answer: "Absolutely. Filtered water is actually safer for babies, children, and pets because it removes chlorine, lead, and other contaminants that can be harmful. Our reverse osmosis systems produce water that is purer than most bottled water brands.",
+        category: "waterQuality",
+      },
+      {
+        question: "What happens if I sell my home?",
+        answer: "Your water filtration system stays with the home and can be a selling point for buyers. Our lifetime warranty transfers to the new homeowner at no additional cost. Simply contact us with the new owner's information and we will update our records.",
+        category: "general",
+      },
+      {
+        question: "Do you remove old or competitor systems?",
+        answer: "Yes, we will remove any existing water treatment equipment as part of your new system installation at no additional charge. We dispose of old equipment responsibly.",
+        category: "installation",
+      },
+      {
+        question: "How do I maintain my water softener?",
+        answer: "Water softener maintenance is simple: keep the salt tank filled (check monthly, add one 40-pound bag as needed), and schedule an annual professional check-up. Our Watershield ONE system has smart regeneration that monitors usage and regenerates only when needed, reducing salt consumption. We also offer maintenance plans if you prefer hands-off service.",
+        category: "maintenance",
+      },
+      {
+        question: "What are PFAS and should I be concerned?",
+        answer: "PFAS (per- and polyfluoroalkyl substances) are man-made chemicals found in many Florida water supplies. They are linked to health concerns including cancer and immune system effects. Our reverse osmosis systems are effective at removing PFAS from your drinking water. Contact us for a water test if you are concerned about PFAS in your area.",
+        category: "waterQuality",
+      },
+      {
+        question: "Can I get a system without a long-term contract?",
+        answer: "Absolutely. When you purchase a system from Pure Agua, you own it outright. There are no monthly fees, contracts, or hidden charges. Maintenance plans are optional and can be added or removed at any time. You pay once for the system and installation, and the lifetime warranty is included.",
+        category: "pricing",
+      },
+    ],
+    contactCta: {
+      heading: "Still Have Questions?",
+      description: "Our team is ready to help. Reach out by phone, email, or schedule a free in-home water test.",
+      phone: "Call Us",
+      email: "Email Us",
+    },
+  },
+
+  // ============================
+  // BEFORE & AFTER PAGE
+  // ============================
+  beforeAfterPage: {
+    heroLabel: "Before & After",
+    heroHeadline1: "See the",
+    heroHeadline2: "Difference.",
+    heroDescription: "Real results from real Central Florida homes. See how our water filtration systems transform water quality.",
+    categories: {
+      all: "All",
+      tapWater: "Tap Water",
+      wellWater: "Well Water",
+      scale: "Scale & Buildup",
+    },
+    comparisons: [
+      {
+        title: "Tap Water Clarity",
+        description: "City water before and after whole-home carbon filtration",
+        category: "tapWater",
+      },
+      {
+        title: "Well Water Iron Removal",
+        description: "Orange well water transformed to crystal clear",
+        category: "wellWater",
+      },
+      {
+        title: "Showerhead Scale",
+        description: "Hard water scale buildup vs. after water softener installation",
+        category: "scale",
+      },
+      {
+        title: "Faucet Deposits",
+        description: "White calcium deposits eliminated with water softening",
+        category: "scale",
+      },
+      {
+        title: "Well Water Sulfur",
+        description: "Sulfur-contaminated well water treated with our Watershield system",
+        category: "wellWater",
+      },
+      {
+        title: "Kitchen Sink Water",
+        description: "Chlorinated city water vs. reverse osmosis filtered water",
+        category: "tapWater",
+      },
+    ],
+    tdsSection: {
+      label: "Water Quality Data",
+      heading: "TDS Readings: Before vs After",
+      subheading: "Total Dissolved Solids (TDS) measured in parts per million (PPM). Lower is better.",
+      readings: [
+        { location: "Kitchen Tap", before: 450, after: 12, unit: "PPM" },
+        { location: "Bathroom Sink", before: 380, after: 18, unit: "PPM" },
+        { location: "Well Water", before: 620, after: 25, unit: "PPM" },
+        { location: "Shower Water", before: 410, after: 35, unit: "PPM" },
+      ],
+    },
+    installationGallery: {
+      label: "Our Installations",
+      heading: "Professional Installation Gallery",
+      subheading: "See how our systems are installed in real Central Florida homes.",
+    },
+  },
+
+  // ============================
+  // TESTIMONIALS PAGE
+  // ============================
+  testimonialsPage: {
+    heroLabel: "Customer Reviews",
+    heroHeadline1: "Real Stories,",
+    heroHeadline2: "Real Results.",
+    heroDescription: "Hear from hundreds of Central Florida families who made the switch to cleaner, healthier water.",
+    statsSection: {
+      happyFamilies: "Happy Families",
+      starRating: "Star Rating",
+      yearsServing: "Years Serving",
+      systemsInstalled: "Systems Installed",
+    },
+    filterAll: "All Locations",
+    videoSection: {
+      label: "Video Reviews",
+      heading: "Hear It From Our Customers",
+      subheading: "Watch real customers share their Pure Agua experience.",
+    },
+    googleCta: {
+      heading: "See Us on Google",
+      description: "Read more reviews and leave your own on our Google Business Profile.",
+      buttonText: "View Google Reviews",
+    },
+  },
+
+  // ============================
+  // SERVICE AREA PAGE
+  // ============================
+  serviceAreaPage: {
+    heroLabel: "Service Area",
+    heroHeadline1: "Serving Central",
+    heroHeadline2: "Florida.",
+    heroDescription: "We proudly serve families across 5 counties in Central Florida with professional water filtration installation and service.",
+    mapSection: {
+      label: "Coverage Map",
+      heading: "Our Service Coverage",
+      subheading: "Click or hover on a county to see service details.",
+    },
+    counties: [
+      {
+        name: "Osceola County",
+        description: "Our home base. Full-service coverage across Kissimmee, St. Cloud, Celebration, Poinciana, and surrounding communities. Same-day and next-day service available.",
+        cities: ["Kissimmee", "St. Cloud", "Celebration", "Poinciana", "Campbell", "Intercession City"],
+        waterNote: "Osceola County water is known for high hardness (15-25 GPG) and elevated chlorine levels from Toho Water Authority.",
+      },
+      {
+        name: "Orange County",
+        description: "Full coverage across Orlando, Winter Garden, Apopka, and surrounding areas. Orlando Utilities Commission water often tests high for chlorine and trihalomethanes.",
+        cities: ["Orlando", "Winter Garden", "Apopka", "Winter Park", "Lake Nona", "Dr. Phillips"],
+        waterNote: "Orange County water sources include the Floridan Aquifer, with naturally high mineral content and hardness averaging 18 GPG.",
+      },
+      {
+        name: "Polk County",
+        description: "Service available throughout Lakeland, Winter Haven, Haines City, Davenport, and Bartow. Many homes in Polk County rely on well water.",
+        cities: ["Lakeland", "Winter Haven", "Haines City", "Davenport", "Bartow", "Auburndale"],
+        waterNote: "Polk County has some of the hardest water in Florida, with many areas exceeding 20 GPG. Well water is common and often contains iron and sulfur.",
+      },
+      {
+        name: "Seminole County",
+        description: "Service available in Sanford, Altamonte Springs, Casselberry, and Lake Mary. Seminole County Utilities water has been flagged for HAA5 levels.",
+        cities: ["Sanford", "Altamonte Springs", "Casselberry", "Lake Mary", "Oviedo", "Longwood"],
+        waterNote: "Seminole County water has tested above EPA advisory levels for haloacetic acids (HAA5), a chlorine disinfection byproduct linked to health concerns.",
+      },
+      {
+        name: "Lake County",
+        description: "Service available in Clermont, Leesburg, Mount Dora, and Tavares. Growing communities with increasing water quality concerns.",
+        cities: ["Clermont", "Leesburg", "Mount Dora", "Tavares", "Eustis", "Minneola"],
+        waterNote: "Lake County water sources vary widely. Many developments use well water with elevated iron and sulfur, while city water has high chlorine residuals.",
+      },
+    ],
+    cityGrid: {
+      label: "Cities We Serve",
+      heading: "Find Us in Your Neighborhood",
+      subheading: "We serve 30+ cities across Central Florida. Find your city below.",
+    },
+    localContent: {
+      label: "Central Florida Water Quality",
+      heading: "Why Central Florida Needs Water Filtration",
+      paragraphs: [
+        "Central Florida's water supply faces unique challenges that affect every household. Drawing primarily from the Floridan Aquifer, our water naturally contains high levels of dissolved minerals, including calcium and magnesium that create hard water conditions averaging 15-25 grains per gallon -- among the hardest in the nation.",
+        "City water treatment adds chlorine and chloramines to disinfect the supply, but these chemicals create disinfection byproducts including trihalomethanes (THMs) and haloacetic acids (HAA5). Several Central Florida utilities have exceeded EPA advisory levels for these compounds, which are linked to increased cancer risk with long-term exposure.",
+        "Well water users face additional challenges including iron staining, hydrogen sulfide (rotten egg smell), sediment, and potential bacterial contamination. Florida does not regulate private well water quality, putting the responsibility on homeowners to test and treat their water.",
+        "At Pure Agua, we understand these local water challenges intimately. Our systems are specifically designed and sized for Central Florida water conditions, ensuring your family gets the cleanest, safest water possible from every faucet in your home.",
+      ],
+    },
+  },
+
+  // Trust Badge Bar
+  trustBadgeBar: {
+    wqaMember: "WQA Member",
+    bbbRated: "BBB A+ Rated",
+    flLicensed: "FL Licensed",
+    lifetimeWarranty: "Lifetime Warranty",
+    familiesServed: "Families Served",
+  },
+
+  // System Quiz
+  systemQuiz: {
+    label: "Find Your System",
+    heading: "Which System Is Right for You?",
+    subheading: "Answer 3 quick questions and we will recommend the perfect water filtration system for your home.",
+    step1: {
+      question: "What is your water source?",
+      options: ["City Water", "Well Water", "Not Sure"],
+    },
+    step2: {
+      question: "What issues have you noticed?",
+      options: ["Bad taste or smell", "Hard water / scale buildup", "Discolored water", "Health concerns", "Multiple issues"],
+    },
+    step3: {
+      question: "How many bathrooms does your home have?",
+      options: ["1-2 Bathrooms", "3-4 Bathrooms", "5+ Bathrooms"],
+    },
+    resultHeading: "Our Recommendation",
+    resultCta: "Schedule Free Water Test",
+    results: {
+      wholeHome: {
+        title: "Whole Home Filtration",
+        description: "A point-of-entry system that filters all water in your home. Perfect for removing chlorine, chemicals, and improving water quality throughout.",
+      },
+      reverseOsmosis: {
+        title: "Reverse Osmosis System",
+        description: "The purest drinking water possible. Multi-stage filtration removes up to 99% of contaminants for crystal-clear water from your kitchen tap.",
+      },
+      waterSoftener: {
+        title: "Water Softening System",
+        description: "End hard water problems forever. Protect your pipes, appliances, and enjoy softer skin and hair with our advanced softening systems.",
+      },
+      wellWater: {
+        title: "Well Water Treatment",
+        description: "Custom-designed treatment for your well water challenges. Address iron, sulfur, bacteria, and sediment with a system built for your specific water.",
+      },
+      combo: {
+        title: "Combination System",
+        description: "For homes with multiple water issues, we recommend a combination of filtration and softening. Our free water test will determine the exact configuration you need.",
+      },
+    },
+  },
+
+  // Social Feed / Google Reviews
+  socialFeed: {
+    heading: "Rated 5 Stars on Google",
+    description: "See what our customers are saying",
+    viewAll: "View All Reviews on Google",
   },
 } as const;
 

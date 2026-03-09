@@ -6,6 +6,8 @@ import { ArrowRight, Phone } from "lucide-react";
 import Link from "next/link";
 import { WaterButton } from "@/components/ui/water-button";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import MagneticWrapper from "@/components/animations/magnetic-wrapper";
+import { NumberTicker } from "@/components/magicui/number-ticker";
 
 interface InlineCTABannerProps {
   headline?: string;
@@ -53,28 +55,37 @@ export default function InlineCTABanner({
 
         <div className="relative z-10 flex flex-col md:flex-row items-center gap-6 md:gap-10">
           <div className="flex-1 text-center md:text-left">
-            <h3 className={`text-xl md:text-2xl font-bold ${textColor} mb-2`}>
+            <h3 className={`text-xl md:text-2xl font-bold ${textColor} mb-2 flex items-center gap-2.5 justify-center md:justify-start`}>
+              <span className="relative flex h-2.5 w-2.5 flex-shrink-0">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" />
+              </span>
               {headline}
             </h3>
             <p className={`text-sm md:text-base ${subtextColor} leading-relaxed`}>
               {subtext}
             </p>
+            <p className={`mt-2 text-sm font-semibold ${variant === "subtle" ? "text-[var(--color-primary)]" : "text-white/90"}`}>
+              <NumberTicker value={500} className="font-bold" />+ families served in Central Florida
+            </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
-            <Link href={buttonHref}>
-              <WaterButton
-                fillColor={variant === "subtle" ? "var(--color-primary)" : "white"}
-                className={`text-sm font-semibold px-6 py-3.5 ${
-                  variant === "subtle"
-                    ? "border-[var(--color-primary)] text-[var(--color-primary)]"
-                    : "border-white text-white"
-                }`}
-              >
-                {buttonText}
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </WaterButton>
-            </Link>
+            <MagneticWrapper strength={0.3}>
+              <Link href={buttonHref}>
+                <WaterButton
+                  fillColor={variant === "subtle" ? "var(--color-primary)" : "white"}
+                  className={`text-sm font-semibold px-6 py-3.5 ${
+                    variant === "subtle"
+                      ? "border-[var(--color-primary)] text-[var(--color-primary)]"
+                      : "border-white text-white"
+                  }`}
+                >
+                  {buttonText}
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </WaterButton>
+              </Link>
+            </MagneticWrapper>
             {showPhone && (
               <a
                 href="tel:+14077732883"

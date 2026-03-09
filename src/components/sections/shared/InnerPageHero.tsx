@@ -7,6 +7,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import MagneticWrapper from "@/components/animations/magnetic-wrapper";
 
 interface Breadcrumb {
   label: string;
@@ -164,17 +165,20 @@ export function InnerPageHero({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
               >
-                <Link href={ctaHref}>
-                  <ShimmerButton
-                    shimmerColor="#3BD6F5"
-                    background="var(--color-accent)"
-                    borderRadius="12px"
-                    className="text-sm font-semibold px-6 py-3"
-                  >
-                    {ctaText}
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </ShimmerButton>
-                </Link>
+                <MagneticWrapper strength={0.3}>
+                  <Link href={ctaHref}>
+                    <ShimmerButton
+                      shimmerColor="#3BD6F5"
+                      background="var(--color-accent)"
+                      borderRadius="12px"
+                      glowColor="rgba(59, 214, 245, 0.25)"
+                      className="text-sm font-semibold px-6 py-3 group"
+                    >
+                      {ctaText}
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </ShimmerButton>
+                  </Link>
+                </MagneticWrapper>
               </motion.div>
             )}
           </div>

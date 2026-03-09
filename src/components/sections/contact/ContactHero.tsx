@@ -16,8 +16,8 @@ export function ContactHero() {
         { label: t("common", "home"), href: "/" },
         { label: t("common", "contact") },
       ]}
-      image="https://images.pexels.com/photos/4262413/pexels-photo-4262413.jpeg?auto=compress&cs=tinysrgb&w=1920"
-      imageAlt="Family enjoying clean water"
+      image="/images/contact-hero.jpeg"
+      imageAlt="Happy family at home"
       variant="accent"
       ctaText={t("nav", "freeWaterTest")}
       ctaHref="#contact-form"

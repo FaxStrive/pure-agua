@@ -13,8 +13,9 @@ export function Footer() {
 
   const companyLinks = [
     { href: "/about", label: t("common", "about") },
+    { href: "/before-after", label: t("common", "beforeAfter") },
+    { href: "/testimonials", label: t("common", "testimonials") },
     { href: "/gallery", label: t("common", "gallery") },
-    { href: "/careers", label: t("common", "careers") },
   ];
 
   const serviceLinks = [
@@ -25,9 +26,10 @@ export function Footer() {
   ];
 
   const supportLinks = [
+    { href: "/service-area", label: t("common", "serviceArea") },
+    { href: "/faq", label: t("common", "faq") },
     { href: "/warranty", label: t("common", "warranty") },
     { href: "/financing", label: t("common", "financing") },
-    { href: "/resources", label: t("common", "resources") },
     { href: "/contact", label: t("common", "contact") },
   ];
 

@@ -14,6 +14,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { translations } from "@/lib/i18n/translations";
+import MagneticWrapper from "@/components/animations/magnetic-wrapper";
 
 // Floating orb that drifts using useAnimationFrame
 function FloatingOrb({
@@ -267,15 +268,17 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
           >
-            <Link href="/contact">
-              <Button
-                size="lg"
-                className="bg-white text-[var(--color-dark)] hover:bg-white/90 rounded-full px-6 sm:px-10 py-4 sm:py-6 text-sm sm:text-base font-semibold shadow-2xl shadow-black/20 transition-all duration-300 group w-full sm:w-auto"
-              >
-                {t("hero", "ctaPrimary")}
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </Link>
+            <MagneticWrapper strength={0.3}>
+              <Link href="/contact">
+                <Button
+                  size="lg"
+                  className="bg-white text-[var(--color-dark)] hover:bg-white/90 rounded-full px-6 sm:px-10 py-4 sm:py-6 text-sm sm:text-base font-semibold shadow-2xl shadow-black/20 transition-all duration-300 group w-full sm:w-auto"
+                >
+                  {t("hero", "ctaPrimary")}
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+            </MagneticWrapper>
             <Link href="/services/whole-home">
               <Button
                 size="lg"

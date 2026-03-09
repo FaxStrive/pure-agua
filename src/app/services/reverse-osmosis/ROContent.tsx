@@ -333,7 +333,7 @@ export function ROContent() {
           </div>
 
           <motion.div
-            className="text-center mt-12"
+            className="flex justify-center mt-12"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={viewportConfig}

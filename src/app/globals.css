@@ -391,3 +391,14 @@ html, body {
   initial-value: 0deg;
   inherits: false;
 }
+
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(1.04);
+  }
+}

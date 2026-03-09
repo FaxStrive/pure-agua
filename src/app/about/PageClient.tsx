@@ -1,6 +1,7 @@
 "use client";
 
 import { AboutHero } from "@/components/sections/about/AboutHero";
+import { TrustBadgeBar } from "@/components/sections/shared/TrustBadgeBar";
 import { OurStory } from "@/components/sections/about/OurStory";
 import { AboutStats } from "@/components/sections/about/AboutStats";
 import { Values } from "@/components/sections/about/Values";
@@ -13,6 +14,7 @@ export default function AboutPageClient() {
   return (
     <main>
       <AboutHero />
+      <TrustBadgeBar />
       <OurStory />
       <AboutStats />
       <Values />

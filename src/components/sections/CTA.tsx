@@ -63,10 +63,11 @@ export function CTA() {
                   shimmerColor="#3BD6F5"
                   background="white"
                   borderRadius="100px"
-                  className="!text-[var(--color-dark)] text-sm sm:text-base font-semibold px-6 sm:px-10 py-4 sm:py-5 shadow-2xl shadow-black/20"
+                  glowColor="rgba(255, 255, 255, 0.2)"
+                  className="!text-[var(--color-dark)] text-sm sm:text-base font-semibold px-6 sm:px-10 py-4 sm:py-5 shadow-2xl shadow-black/20 group"
                 >
                   {t("cta", "scheduleFree")}
-                  <ArrowRight className="w-5 h-5 ml-2" />
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </ShimmerButton>
               </Link>
             </MagneticWrapper>

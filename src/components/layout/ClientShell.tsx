@@ -7,6 +7,8 @@ import { ExitIntentPopup } from "@/components/conversion/ExitIntentPopup";
 import { SocialProofToast } from "@/components/conversion/SocialProofToast";
 import { StickyBottomBar } from "@/components/conversion/StickyBottomBar";
 import { FloatingCTA } from "@/components/conversion/FloatingCTA";
+import { TimedOfferPopup } from "@/components/conversion/TimedOfferPopup";
+import { ScrollCTA } from "@/components/conversion/ScrollCTA";
 
 export default function ClientShell({ children }: { children: React.ReactNode }) {
   return (
@@ -19,6 +21,8 @@ export default function ClientShell({ children }: { children: React.ReactNode })
       <SocialProofToast />
       <StickyBottomBar />
       <FloatingCTA />
+      <TimedOfferPopup />
+      <ScrollCTA />
     </>
   );
 }

@@ -50,7 +50,9 @@ export function Navbar() {
       ],
     },
     { href: "/about", label: t("common", "about") },
-    { href: "/gallery", label: t("common", "gallery") },
+    { href: "/testimonials", label: t("nav", "testimonials") },
+    { href: "/service-area", label: t("nav", "serviceArea") },
+    { href: "/faq", label: t("nav", "faq") },
     { href: "/contact", label: t("nav", "contact") },
   ];
 
@@ -107,7 +109,7 @@ export function Navbar() {
                 {item.href ? (
                   <Link
                     href={item.href}
-                    className={`px-4 py-2 text-sm font-medium transition-colors duration-300 rounded-lg ${
+                    className={`px-3 py-2 text-sm font-medium transition-colors duration-300 rounded-lg ${
                       isTransparent
                         ? "text-white/90 hover:text-white hover:bg-white/10"
                         : "text-[var(--color-foreground)] hover:text-[var(--color-primary)] hover:bg-[var(--color-primary)]/5"
@@ -117,7 +119,7 @@ export function Navbar() {
                   </Link>
                 ) : (
                   <button
-                    className={`flex items-center gap-1 px-4 py-2 text-sm font-medium transition-colors duration-300 rounded-lg ${
+                    className={`flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors duration-300 rounded-lg ${
                       isTransparent
                         ? "text-white/90 hover:text-white hover:bg-white/10"
                         : "text-[var(--color-foreground)] hover:text-[var(--color-primary)] hover:bg-[var(--color-primary)]/5"

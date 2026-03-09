@@ -10,6 +10,7 @@ export interface ShimmerButtonProps
   background?: string;
   className?: string;
   children?: React.ReactNode;
+  glowColor?: string;
 }
 
 export const ShimmerButton = React.forwardRef<
@@ -25,30 +26,45 @@ export const ShimmerButton = React.forwardRef<
       background = "rgba(0, 159, 227, 1)",
       className,
       children,
+      glowColor,
       ...props
     },
     ref
   ) => {
     return (
-      <button
-        style={
-          {
-            "--spread": "90deg",
-            "--shimmer-color": shimmerColor,
-            "--radius": borderRadius,
-            "--speed": shimmerDuration,
-            "--cut": shimmerSize,
-            "--bg": background,
-          } as CSSProperties
-        }
-        className={cn(
-          "group relative z-0 flex cursor-pointer items-center justify-center overflow-hidden whitespace-nowrap border border-white/10 px-6 py-3 text-white [background:var(--bg)] [border-radius:var(--radius)]",
-          "transform-gpu transition-transform duration-300 ease-in-out active:translate-y-px",
-          className
+      <div className="relative inline-flex group/glow">
+        {/* Animated glow ring */}
+        {glowColor && (
+          <div
+            className="absolute -inset-1.5 rounded-[var(--glow-radius)] opacity-0 group-hover/glow:opacity-100 transition-opacity duration-500 pointer-events-none animate-[glow-pulse_2s_ease-in-out_infinite]"
+            style={
+              {
+                "--glow-radius": borderRadius,
+                background: glowColor,
+                filter: "blur(8px)",
+              } as CSSProperties
+            }
+          />
         )}
-        ref={ref}
-        {...props}
-      >
+        <button
+          style={
+            {
+              "--spread": "90deg",
+              "--shimmer-color": shimmerColor,
+              "--radius": borderRadius,
+              "--speed": shimmerDuration,
+              "--cut": shimmerSize,
+              "--bg": background,
+            } as CSSProperties
+          }
+          className={cn(
+            "group relative z-0 flex cursor-pointer items-center justify-center overflow-hidden whitespace-nowrap border border-white/10 px-6 py-3 text-white [background:var(--bg)] [border-radius:var(--radius)]",
+            "transform-gpu transition-transform duration-300 ease-in-out active:translate-y-px",
+            className
+          )}
+          ref={ref}
+          {...props}
+        >
         {/* spark container */}
         <div
           className={cn(
@@ -81,7 +97,8 @@ export const ShimmerButton = React.forwardRef<
             "absolute -z-20 [background:var(--bg)] [border-radius:var(--radius)] [inset:var(--cut)]"
           )}
         />
-      </button>
+        </button>
+      </div>
     );
   }
 );
