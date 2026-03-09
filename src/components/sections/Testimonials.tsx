@@ -154,13 +154,6 @@ export function Testimonials() {
             className="relative"
           >
             <div className="relative rounded-3xl bg-white/[0.05] backdrop-blur-sm border border-white/10 p-6 sm:p-8 md:p-12 min-h-[260px] sm:min-h-[300px] flex flex-col justify-between overflow-hidden">
-              {/* Large decorative quote */}
-              <span
-                className="absolute -top-4 -left-2 text-[10rem] font-black leading-none select-none pointer-events-none text-[var(--color-accent)]/[0.07]"
-                aria-hidden="true"
-              >
-                &ldquo;
-              </span>
 
               <AnimatePresence mode="wait" custom={direction}>
                 <motion.div
