@@ -112,13 +112,13 @@ export function Process() {
                   </div>
 
                   {/* Photo */}
-                  <div className="hidden sm:block relative w-[140px] lg:w-[160px] shrink-0">
+                  <div className="relative w-[100px] sm:w-[140px] lg:w-[160px] shrink-0">
                     <Image
                       src={stepImages[i].src}
                       alt={stepImages[i].alt}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
-                      sizes="160px"
+                      sizes="(max-width: 640px) 100px, (max-width: 1024px) 140px, 160px"
                     />
                   </div>
                 </div>

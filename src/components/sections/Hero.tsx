@@ -85,19 +85,36 @@ export function Hero() {
   const contentMouseY = useTransform(mouseY, (v) => v * 0.01);
   const statsX = useTransform(mouseX, (v) => v * -0.008);
 
-  const handleMouseMove = useCallback(
-    (e: React.MouseEvent<HTMLDivElement>) => {
+  const updateParallax = useCallback(
+    (clientX: number, clientY: number) => {
       const rect = heroRef.current?.getBoundingClientRect();
       if (!rect) return;
       const cx = rect.left + rect.width / 2;
       const cy = rect.top + rect.height / 2;
-      rawMouseX.set(e.clientX - cx);
-      rawMouseY.set(e.clientY - cy);
+      rawMouseX.set(clientX - cx);
+      rawMouseY.set(clientY - cy);
     },
     [rawMouseX, rawMouseY]
   );
 
-  const handleMouseLeave = useCallback(() => {
+  const handleMouseMove = useCallback(
+    (e: React.MouseEvent<HTMLDivElement>) => {
+      updateParallax(e.clientX, e.clientY);
+    },
+    [updateParallax]
+  );
+
+  const handleTouchMove = useCallback(
+    (e: React.TouchEvent<HTMLDivElement>) => {
+      const touch = e.touches[0];
+      if (touch) {
+        updateParallax(touch.clientX, touch.clientY);
+      }
+    },
+    [updateParallax]
+  );
+
+  const handlePointerLeave = useCallback(() => {
     rawMouseX.set(0);
     rawMouseY.set(0);
   }, [rawMouseX, rawMouseY]);
@@ -113,7 +130,9 @@ export function Hero() {
       ref={heroRef}
       className="relative min-h-screen flex items-center overflow-hidden -mt-20"
       onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
+      onTouchMove={handleTouchMove}
+      onMouseLeave={handlePointerLeave}
+      onTouchEnd={handlePointerLeave}
     >
       {/* Full-bleed looping video background */}
       <div className="absolute inset-0">
