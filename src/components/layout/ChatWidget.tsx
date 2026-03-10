@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X, Calendar, HelpCircle, Phone } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { trackPhoneConversion } from "@/lib/gtag";
 
 export function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
@@ -87,7 +88,7 @@ export function ChatWidget() {
 
                 if (action.href.startsWith("tel:") || action.href.startsWith("mailto:")) {
                   return (
-                    <a key={action.label} href={action.href} onClick={() => setIsOpen(false)}>
+                    <a key={action.label} href={action.href} onClick={() => { setIsOpen(false); if (action.href.startsWith("tel:")) trackPhoneConversion(); }}>
                       {content}
                     </a>
                   );

@@ -7,6 +7,7 @@ import Link from "next/link";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import MagneticWrapper from "@/components/animations/magnetic-wrapper";
 import { translations } from "@/lib/i18n/translations";
+import { trackPhoneConversion } from "@/lib/gtag";
 
 export function FAQContactCTA() {
   const ref = useRef<HTMLElement>(null);
@@ -62,7 +63,7 @@ export function FAQContactCTA() {
               </Link>
             </MagneticWrapper>
 
-            <a href="tel:+14077732883">
+            <a href="tel:+14077732883" onClick={() => trackPhoneConversion()}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}

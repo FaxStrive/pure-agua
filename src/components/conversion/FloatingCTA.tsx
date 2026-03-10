@@ -6,6 +6,7 @@ import { Phone, Calendar } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { trackPhoneConversion } from "@/lib/gtag";
 
 export function FloatingCTA() {
   const [visible, setVisible] = useState(false);
@@ -98,6 +99,7 @@ export function FloatingCTA() {
 
                   <a
                     href="tel:+14077732883"
+                    onClick={() => trackPhoneConversion()}
                     className="flex items-center gap-2 text-white/80 hover:text-white text-xs font-medium transition-colors"
                   >
                     <Phone className="w-3.5 h-3.5" />

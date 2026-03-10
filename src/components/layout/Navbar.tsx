@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { trackPhoneConversion } from "@/lib/gtag";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { Phone, Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -166,6 +167,7 @@ export function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:+14077732883"
+              onClick={() => trackPhoneConversion()}
               className={`flex items-center gap-2 text-sm font-medium transition-colors ${
                 isTransparent
                   ? "text-white/70 hover:text-white"
@@ -289,6 +291,7 @@ export function Navbar() {
                 </Link>
                 <a
                   href="tel:+14077732883"
+                  onClick={() => trackPhoneConversion()}
                   className="flex items-center justify-center gap-2 mt-4 text-[var(--color-muted)] font-medium"
                 >
                   <Phone className="w-4 h-4" />

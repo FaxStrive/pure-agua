@@ -6,6 +6,7 @@ import { Shield, ArrowRight, Phone } from "lucide-react";
 import Link from "next/link";
 import { WaterButton } from "@/components/ui/water-button";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { trackPhoneConversion } from "@/lib/gtag";
 
 export function Guarantee() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -73,6 +74,7 @@ export function Guarantee() {
           </Link>
           <a
             href="tel:+14077732883"
+            onClick={() => trackPhoneConversion()}
             className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors font-medium"
           >
             <Phone className="w-5 h-5" />

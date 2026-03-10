@@ -8,6 +8,7 @@ import { WaterButton } from "@/components/ui/water-button";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import MagneticWrapper from "@/components/animations/magnetic-wrapper";
 import { NumberTicker } from "@/components/magicui/number-ticker";
+import { trackPhoneConversion } from "@/lib/gtag";
 
 interface InlineCTABannerProps {
   headline?: string;
@@ -89,6 +90,7 @@ export default function InlineCTABanner({
             {showPhone && (
               <a
                 href="tel:+14077732883"
+                onClick={() => trackPhoneConversion()}
                 className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${
                   variant === "subtle"
                     ? "text-[var(--color-text-muted)] hover:text-[var(--color-primary)]"

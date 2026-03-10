@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Mail, MapPin, Phone, ArrowRight } from "lucide-react";
+import { trackPhoneConversion } from "@/lib/gtag";
 import { motion } from "framer-motion";
 import { viewportConfig } from "@/lib/animations";
 import { Logo } from "@/components/ui/Logo";
@@ -193,6 +194,7 @@ export function Footer() {
               <li>
                 <a
                   href="tel:+14077732883"
+                  onClick={() => trackPhoneConversion()}
                   className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-sm"
                 >
                   <Phone className="w-4 h-4 shrink-0" />

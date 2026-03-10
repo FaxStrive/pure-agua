@@ -8,6 +8,7 @@ import Image from "next/image";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import MagneticWrapper from "@/components/animations/magnetic-wrapper";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { trackPhoneConversion } from "@/lib/gtag";
 
 export function CTA() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -71,7 +72,7 @@ export function CTA() {
                 </ShimmerButton>
               </Link>
             </MagneticWrapper>
-            <a href="tel:+14077732883">
+            <a href="tel:+14077732883" onClick={() => trackPhoneConversion()}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
