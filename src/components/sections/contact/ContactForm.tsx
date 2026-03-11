@@ -263,6 +263,11 @@ export function ContactForm() {
                   <p className="text-xs text-center text-[var(--color-muted)]">
                     {t("contactForm", "noObligationNote")}
                   </p>
+                  <p className="text-[11px] text-center text-[var(--color-muted)] leading-relaxed">
+                    By submitting your phone number, you consent to receive text messages from Pure Agua Enterprises. Message and data rates may apply. Reply STOP to unsubscribe. See our{" "}
+                    <a href="/privacy" className="underline hover:text-[var(--color-primary)]">Privacy Policy</a> and{" "}
+                    <a href="/terms" className="underline hover:text-[var(--color-primary)]">Terms of Service</a>.
+                  </p>
                 </div>
               </form>
             )}

@@ -145,6 +145,10 @@ export function ExitIntentPopup() {
                   <span className="relative">{t("exitPopup", "cta")}</span>
                 </Button>
 
+                <p className="text-[10px] text-center text-[var(--color-muted)]/60 leading-relaxed px-2">
+                  By submitting, you consent to receive texts from Pure Agua Enterprises. Msg & data rates may apply. Reply STOP to opt out. <a href="/privacy" className="underline">Privacy Policy</a> & <a href="/terms" className="underline">Terms</a>.
+                </p>
+
                 <button
                   type="button"
                   onClick={() => setOpen(false)}

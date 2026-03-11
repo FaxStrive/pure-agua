@@ -219,6 +219,15 @@ export function Footer() {
           <p className="text-white/30 text-sm">
             {new Date().getFullYear()} Pure Agua Enterprises. {t("footer", "allRightsReserved")}
           </p>
+          <div className="flex items-center gap-4">
+            <Link href="/terms" className="text-white/30 hover:text-white/60 text-xs transition-colors">
+              Terms of Service
+            </Link>
+            <span className="text-white/20">|</span>
+            <Link href="/privacy" className="text-white/30 hover:text-white/60 text-xs transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
           <p className="text-white/20 text-xs">
             {t("footer", "servingCentralFlorida")}
           </p>
