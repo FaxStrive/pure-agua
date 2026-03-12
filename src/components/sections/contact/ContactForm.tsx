@@ -1,11 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Mail, Clock, Send, ArrowRight, Calendar } from "lucide-react";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { MapPin, Mail, Clock } from "lucide-react";
 import { viewportConfig } from "@/lib/animations";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { TextAnimate } from "@/components/magicui/text-animate";
@@ -13,21 +10,16 @@ import WaterCaustics from "@/components/animations/water-caustics";
 
 export function ContactForm() {
   const { t } = useLanguage();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    service: "",
-    preferredDate: "",
-    preferredTime: "",
-    message: "",
-  });
-  const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://link.msgsndr.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   const contactInfo = [
     {
@@ -46,12 +38,6 @@ export function ContactForm() {
       details: [t("contactForm", "monSat"), t("contactForm", "sunClosed")],
     },
   ];
-
-  const getMinDate = () => {
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    return tomorrow.toISOString().split("T")[0];
-  };
 
   return (
     <section className="relative py-24 lg:py-32 bg-[var(--color-surface)] overflow-hidden">
@@ -111,166 +97,32 @@ export function ContactForm() {
             </div>
           </motion.div>
 
-          {/* Right - Form */}
+          {/* Right - GHL Form */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={viewportConfig}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {submitted ? (
-              <motion.div
-                className="bg-white rounded-2xl p-12 border border-[var(--color-border)] shadow-xl shadow-black/[0.03] text-center"
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                <div className="w-16 h-16 rounded-full bg-[var(--color-primary)]/10 flex items-center justify-center mx-auto mb-6">
-                  <Send className="w-8 h-8 text-[var(--color-primary)]" />
-                </div>
-                <h3 className="text-2xl font-bold text-[var(--color-foreground)] mb-3">
-                  {t("contactForm", "successTitle")}
-                </h3>
-                <p className="text-[var(--color-muted)] max-w-sm mx-auto">
-                  {t("contactForm", "successMessage")}
-                </p>
-              </motion.div>
-            ) : (
-              <form
-                onSubmit={handleSubmit}
-                className="bg-white rounded-2xl p-5 sm:p-8 lg:p-10 border border-[var(--color-border)] shadow-xl shadow-black/[0.03]"
-              >
-                <div className="flex items-center gap-3 mb-8">
-                  <Calendar className="w-5 h-5 text-[var(--color-primary)]" />
-                  <h3 className="text-xl font-bold text-[var(--color-foreground)]">
-                    {t("contactForm", "formTitle")}
-                  </h3>
-                </div>
-
-                <div className="space-y-5">
-                  <div className="grid sm:grid-cols-2 gap-5">
-                    <div>
-                      <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                        {t("contactForm", "fullName")}
-                      </label>
-                      <Input
-                        required
-                        placeholder={t("contactForm", "yourName")}
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="rounded-xl border-[var(--color-border)]"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                        {t("contactForm", "phone")}
-                      </label>
-                      <Input
-                        type="tel"
-                        placeholder="(555) 123-4567"
-                        value={formData.phone}
-                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="rounded-xl border-[var(--color-border)]"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                      {t("contactForm", "email")}
-                    </label>
-                    <Input
-                      required
-                      type="email"
-                      placeholder="you@example.com"
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="rounded-xl border-[var(--color-border)]"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                      {t("contactForm", "serviceInterest")}
-                    </label>
-                    <select
-                      value={formData.service}
-                      onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                      className="flex h-10 w-full rounded-xl border border-[var(--color-border)] bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/20 focus:border-[var(--color-primary)]"
-                    >
-                      <option value="">{t("contactForm", "selectService")}</option>
-                      <option value="water-test">{t("contactForm", "freeWaterTest")}</option>
-                      <option value="whole-home">{t("contactForm", "wholeHome")}</option>
-                      <option value="reverse-osmosis">{t("contactForm", "reverseOsmosisOpt")}</option>
-                      <option value="water-softening">{t("contactForm", "waterSofteningOpt")}</option>
-                      <option value="well-water">{t("contactForm", "wellWaterOpt")}</option>
-                      <option value="maintenance">{t("contactForm", "maintenance")}</option>
-                      <option value="other">{t("contactForm", "other")}</option>
-                    </select>
-                  </div>
-
-                  {/* Booking */}
-                  <div className="grid sm:grid-cols-2 gap-5">
-                    <div>
-                      <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                        {t("contactForm", "preferredDate")}
-                      </label>
-                      <Input
-                        type="date"
-                        min={getMinDate()}
-                        value={formData.preferredDate}
-                        onChange={(e) => setFormData({ ...formData, preferredDate: e.target.value })}
-                        className="rounded-xl border-[var(--color-border)]"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                        {t("contactForm", "preferredTime")}
-                      </label>
-                      <select
-                        value={formData.preferredTime}
-                        onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
-                        className="flex h-10 w-full rounded-xl border border-[var(--color-border)] bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/20 focus:border-[var(--color-primary)]"
-                      >
-                        <option value="">{t("contactForm", "selectTime")}</option>
-                        <option value="morning">{t("contactForm", "morning")}</option>
-                        <option value="afternoon">{t("contactForm", "afternoon")}</option>
-                        <option value="evening">{t("contactForm", "evening")}</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--color-foreground)] mb-2">
-                      {t("contactForm", "message")}
-                    </label>
-                    <Textarea
-                      placeholder={t("contactForm", "messagePlaceholder")}
-                      rows={4}
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="rounded-xl border-[var(--color-border)] resize-none"
-                    />
-                  </div>
-
-                  <ShimmerButton type="submit" className="w-full py-6 text-base font-semibold">
-                    <span className="flex items-center justify-center gap-2 text-white">
-                      {t("contactForm", "scheduleButton")}
-                      <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </span>
-                  </ShimmerButton>
-
-                  <p className="text-xs text-center text-[var(--color-muted)]">
-                    {t("contactForm", "noObligationNote")}
-                  </p>
-                  <p className="text-[11px] text-center text-[var(--color-muted)] leading-relaxed">
-                    By submitting your phone number, you consent to receive text messages from Pure Agua Enterprises. Message and data rates may apply. Reply STOP to unsubscribe. See our{" "}
-                    <a href="/privacy" className="underline hover:text-[var(--color-primary)]">Privacy Policy</a> and{" "}
-                    <a href="/terms" className="underline hover:text-[var(--color-primary)]">Terms of Service</a>.
-                  </p>
-                </div>
-              </form>
-            )}
+            <div className="bg-white rounded-2xl border border-[var(--color-border)] shadow-xl shadow-black/[0.03] overflow-hidden">
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/6vhJcN0hXPNf8gLJN1nZ"
+                style={{ width: "100%", height: "727px", border: "none", borderRadius: "3px" }}
+                id="inline-6vhJcN0hXPNf8gLJN1nZ"
+                data-layout='{"id":"INLINE"}'
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="A2P Compliant Form"
+                data-height="727"
+                data-layout-iframe-id="inline-6vhJcN0hXPNf8gLJN1nZ"
+                data-form-id="6vhJcN0hXPNf8gLJN1nZ"
+                title="A2P Compliant Form"
+              />
+            </div>
           </motion.div>
         </div>
       </div>
