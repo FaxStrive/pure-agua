@@ -1,5 +1,3 @@
-"use client";
-
 import { Hero } from "@/components/sections/Hero";
 import { TrustBadgeBar } from "@/components/sections/shared/TrustBadgeBar";
 import { Stats } from "@/components/sections/Stats";
@@ -13,28 +11,6 @@ import { SocialFeed } from "@/components/sections/shared/SocialFeed";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
-
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Pure Agua Enterprises | Central Florida Water Filtration',
-  description: 'Central Florida\'s trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home filtration, reverse osmosis, and water softening. Get a free water test today.',
-  alternates: {
-    canonical: 'https://pureaguaenterprise.com',
-  },
-  openGraph: {
-    title: 'Pure Agua Enterprises | Central Florida Water Filtration',
-    description: 'Family-owned water filtration experts serving Kissimmee and Orlando, FL. Free in-home water test included.',
-    url: 'https://pureaguaenterprise.com',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Pure Agua Enterprises - Central Florida Water Filtration' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Pure Agua Enterprises | Central Florida Water Filtration',
-    description: 'Family-owned water filtration experts. Free in-home water test in Kissimmee and Orlando, FL.',
-    images: ['/images/og-image.png'],
-  },
-};
 
 
 export default function Home() {
