@@ -10,6 +10,8 @@ import { SocialProofToast } from "@/components/conversion/SocialProofToast";
 import { StickyBottomBar } from "@/components/conversion/StickyBottomBar";
 import { FloatingCTA } from "@/components/conversion/FloatingCTA";
 
+import SchemaMarkup from '@/components/seo/schema-markup';
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
@@ -23,22 +25,39 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Pure Agua Enterprises | Pure Water, Nothing Less",
+  metadataBase: new URL('https://pureaguaenterprise.com'),
+
+  title: {
+    default: "Pure Agua Enterprises | Central Florida Water Filtration",
+    template: "%s | Pure Agua Enterprises",
+  },
   description:
     "Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.",
   keywords:
     "water filtration Orlando, water purification Kissimmee, reverse osmosis Central Florida, water softener Orlando, whole home water filter, Pure Agua Enterprises",
   openGraph: {
-    title: "Pure Agua Enterprises | Pure Water, Nothing Less",
+    title: "Pure Agua Enterprises | Central Florida Water Filtration",
     description:
       "Family-owned water filtration experts serving Kissimmee and Orlando, FL. Schedule your free water test today.",
     type: "website",
     locale: "en_US",
+    url: "https://pureaguaenterprise.com",
+    siteName: "Pure Agua Enterprises",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Pure Agua Enterprises - Central Florida Water Filtration",
+      },
+    ],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
+  twitter: {
+    card: "summary_large_image",
+    title: "Pure Agua Enterprises | Central Florida Water Filtration",
+    description:
+      "Family-owned water filtration experts serving Kissimmee and Orlando, FL. Free water test.",
+    images: ["/images/og-image.png"],
   },
   robots: {
     index: true,
@@ -56,6 +75,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="/images/hero-bg.jpg" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17998364551"
           strategy="afterInteractive"
@@ -89,6 +111,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased overflow-x-hidden">
         <NavbarWithBanner />
+        <SchemaMarkup />
         {children}
         <Footer />
         <ChatWidget />
@@ -96,7 +119,8 @@ export default function RootLayout({
         <SocialProofToast />
         <StickyBottomBar />
         <FloatingCTA />
-      </body>
+      
+</body>
     </html>
   );
 }
