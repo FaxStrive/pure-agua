@@ -398,7 +398,7 @@ function getServiceSchema(pathname: string) {
 }
 
 export default function SchemaMarkup() {
-  const pathname = usePathname()
+  const pathname = usePathname() || '/'
   const schemas: object[] = []
 
   if (pathname === '/') {
