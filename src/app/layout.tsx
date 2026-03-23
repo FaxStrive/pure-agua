@@ -120,6 +120,124 @@ export default function RootLayout({
         <StickyBottomBar />
         <FloatingCTA />
       
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "LocalBusiness",
+                    "name": "Pure Agua Enterprises",
+                    "description": "Pure Agua Enterprises provides professional water filtration, water softeners, and reverse osmosis systems . Clean, healthy water for your home or business.",
+                    "url": "https://pureaguaenterprise.com",
+                    "telephone": "1799836455",
+                    "priceRange": "$$",
+                    "image": "https://pureaguaenterprise.com/images/og-image.png",
+                    "address": {
+                              "@type": "PostalAddress",
+                              "streetAddress": {},
+                              "addressLocality": "",
+                              "addressRegion": "",
+                              "postalCode": "",
+                              "addressCountry": "US"
+                    },
+                    "areaServed": [
+                              {
+                                        "@type": "City",
+                                        "name": "Florida"
+                              }
+                    ],
+                    "openingHoursSpecification": [
+                              {
+                                        "@type": "OpeningHoursSpecification",
+                                        "dayOfWeek": [
+                                                  "Monday",
+                                                  "Tuesday",
+                                                  "Wednesday",
+                                                  "Thursday",
+                                                  "Friday"
+                                        ],
+                                        "opens": "08:00",
+                                        "closes": "18:00"
+                              },
+                              {
+                                        "@type": "OpeningHoursSpecification",
+                                        "dayOfWeek": [
+                                                  "Saturday"
+                                        ],
+                                        "opens": "08:00",
+                                        "closes": "14:00"
+                              }
+                    ],
+                    "makesOffer": [
+                              {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                                  "@type": "Service",
+                                                  "name": "Water Softener",
+                                                  "description": "Professional Water Softener services in ."
+                                        }
+                              },
+                              {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                                  "@type": "Service",
+                                                  "name": "Reverse Osmosis",
+                                                  "description": "Professional Reverse Osmosis services in ."
+                                        }
+                              },
+                              {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                                  "@type": "Service",
+                                                  "name": "Water Filtration",
+                                                  "description": "Professional Water Filtration services in ."
+                                        }
+                              },
+                              {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                                  "@type": "Service",
+                                                  "name": "Water Testing",
+                                                  "description": "Professional Water Testing services in ."
+                                        }
+                              },
+                              {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                                  "@type": "Service",
+                                                  "name": "Water Treatment",
+                                                  "description": "Professional Water Treatment services in ."
+                                        }
+                              },
+                              {
+                                        "@type": "Offer",
+                                        "itemOffered": {
+                                                  "@type": "Service",
+                                                  "name": "Well Water Treatment",
+                                                  "description": "Professional Well Water Treatment services in ."
+                                        }
+                              }
+                    ]
+          }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebSite",
+                    "name": "Pure Agua Enterprises",
+                    "url": "https://pureaguaenterprise.com",
+                    "potentialAction": {
+                              "@type": "SearchAction",
+                              "target": "https://pureaguaenterprise.com/?s={search_term_string}",
+                              "query-input": "required name=search_term_string"
+                    }
+          }),
+          }}
+        />
 </body>
     </html>
   );

@@ -12,6 +12,15 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Page | Pure Agua Enterprises | Water Treatment Services',
+  description: 'Pure Agua Enterprises serves your area with professional water treatment services. Contact us for a free estimate. Call 1799836455.',
+  alternates: { canonical: '/' },
+};
+
+
 
 export default function Home() {
   return (

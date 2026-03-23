@@ -400,6 +400,11 @@ export const blogPosts: BlogPost[] = [
 
 <p>Pure Agua offers a free water hardness assessment and appliance protection consultation for every new customer. We'll assess your current situation, estimate your accumulated scale buildup, and design a system sized correctly for your household.</p>`,
   },
+  {"slug":"../SEO BOT/content/articles/hard-water-guide-your-area.mdx","title":"Hard Water Guide Your Area.Mdx","description":"","date":"2026-03-23"},
+  {"slug":"../SEO BOT/content/articles/reverse-osmosis-vs-water-softener.mdx","title":"Reverse Osmosis Vs Water Softener.Mdx","description":"","date":"2026-03-23"},
+  {"slug":"../SEO BOT/content/articles/water-softener-maintenance-guide.mdx","title":"Water Softener Maintenance Guide.Mdx","description":"","date":"2026-03-23"},
+  {"slug":"../SEO BOT/content/articles/signs-you-need-water-filtration.mdx","title":"Signs You Need Water Filtration.Mdx","description":"","date":"2026-03-23"},
+  {"slug":"../SEO BOT/content/articles/water-quality-your-area.mdx","title":"Water Quality Your Area.Mdx","description":"","date":"2026-03-23"},
 ];
 
 export function getAllPosts(): BlogPost[] {

@@ -1,16 +1,16 @@
 # Pure Agua Enterprises
 
-> Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.  Serving undefined, undefined.
+> Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.  Serving Florida.
 
 ## About
 
-Pure Agua Enterprises is a trusted local provider serving undefined, undefined. Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today. 85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
+Pure Agua Enterprises is a trusted local provider serving Florida. Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today. 85% of U.S. homes have hard water (U.S. Geological Survey, 2024).
 
-Contact: 1799836455 |  | https://example.com
+Contact: 1799836455 |  | https://pureaguaenterprise.com
 
 ## Services
 
-- [Services](https://example.com/services): Professional services tailored to local needs.
+- [Services](https://pureaguaenterprise.com/services): Professional services tailored to local needs.
 
 ## Service Areas
 
@@ -37,14 +37,14 @@ Getting started is simple: call or submit the online contact form to schedule a 
 
 - **Phone**: 1799836455
 - **Address**: 
-- **Website**: https://example.com
-- **Book Online**: [Schedule a Free Consultation](https://example.com/contact)
+- **Website**: https://pureaguaenterprise.com
+- **Book Online**: [Schedule a Free Consultation](https://pureaguaenterprise.com/contact)
 
 ## All Pages
 
-- [Home](https://example.com): Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.
+- [Home](https://pureaguaenterprise.com): Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.
 
 ## Machine-Readable Versions
 
-- [Full Context](https://example.com/llms-full.txt): Extended business information for AI systems
-- [Q&A Pairs](https://example.com/llms-qa.json): Structured question-answer pairs
+- [Full Context](https://pureaguaenterprise.com/llms-full.txt): Extended business information for AI systems
+- [Q&A Pairs](https://pureaguaenterprise.com/llms-qa.json): Structured question-answer pairs
