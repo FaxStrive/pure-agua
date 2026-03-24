@@ -5,6 +5,7 @@ import { WaterQualityChecker } from "@/components/sections/WaterQualityChecker";
 import { Services } from "@/components/sections/Services";
 import { Process } from "@/components/sections/Process";
 import { SystemQuiz } from "@/components/sections/shared/SystemQuiz";
+import { AnnualSavings } from "@/components/sections/AnnualSavings";
 import { WaterBottleSavings } from "@/components/sections/WaterBottleSavings";
 import { AboutPreview } from "@/components/sections/AboutPreview";
 import { SocialFeed } from "@/components/sections/shared/SocialFeed";
@@ -36,6 +37,7 @@ export default function Home() {
       <Services />
       <Process />
       <SystemQuiz />
+      <AnnualSavings />
       <WaterBottleSavings />
       <AboutPreview />
       <SocialFeed />
