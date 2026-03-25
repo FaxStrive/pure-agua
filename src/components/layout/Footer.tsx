@@ -17,6 +17,7 @@ export function Footer() {
     { href: "/before-after", label: t("common", "beforeAfter") },
     { href: "/testimonials", label: t("common", "testimonials") },
     { href: "/gallery", label: t("common", "gallery") },
+    { href: "/blog", label: "Blog" },
   ];
 
   const serviceLinks = [

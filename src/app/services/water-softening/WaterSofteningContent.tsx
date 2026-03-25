@@ -172,6 +172,108 @@ export function WaterSofteningContent() {
         <BeforeAfterSection items={beforeAfterItems} />
       )}
 
+      {/* Comparison Table + Cited Statistics */}
+      <section className="relative py-24 lg:py-32 overflow-hidden bg-white">
+        <div className="container-custom">
+          <motion.div
+            className="text-center mb-14"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewportConfig}
+          >
+            <span className="inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-[var(--color-primary)] mb-4">
+              <span className="w-8 h-px bg-[var(--color-primary)]" />
+              {"Side-by-Side Comparison"}
+              <span className="w-8 h-px bg-[var(--color-primary)]" />
+            </span>
+            <h2 className="heading-md font-bold text-[var(--color-foreground)] mb-4">
+              {"Salt-Based vs. Salt-Free Water Softeners"}
+            </h2>
+            <p className="text-[var(--color-muted)] max-w-2xl mx-auto">
+              {"Central Florida's extreme hardness (15-25 GPG) demands the right treatment approach. Here's how the two main options compare."}
+            </p>
+          </motion.div>
+
+          {/* Comparison Table */}
+          <div className="overflow-x-auto rounded-2xl shadow-lg border border-gray-200 mb-16 max-w-4xl mx-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ background: "linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%)" }} className="text-white">
+                  <th className="text-left p-4 font-bold">Feature</th>
+                  <th className="text-center p-4 font-bold">Salt-Based Softener<br /><span className="text-white/70 text-xs font-normal">Ion Exchange</span></th>
+                  <th className="text-center p-4 font-bold">Salt-Free Conditioner<br /><span className="text-white/70 text-xs font-normal">Template-Assisted Crystallization</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { feature: "Removes Hardness Minerals", saltBased: "Yes - physically removes Ca/Mg", saltFree: "No - minerals remain in water", highlight: true },
+                  { feature: "Prevents Scale Buildup", saltBased: "Yes - eliminates scale entirely", saltFree: "Partial - changes crystal structure", highlight: false },
+                  { feature: "Skin & Hair Benefits", saltBased: "Yes - truly soft water feel", saltFree: "Minimal - minerals still present", highlight: true },
+                  { feature: "Soap/Detergent Reduction", saltBased: "Up to 75% less soap needed", saltFree: "Minimal reduction", highlight: false },
+                  { feature: "Appliance Protection", saltBased: "Full protection, 50%+ longer life", saltFree: "Some scale prevention only", highlight: true },
+                  { feature: "Effectiveness in FL (15-25 GPG)", saltBased: "Highly effective at any hardness", saltFree: "Less effective above 12 GPG", highlight: false },
+                  { feature: "Salt & Maintenance", saltBased: "Requires salt refill monthly", saltFree: "No salt, low maintenance", highlight: true },
+                  { feature: "Operating Cost", saltBased: "$15-40/month in salt", saltFree: "Near zero operating cost", highlight: false },
+                ].map((row, idx) => (
+                  <tr key={idx} className={`border-t border-gray-100 ${row.highlight ? "bg-[var(--color-primary)]/5" : "bg-white"} hover:bg-[var(--color-primary)]/10 transition-colors`}>
+                    <td className="p-4 font-medium text-[var(--color-foreground)]">{row.feature}</td>
+                    <td className="p-4 text-center">
+                      <span className="inline-flex items-center gap-1.5 text-[var(--color-primary)] font-semibold">
+                        <Check className="w-4 h-4 shrink-0" />
+                        {row.saltBased}
+                      </span>
+                    </td>
+                    <td className="p-4 text-center text-gray-500">{row.saltFree}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Cited Statistics */}
+          <div className="max-w-4xl mx-auto rounded-2xl p-8 border border-[var(--color-primary)]/20" style={{ background: "linear-gradient(160deg, rgba(0,159,227,0.04) 0%, rgba(59,214,245,0.06) 100%)" }}>
+            <h3 className="text-xl font-bold text-[var(--color-foreground)] text-center mb-2">
+              {"Research-Backed Water Softener Data for Central Florida"}
+            </h3>
+            <p className="text-[var(--color-muted)] text-sm text-center mb-8">Sources cited below</p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-white rounded-xl p-4 shadow-sm border border-[var(--color-primary)]/10">
+                  <div className="text-2xl font-black text-[var(--color-primary)] mb-1">15-25 GPG</div>
+                  <p className="text-[var(--color-foreground)] text-sm leading-relaxed">
+                    Central Florida (Osceola and Orange counties) water hardness, classified as &ldquo;very hard&rdquo; to &ldquo;extremely hard.&rdquo; The national average is 10-12 GPG.
+                  </p>
+                  <p className="text-gray-400 text-xs mt-2">Source: USGS National Water-Quality Assessment Program, Florida groundwater data</p>
+                </div>
+                <div className="bg-white rounded-xl p-4 shadow-sm border border-[var(--color-primary)]/10">
+                  <div className="text-2xl font-black text-[var(--color-primary)] mb-1">$479/year</div>
+                  <p className="text-[var(--color-foreground)] text-sm leading-relaxed">
+                    Average annual savings for a family of four using a water softener, including reduced soap use, lower energy costs, and extended appliance lifespan.
+                  </p>
+                  <p className="text-gray-400 text-xs mt-2">Source: Water Quality Research Foundation, bathing and appliance efficiency study</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-white rounded-xl p-4 shadow-sm border border-[var(--color-primary)]/10">
+                  <div className="text-2xl font-black text-[var(--color-primary)] mb-1">29% energy savings</div>
+                  <p className="text-[var(--color-foreground)] text-sm leading-relaxed">
+                    Reduction in water heater energy consumption with soft water. Hard water scale on heating elements forces the heater to work harder, reducing efficiency significantly.
+                  </p>
+                  <p className="text-gray-400 text-xs mt-2">Source: U.S. Department of Energy, water heater scale efficiency analysis</p>
+                </div>
+                <div className="bg-white rounded-xl p-4 shadow-sm border border-[var(--color-primary)]/10">
+                  <div className="text-2xl font-black text-[var(--color-primary)] mb-1">50% shorter lifespan</div>
+                  <p className="text-[var(--color-foreground)] text-sm leading-relaxed">
+                    Appliances run on untreated hard water fail up to 50% faster than those supplied with softened water. Dishwashers, washing machines, and water heaters are most affected.
+                  </p>
+                  <p className="text-gray-400 text-xs mt-2">Source: Water Quality Research Foundation, appliance lifespan study with hard vs. soft water</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Process - Dark section with Sparkles */}
       <section className="relative py-24 lg:py-32 overflow-hidden bg-[var(--color-dark)]">
         <div className="absolute inset-0">

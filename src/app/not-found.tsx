@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Page Not Found | Pure Agua Enterprises",
+  description: "The page you are looking for does not exist. Return to Pure Agua Enterprises for water filtration in Central Florida.",
+  robots: { index: false, follow: true },
+};
+
 export default function NotFound() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
