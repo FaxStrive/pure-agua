@@ -18,6 +18,7 @@ export function Footer() {
     { href: "/testimonials", label: t("common", "testimonials") },
     { href: "/gallery", label: t("common", "gallery") },
     { href: "/blog", label: "Blog" },
+    { href: "/careers", label: t("common", "careers") },
   ];
 
   const serviceLinks = [
