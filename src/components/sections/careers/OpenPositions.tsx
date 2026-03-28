@@ -84,14 +84,14 @@ export function OpenPositions() {
                       {pos.description}
                     </p>
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                      <a href="mailto:info@pureaguaenterprise.com">
+                      <a href="mailto:careers@pureaguafl.com">
                         <WaterButton className="px-6 py-2.5 text-sm">
                           <Mail className="w-4 h-4" />
                           {t("careersPage", "applyNow")}
                         </WaterButton>
                       </a>
                       <p className="text-xs text-[var(--color-muted)]">
-                        {t("careersPage", "applyInstructions")} info@pureaguaenterprise.com
+                        {t("careersPage", "applyInstructions")} careers@pureaguafl.com
                       </p>
                     </div>
                   </AccordionContent>

@@ -73,7 +73,7 @@ export function ApplicationForm() {
     } catch {
       setSending(false);
       setError(
-        "Something went wrong. Please try again or email us directly at info@pureaguaenterprise.com"
+        "Something went wrong. Please try again or email us directly at careers@pureaguafl.com"
       );
     }
   };
@@ -359,7 +359,7 @@ export function ApplicationForm() {
                       )}
                     </WaterButton>
                     <p className="text-xs text-[var(--color-muted)] text-center mt-4">
-                      Your information is sent directly to our hiring team at info@pureaguaenterprise.com
+                      Your information is sent directly to our hiring team at careers@pureaguafl.com
                     </p>
                   </motion.div>
                 </form>
