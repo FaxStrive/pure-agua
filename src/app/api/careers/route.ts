@@ -92,7 +92,7 @@ export async function POST(req: NextRequest) {
     if (!res.ok) {
       console.error("GHL API error:", res.status, JSON.stringify(data));
       return NextResponse.json(
-        { error: "GHL error", debug: data, status: res.status, hasKey: !!GHL_API_KEY, hasLoc: !!GHL_LOCATION_ID },
+        { error: "Failed to submit application" },
         { status: 500 }
       );
     }
