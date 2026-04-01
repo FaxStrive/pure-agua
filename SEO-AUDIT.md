@@ -2,10 +2,10 @@
 
 **Site:** Pure Agua Enterprises
 **URL:** https://pureaguaenterprise.com
-**Date:** 2026-03-23
+**Date:** 2026-03-31
 **Mode:** Live Crawl
 **Pages Analyzed:** 20
-**Overall Score:** 74/100 -- Above Average
+**Overall Score:** 68/100 -- Average
 
 ---
 
@@ -13,27 +13,27 @@
 
 | Category | Score | Max | Rating |
 |----------|-------|-----|--------|
-| Technical Foundation | 16 | 19 | Good |
-| On-Page SEO | 14 | 25 | Needs Work |
-| Structured Data | 12 | 16 | Fair |
+| Technical Foundation | 18 | 21 | Good |
+| On-Page SEO | 19 | 28 | Fair |
+| Structured Data | 11 | 21 | Needs Work |
 | Open Graph / Social | 9 | 12 | Fair |
-| Performance Signals | 13 | 18 | Fair |
-| LLM / GEO Optimization | 17 | 20 | Good |
-| **TOTAL** | **74** | **100** | **Above Average** |
+| Performance Signals | 15 | 24 | Fair |
+| LLM / GEO Optimization | 19 | 27 | Fair |
+| **TOTAL** | **68** | **100** | **Average** |
 
 ---
 
 ## Executive Summary
 
 - **[HIGH]** Add FAQPage schema to pages with question headings
-- **[HIGH]** Fix 1 duplicate title(s)
 - **[HIGH]** Add H1 to 3 page(s)
 - **[HIGH]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
 - **[HIGH]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
+- **[HIGH]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
 
 ---
 
-## 1. Technical Foundation -- 16/19
+## 1. Technical Foundation -- 18/21
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
@@ -45,38 +45,42 @@
 | XML sitemap exists | 2 | 2 | PASS | Dynamic sitemap.ts |
 | Sitemap in robots.txt | 1 | 1 | PASS |  |
 | No broken internal links | 2 | 2 | PASS |  |
-| Canonical tags on all pages | 2 | 0 | FAIL | 4/20 pages missing canonical tag |
+| Canonical tags on all pages | 2 | 0 | FAIL | 3/20 pages missing canonical tag |
 | Clean URL structure | 1 | 1 | PASS |  |
 | Favicon | 1 | 1 | PASS |  |
 | Custom 404 page | 1 | 1 | PASS |  |
 | Analytics tracking installed | 1 | 1 | PASS | Found: GTM |
+| Mobile content parity (no critical content hidden) | 1 | 1 | PASS |  |
+| All pages within 3 clicks of homepage | 1 | 1 | PASS |  |
 
-## 2. On-Page SEO -- 14/25
+## 2. On-Page SEO -- 19/28
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
-| Unique title tags, correct length | 3 | 1 | FAIL | 16 page(s) with missing/bad-length titles; 1 duplicate title(s) |
-| Unique meta descriptions, correct length | 3 | 1 | FAIL | 12 page(s) with missing/bad-length meta desc; 1 duplicate meta desc(s) |
+| Unique title tags, correct length | 3 | 2 | FAIL | 17 page(s) with missing/bad-length titles |
+| Unique meta descriptions, correct length | 3 | 2 | FAIL | 11 page(s) with missing/bad-length meta desc |
 | Single H1 per page | 2 | 1 | FAIL | 3 page(s) missing H1 |
-| Proper heading hierarchy (H1>H2>H3) | 2 | 1 | FAIL | 1 page(s) have H3 without H2 |
+| Proper heading hierarchy (H1>H2>H3) | 2 | 2 | PASS |  |
 | Alt text on all images | 2 | 2 | PASS |  |
 | Image dimensions (CLS prevention) | 2 | 2 | PASS |  |
+| Images use next/image component | 2 | 2 | PASS |  |
+| No duplicate content across pages | 1 | 0 | FAIL | 106 page pair(s) with >50% content overlap: /about <> /before-after (80%); /about <> /careers (80%) |
 | Internal linking with descriptive anchors | 2 | 2 | PASS |  |
 | No orphan pages (all pages internally linked) | 1 | 0 | FAIL | 15 page(s) with no internal links pointing to them: /before-after, /blog/[slug], /careers... |
 | External links have rel="noopener" | 1 | 1 | PASS |  |
-| Content length meets threshold | 1 | 0 | FAIL | Homepage: 195 words (need 400+); 5 thin service page(s) |
+| Content length meets threshold | 1 | 0 | FAIL | Homepage: 268 words (need 400+); 5 thin service page(s) |
 | Primary keyword in title + H1 | 2 | 1 | FAIL | 16/20 pages have matching keywords in title and H1 |
 | No plain text email addresses exposed | 1 | 1 | PASS |  |
 | Top keywords present in title + meta description | 2 | 1 | FAIL | 14/20 pages have keyword alignment (70%) |
 | Business address visible on page | 1 | 0 | FAIL | Business address not found in visible page content (footer/header). Only in schema is not enough. |
 
-## 3. Structured Data -- 12/16
+## 3. Structured Data -- 11/21
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
-| LocalBusiness or subtype schema | 3 | 3 | PASS | Found: HomeAndConstructionBusiness |
+| LocalBusiness or subtype schema | 3 | 2 | FAIL | Found: LocalBusiness (use specific subtype for +1pt) |
 | NAP in schema | 1 | 1 | PASS |  |
-| NAP consistency (schema vs page) | 1 | 0 | FAIL | Schema phone +1-000-000-0000 not found in page content phones: 1407773288, (407) 773-2883 |
+| NAP consistency (schema vs page) | 1 | 0 | FAIL | Schema phone +1-000-000-0000 not found in page content phones: 1799836455, 1407773288, (407) 773-288... |
 | WebSite schema on homepage | 1 | 1 | PASS |  |
 | BreadcrumbList on interior pages | 2 | 2 | PASS |  |
 | FAQPage schema | 3 | 1 | FAIL | 2 page(s) have questions but no FAQPage schema |
@@ -84,6 +88,11 @@
 | Article schema | 1 | 0 | FAIL | No Article schema (may not have blog) |
 | dateModified/datePublished in schemas | 1 | 1 | PASS |  |
 | Schema validates (no parse errors) | 1 | 1 | PASS |  |
+| GeoCoordinates in LocalBusiness | 1 | 0 | FAIL | No geo coordinates in LocalBusiness schema. Add latitude/longitude via .seo-config.json. |
+| hasCertification in schema | 1 | 0 | FAIL | No certifications in schema. Add certifications via .seo-config.json. |
+| HowTo schema | 1 | 0 | FAIL | 3 page(s) have step content but no HowTo schema |
+| AggregateRating in schema | 1 | 0 | FAIL | No AggregateRating in schema. Add reviewRating/reviewCount via .seo-config.json. |
+| VideoObject schema | 1 | 0 | FAIL | No VideoObject schema. Add YouTube video embeds to pages for video rich results. |
 
 ## 4. Open Graph / Social -- 9/12
 
@@ -98,7 +107,7 @@
 | og:image:alt | 1 | 0 | FAIL | og:image:alt missing |
 | Social profile links on site | 2 | 0 | FAIL | Missing: facebook, instagram, twitter, linkedin, youtube |
 
-## 5. Performance Signals -- 13/18
+## 5. Performance Signals -- 15/24
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
@@ -109,9 +118,14 @@
 | Font loading optimized | 2 | 2 | PASS |  |
 | No render-blocking JS in <head> | 2 | 2 | PASS |  |
 | Bing sitemap submitted (Bing verification) | 2 | 0 | FAIL | No Bing site verification found (add msvalidate.01 meta tag or BingSiteAuth.xml) |
-| Minimal inline styles | 1 | 0 | FAIL | 31 inline style attributes found across pages (move to CSS classes) |
+| Minimal inline styles | 1 | 0 | FAIL | 36 inline style attributes found across pages (move to CSS classes) |
+| Click-to-call (phone numbers in tel: links) | 1 | 0 | FAIL | 2 phone number(s) not wrapped in tel: links |
+| GA4 conversion event tracking | 2 | 2 | PASS | Events: conversion |
+| Call tracking configured | 1 | 0 | FAIL | Phone numbers found but no call tracking (CallRail, CallTrackingMetrics, Marchex, WhatConverts). Can... |
+| Form submission tracking | 1 | 0 | FAIL | 1 form(s) without analytics event on submit. Add gtag("event", "form_submit") or dataLayer.push in o... |
+| Conversion funnel (CTA on all pages) | 1 | 0 | FAIL | Dead-end pages without CTA: /about, /before-after, /blog, /blog/[slug], /careers (+13 more) |
 
-## 6. LLM / GEO Optimization -- 17/20
+## 6. LLM / GEO Optimization -- 19/27
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
@@ -126,6 +140,11 @@
 | Comparison tables | 1 | 0 | FAIL | No comparison tables found |
 | Direct answer in first 100 words | 1 | 1 | PASS |  |
 | AI crawler rules optimized | 2 | 2 | PASS |  |
+| Entity density (brand/org/product names) | 2 | 1 | FAIL | Avg 10 entities/page |
+| Passage-level section length (134-250 words) | 1 | 0 | FAIL | Sections too thin: avg 118 words (need 134+). Expand content under each H2/H3. |
+| BLUF: keyword in first 100 words after H1 | 1 | 0 | FAIL | Only 15% of pages have primary keyword in first 100 words after H1. Lead with a declarative answer. |
+| Content freshness (files updated within 180 days) | 1 | 1 | PASS | Oldest page: 12 days |
+| Multimodal content (text + images + video + schema + tables + lists) | 1 | 0 | FAIL | Pages average only 1.4 content types (need 3+: text, images, video, structured data, tables, lists) |
 
 ---
 
@@ -133,7 +152,7 @@
 
 | Page | Score | Title (chars) | Meta Desc (chars) | H1 | Alt | Words | Issues |
 |------|-------|--------------|-------------------|-------|-----|-------|--------|
-| / | 19/25 | 56ch | 206ch | OK | OK | 195 | desc 206ch, no canonical |
+| / | 21/25 | 79ch | 131ch | OK | OK | 268 | title 79ch |
 | /about | 20/25 | 56ch | 166ch | OK | - | 20 | desc 166ch, thin |
 | /before-after | 17/25 | 70ch | 174ch | OK | - | 14 | title 70ch, desc 174ch, thin |
 | /blog | 22/25 | 42ch | 137ch | OK | - | 1214 | title 42ch |
@@ -174,33 +193,47 @@
 ### HIGH
 
 1. **[Structured Data]** Add FAQPage schema to pages with question headings
-2. **[On-Page]** Fix 1 duplicate title(s)
-3. **[On-Page]** Add H1 to 3 page(s)
-4. **[Structured Data]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
-5. **[On-Page]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
-6. **[On-Page]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
+2. **[On-Page]** Add H1 to 3 page(s)
+3. **[Structured Data]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
+4. **[On-Page]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
+5. **[On-Page]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
+6. **[Performance]** Wrap all phone numbers in tel: links for click-to-call on mobile
+7. **[On-Page]** Fix duplicate content — multiple pages have >50% content overlap, risking cannibalization
 ### MEDIUM
 
-7. **[Performance]** Add Bing site verification (msvalidate.01 meta tag or BingSiteAuth.xml) and submit sitemap to Bing Webmaster Tools
-8. **[On-Page]** Align title tags and meta descriptions with top page keywords for better ranking
-9. **[On-Page]** Add business address to footer or contact section (visible text, not just schema)
-10. **[On-Page]** Add internal links to orphan pages — these pages have no links pointing to them from other pages
-11. **[OG/Social]** Add social profile links to footer (Missing: facebook, instagram, twitter, linkedin, youtube)
+8. **[Performance]** Add Bing site verification (msvalidate.01 meta tag or BingSiteAuth.xml) and submit sitemap to Bing Webmaster Tools
+9. **[On-Page]** Align title tags and meta descriptions with top page keywords for better ranking
+10. **[On-Page]** Add business address to footer or contact section (visible text, not just schema)
+11. **[On-Page]** Add internal links to orphan pages — these pages have no links pointing to them from other pages
+12. **[OG/Social]** Add social profile links to footer (Missing: facebook, instagram, twitter, linkedin, youtube)
+13. **[LLM/GEO]** Increase entity density: mention brand names, certifications, standards, and product names more frequently in content
+14. **[LLM/GEO]** Optimize section lengths: each H2/H3 section should be 134-250 words for ideal LLM citation extraction
+15. **[LLM/GEO]** Add BLUF (Bottom Line Up Front): include primary keyword in a declarative statement within first 100 words after H1
+16. **[Structured Data]** Add GeoCoordinates to LocalBusiness schema via .seo-config.json (latitude/longitude)
+17. **[Structured Data]** Add business certifications to schema via .seo-config.json
+18. **[Structured Data]** Add AggregateRating to schema via .seo-config.json (reviewRating/reviewCount)
+19. **[Performance]** Install call tracking (CallRail, CallTrackingMetrics) to measure phone call conversions and attribute calls to marketing channels
+20. **[Performance]** Add analytics event firing on form submissions — forms exist but have no conversion tracking in onSubmit handlers
+21. **[Performance]** Fix conversion funnel dead-ends: Dead-end pages without CTA: /about, /before-after, /blog, /blog/[slug], /careers (+13 more)
+22. **[Performance]** 60-80% of calls go unanswered during peak hours. Consider adding: (1) after-hours answering service, (2) AI voice agent for 24/7 coverage, (3) callback request form, (4) SMS text-back automation.
 ### LOW
 
-12. **[Performance]** Move inline styles to CSS classes or Tailwind utilities
-13. **[LLM/GEO]** Add comparison tables to service pages
-14. **[LLM/GEO]** Add named authors with credentials
+23. **[Performance]** Move inline styles to CSS classes or Tailwind utilities
+24. **[LLM/GEO]** Add more content types per page: include tables, lists, images, video embeds, and structured data for multimodal richness
+25. **[LLM/GEO]** Add comparison tables to service pages
+26. **[Structured Data]** Add HowTo schema to pages with step-by-step content (process, how-it-works)
+27. **[Structured Data]** Add VideoObject schema to pages with YouTube embeds for video rich results
+28. **[LLM/GEO]** Add named authors with credentials
 ---
 
 ## External Audit Estimate (SEOptimer-style)
 
 | Category | Est. Grade | Our Score |
 |----------|-----------|----------|
-| Overall | **C** | 74/100 |
-| On-Page SEO | D | 56% |
-| Usability | C+ | 77% |
-| Performance | C- | 72% |
+| Overall | **D+** | 68/100 |
+| On-Page SEO | C | 68% |
+| Usability | C- | 72% |
+| Performance | D | 63% |
 | Social | C | 75% |
 
 *Note: External audit tools may differ. This is an estimate based on our internal scoring.*

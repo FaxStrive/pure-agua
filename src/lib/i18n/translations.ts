@@ -1192,6 +1192,13 @@ export const translations = {
     filterNote: "Based on ~$30/month average filter maintenance cost",
   },
 
+  // Mobile Call Bar (3-button bottom bar)
+  mobileCallBar: {
+    callNow: "Call Now",
+    textUs: "Text Us",
+    freeQuote: "Free Quote",
+  },
+
   // Floating CTA (desktop service pages)
   floatingCta: {
     label: "Get Free Quote",

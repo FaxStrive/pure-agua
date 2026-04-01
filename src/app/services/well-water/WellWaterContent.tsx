@@ -22,6 +22,7 @@ import InlineCTABanner from "@/components/conversion/InlineCTABanner";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
+import InlineCTA from "@/components/InlineCTA";
 
 interface ProblemItem {
   problem: string;
@@ -263,6 +264,7 @@ export function WellWaterContent() {
       )}
 
       <Guarantee />
+      <InlineCTA variant="button" text="Get Your Well Water Tested Free" trustLine="Iron, sulfur, bacteria testing and custom solutions" />
       <Testimonials />
       <RelatedServices currentSlug="well-water" />
       <CTA />

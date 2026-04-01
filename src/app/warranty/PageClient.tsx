@@ -5,6 +5,7 @@ import { ServiceProcess } from "@/components/sections/services/shared/ServicePro
 import { ServiceFAQ } from "@/components/sections/services/shared/ServiceFAQ";
 import { CTA } from "@/components/sections/CTA";
 import { WarrantyHeroClient } from "./WarrantyHeroClient";
+import InlineCTA from "@/components/InlineCTA";
 
 export default function WarrantyPageClient() {
   return (

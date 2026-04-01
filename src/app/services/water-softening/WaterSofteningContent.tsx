@@ -23,6 +23,7 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
+import InlineCTA from "@/components/InlineCTA";
 
 interface ComparisonItem {
   before: LocalizedString;
@@ -400,6 +401,7 @@ export function WaterSofteningContent() {
       )}
 
       <Guarantee />
+      <InlineCTA variant="button" text="End Hard Water Problems Today" trustLine="Protect your appliances and plumbing" />
       <Testimonials />
       <RelatedServices currentSlug="water-softening" />
       <CTA />

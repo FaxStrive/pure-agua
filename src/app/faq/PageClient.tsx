@@ -6,6 +6,7 @@ import { AskQuestion } from "@/components/sections/faq/AskQuestion";
 import { FAQContactCTA } from "@/components/sections/faq/FAQContactCTA";
 import { CTA } from "@/components/sections/CTA";
 import { translations } from "@/lib/i18n/translations";
+import InlineCTA from "@/components/InlineCTA";
 
 export default function FAQPageClient() {
   const t = translations.faqPage;
@@ -26,6 +27,7 @@ export default function FAQPageClient() {
         ]}
       />
       <FAQCategories />
+      <InlineCTA variant="button" text="Still Have Questions? Talk to an Expert" trustLine="Free consultation — no pressure" />
       <AskQuestion />
       <FAQContactCTA />
       <CTA />

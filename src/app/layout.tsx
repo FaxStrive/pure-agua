@@ -9,6 +9,10 @@ import { ExitIntentPopup } from "@/components/conversion/ExitIntentPopup";
 import { SocialProofToast } from "@/components/conversion/SocialProofToast";
 import { StickyBottomBar } from "@/components/conversion/StickyBottomBar";
 import { FloatingCTA } from "@/components/conversion/FloatingCTA";
+import { MobileCallBar } from "@/components/conversion/MobileCallBar";
+import { ScrollRevealCTA } from "@/components/conversion/ScrollRevealCTA";
+import { CornerOfferPeek } from "@/components/conversion/CornerOfferPeek";
+import { TimedTopBar } from "@/components/conversion/TimedTopBar";
 
 import SchemaMarkup from '@/components/seo/schema-markup';
 
@@ -119,7 +123,10 @@ export default function RootLayout({
         <SocialProofToast />
         <StickyBottomBar />
         <FloatingCTA />
-      
+        <MobileCallBar />
+        <ScrollRevealCTA />
+        <CornerOfferPeek />
+        <TimedTopBar />
 
         <script
           type="application/ld+json"

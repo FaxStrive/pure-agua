@@ -12,6 +12,7 @@ import { SocialFeed } from "@/components/sections/shared/SocialFeed";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
+import InlineCTA from "@/components/InlineCTA";
 
 import type { Metadata } from 'next';
 
@@ -35,12 +36,16 @@ export default function Home() {
       <Stats />
       <WaterQualityChecker />
       <Services />
+      <InlineCTA variant="banner" text="Ready to Improve Your Water?" message="Get a free, no-obligation water test and find out exactly what's in your water." />
       <Process />
       <SystemQuiz />
+      <InlineCTA variant="button" text="Schedule Your Free Water Test" trustLine="500+ families served in Central Florida" />
       <AnnualSavings />
       <WaterBottleSavings />
+      <InlineCTA variant="text" text="See how much you could save with clean water" />
       <AboutPreview />
       <SocialFeed />
+      <InlineCTA variant="banner" text="Your Family Deserves Better Water" message="Professional installation with financing available. Call 407-773-2883." />
       <Testimonials />
       <FAQ />
       <CTA />

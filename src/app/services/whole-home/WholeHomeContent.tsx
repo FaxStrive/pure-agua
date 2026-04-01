@@ -22,6 +22,7 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import GlassLiftCard from "@/components/animations/glass-lift-card";
+import InlineCTA from "@/components/InlineCTA";
 
 const featureIcons = [Droplets, Shield, SparklesIcon, Zap, Heart, PiggyBank];
 
@@ -390,6 +391,7 @@ export function WholeHomeContent() {
       )}
 
       <Guarantee />
+      <InlineCTA variant="button" text="Get a Whole-Home Filtration Quote" trustLine="Clean water at every tap, every day" />
       <Testimonials />
       <RelatedServices currentSlug="whole-home" />
       <CTA />

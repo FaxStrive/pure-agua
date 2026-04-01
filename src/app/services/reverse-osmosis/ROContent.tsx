@@ -21,6 +21,7 @@ import { Guarantee } from "@/components/sections/services/Guarantee";
 import InlineCTABanner from "@/components/conversion/InlineCTABanner";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { WaterButton } from "@/components/ui/water-button";
+import InlineCTA from "@/components/InlineCTA";
 
 interface FeatureItem {
   title: LocalizedString;
@@ -408,6 +409,7 @@ export function ROContent() {
       )}
 
       <Guarantee />
+      <InlineCTA variant="button" text="Get a Free RO System Estimate" trustLine="Replaces 3,000+ plastic bottles per year" />
       <Testimonials />
       <RelatedServices currentSlug="reverse-osmosis" />
       <CTA />
