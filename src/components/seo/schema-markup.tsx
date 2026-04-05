@@ -32,7 +32,7 @@ const localBusinessSchema = {
   url: SITE_URL,
   telephone: PHONE,
   email: 'info@pureaguaenterprise.com',
-  priceRange: '$$',
+  priceRange: '$',
   image: `${SITE_URL}/images/og-image.png`,
   logo: `${SITE_URL}/images/pure-agua-logo.png`,
   address: {

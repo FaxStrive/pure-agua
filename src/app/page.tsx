@@ -17,9 +17,15 @@ import InlineCTA from "@/components/InlineCTA";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Page | Pure Agua Enterprises | Water Treatment Services',
-  description: 'Pure Agua Enterprises serves your area with professional water treatment services. Contact us for a free estimate. Call 1799836455.',
+  title: 'Water Filtration & Softeners Kissimmee & Orlando FL',
+  description: 'Pure Agua Enterprises provides water filtration, softeners, and reverse osmosis in Kissimmee and Orlando FL. Free in-home water test. Call (407) 773-2883 today.',
   alternates: { canonical: '/' },
+  openGraph: {
+    title: 'Pure Agua Enterprises | Central Florida Water Filtration',
+    description: 'Family-owned water filtration experts serving Kissimmee and Orlando. Free in-home water test available.',
+    url: 'https://pureaguaenterprise.com',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Pure Agua Enterprises - Central Florida Water Filtration and Softener Experts' }],
+  },
 };
 
 
@@ -29,7 +35,7 @@ export default function Home() {
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What water treatment services does Pure Agua Enterprises offer?","acceptedAnswer":{"@type":"Answer","text":"Pure Agua Enterprises offers water filtration, water softeners, reverse osmosis systems, and water testing in your area."}},{"@type":"Question","name":"How do I know if I need a water softener?","acceptedAnswer":{"@type":"Answer","text":"Signs you need a water softener include hard water deposits on faucets, dry skin after bathing, and spots on dishes. Contact us for a free water test."}},{"@type":"Question","name":"How long does installation take?","acceptedAnswer":{"@type":"Answer","text":"Most water treatment system installations take 2–4 hours. Our technicians work efficiently to minimize disruption to your home."}}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What water treatment services does Pure Agua Enterprises offer?","acceptedAnswer":{"@type":"Answer","text":"Pure Agua Enterprises offers water filtration, water softeners, reverse osmosis systems, and water testing in Kissimmee, Orlando, and Central Florida."}},{"@type":"Question","name":"How do I know if I need a water softener?","acceptedAnswer":{"@type":"Answer","text":"Signs you need a water softener include hard water deposits on faucets, dry skin after bathing, and spots on dishes. Contact us for a free water test."}},{"@type":"Question","name":"How long does installation take?","acceptedAnswer":{"@type":"Answer","text":"Most water treatment system installations take 2–4 hours. Our technicians work efficiently to minimize disruption to your home."}}]}) }}
       />
       <Hero />
       <TrustBadgeBar />

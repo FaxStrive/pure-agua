@@ -24,7 +24,7 @@ export async function generateMetadata({
       description: post.excerpt,
       url: `https://pureaguaenterprise.com/blog/${post.slug}`,
       type: "article",
-      images: [{ url: "/images/og-image.png", width: 1200, height: 630 }],
+      images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: `${post.title} - Pure Agua Enterprises Blog` }],
     },
   };
 }

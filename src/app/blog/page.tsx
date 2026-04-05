@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       "Expert water quality guides for Central Florida homeowners — Orlando, Kissimmee, and surrounding areas.",
     url: "https://pureaguaenterprise.com/blog",
-    images: [{ url: "/images/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Water Quality Blog - Expert Guides for Central Florida" }],
   },
 };
 

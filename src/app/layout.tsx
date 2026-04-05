@@ -86,6 +86,7 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=AW-17998364551"
           strategy="afterInteractive"
         />
+        <meta name="msvalidate.01" content="BING_VERIFICATION_ID_HERE" />
         <Script id="google-gtag" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -110,6 +111,37 @@ export default function RootLayout({
               });
               return false;
             }
+          `}
+        </Script>
+        <Script id="ga4-events" strategy="afterInteractive">
+          {`
+            document.addEventListener('click', function(e) {
+              var el = e.target.closest('a[href^="tel:"]');
+              if (el) {
+                gtag('event', 'phone_click', {
+                  event_category: 'conversion',
+                  event_label: el.getAttribute('href'),
+                  value: 1
+                });
+              }
+              var cta = e.target.closest('a[href="/contact"], button[type="submit"]');
+              if (cta) {
+                gtag('event', 'cta_click', {
+                  event_category: 'conversion',
+                  event_label: cta.textContent.trim().substring(0, 50),
+                  value: 1
+                });
+              }
+            });
+            document.addEventListener('submit', function(e) {
+              if (e.target.tagName === 'FORM') {
+                gtag('event', 'form_submission', {
+                  event_category: 'conversion',
+                  event_label: e.target.action || window.location.pathname,
+                  value: 1
+                });
+              }
+            });
           `}
         </Script>
       </head>
@@ -137,22 +169,20 @@ export default function RootLayout({
                     "name": "Pure Agua Enterprises",
                     "description": "Pure Agua Enterprises provides professional water filtration, water softeners, and reverse osmosis systems . Clean, healthy water for your home or business.",
                     "url": "https://pureaguaenterprise.com",
-                    "telephone": "1799836455",
-                    "priceRange": "$$",
+                    "telephone": "+14077732883",
+                    "priceRange": "$",
                     "image": "https://pureaguaenterprise.com/images/og-image.png",
                     "address": {
                               "@type": "PostalAddress",
-                              "streetAddress": {},
-                              "addressLocality": "",
-                              "addressRegion": "",
-                              "postalCode": "",
+                              "addressLocality": "Kissimmee",
+                              "addressRegion": "FL",
                               "addressCountry": "US"
                     },
                     "areaServed": [
-                              {
-                                        "@type": "City",
-                                        "name": "Florida"
-                              }
+                              { "@type": "City", "name": "Kissimmee" },
+                              { "@type": "City", "name": "Orlando" },
+                              { "@type": "City", "name": "St. Cloud" },
+                              { "@type": "City", "name": "Celebration" }
                     ],
                     "openingHoursSpecification": [
                               {
@@ -182,7 +212,7 @@ export default function RootLayout({
                                         "itemOffered": {
                                                   "@type": "Service",
                                                   "name": "Water Softener",
-                                                  "description": "Professional Water Softener services in ."
+                                                  "description": "Professional water softener services in Kissimmee, Orlando, and Central Florida."
                                         }
                               },
                               {
@@ -190,7 +220,7 @@ export default function RootLayout({
                                         "itemOffered": {
                                                   "@type": "Service",
                                                   "name": "Reverse Osmosis",
-                                                  "description": "Professional Reverse Osmosis services in ."
+                                                  "description": "Professional reverse osmosis systems in Kissimmee, Orlando, and Central Florida."
                                         }
                               },
                               {
@@ -198,7 +228,7 @@ export default function RootLayout({
                                         "itemOffered": {
                                                   "@type": "Service",
                                                   "name": "Water Filtration",
-                                                  "description": "Professional Water Filtration services in ."
+                                                  "description": "Professional water filtration services in Kissimmee, Orlando, and Central Florida."
                                         }
                               },
                               {
@@ -206,7 +236,7 @@ export default function RootLayout({
                                         "itemOffered": {
                                                   "@type": "Service",
                                                   "name": "Water Testing",
-                                                  "description": "Professional Water Testing services in ."
+                                                  "description": "Free water testing services in Kissimmee, Orlando, and Central Florida."
                                         }
                               },
                               {
@@ -214,7 +244,7 @@ export default function RootLayout({
                                         "itemOffered": {
                                                   "@type": "Service",
                                                   "name": "Water Treatment",
-                                                  "description": "Professional Water Treatment services in ."
+                                                  "description": "Professional water treatment services in Kissimmee, Orlando, and Central Florida."
                                         }
                               },
                               {
@@ -222,7 +252,7 @@ export default function RootLayout({
                                         "itemOffered": {
                                                   "@type": "Service",
                                                   "name": "Well Water Treatment",
-                                                  "description": "Professional Well Water Treatment services in ."
+                                                  "description": "Professional well water treatment services in Kissimmee, Orlando, and Central Florida."
                                         }
                               }
                     ]

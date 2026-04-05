@@ -49,7 +49,7 @@ export function TimedTopBar() {
                 Limited Time: Free Water Test for First-Time Customers!
               </p>
               <a
-                href="tel:4077732883"
+                href="tel:+14077732883"
                 className="hidden md:block text-white/90 font-semibold text-sm hover:text-white ml-4 whitespace-nowrap"
               >
                 Call (407) 773-2883

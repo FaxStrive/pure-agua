@@ -85,7 +85,7 @@ export function ScrollRevealCTA() {
                   />
                 </Link>
                 <a
-                  href="tel:4077732883"
+                  href="tel:+14077732883"
                   className="text-white font-semibold hover:text-white/80 transition-colors whitespace-nowrap"
                 >
                   (407) 773-2883

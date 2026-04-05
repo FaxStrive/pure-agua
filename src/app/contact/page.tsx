@@ -6,7 +6,7 @@ const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 export const metadata: Metadata = {
   title: "Contact Us - Free Water Test | Pure Agua Enterprises",
   description:
-    "Schedule your free in-home water test today. Call (407) 773-2883 or contact Pure Agua Enterprises serving Kissimmee and Orlando, FL.",
+    "Schedule your free in-home water test today. Call (407) 773-2883 or contact Pure Agua Enterprises serving Kissimmee and Orlando, FL. No obligation.",
   alternates: {
     canonical: "https://pureaguaenterprise.com/contact",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Contact Pure Agua Enterprises - Free Water Test",
     description: "Schedule your free in-home water test. Call (407) 773-2883. Serving Kissimmee and Orlando, FL.",
     url: "https://pureaguaenterprise.com/contact",
-    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Contact Pure Agua Enterprises" }],
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Contact Pure Agua Enterprises for a Free Water Test in Central Florida" }],
   },
   twitter: {
     card: "summary_large_image",
