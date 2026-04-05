@@ -1,0 +1,173 @@
+{
+  "business": {
+    "name": "Pure Agua Enterprises",
+    "legalName": "Pure Agua Enterprises",
+    "type": "HomeAndConstructionBusiness",
+    "license": "FL State Licensed & Insured",
+    "yearEstablished": 2016,
+    "certifications": [
+      "NSF/ANSI 58 Certified Systems",
+      "NSF/ANSI 61 Certified Systems",
+      "WQA Member",
+      "Licensed & Insured"
+    ],
+    "url": "https://pureaguaenterprise.com",
+    "phone": "+14077732883",
+    "email": "info@pureaguaenterprise.com",
+    "careersEmail": "careers@pureaguafl.com",
+    "address": {
+      "street": "3705 Eagle Isle Circle",
+      "city": "Kissimmee",
+      "state": "FL",
+      "zip": "34746",
+      "country": "US"
+    },
+    "geo": {
+      "latitude": 28.2919,
+      "longitude": -81.4076
+    },
+    "hours": {
+      "mondayFriday": "08:00-18:00",
+      "saturday": "08:00-14:00",
+      "sunday": "Closed"
+    },
+    "priceRange": "$",
+    "description": "Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com",
+      "googleMaps": "https://www.google.com/maps/place/Pure+Agua+Enterprise"
+    }
+  },
+  "services": [
+    {
+      "name": "Whole Home Water Filtration",
+      "slug": "whole-home",
+      "url": "/services/whole-home",
+      "description": "Complete point-of-entry water filtration systems removing chlorine, sediment, and contaminants at every faucet in your Central Florida home."
+    },
+    {
+      "name": "Water Softening Systems",
+      "slug": "water-softening",
+      "url": "/services/water-softening",
+      "description": "Salt-based and salt-free water softening systems for Central Florida homes. Eliminates hard water mineral buildup and extends appliance lifespan."
+    },
+    {
+      "name": "Reverse Osmosis Systems",
+      "slug": "reverse-osmosis",
+      "url": "/services/reverse-osmosis",
+      "description": "Multi-stage reverse osmosis drinking water systems removing up to 99% of contaminants including PFAS, lead, and arsenic."
+    },
+    {
+      "name": "Well Water Treatment",
+      "slug": "well-water",
+      "url": "/services/well-water",
+      "description": "Custom well water treatment systems for Florida well water problems including iron, sulfur, bacteria, and sediment."
+    },
+    {
+      "name": "Free Water Testing",
+      "slug": "water-testing",
+      "url": "/contact",
+      "description": "Complimentary in-home water quality analysis measuring hardness, pH, iron, chlorine, TDS, and contaminants specific to your Central Florida water supply."
+    },
+    {
+      "name": "Water Treatment",
+      "slug": "water-treatment",
+      "url": "/water-treatment",
+      "description": "Professional water treatment services in Central Florida."
+    }
+  ],
+  "serviceAreas": [
+    "Kissimmee",
+    "Orlando",
+    "St. Cloud",
+    "Celebration",
+    "Poinciana",
+    "Hunters Creek",
+    "Ocoee",
+    "Apopka",
+    "Clermont",
+    "Winter Haven",
+    "Lakeland",
+    "Haines City"
+  ],
+  "team": [
+    {
+      "role": "Owner / Lead Technician",
+      "bio": "Family-owned and operated, Pure Agua Enterprises was founded with a mission to bring pure, healthy water to every Central Florida home. Over 10 years of hands-on water treatment experience serving Kissimmee, Orlando, and surrounding communities."
+    },
+    {
+      "role": "Certified Installation Technician",
+      "bio": "Licensed and insured water treatment technician specializing in whole-home filtration, reverse osmosis, and water softener installations across Central Florida residential properties."
+    }
+  ],
+  "costData": {
+    "waterSoftener": {
+      "low": 500,
+      "high": 5000,
+      "avg": 3000,
+      "note": "Average installed cost in Florida ranges from $1,500 to $4,500"
+    },
+    "reverseOsmosis": {
+      "low": 300,
+      "high": 3000,
+      "avg": 1200,
+      "note": "Under-sink RO systems including installation"
+    },
+    "wholeHomeFiltration": {
+      "low": 800,
+      "high": 5000,
+      "avg": 2500,
+      "note": "Point-of-entry filtration systems installed"
+    },
+    "wellWaterTreatment": {
+      "low": 1000,
+      "high": 6000,
+      "avg": 3500,
+      "note": "Custom treatment systems for Florida well water"
+    },
+    "waterTesting": {
+      "low": 0,
+      "high": 0,
+      "avg": 0,
+      "note": "Complimentary in-home water testing"
+    }
+  },
+  "projectPhotos": [
+    {
+      "src": "https://images.pexels.com/photos/6444260/pexels-photo-6444260.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "alt": "Whole home filtration system installed",
+      "caption": "Whole home filtration system - Kissimmee, FL",
+      "category": "installations"
+    },
+    {
+      "src": "https://images.pexels.com/photos/6444368/pexels-photo-6444368.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "alt": "Water softener installation",
+      "caption": "Water softener installation - Orlando, FL",
+      "category": "installations"
+    },
+    {
+      "src": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "alt": "Clean filtered water glass",
+      "caption": "Crystal clear water after RO installation",
+      "category": "before-after"
+    }
+  ],
+  "aggregateRating": {
+    "ratingValue": 5.0,
+    "reviewCount": 200,
+    "bestRating": 5,
+    "worstRating": 1,
+    "source": "Google Reviews"
+  },
+  "products": [
+    "Watershield Carbon Filter",
+    "Watershield RO System",
+    "Watershield Big Pump RO",
+    "Watershield Gold Softener",
+    "Watershield ONE Smart Softener",
+    "Watershield NaturWise Salt-Free Conditioner",
+    "Watershield Sulfur Block"
+  ]
+}
