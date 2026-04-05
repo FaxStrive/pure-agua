@@ -3,12 +3,12 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
-  title: "Water Quality Blog",
+  title: "Water Quality Blog for Florida Homeowners | Pure Agua",
   description:
     "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
   alternates: { canonical: "https://pureaguaenterprise.com/blog" },
   openGraph: {
-    title: "Water Quality Blog | Pure Agua",
+    title: "Water Quality Blog for Florida Homeowners | Pure Agua",
     description:
       "Expert water quality guides for Central Florida homeowners — Orlando, Kissimmee, and surrounding areas.",
     url: "https://pureaguaenterprise.com/blog",

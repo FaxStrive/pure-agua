@@ -1,15 +1,20 @@
 {
+  "businessName": "Pure Agua Enterprises",
+  "phone": "+14077732883",
+  "industry": "Water Treatment & Filtration",
   "business": {
     "name": "Pure Agua Enterprises",
     "legalName": "Pure Agua Enterprises",
     "type": "HomeAndConstructionBusiness",
-    "license": "FL State Licensed & Insured",
+    "license": "CFC1430648",
+    "licenseDisplay": "FL State Licensed & Insured",
     "yearEstablished": 2016,
     "certifications": [
       "NSF/ANSI 58 Certified Systems",
       "NSF/ANSI 61 Certified Systems",
       "WQA Member",
-      "Licensed & Insured"
+      "Licensed & Insured",
+      "EPA WaterSense Partner"
     ],
     "url": "https://pureaguaenterprise.com",
     "phone": "+14077732883",

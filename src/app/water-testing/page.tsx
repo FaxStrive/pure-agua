@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Water Testing in Central Florida | Pure Agua Enterprises',
-  description: 'Get a free in-home water quality test in Kissimmee, Orlando, and Central Florida. We test for hardness, chlorine, iron, pH, TDS, and contaminants. Call (407) 773-2883.',
+  title: 'Free Water Testing Kissimmee & Orlando | Pure Agua',
+  description: 'Free in-home water testing in Kissimmee, Orlando, and Central Florida. We test for hardness, chlorine, iron, pH, and TDS. Call today.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/water-testing',
   },
   openGraph: {
-    title: 'Free Water Testing in Central Florida | Pure Agua Enterprises',
+    title: 'Free Water Testing Kissimmee & Orlando | Pure Agua',
     description: 'Get a free in-home water quality test in Kissimmee, Orlando, and Central Florida. We test for hardness, chlorine, iron, pH, TDS, and contaminants. Call (407) 773-2883.',
     url: 'https://pureaguaenterprise.com/water-testing',
     siteName: 'Pure Agua Enterprises',
@@ -24,16 +24,78 @@ export const metadata: Metadata = {
   },
 }
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Water Testing",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Pure Agua Enterprises",
+    "telephone": "+14077732883",
+    "url": "https://pureaguaenterprise.com"
+  },
+  "areaServed": [{ "@type": "City", "name": "Florida" }],
+  "url": "https://pureaguaenterprise.com/water-testing",
+  "description": "Pure Agua Enterprises provides professional water testing services in Central Florida. Free consultations available."
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Much Does Water Testing Cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Water Testing costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Long Does Water Testing Take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential water testing projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I Need a Permit for Water Testing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Warranty Does Pure Agua Enterprises Provide for Water Testing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pure Agua Enterprises Provide Water Testing in Central Florida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."
+      }
+    }
+  ]
+};
+
 export default function WaterTestingPage() {
   return (
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Water Testing","provider":{"@type":"LocalBusiness","name":"Pure Agua Enterprises","telephone":"+14077732883","url":"https://pureaguaenterprise.com"},"areaServed":[{"@type":"City","name":"Florida"}],"url":"https://pureaguaenterprise.com/water-testing","description":"Pure Agua Enterprises provides professional water testing services in Central Florida. Free consultations available."}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Water Testing Cost?","acceptedAnswer":{"@type":"Answer","text":"Water Testing costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."}},{"@type":"Question","name":"How Long Does Water Testing Take?","acceptedAnswer":{"@type":"Answer","text":"Most residential water testing projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."}},{"@type":"Question","name":"Do I Need a Permit for Water Testing?","acceptedAnswer":{"@type":"Answer","text":"Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."}},{"@type":"Question","name":"What Warranty Does Pure Agua Enterprises Provide for Water Testing?","acceptedAnswer":{"@type":"Answer","text":"Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."}},{"@type":"Question","name":"Does Pure Agua Enterprises Provide Water Testing in Central Florida?","acceptedAnswer":{"@type":"Answer","text":"Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."}}]}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Hero */}

@@ -37,10 +37,30 @@ const localBusinessSchema = {
   logo: `${SITE_URL}/images/pure-agua-logo.png`,
   address: {
     '@type': 'PostalAddress',
+    streetAddress: '3705 Eagle Isle Circle',
     addressLocality: 'Kissimmee',
     addressRegion: 'FL',
+    postalCode: '34746',
     addressCountry: 'US',
   },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 28.2919,
+    longitude: -81.4076,
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5.0',
+    reviewCount: '200',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  hasCredential: [
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF/ANSI 58 Certified Systems' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'NSF/ANSI 61 Certified Systems' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'membership', name: 'WQA Member' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'FL State Licensed & Insured' },
+  ],
   areaServed: SERVICE_AREAS.map((city) => ({
     '@type': 'City',
     name: city,

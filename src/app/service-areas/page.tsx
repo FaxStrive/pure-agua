@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Service Areas in Florida | Pure Agua Enterprises',
-  description: 'Pure Agua Enterprises provides water filtration, softeners, and reverse osmosis across Florida. Find water treatment services in your city. Free water testing available.',
+  title: 'All Florida Water Treatment Service Areas | Pure Agua',
+  description: 'Find Pure Agua water treatment services in your Florida city. Water filtration, softeners, and reverse osmosis. Free testing available.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/service-areas',
   },
   openGraph: {
-    title: 'Service Areas in Florida | Pure Agua Enterprises',
+    title: 'All Florida Water Treatment Service Areas | Pure Agua',
     description: 'Water filtration and treatment services across Florida. Find your city and schedule a free water test.',
     url: 'https://pureaguaenterprise.com/service-areas',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Pure Agua Enterprises Service Areas Across Florida' }],

@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Reverse Osmosis Systems Central Florida | Free Quote',
-  description: 'Professional reverse osmosis system installation in Kissimmee, Orlando, and Central Florida. Removes 99% of contaminants. Free in-home water test. Call (407) 773-2883.',
+  title: 'Reverse Osmosis Water Systems Kissimmee | Pure Agua',
+  description: 'Reverse osmosis installation in Kissimmee, Orlando, and Central Florida. Removes 99% of contaminants. Free water test. Call today.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/reverse-osmosis',
   },
   openGraph: {
-    title: 'Reverse Osmosis Systems Central Florida | Free Quote',
+    title: 'Reverse Osmosis Water Systems Kissimmee | Pure Agua',
     description: 'Professional reverse osmosis system installation in Kissimmee, Orlando, and Central Florida. Removes 99% of contaminants. Free in-home water test. Call (407) 773-2883.',
     url: 'https://pureaguaenterprise.com/reverse-osmosis',
     siteName: 'Pure Agua Enterprises',
@@ -24,16 +24,78 @@ export const metadata: Metadata = {
   },
 }
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Reverse Osmosis",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Pure Agua Enterprises",
+    "telephone": "+14077732883",
+    "url": "https://pureaguaenterprise.com"
+  },
+  "areaServed": [{ "@type": "City", "name": "Florida" }],
+  "url": "https://pureaguaenterprise.com/reverse-osmosis",
+  "description": "Pure Agua Enterprises provides professional reverse osmosis services in Central Florida. Free consultations available."
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Much Does Reverse Osmosis Cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reverse Osmosis costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Long Does Reverse Osmosis Take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential reverse osmosis projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I Need a Permit for Reverse Osmosis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Warranty Does Pure Agua Enterprises Provide for Reverse Osmosis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pure Agua Enterprises Provide Reverse Osmosis in Central Florida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."
+      }
+    }
+  ]
+};
+
 export default function ReverseOsmosisPage() {
   return (
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Reverse Osmosis","provider":{"@type":"LocalBusiness","name":"Pure Agua Enterprises","telephone":"+14077732883","url":"https://pureaguaenterprise.com"},"areaServed":[{"@type":"City","name":"Florida"}],"url":"https://pureaguaenterprise.com/reverse-osmosis","description":"Pure Agua Enterprises provides professional reverse osmosis services in Central Florida. Free consultations available."}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Reverse Osmosis Cost?","acceptedAnswer":{"@type":"Answer","text":"Reverse Osmosis costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."}},{"@type":"Question","name":"How Long Does Reverse Osmosis Take?","acceptedAnswer":{"@type":"Answer","text":"Most residential reverse osmosis projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."}},{"@type":"Question","name":"Do I Need a Permit for Reverse Osmosis?","acceptedAnswer":{"@type":"Answer","text":"Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."}},{"@type":"Question","name":"What Warranty Does Pure Agua Enterprises Provide for Reverse Osmosis?","acceptedAnswer":{"@type":"Answer","text":"Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."}},{"@type":"Question","name":"Does Pure Agua Enterprises Provide Reverse Osmosis in Central Florida?","acceptedAnswer":{"@type":"Answer","text":"Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."}}]}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Hero */}

@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Water Treatment Services Central Florida | Pure Agua',
-  description: 'Professional water treatment services in Kissimmee, Orlando, and Central Florida. Whole-home filtration, softening, and reverse osmosis. Free estimate. Call (407) 773-2883.',
+  title: 'Water Treatment Services in Kissimmee FL | Pure Agua',
+  description: 'Water treatment services in Kissimmee, Orlando, and Central Florida. Filtration, softening, and reverse osmosis. Free estimate available.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/water-treatment',
   },
   openGraph: {
-    title: 'Water Treatment Services Central Florida | Pure Agua',
+    title: 'Water Treatment Services in Kissimmee FL | Pure Agua',
     description: 'Professional water treatment services in Kissimmee, Orlando, and Central Florida. Whole-home filtration, softening, and reverse osmosis. Free estimate. Call (407) 773-2883.',
     url: 'https://pureaguaenterprise.com/water-treatment',
     siteName: 'Pure Agua Enterprises',
@@ -24,16 +24,78 @@ export const metadata: Metadata = {
   },
 }
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Water Treatment",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Pure Agua Enterprises",
+    "telephone": "+14077732883",
+    "url": "https://pureaguaenterprise.com"
+  },
+  "areaServed": [{ "@type": "City", "name": "Florida" }],
+  "url": "https://pureaguaenterprise.com/water-treatment",
+  "description": "Pure Agua Enterprises provides professional water treatment services in Central Florida. Free consultations available."
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Much Does Water Treatment Cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Water Treatment costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Long Does Water Treatment Take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential water treatment projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I Need a Permit for Water Treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Warranty Does Pure Agua Enterprises Provide for Water Treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pure Agua Enterprises Provide Water Treatment in Central Florida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."
+      }
+    }
+  ]
+};
+
 export default function WaterTreatmentPage() {
   return (
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Water Treatment","provider":{"@type":"LocalBusiness","name":"Pure Agua Enterprises","telephone":"+14077732883","url":"https://pureaguaenterprise.com"},"areaServed":[{"@type":"City","name":"Florida"}],"url":"https://pureaguaenterprise.com/water-treatment","description":"Pure Agua Enterprises provides professional water treatment services in Central Florida. Free consultations available."}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Water Treatment Cost?","acceptedAnswer":{"@type":"Answer","text":"Water Treatment costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."}},{"@type":"Question","name":"How Long Does Water Treatment Take?","acceptedAnswer":{"@type":"Answer","text":"Most residential water treatment projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."}},{"@type":"Question","name":"Do I Need a Permit for Water Treatment?","acceptedAnswer":{"@type":"Answer","text":"Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."}},{"@type":"Question","name":"What Warranty Does Pure Agua Enterprises Provide for Water Treatment?","acceptedAnswer":{"@type":"Answer","text":"Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."}},{"@type":"Question","name":"Does Pure Agua Enterprises Provide Water Treatment in Central Florida?","acceptedAnswer":{"@type":"Answer","text":"Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."}}]}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Hero */}

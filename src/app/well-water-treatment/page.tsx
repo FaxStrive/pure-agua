@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Well Water Treatment Central Florida | Pure Agua',
-  description: 'Professional well water treatment for iron, sulfur, bacteria, and sediment in Kissimmee, Orlando, and Central Florida. Custom solutions with lifetime warranty. Call (407) 773-2883.',
+  title: 'Well Water Treatment in Central Florida | Pure Agua',
+  description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 773-2883.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/well-water-treatment',
   },
   openGraph: {
-    title: 'Well Water Treatment Central Florida | Pure Agua',
+    title: 'Well Water Treatment in Central Florida | Pure Agua',
     description: 'Professional well water treatment for iron, sulfur, bacteria, and sediment in Kissimmee, Orlando, and Central Florida. Custom solutions with lifetime warranty. Call (407) 773-2883.',
     url: 'https://pureaguaenterprise.com/well-water-treatment',
     siteName: 'Pure Agua Enterprises',
@@ -24,16 +24,78 @@ export const metadata: Metadata = {
   },
 }
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Well Water Treatment",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Pure Agua Enterprises",
+    "telephone": "+14077732883",
+    "url": "https://pureaguaenterprise.com"
+  },
+  "areaServed": [{ "@type": "City", "name": "Florida" }],
+  "url": "https://pureaguaenterprise.com/well-water-treatment",
+  "description": "Pure Agua Enterprises provides professional well water treatment services in Central Florida. Free consultations available."
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Much Does Well Water Treatment Cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Well Water Treatment costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Long Does Well Water Treatment Take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential well water treatment projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I Need a Permit for Well Water Treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Warranty Does Pure Agua Enterprises Provide for Well Water Treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pure Agua Enterprises Provide Well Water Treatment in Central Florida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."
+      }
+    }
+  ]
+};
+
 export default function WellWaterTreatmentPage() {
   return (
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"Service","name":"Well Water Treatment","provider":{"@type":"LocalBusiness","name":"Pure Agua Enterprises","telephone":"+14077732883","url":"https://pureaguaenterprise.com"},"areaServed":[{"@type":"City","name":"Florida"}],"url":"https://pureaguaenterprise.com/well-water-treatment","description":"Pure Agua Enterprises provides professional well water treatment services in Central Florida. Free consultations available."}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How Much Does Well Water Treatment Cost?","acceptedAnswer":{"@type":"Answer","text":"Well Water Treatment costs vary based on your home's specific needs, existing infrastructure, and system specifications. Pure Agua Enterprises provides free in-home assessments with detailed written quotes — so you know exactly what you'll pay before committing to anything."}},{"@type":"Question","name":"How Long Does Well Water Treatment Take?","acceptedAnswer":{"@type":"Answer","text":"Most residential well water treatment projects are completed in a single day. More complex installations may take 2 days. During your free consultation with Pure Agua Enterprises, we'll give you a specific timeline for your Central Florida project."}},{"@type":"Question","name":"Do I Need a Permit for Well Water Treatment?","acceptedAnswer":{"@type":"Answer","text":"Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service — we're familiar with local requirements and manage the paperwork on your behalf."}},{"@type":"Question","name":"What Warranty Does Pure Agua Enterprises Provide for Well Water Treatment?","acceptedAnswer":{"@type":"Answer","text":"Pure Agua Enterprises provides manufacturer warranties on all equipment and a labor guarantee on all installations. Specific warranty terms are provided in writing before work begins. Most equipment carries 5–10 year manufacturer warranties."}},{"@type":"Question","name":"Does Pure Agua Enterprises Provide Well Water Treatment in Central Florida?","acceptedAnswer":{"@type":"Answer","text":"Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."}}]}` }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Hero */}

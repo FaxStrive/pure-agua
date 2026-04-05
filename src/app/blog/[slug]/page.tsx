@@ -15,13 +15,15 @@ export async function generateMetadata({
   const post = getPostBySlug(params.slug);
   if (!post) return { title: "Article Not Found" };
 
+  const metaDescription = post.excerpt.length > 160 ? post.excerpt.slice(0, 157) + '...' : post.excerpt;
+
   return {
     title: post.title,
-    description: post.excerpt,
+    description: metaDescription,
     alternates: { canonical: `https://pureaguaenterprise.com/blog/${post.slug}` },
     openGraph: {
       title: `${post.title} | Pure Agua`,
-      description: post.excerpt,
+      description: metaDescription,
       url: `https://pureaguaenterprise.com/blog/${post.slug}`,
       type: "article",
       images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: `${post.title} - Pure Agua Enterprises Blog` }],
