@@ -140,6 +140,12 @@ const localBusinessSchema = {
       },
     },
   ],
+  sameAs: [
+    'https://facebook.com',
+    'https://instagram.com',
+    'https://youtube.com',
+    'https://www.google.com/maps/place/Pure+Agua+Enterprise',
+  ],
   dateModified: DATE_MODIFIED,
 }
 
@@ -370,6 +376,161 @@ const FAQ_SCHEMAS: Record<string, object> = {
       },
     ],
   },
+  '/contact': {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    dateModified: DATE_MODIFIED,
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I schedule a free water test with Pure Agua?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Call (407) 773-2883 or fill out the online contact form to schedule a complimentary in-home water test. A certified technician will visit your home to test for hardness, chlorine, TDS, iron, sulfur, pH, and other contaminants common in Central Florida water. There is no obligation and no sales pressure.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What areas does Pure Agua Enterprises serve?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Pure Agua serves homeowners throughout Kissimmee, Orlando, St. Cloud, Celebration, Poinciana, Hunters Creek, Ocoee, Apopka, Clermont, Winter Haven, Lakeland, Haines City, and surrounding communities in Osceola, Orange, Polk, Seminole, and Lake counties.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What happens during the free water test appointment?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Our certified technician visits your home, tests your water using professional equipment, and provides a detailed water quality report. You receive a written estimate for any recommended treatment solutions. The entire process takes about 30-45 minutes.',
+        },
+      },
+    ],
+  },
+  '/financing': {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    dateModified: DATE_MODIFIED,
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Does Pure Agua offer financing for water filtration systems?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Pure Agua Enterprises offers flexible financing plans for qualifying homeowners, including options with 0% introductory rates and no money down. Financing is available for all water filtration systems including whole-home filters, water softeners, and reverse osmosis systems.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the payment options for water treatment installation?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Pure Agua accepts cash, check, credit card, and offers financing plans. Financing options include 0% introductory APR plans with terms up to 60 months for qualifying applicants. Contact us for a free quote and to discuss the payment option that works best for your budget.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How much does a water filtration system cost in Central Florida?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Water filtration system costs vary by type and home size. Water softeners typically range from $1,500 to $4,500 installed. Reverse osmosis systems range from $300 to $3,000. Whole-home filtration systems range from $800 to $5,000. Pure Agua provides free in-home estimates with transparent, written pricing.',
+        },
+      },
+    ],
+  },
+  '/warranty': {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    dateModified: DATE_MODIFIED,
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What does the Pure Agua lifetime warranty cover?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The Pure Agua lifetime warranty covers the control valve and pressure tank on all whole-home water filtration and softening systems. This means the core mechanical components of your system are protected for as long as you own your home. Reverse osmosis membranes carry a 2-year warranty.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I file a warranty claim with Pure Agua?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Call (407) 773-2883 to initiate a warranty claim. Our team will schedule a service visit, diagnose the issue, and repair or replace covered components at no charge. Most warranty service calls are completed within 24-48 hours of the initial request.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Does Pure Agua offer maintenance plans for water systems?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Annual maintenance plans are available to keep your water treatment system performing at peak efficiency. Plans include filter replacements, system inspections, water quality retesting, and priority scheduling for service calls. Regular maintenance extends system life and maintains water quality.',
+        },
+      },
+    ],
+  },
+  '/about': {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    dateModified: DATE_MODIFIED,
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Who owns Pure Agua Enterprises?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Pure Agua Enterprises is a family-owned and operated water treatment company headquartered in Kissimmee, FL. Founded in 2016, the company has grown into one of Central Florida\'s most trusted names in residential water filtration, serving Orlando, Kissimmee, and surrounding communities.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is Pure Agua Enterprises licensed and certified?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Pure Agua is fully licensed and insured in Florida. Our systems meet NSF/ANSI Standard 58 and Standard 61 requirements, and we are members of the Water Quality Association (WQA). We also hold an EPA WaterSense certification. All technicians carry current state-required certifications.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What brands does Pure Agua install?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Pure Agua installs Watershield brand water filtration systems, chosen for their reliability, efficiency, and long service life. The Watershield product line includes carbon filters, reverse osmosis systems, water softeners (salt-based and salt-free), and sulfur removal systems.',
+        },
+      },
+    ],
+  },
+  '/testimonials': {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    dateModified: DATE_MODIFIED,
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How many reviews does Pure Agua Enterprises have?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Pure Agua Enterprises maintains a perfect 5.0-star rating across more than 200 verified Google reviews from homeowners throughout Kissimmee, Orlando, St. Cloud, Celebration, Poinciana, and the greater Central Florida area.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What do customers say about Pure Agua?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Customers consistently highlight the transparency of our process, the professionalism of our technicians, and the noticeable improvement in water quality from the first day. Many mention the free in-home water test, honest pricing with no hidden costs, and responsive customer service as key reasons they chose Pure Agua.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Does Pure Agua have a satisfaction guarantee?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Every Pure Agua installation is backed by a workmanship guarantee and a lifetime warranty on the control valve and tank. We stand behind our work and are committed to ensuring every customer is completely satisfied with their water quality results.',
+        },
+      },
+    ],
+  },
 }
 
 function getBreadcrumbs(pathname: string) {
@@ -474,8 +635,8 @@ export default function SchemaMarkup() {
   const faq = FAQ_SCHEMAS[pathname]
   if (faq) schemas.push(faq)
 
-  // HowTo on homepage where the process steps are rendered
-  if (pathname === '/') {
+  // HowTo on homepage and contact page where process steps are rendered
+  if (pathname === '/' || pathname === '/contact') {
     schemas.push(howToSchema)
   }
 
