@@ -28,6 +28,12 @@ export async function generateMetadata({
       type: "article",
       images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: `${post.title} - Pure Agua Enterprises Blog` }],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | Pure Agua`,
+      description: metaDescription,
+      images: ["/images/og-image.png"],
+    },
   };
 }
 
@@ -46,12 +52,26 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { "@type": "Person", name: post.author },
-    publisher: {
+    dateModified: post.date,
+    author: {
       "@type": "Organization",
       name: "Pure Agua Enterprises",
       url: "https://pureaguaenterprise.com",
     },
+    publisher: {
+      "@type": "Organization",
+      name: "Pure Agua Enterprises",
+      url: "https://pureaguaenterprise.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://pureaguaenterprise.com/images/pure-agua-logo.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://pureaguaenterprise.com/blog/${post.slug}`,
+    },
+    image: "https://pureaguaenterprise.com/images/og-image.png",
   };
 
   return (

@@ -16,6 +16,12 @@ export const metadata: Metadata = {
     url: "https://pureaguaenterprise.com/privacy",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Privacy Policy" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy for Website & SMS Users | Pure Agua",
+    description: "Privacy Policy for Pure Agua Enterprises. Learn how we collect, use, and protect your personal information including SMS and text messaging data.",
+    images: ["/images/og-image.png"],
+  },
 };
 
 export default function PrivacyPage() {

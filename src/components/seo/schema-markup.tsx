@@ -417,13 +417,53 @@ function getServiceSchema(pathname: string) {
   }
 }
 
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Get Clean Water for Your Central Florida Home',
+  description:
+    'Pure Agua Enterprises makes it easy to get professional water filtration installed in your home in four simple steps.',
+  totalTime: 'P1D',
+  estimatedCost: {
+    '@type': 'MonetaryAmount',
+    currency: 'USD',
+    value: '0',
+  },
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Schedule a Free Water Test',
+      text: 'Call (407) 773-2883 or fill out our contact form to schedule a complimentary in-home water quality analysis. We test for hardness, pH, iron, chlorine, TDS, and other contaminants specific to your Central Florida water supply.',
+      url: `${SITE_URL}/contact`,
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Receive a Personalized Recommendation',
+      text: 'Based on your water test results, our certified technician will explain exactly what is in your water and recommend the right filtration system for your home and budget.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Professional Installation',
+      text: 'Our licensed and insured technicians install your water treatment system, typically in 2-4 hours. We handle all plumbing connections and system startup so you have filtered water the same day.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Enjoy Clean Water for Life',
+      text: 'With your new water filtration system installed and backed by our lifetime warranty, enjoy pure, healthy water at every faucet in your home. Annual maintenance plans available.',
+    },
+  ],
+}
+
 export default function SchemaMarkup() {
   const pathname = usePathname() || '/'
   const schemas: object[] = []
 
-  if (pathname === '/') {
-    schemas.push(localBusinessSchema, websiteSchema)
-  }
+  // LocalBusiness + WebSite on every page for consistent entity signals
+  schemas.push(localBusinessSchema, websiteSchema)
 
   const breadcrumbs = getBreadcrumbs(pathname)
   if (breadcrumbs) schemas.push(breadcrumbs)
@@ -434,7 +474,10 @@ export default function SchemaMarkup() {
   const faq = FAQ_SCHEMAS[pathname]
   if (faq) schemas.push(faq)
 
-  if (schemas.length === 0) return null
+  // HowTo on homepage where the process steps are rendered
+  if (pathname === '/') {
+    schemas.push(howToSchema)
+  }
 
   return (
     <>

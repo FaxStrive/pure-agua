@@ -22,6 +22,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Water Softener Installation Orlando FL | Pure Agua',
+    description: 'Professional water softener installation in Kissimmee, Orlando, and Central Florida. Salt-based and salt-free options. Free water test.',
+    images: ['/images/og-image.png'],
+  },
 }
 
 const serviceSchema = {

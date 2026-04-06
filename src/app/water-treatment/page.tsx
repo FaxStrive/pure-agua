@@ -22,6 +22,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Water Treatment Services in Kissimmee FL | Pure Agua',
+    description: 'Water treatment services in Kissimmee, Orlando, and Central Florida. Filtration, softening, and reverse osmosis. Free estimate available.',
+    images: ['/images/og-image.png'],
+  },
 }
 
 const serviceSchema = {

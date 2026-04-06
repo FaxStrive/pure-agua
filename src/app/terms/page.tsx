@@ -16,6 +16,12 @@ export const metadata: Metadata = {
     url: "https://pureaguaenterprise.com/terms",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Terms of Service" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms of Service & User Agreement Info | Pure Agua",
+    description: "Terms of Service for Pure Agua Enterprises. Review our terms including SMS/text messaging policies, service agreements, and user responsibilities.",
+    images: ["/images/og-image.png"],
+  },
 };
 
 export default function TermsPage() {

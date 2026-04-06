@@ -14,6 +14,12 @@ export const metadata: Metadata = {
     url: "https://pureaguaenterprise.com/blog",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Water Quality Blog - Expert Guides for Central Florida" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Water Quality Blog for Florida Homeowners | Pure Agua",
+    description: "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
+    images: ["/images/og-image.png"],
+  },
 };
 
 export default function BlogPage() {

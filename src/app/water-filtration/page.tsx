@@ -22,6 +22,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Whole Home Water Filtration Systems FL | Pure Agua',
+    description: 'Whole-home water filtration in Kissimmee, Orlando, and Central Florida. Remove chlorine, sediment, and contaminants. Free water test today.',
+    images: ['/images/og-image.png'],
+  },
 }
 
 const serviceSchema = {

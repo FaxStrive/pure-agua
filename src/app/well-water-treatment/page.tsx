@@ -22,6 +22,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Well Water Treatment in Central Florida | Pure Agua',
+    description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 773-2883.',
+    images: ['/images/og-image.png'],
+  },
 }
 
 const serviceSchema = {

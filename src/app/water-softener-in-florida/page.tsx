@@ -15,6 +15,12 @@ export const metadata: Metadata = {
     type: 'website',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Water Softener Installation in Florida - Pure Agua Enterprises' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Water Softener Services in Florida | Pure Agua',
+    description: 'Pure Agua Enterprises provides professional water softener services in Florida. Free consultation and expert service from locally trusted specialists.',
+    images: ['/images/og-image.png'],
+  },
 }
 
 const serviceSchema = {

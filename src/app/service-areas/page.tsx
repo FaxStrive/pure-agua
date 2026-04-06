@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     url: 'https://pureaguaenterprise.com/service-areas',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Pure Agua Enterprises Service Areas Across Florida' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'All Florida Water Treatment Service Areas | Pure Agua',
+    description: 'Find Pure Agua water treatment services in your Florida city. Water filtration, softeners, and reverse osmosis. Free testing available.',
+    images: ['/images/og-image.png'],
+  },
 };
 
 const areas = [
