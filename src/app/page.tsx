@@ -17,7 +17,7 @@ import InlineCTA from "@/components/InlineCTA";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Water Filtration & Softeners Kissimmee FL | Pure Agua',
+  title: 'Water Filtration & Softeners Kissimmee FL',
   description: 'Pure Agua Enterprises provides water filtration, softeners, and reverse osmosis in Kissimmee and Orlando FL. Free in-home water test. Call (407) 773-2883 today.',
   alternates: { canonical: '/' },
   openGraph: {

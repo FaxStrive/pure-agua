@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://pureaguaenterprise.com'),
 
   title: {
-    default: "Pure Agua Enterprises | Central Florida Water Filtration",
-    template: "%s | Pure Agua Enterprises",
+    default: "Water Filtration & Softeners Kissimmee FL | Pure Agua",
+    template: "%s | Pure Agua",
   },
   description:
     "Central Florida's trusted water filtration experts. Family-owned, serving Kissimmee and Orlando with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.",
@@ -87,6 +87,58 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <meta name="msvalidate.01" content="BING_VERIFICATION_ID_HERE" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://pureaguaenterprise.com/#business",
+              name: "Pure Agua Enterprises",
+              description: "Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems.",
+              url: "https://pureaguaenterprise.com",
+              telephone: "+14077732883",
+              email: "info@pureaguaenterprise.com",
+              priceRange: "$",
+              image: "https://pureaguaenterprise.com/images/og-image.png",
+              logo: "https://pureaguaenterprise.com/images/pure-agua-logo.png",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "3705 Eagle Isle Circle",
+                addressLocality: "Kissimmee",
+                addressRegion: "FL",
+                postalCode: "34746",
+                addressCountry: "US",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 28.2919,
+                longitude: -81.4076,
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "5.0",
+                reviewCount: "200",
+                bestRating: "5",
+                worstRating: "1",
+              },
+              hasCredential: [
+                { "@type": "EducationalOccupationalCredential", credentialCategory: "certification", name: "NSF/ANSI 58 Certified Systems" },
+                { "@type": "EducationalOccupationalCredential", credentialCategory: "certification", name: "NSF/ANSI 61 Certified Systems" },
+                { "@type": "EducationalOccupationalCredential", credentialCategory: "membership", name: "WQA Member" },
+                { "@type": "EducationalOccupationalCredential", credentialCategory: "license", name: "FL State Licensed & Insured" },
+              ],
+              sameAs: [
+                "https://www.facebook.com/pureaguaenterprise",
+                "https://www.instagram.com/pureaguaenterprise",
+                "https://www.youtube.com/@pureaguaenterprise",
+                "https://x.com/pureaguafl",
+                "https://www.linkedin.com/company/pureaguaenterprise",
+                "https://www.google.com/maps/place/Pure+Agua+Enterprise",
+              ],
+            }),
+          }}
+        />
         <Script id="google-gtag" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];

@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Contact Us - Schedule a Free Water Test | Pure Agua",
+  title: "Contact Us - Schedule a Free Water Test",
   description:
     "Schedule your free in-home water test today. Call (407) 773-2883 or contact Pure Agua Enterprises serving Kissimmee and Orlando, FL. No obligation.",
   alternates: {

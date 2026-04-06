@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Water System Installation Photo Gallery | Pure Agua",
+  title: "Water System Installation Photo Gallery",
   description:
     "Browse water filtration installation photos across Central Florida. See our team at work and completed systems in Kissimmee and Orlando.",
   alternates: {

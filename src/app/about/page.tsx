@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "About Us - Family-Owned Water Experts FL | Pure Agua",
+  title: "About Us - Family-Owned Water Experts FL",
   description:
     "Pure Agua is a family-owned water filtration company in Kissimmee and Orlando, FL. Trusted Central Florida water experts. Free quote.",
   alternates: {

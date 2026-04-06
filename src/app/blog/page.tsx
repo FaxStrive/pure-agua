@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
-  title: "Water Quality Blog for Florida Homeowners | Pure Agua",
+  title: "Water Quality Blog for Florida Homeowners",
   description:
     "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
   alternates: { canonical: "https://pureaguaenterprise.com/blog" },

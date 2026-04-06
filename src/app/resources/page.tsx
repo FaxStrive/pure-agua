@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Water Quality Guides & Homeowner Tools | Pure Agua",
+  title: "Water Quality Guides & Homeowner Tools",
   description:
     "Educational articles about water quality, filtration technology, and maintenance guides for Central Florida homeowners. Free resources from Pure Agua experts.",
   alternates: {

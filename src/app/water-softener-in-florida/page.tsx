@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Best Water Softener Services in Florida | Pure Agua',
+  title: 'Best Water Softener Services in Florida',
   description: 'Pure Agua Enterprises provides professional water softener services in Florida. Free consultation and expert service from locally trusted specialists.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/water-softener-in-florida',

@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Reverse Osmosis Drinking Water Systems | Pure Agua",
+  title: "Reverse Osmosis Drinking Water Systems",
   description:
     "Under-sink reverse osmosis systems removing 99% of contaminants including PFAS, lead, and arsenic. Installation in Kissimmee and Orlando, FL.",
   alternates: {

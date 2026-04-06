@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Water Softener Systems for FL Hard Water | Pure Agua",
+  title: "Water Softener Systems for FL Hard Water",
   description:
     "End hard water problems in Kissimmee and Orlando with salt-based and salt-free water softeners. Protect pipes and appliances. Free water test.",
   alternates: {

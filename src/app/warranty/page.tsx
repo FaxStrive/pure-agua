@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Lifetime Warranty on All Water Systems | Pure Agua",
+  title: "Lifetime Warranty on All Water Systems",
   description:
     "Every Pure Agua water system includes a lifetime warranty on the control valve and tank. Coverage details and claims for Central Florida.",
   alternates: {

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Water Testing Kissimmee & Orlando | Pure Agua',
+  title: 'Free Water Testing Kissimmee & Orlando',
   description: 'Free in-home water testing in Kissimmee, Orlando, and Central Florida. We test for hardness, chlorine, iron, pH, and TDS. Call today.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/water-testing',

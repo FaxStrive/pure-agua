@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Whole Home Water Filtration Systems FL | Pure Agua',
+  title: 'Whole Home Water Filtration Systems FL',
   description: 'Whole-home water filtration in Kissimmee, Orlando, and Central Florida. Remove chlorine, sediment, and contaminants. Free water test today.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/water-filtration',

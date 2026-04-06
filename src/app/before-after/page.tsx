@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Before & After Water Treatment Results | Pure Agua",
+  title: "Before & After Water Treatment Results",
   description:
     "See real before and after water treatment results from Central Florida homes. TDS readings and installation photos. Free water test.",
   alternates: {

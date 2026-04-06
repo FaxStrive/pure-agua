@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Well Water Treatment in Central Florida | Pure Agua',
+  title: 'Well Water Treatment in Central Florida',
   description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 773-2883.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/well-water-treatment',

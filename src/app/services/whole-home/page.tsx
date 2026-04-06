@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Whole Home Water Filtration in Kissimmee | Pure Agua",
+  title: "Whole Home Water Filtration in Kissimmee",
   description:
     "Whole home water filtration removing chlorine, sediment, and VOCs from every faucet. Professional installation in Kissimmee and Orlando, FL.",
   alternates: {

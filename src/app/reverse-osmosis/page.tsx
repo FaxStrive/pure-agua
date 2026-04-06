@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Reverse Osmosis Water Systems Kissimmee | Pure Agua',
+  title: 'Reverse Osmosis Water Systems Kissimmee',
   description: 'Reverse osmosis installation in Kissimmee, Orlando, and Central Florida. Removes 99% of contaminants. Free water test. Call today.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/reverse-osmosis',

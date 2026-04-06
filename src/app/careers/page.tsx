@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Water Treatment Career Opportunities FL | Pure Agua",
+  title: "Water Treatment Career Opportunities FL",
   description:
     "Join the Pure Agua team. Hiring water treatment technicians, sales representatives, and customer service coordinators in Central Florida.",
   alternates: {

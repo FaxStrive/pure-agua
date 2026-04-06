@@ -15,7 +15,7 @@ export async function generateMetadata({
   const post = getPostBySlug(params.slug);
   if (!post) return { title: "Article Not Found" };
 
-  const metaDescription = post.excerpt.length > 160 ? post.excerpt.slice(0, 157) + '...' : post.excerpt;
+  const metaDescription = post.excerpt.length > 155 ? post.excerpt.slice(0, 152) + '...' : post.excerpt;
 
   return {
     title: post.title,

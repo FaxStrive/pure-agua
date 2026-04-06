@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'All Florida Water Treatment Service Areas | Pure Agua',
+  title: 'All Florida Water Treatment Service Areas',
   description: 'Find Pure Agua water treatment services in your Florida city. Water filtration, softeners, and reverse osmosis. Free testing available.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/service-areas',

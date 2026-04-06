@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Water Filtration System Financing Plans | Pure Agua",
+  title: "Water Filtration System Financing Plans",
   description:
     "Affordable water filtration financing with 0% intro rates and no money down in Kissimmee and Orlando, FL. Get your free quote today.",
   alternates: {

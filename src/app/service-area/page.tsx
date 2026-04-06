@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Service Areas - Kissimmee & Orlando FL | Pure Agua",
+  title: "Service Areas - Kissimmee & Orlando FL",
   description:
     "Pure Agua serves Osceola, Orange, Polk, Seminole, and Lake counties in Central Florida. Free water testing in Kissimmee and Orlando.",
   alternates: {

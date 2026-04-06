@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Well Water Treatment Systems in Florida | Pure Agua",
+  title: "Well Water Treatment Systems in Florida",
   description:
     "Well water treatment for iron, sulfur, bacteria, and sediment in Central Florida. Professional installation with lifetime warranty. Call today.",
   alternates: {
