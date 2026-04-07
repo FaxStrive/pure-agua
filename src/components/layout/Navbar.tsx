@@ -55,8 +55,7 @@ export function Navbar() {
     { href: "/service-area", label: t("nav", "serviceArea") },
     { href: "/faq", label: t("nav", "faq") },
     { href: "/contact", label: t("nav", "contact") },
-  { label: "Blog", href: "/blog" },
-  { label: "Service Areas", href: "/service-areas" },
+    { href: "/blog", label: "Blog" },
   ];
 
   const handleDropdownEnter = (label: string) => {
