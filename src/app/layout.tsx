@@ -4,7 +4,6 @@ import Script from "next/script";
 import "./globals.css";
 import { NavbarWithBanner } from "@/components/conversion/ConversionElements";
 import { Footer } from "@/components/layout/Footer";
-import { ChatWidget } from "@/components/layout/ChatWidget";
 import { ExitIntentPopup } from "@/components/conversion/ExitIntentPopup";
 import { SocialProofToast } from "@/components/conversion/SocialProofToast";
 import { StickyBottomBar } from "@/components/conversion/StickyBottomBar";
@@ -196,13 +195,18 @@ export default function RootLayout({
             });
           `}
         </Script>
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="69d456a3a3eb883b0bb80dcf"
+          strategy="afterInteractive"
+        />
       </head>
       <body className="antialiased overflow-x-hidden pb-16 lg:pb-0">
         <NavbarWithBanner />
         <SchemaMarkup />
         {children}
         <Footer />
-        <ChatWidget />
         <ExitIntentPopup />
         <SocialProofToast />
         <StickyBottomBar />
