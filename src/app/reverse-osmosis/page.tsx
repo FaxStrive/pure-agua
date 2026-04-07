@@ -110,7 +110,7 @@ export default function ReverseOsmosisPage() {
           <p className="text-sm text-gray-500 mb-4">
             Last updated: <time dateTime="2026-04-05">April 2026</time>
           </p>
-          <h1 className="text-5xl font-bold mb-6">Reverse Osmosis</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Reverse Osmosis</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Professional reverse osmosis services from Pure Agua Enterprises — serving Central Florida and surrounding areas.
             Free consultations. Licensed and insured.

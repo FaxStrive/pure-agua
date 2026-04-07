@@ -54,7 +54,7 @@ export function ScrollRevealCTA() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: "100%", opacity: 0 }}
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
-          className="fixed bottom-0 left-0 right-0 z-30"
+          className="fixed bottom-[60px] lg:bottom-0 left-0 right-0 z-30"
         >
           <div
             className="px-4 py-4 shadow-2xl"

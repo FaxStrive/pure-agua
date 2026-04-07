@@ -5,7 +5,7 @@
 **Date:** 2026-04-06
 **Mode:** Live Crawl
 **Pages Analyzed:** 28
-**Overall Score:** 74/100 -- Above Average
+**Overall Score:** 75/100 -- Above Average
 
 ---
 
@@ -14,12 +14,12 @@
 | Category | Score | Max | Rating |
 |----------|-------|-----|--------|
 | Technical Foundation | 19 | 21 | Good |
-| On-Page SEO | 27 | 38 | Fair |
-| Structured Data | 14 | 23 | Fair |
-| Open Graph / Social | 10 | 12 | Good |
+| On-Page SEO | 28 | 38 | Fair |
+| Structured Data | 13 | 23 | Needs Work |
+| Open Graph / Social | 12 | 12 | Good |
 | Performance Signals | 21 | 29 | Fair |
 | LLM / GEO Optimization | 26 | 32 | Good |
-| **TOTAL** | **74** | **100** | **Above Average** |
+| **TOTAL** | **75** | **100** | **Above Average** |
 
 ---
 
@@ -27,9 +27,9 @@
 
 - **[HIGH]** Add FAQPage schema to pages with question headings
 - **[HIGH]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
-- **[HIGH]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
 - **[HIGH]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
 - **[HIGH]** Wrap all phone numbers in tel: links for click-to-call on mobile
+- **[HIGH]** Fix duplicate content — multiple pages have >50% content overlap, risking cannibalization
 
 ---
 
@@ -53,11 +53,11 @@
 | Mobile content parity (no critical content hidden) | 1 | 1 | PASS |  |
 | All pages within 3 clicks of homepage | 1 | 1 | PASS |  |
 
-## 2. On-Page SEO -- 27/38
+## 2. On-Page SEO -- 28/38
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
-| Unique title tags, correct length | 3 | 2 | FAIL | 27 page(s) with missing/bad-length titles |
+| Unique title tags, correct length | 3 | 3 | PASS |  |
 | Unique meta descriptions, correct length | 3 | 2 | FAIL | 1 page(s) with missing/bad-length meta desc |
 | Single H1 per page | 2 | 2 | PASS |  |
 | Proper heading hierarchy (H1>H2>H3) | 2 | 2 | PASS |  |
@@ -83,7 +83,7 @@
 | Pages have heading structure (H2/H3) | 1 | 1 | PASS |  |
 | Content-to-code ratio (text vs. HTML/JS) | 1 | 1 | PASS | 28 pages with ratio data |
 
-## 3. Structured Data -- 14/23
+## 3. Structured Data -- 13/23
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
@@ -92,11 +92,11 @@
 | NAP consistency (schema vs page) | 1 | 0 | FAIL | Schema phone +1-000-000-0000 not found in page content phones: (407) 773-2883, 407-773-2883, 1407773... |
 | WebSite schema on homepage | 1 | 1 | PASS |  |
 | BreadcrumbList on interior pages | 2 | 2 | PASS |  |
-| FAQPage schema | 3 | 1 | FAIL | 9 page(s) have questions but no FAQPage schema |
+| FAQPage schema | 3 | 1 | FAIL | 2 page(s) have questions but no FAQPage schema |
 | Service schema | 2 | 2 | PASS |  |
 | Article schema | 1 | 0 | FAIL | No Article schema (may not have blog) |
 | dateModified/datePublished in schemas | 1 | 1 | PASS |  |
-| Schema validates (no parse errors) | 1 | 1 | PASS |  |
+| Schema validates (no parse errors) | 1 | 0 | FAIL | 57 JSON-LD parse error(s) |
 | GeoCoordinates in LocalBusiness | 1 | 0 | FAIL | No geo coordinates in LocalBusiness schema. Add latitude/longitude via .seo-config.json. |
 | hasCertification in schema | 1 | 0 | FAIL | No certifications in schema. Add certifications via .seo-config.json. |
 | HowTo schema | 1 | 0 | FAIL | 9 page(s) have step content but no HowTo schema |
@@ -104,7 +104,7 @@
 | VideoObject schema | 1 | 0 | FAIL | No VideoObject schema. Add YouTube video embeds to pages for video rich results. |
 | E-E-A-T: Team/author bios configured | 2 | 2 | PASS |  |
 
-## 4. Open Graph / Social -- 10/12
+## 4. Open Graph / Social -- 12/12
 
 | Check | Points | Earned | Status | Notes |
 |-------|--------|--------|--------|-------|
@@ -115,7 +115,7 @@
 | og:type set | 1 | 1 | PASS |  |
 | Twitter/X card tags | 1 | 1 | PASS |  |
 | og:image:alt | 1 | 1 | PASS |  |
-| Social profile links on site | 2 | 0 | FAIL | Missing: facebook, instagram, twitter, linkedin, youtube |
+| Social profile links on site | 2 | 2 | PASS | Found: facebook, instagram, twitter, linkedin, youtube |
 
 ## 5. Performance Signals -- 21/29
 
@@ -170,36 +170,36 @@
 
 | Page | Score | Title (chars) | Meta Desc (chars) | H1 | Alt | Words | Issues |
 |------|-------|--------------|-------------------|-------|-----|-------|--------|
-| / | 21/25 | 77ch | 160ch | OK | OK | 253 | title 77ch |
-| /about | 20/25 | 76ch | 133ch | OK | - | 21 | title 76ch, thin |
-| /before-after | 20/25 | 74ch | 132ch | OK | - | 15 | title 74ch, thin |
-| /blog | 22/25 | 77ch | 137ch | OK | - | 1241 | title 77ch |
-| /blog/[slug] | 20/25 | 56ch | 206ch | OK | - | 1239 | desc 206ch, no canonical |
-| /careers | 20/25 | 75ch | 137ch | OK | - | 24 | title 75ch, thin |
-| /contact | 20/25 | 75ch | 147ch | OK | - | 20 | title 75ch, thin |
-| /faq | 20/25 | 76ch | 152ch | OK | - | 24 | title 76ch, thin |
-| /financing | 20/25 | 75ch | 132ch | OK | - | 25 | title 75ch, thin |
-| /gallery | 20/25 | 75ch | 136ch | OK | - | 24 | title 75ch, thin |
-| /privacy | 20/25 | 74ch | 145ch | OK | - | 14 | title 74ch, thin |
-| /resources | 20/25 | 74ch | 158ch | OK | - | 23 | title 74ch, thin |
-| /reverse-osmosis | 21/25 | 75ch | 130ch | OK | - | 244 | title 75ch |
-| /service-area | 20/25 | 74ch | 132ch | OK | - | 27 | title 74ch, thin |
-| /service-areas | 20/25 | 77ch | 135ch | OK | - | 36 | title 77ch, thin |
-| /services/reverse-osmosis | 20/25 | 74ch | 141ch | OK | - | 17 | title 74ch, thin |
-| /services/water-softening | 20/25 | 76ch | 142ch | OK | - | 26 | title 76ch, thin |
-| /services/well-water | 20/25 | 75ch | 143ch | OK | - | 28 | title 75ch, thin |
-| /services/whole-home | 20/25 | 76ch | 140ch | OK | - | 25 | title 76ch, thin |
-| /terms | 20/25 | 74ch | 146ch | OK | - | 8 | title 74ch, thin |
-| /testimonials | 20/25 | 75ch | 154ch | OK | - | 27 | title 75ch, thin |
-| /warranty | 20/25 | 74ch | 137ch | OK | - | 25 | title 74ch, thin |
-| /water-filtration | 21/25 | 74ch | 139ch | OK | - | 249 | title 74ch |
-| /water-softener | 21/25 | 74ch | 135ch | OK | - | 245 | title 74ch |
-| /water-softener-in-florida | 21/25 | 75ch | 150ch | OK | - | 212 | title 75ch |
-| /water-testing | 21/25 | 74ch | 133ch | OK | - | 240 | title 74ch |
-| /water-treatment | 21/25 | 76ch | 137ch | OK | - | 245 | title 76ch |
-| /well-water-treatment | 21/25 | 75ch | 135ch | OK | - | 246 | title 75ch |
+| / | 24/25 | 53ch | 160ch | OK | OK | 253 | - |
+| /about | 23/25 | 52ch | 133ch | OK | - | 21 | thin |
+| /before-after | 23/25 | 50ch | 132ch | OK | - | 15 | thin |
+| /blog | 25/25 | 53ch | 137ch | OK | - | 1241 | - |
+| /blog/[slug] | 20/25 | 53ch | 206ch | OK | - | 1239 | desc 206ch, no canonical |
+| /careers | 23/25 | 51ch | 137ch | OK | - | 24 | thin |
+| /contact | 23/25 | 51ch | 147ch | OK | - | 20 | thin |
+| /faq | 23/25 | 52ch | 152ch | OK | - | 24 | thin |
+| /financing | 23/25 | 51ch | 132ch | OK | - | 25 | thin |
+| /gallery | 23/25 | 51ch | 136ch | OK | - | 24 | thin |
+| /privacy | 23/25 | 50ch | 145ch | OK | - | 14 | thin |
+| /resources | 23/25 | 50ch | 158ch | OK | - | 23 | thin |
+| /reverse-osmosis | 24/25 | 51ch | 130ch | OK | - | 244 | - |
+| /service-area | 23/25 | 50ch | 132ch | OK | - | 27 | thin |
+| /service-areas | 23/25 | 53ch | 135ch | OK | - | 36 | thin |
+| /services/reverse-osmosis | 23/25 | 50ch | 141ch | OK | - | 17 | thin |
+| /services/water-softening | 23/25 | 52ch | 142ch | OK | - | 26 | thin |
+| /services/well-water | 23/25 | 51ch | 143ch | OK | - | 28 | thin |
+| /services/whole-home | 23/25 | 52ch | 140ch | OK | - | 25 | thin |
+| /terms | 23/25 | 50ch | 146ch | OK | - | 8 | thin |
+| /testimonials | 23/25 | 51ch | 154ch | OK | - | 27 | thin |
+| /warranty | 23/25 | 50ch | 137ch | OK | - | 25 | thin |
+| /water-filtration | 24/25 | 50ch | 139ch | OK | - | 249 | - |
+| /water-softener | 24/25 | 50ch | 135ch | OK | - | 245 | - |
+| /water-softener-in-florida | 24/25 | 51ch | 150ch | OK | - | 212 | - |
+| /water-testing | 24/25 | 50ch | 133ch | OK | - | 240 | - |
+| /water-treatment | 24/25 | 52ch | 137ch | OK | - | 245 | - |
+| /well-water-treatment | 24/25 | 51ch | 135ch | OK | - | 246 | - |
 
-**Page Score Stats:** avg 20/25, min 20/25, max 22/25, 0 page(s) below 18/25 threshold
+**Page Score Stats:** avg 23/25, min 20/25, max 25/25, 0 page(s) below 18/25 threshold
 
 ---
 
@@ -220,47 +220,45 @@
 
 1. **[Structured Data]** Add FAQPage schema to pages with question headings
 2. **[Structured Data]** Fix NAP mismatch — phone number in schema does not match phone visible on page (hurts local rankings)
-3. **[On-Page]** Fix title tag lengths — must be 50-60 characters (industry standard for SERP display)
-4. **[On-Page]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
-5. **[Performance]** Wrap all phone numbers in tel: links for click-to-call on mobile
-6. **[On-Page]** Fix duplicate content — multiple pages have >50% content overlap, risking cannibalization
-7. **[On-Page]** Expand thin content pages — pages with fewer than 300 words rarely rank for competitive terms. Add service details, process steps, FAQs, cost information, and local context.
+3. **[On-Page]** Fix meta description lengths — must be 120-160 characters (industry standard for SERP display)
+4. **[Performance]** Wrap all phone numbers in tel: links for click-to-call on mobile
+5. **[On-Page]** Fix duplicate content — multiple pages have >50% content overlap, risking cannibalization
+6. **[On-Page]** Expand thin content pages — pages with fewer than 300 words rarely rank for competitive terms. Add service details, process steps, FAQs, cost information, and local context.
 ### MEDIUM
 
-8. **[On-Page]** Remove or obfuscate plain text email addresses to prevent spam scraping
-9. **[On-Page]** Add business address to footer or contact section (visible text, not just schema)
-10. **[On-Page]** Add internal links to orphan pages — these pages have no links pointing to them from other pages
-11. **[OG/Social]** Add social profile links to footer (Missing: facebook, instagram, twitter, linkedin, youtube)
-12. **[LLM/GEO]** Optimize section lengths: each H2/H3 section should be 134-250 words for ideal LLM citation extraction
-13. **[Structured Data]** Add GeoCoordinates to LocalBusiness schema via .seo-config.json (latitude/longitude)
-14. **[Structured Data]** Add business certifications to schema via .seo-config.json
-15. **[Structured Data]** Add AggregateRating to schema via .seo-config.json (reviewRating/reviewCount)
-16. **[Performance]** Install call tracking (CallRail, CallTrackingMetrics) to measure phone call conversions and attribute calls to marketing channels
-17. **[Performance]** Add analytics event firing on form submissions — forms exist but have no conversion tracking in onSubmit handlers
-18. **[Performance]** Fix conversion funnel dead-ends: Dead-end pages without CTA: /blog, /blog/[slug], /faq, /water-filtration, /water-softener (+1 more)
-19. **[Performance]** 60-80% of calls go unanswered during peak hours. Consider adding: (1) after-hours answering service, (2) AI voice agent for 24/7 coverage, (3) callback request form, (4) SMS text-back automation.
-20. **[Performance]** Convert images from JPG/PNG to WebP or AVIF format — modern formats are 25-50% smaller with same visual quality, improving page speed scores
-21. **[On-Page]** Add internal links to isolated pages — pages with fewer than 2 internal links receive less link equity and are harder for crawlers to discover and prioritize
-22. **[On-Page]** Add links from blog posts to relevant service pages — topical cluster architecture channels blog traffic to conversion pages and signals content authority to Google
+7. **[On-Page]** Remove or obfuscate plain text email addresses to prevent spam scraping
+8. **[On-Page]** Add business address to footer or contact section (visible text, not just schema)
+9. **[On-Page]** Add internal links to orphan pages — these pages have no links pointing to them from other pages
+10. **[LLM/GEO]** Optimize section lengths: each H2/H3 section should be 134-250 words for ideal LLM citation extraction
+11. **[Structured Data]** Add GeoCoordinates to LocalBusiness schema via .seo-config.json (latitude/longitude)
+12. **[Structured Data]** Add business certifications to schema via .seo-config.json
+13. **[Structured Data]** Add AggregateRating to schema via .seo-config.json (reviewRating/reviewCount)
+14. **[Performance]** Install call tracking (CallRail, CallTrackingMetrics) to measure phone call conversions and attribute calls to marketing channels
+15. **[Performance]** Add analytics event firing on form submissions — forms exist but have no conversion tracking in onSubmit handlers
+16. **[Performance]** Fix conversion funnel dead-ends: Dead-end pages without CTA: /blog, /blog/[slug], /faq, /water-filtration, /water-softener (+1 more)
+17. **[Performance]** 60-80% of calls go unanswered during peak hours. Consider adding: (1) after-hours answering service, (2) AI voice agent for 24/7 coverage, (3) callback request form, (4) SMS text-back automation.
+18. **[Performance]** Convert images from JPG/PNG to WebP or AVIF format — modern formats are 25-50% smaller with same visual quality, improving page speed scores
+19. **[On-Page]** Add internal links to isolated pages — pages with fewer than 2 internal links receive less link equity and are harder for crawlers to discover and prioritize
+20. **[On-Page]** Add links from blog posts to relevant service pages — topical cluster architecture channels blog traffic to conversion pages and signals content authority to Google
 ### LOW
 
-23. **[Performance]** Move inline styles to CSS classes or Tailwind utilities
-24. **[LLM/GEO]** Add more content types per page: include tables, lists, images, video embeds, and structured data for multimodal richness
-25. **[LLM/GEO]** Add comparison tables to service pages
-26. **[Structured Data]** Add HowTo schema to pages with step-by-step content (process, how-it-works)
-27. **[Structured Data]** Add VideoObject schema to pages with YouTube embeds for video rich results
-28. **[LLM/GEO]** Add named authors with credentials
+21. **[Performance]** Move inline styles to CSS classes or Tailwind utilities
+22. **[LLM/GEO]** Add more content types per page: include tables, lists, images, video embeds, and structured data for multimodal richness
+23. **[LLM/GEO]** Add comparison tables to service pages
+24. **[Structured Data]** Add HowTo schema to pages with step-by-step content (process, how-it-works)
+25. **[Structured Data]** Add VideoObject schema to pages with YouTube embeds for video rich results
+26. **[LLM/GEO]** Add named authors with credentials
 ---
 
 ## External Audit Estimate (SEOptimer-style)
 
 | Category | Est. Grade | Our Score |
 |----------|-----------|----------|
-| Overall | **C** | 74/100 |
-| On-Page SEO | C+ | 71% |
+| Overall | **C** | 75/100 |
+| On-Page SEO | C+ | 74% |
 | Usability | C+ | 79% |
 | Performance | C- | 72% |
-| Social | B | 83% |
+| Social | A | 100% |
 
 *Note: External audit tools may differ. This is an estimate based on our internal scoring.*
 

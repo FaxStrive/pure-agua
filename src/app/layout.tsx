@@ -197,7 +197,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="antialiased overflow-x-hidden">
+      <body className="antialiased overflow-x-hidden pb-16 lg:pb-0">
         <NavbarWithBanner />
         <SchemaMarkup />
         {children}
