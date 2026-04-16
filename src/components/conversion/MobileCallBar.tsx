@@ -46,7 +46,7 @@ export function MobileCallBar() {
           >
             <div className="grid grid-cols-3 gap-1.5">
               <a
-                href="tel:+14077732883"
+                href="tel:+14075128342"
                 onClick={() => trackPhoneConversion()}
                 className="flex flex-col items-center gap-1 bg-white/15 hover:bg-white/25 text-white rounded-xl px-2 py-2.5 text-[11px] font-semibold transition-colors"
               >
@@ -54,7 +54,7 @@ export function MobileCallBar() {
                 {t("mobileCallBar", "callNow")}
               </a>
               <a
-                href="sms:+14077732883"
+                href="sms:+14075128342"
                 className="flex flex-col items-center gap-1 bg-white/15 hover:bg-white/25 text-white rounded-xl px-2 py-2.5 text-[11px] font-semibold transition-colors"
               >
                 <MessageCircle className="w-4 h-4" />

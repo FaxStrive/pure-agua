@@ -30,7 +30,7 @@ const serviceSchema = {
   "provider": {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
-    "telephone": "+14077732883"
+    "telephone": "+14075128342"
   },
   "areaServed": { "@type": "City", "name": "Florida" },
   "url": "https://pureaguaenterprise.com/water-softener-in-florida",
@@ -231,7 +231,7 @@ export default function WaterSoftenerInFloridaPage() {
             Get Water Softener in Florida Today
           </h2>
           <p className="mb-5 text-gray-700">
-            Call Pure Agua Enterprises at (407) 773-2883 or schedule your free consultation. We serve Florida and surrounding communities.
+            Call Pure Agua Enterprises at (407) 512-8342 or schedule your free consultation. We serve Florida and surrounding communities.
           </p>
           <address className="not-italic flex flex-col sm:flex-row gap-3">
             <Link
@@ -241,10 +241,10 @@ export default function WaterSoftenerInFloridaPage() {
               Schedule Free Consultation
             </Link>
             <a
-              href="tel:14077732883"
+              href="tel:14075128342"
               className="inline-block border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors text-center"
             >
-              Call (407) 773-2883
+              Call (407) 512-8342
             </a>
           </address>
         </section>

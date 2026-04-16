@@ -71,7 +71,7 @@ export default function ServiceAreasPage() {
         We provide free in-home water testing in Kissimmee, Orlando, St. Cloud, Celebration, Poinciana, and surrounding communities. Every consultation includes a detailed water quality report and a written estimate with no obligation. Our service area continues to expand as more Florida families discover the difference that professionally treated water makes.
       </p>
       <p className="text-lg text-gray-700 mb-10">
-        Select a service below to learn more about what Pure Agua offers in your area, or <Link href="/contact" className="text-blue-600 hover:underline font-semibold">contact us directly</Link> to schedule your free water test. You can also call us at <a href="tel:+14077732883" className="text-blue-600 hover:underline font-semibold">(407) 773-2883</a>.
+        Select a service below to learn more about what Pure Agua offers in your area, or <Link href="/contact" className="text-blue-600 hover:underline font-semibold">contact us directly</Link> to schedule your free water test. You can also call us at <a href="tel:+14075128342" className="text-blue-600 hover:underline font-semibold">(407) 512-8342</a>.
       </p>
 
       <h2 className="text-2xl font-bold mb-6">Our Services Across Florida</h2>
@@ -106,10 +106,10 @@ export default function ServiceAreasPage() {
             Get Your Free Water Test
           </Link>
           <a
-            href="tel:+14077732883"
+            href="tel:+14075128342"
             className="inline-block border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-center"
           >
-            Call (407) 773-2883
+            Call (407) 512-8342
           </a>
         </div>
       </div>

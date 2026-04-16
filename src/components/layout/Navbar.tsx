@@ -167,7 +167,7 @@ export function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+14077732883"
+              href="tel:+14075128342"
               onClick={() => trackPhoneConversion()}
               className={`flex items-center gap-2 text-sm font-medium transition-colors ${
                 isTransparent
@@ -291,7 +291,7 @@ export function Navbar() {
                   </Button>
                 </Link>
                 <a
-                  href="tel:+14077732883"
+                  href="tel:+14075128342"
                   onClick={() => trackPhoneConversion()}
                   className="flex items-center justify-center gap-2 mt-4 text-[var(--color-muted)] font-medium"
                 >

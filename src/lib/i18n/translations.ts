@@ -9,7 +9,7 @@ export const translations = {
     testimonials: "Testimonials",
     serviceArea: "Service Area",
     faq: "FAQ",
-    callUs: "(407) 773-2883",
+    callUs: "(407) 512-8342",
     freeWaterTest: "Free Water Test",
   },
 

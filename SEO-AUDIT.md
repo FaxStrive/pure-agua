@@ -89,7 +89,7 @@
 |-------|--------|--------|--------|-------|
 | LocalBusiness or subtype schema | 3 | 3 | PASS | Found: HomeAndConstructionBusiness |
 | NAP in schema | 1 | 1 | PASS |  |
-| NAP consistency (schema vs page) | 1 | 0 | FAIL | Schema phone +1-000-000-0000 not found in page content phones: (407) 773-2883, 407-773-2883, 1407773... |
+| NAP consistency (schema vs page) | 1 | 0 | FAIL | Schema phone +1-000-000-0000 not found in page content phones: (407) 512-8342, 407-512-8342, 1407773... |
 | WebSite schema on homepage | 1 | 1 | PASS |  |
 | BreadcrumbList on interior pages | 2 | 2 | PASS |  |
 | FAQPage schema | 3 | 1 | FAIL | 2 page(s) have questions but no FAQPage schema |

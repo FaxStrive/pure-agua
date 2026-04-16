@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation'
 
 const SITE_URL = 'https://pureaguaenterprise.com'
 const BUSINESS_NAME = 'Pure Agua Enterprises'
-const PHONE = '+14077732883'
+const PHONE = '+14075128342'
 const DATE_MODIFIED = '2026-04-06'
 
 const SERVICE_AREAS = [
@@ -393,7 +393,7 @@ const contactFaqSchema = {
       name: 'How do I schedule a free water test with Pure Agua?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Call (407) 773-2883 or fill out the online contact form to schedule a complimentary in-home water test. A certified technician will visit your home to test for hardness, chlorine, TDS, iron, sulfur, pH, and other contaminants common in Central Florida water. There is no obligation and no sales pressure.',
+        text: 'Call (407) 512-8342 or fill out the online contact form to schedule a complimentary in-home water test. A certified technician will visit your home to test for hardness, chlorine, TDS, iron, sulfur, pH, and other contaminants common in Central Florida water. There is no obligation and no sales pressure.',
       },
     },
     {
@@ -465,7 +465,7 @@ const warrantyFaqSchema = {
       name: 'How do I file a warranty claim with Pure Agua?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Call (407) 773-2883 to initiate a warranty claim. Our team will schedule a service visit, diagnose the issue, and repair or replace covered components at no charge. Most warranty service calls are completed within 24-48 hours of the initial request.',
+        text: 'Call (407) 512-8342 to initiate a warranty claim. Our team will schedule a service visit, diagnose the issue, and repair or replace covered components at no charge. Most warranty service calls are completed within 24-48 hours of the initial request.',
       },
     },
     {
@@ -561,7 +561,7 @@ const serviceAreaFaqSchema = {
       name: 'Does Pure Agua do free water tests outside Kissimmee and Orlando?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Free in-home water testing is available throughout our entire service area including St. Cloud, Celebration, Poinciana, Winter Haven, Lakeland, and other Central Florida communities. Call (407) 773-2883 to confirm service availability at your address.',
+        text: 'Yes. Free in-home water testing is available throughout our entire service area including St. Cloud, Celebration, Poinciana, Winter Haven, Lakeland, and other Central Florida communities. Call (407) 512-8342 to confirm service availability at your address.',
       },
     },
     {
@@ -697,7 +697,7 @@ const careersFaqSchema = {
       name: 'How do I apply for a job at Pure Agua Enterprises?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Send your resume to careers@pureaguafl.com or call (407) 773-2883 to inquire about current openings. Include your relevant experience and availability. We review applications promptly and contact qualified candidates for interviews.',
+        text: 'Send your resume to careers@pureaguafl.com or call (407) 512-8342 to inquire about current openings. Include your relevant experience and availability. We review applications promptly and contact qualified candidates for interviews.',
       },
     },
   ],
@@ -785,7 +785,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 1,
       name: 'Schedule a Free Water Test',
-      text: 'Call (407) 773-2883 or fill out our contact form to schedule a complimentary in-home water quality analysis. We test for hardness, pH, iron, chlorine, TDS, and other contaminants specific to your Central Florida water supply.',
+      text: 'Call (407) 512-8342 or fill out our contact form to schedule a complimentary in-home water quality analysis. We test for hardness, pH, iron, chlorine, TDS, and other contaminants specific to your Central Florida water supply.',
       url: `${SITE_URL}/contact`,
     },
     {
@@ -821,7 +821,7 @@ const wholeHomeHowToSchema = {
       '@type': 'HowToStep',
       position: 1,
       name: 'Schedule a Free Water Test',
-      text: 'Call (407) 773-2883 to schedule a free in-home water quality test. Our technician tests for chlorine, TDS, hardness, sediment, and other contaminants specific to your water source.',
+      text: 'Call (407) 512-8342 to schedule a free in-home water quality test. Our technician tests for chlorine, TDS, hardness, sediment, and other contaminants specific to your water source.',
       url: `${SITE_URL}/contact`,
     },
     {

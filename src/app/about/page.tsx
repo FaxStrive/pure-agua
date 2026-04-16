@@ -43,7 +43,7 @@ export default function AboutPage() {
           Pure Agua Enterprises proudly serves homeowners throughout Kissimmee, Orlando, St. Cloud, Celebration, Poinciana, Hunters Creek, Ocoee, Apopka, Clermont, Winter Haven, Lakeland, and Haines City. Whether your home is on city water or a private well, our experienced team can diagnose common Central Florida water issues such as hard water scale, chlorine taste, sulfur odor, iron staining, and elevated TDS levels. We back every system with a lifetime warranty on the control valve and tank, so your investment is protected for years to come.
         </p>
         <p>
-          Choosing a water treatment company is a decision that affects your family&apos;s health and your home&apos;s plumbing. Pure Agua Enterprises makes that decision easy with transparent pricing, flexible financing options including plans with zero percent introductory rates, and a no-pressure consultation process. Call us today at (407) 773-2883 to schedule your free water test and discover why hundreds of Central Florida families trust Pure Agua with their water.
+          Choosing a water treatment company is a decision that affects your family&apos;s health and your home&apos;s plumbing. Pure Agua Enterprises makes that decision easy with transparent pricing, flexible financing options including plans with zero percent introductory rates, and a no-pressure consultation process. Call us today at (407) 512-8342 to schedule your free water test and discover why hundreds of Central Florida families trust Pure Agua with their water.
         </p>
       </div>
       <PageClient />

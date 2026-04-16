@@ -72,7 +72,7 @@ export function CTA() {
                 </ShimmerButton>
               </Link>
             </MagneticWrapper>
-            <a href="tel:+14077732883" onClick={() => trackPhoneConversion()}>
+            <a href="tel:+14075128342" onClick={() => trackPhoneConversion()}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}

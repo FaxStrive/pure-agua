@@ -85,10 +85,10 @@ export function ScrollRevealCTA() {
                   />
                 </Link>
                 <a
-                  href="tel:+14077732883"
+                  href="tel:+14075128342"
                   className="text-white font-semibold hover:text-white/80 transition-colors whitespace-nowrap"
                 >
-                  (407) 773-2883
+                  (407) 512-8342
                 </a>
               </div>
               <button

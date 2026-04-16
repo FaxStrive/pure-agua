@@ -112,10 +112,10 @@ export function ExitIntentPopup() {
             <div className="text-center pt-2">
               <p className="text-xs text-[var(--color-muted)]/60 mb-1">Prefer to call?</p>
               <a
-                href="tel:+14077732883"
+                href="tel:+14075128342"
                 className="text-sm font-semibold text-[var(--color-primary)] hover:underline"
               >
-                (407) 773-2883
+                (407) 512-8342
               </a>
             </div>
 

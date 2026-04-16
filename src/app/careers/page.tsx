@@ -40,7 +40,7 @@ export default function CareersPage() {
           Working at Pure Agua Enterprises means joining a close-knit team that values integrity, craftsmanship, and customer satisfaction above all else. We offer competitive compensation, performance bonuses, paid training and certification opportunities, and a supportive work environment where your contributions are recognized. Our team members gain industry knowledge that includes NSF/ANSI standards, WQA best practices, and Florida-specific water quality challenges such as hard water, chlorine treatment, iron contamination, and sulfur in well water supplies.
         </p>
         <p>
-          Central Florida&apos;s growing population means consistent demand for professional water treatment services, providing long-term job stability and advancement opportunities. Whether you are starting your career or looking to transition into a growing field, Pure Agua Enterprises offers a path forward. To apply, send your resume to careers@pureaguafl.com or call us at (407) 773-2883. Our office is located at 3705 Eagle Isle Circle, Kissimmee, FL 34746. We look forward to welcoming you to the Pure Agua family.
+          Central Florida&apos;s growing population means consistent demand for professional water treatment services, providing long-term job stability and advancement opportunities. Whether you are starting your career or looking to transition into a growing field, Pure Agua Enterprises offers a path forward. To apply, send your resume to careers@pureaguafl.com or call us at (407) 512-8342. Our office is located at 3705 Eagle Isle Circle, Kissimmee, FL 34746. We look forward to welcoming you to the Pure Agua family.
         </p>
       </div>
       <PageClient />

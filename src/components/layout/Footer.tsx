@@ -217,7 +217,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+14077732883"
+                  href="tel:+14075128342"
                   onClick={() => trackPhoneConversion()}
                   className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-sm"
                 >

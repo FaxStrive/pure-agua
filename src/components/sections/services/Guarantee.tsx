@@ -73,7 +73,7 @@ export function Guarantee() {
             </WaterButton>
           </Link>
           <a
-            href="tel:+14077732883"
+            href="tel:+14075128342"
             onClick={() => trackPhoneConversion()}
             className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors font-medium"
           >

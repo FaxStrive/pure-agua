@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Well Water Treatment in Central Florida',
-  description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 773-2883.',
+  description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 512-8342.',
   alternates: {
     canonical: 'https://pureaguaenterprise.com/well-water-treatment',
   },
   openGraph: {
     title: 'Well Water Treatment in Central Florida | Pure Agua',
-    description: 'Professional well water treatment for iron, sulfur, bacteria, and sediment in Kissimmee, Orlando, and Central Florida. Custom solutions with lifetime warranty. Call (407) 773-2883.',
+    description: 'Professional well water treatment for iron, sulfur, bacteria, and sediment in Kissimmee, Orlando, and Central Florida. Custom solutions with lifetime warranty. Call (407) 512-8342.',
     url: 'https://pureaguaenterprise.com/well-water-treatment',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Well Water Treatment in Central Florida | Pure Agua',
-    description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 773-2883.',
+    description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 512-8342.',
     images: ['/images/og-image.png'],
   },
 }
@@ -37,7 +37,7 @@ const serviceSchema = {
   "provider": {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
-    "telephone": "+14077732883",
+    "telephone": "+14075128342",
     "url": "https://pureaguaenterprise.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
@@ -86,7 +86,7 @@ const faqSchema = {
       "name": "Does Pure Agua Enterprises Provide Well Water Treatment in Central Florida?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood."
+        "text": "Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 512-8342 to confirm service availability in your specific neighborhood."
       }
     }
   ]
@@ -123,10 +123,10 @@ export default function WellWaterTreatmentPage() {
               Schedule Free Consultation
             </Link>
             <a
-              href="tel:+14077732883"
+              href="tel:+14075128342"
               className="inline-block border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors"
             >
-              Call (407) 773-2883
+              Call (407) 512-8342
             </a>
           </address>
         </div>
@@ -245,7 +245,7 @@ export default function WellWaterTreatmentPage() {
             </div>
             <div className="border-b border-gray-100 pb-6">
               <h3 className="font-semibold text-lg mb-2">Does Pure Agua Enterprises Provide Well Water Treatment in Central Florida?</h3>
-              <p className="text-gray-700">Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 773-2883 to confirm service availability in your specific neighborhood.</p>
+              <p className="text-gray-700">Yes, Pure Agua Enterprises serves Central Florida and surrounding communities. Call (407) 512-8342 to confirm service availability in your specific neighborhood.</p>
             </div>
           </div>
         </div>
@@ -266,10 +266,10 @@ export default function WellWaterTreatmentPage() {
               Schedule Free Consultation
             </Link>
             <a
-              href="tel:+14077732883"
+              href="tel:+14075128342"
               className="inline-block border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors"
             >
-              Call (407) 773-2883
+              Call (407) 512-8342
             </a>
           </address>
         </div>

@@ -96,7 +96,7 @@ export default function RootLayout({
               name: "Pure Agua Enterprises",
               description: "Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems.",
               url: "https://pureaguaenterprise.com",
-              telephone: "+14077732883",
+              telephone: "+14075128342",
               email: "info@pureaguaenterprise.com",
               priceRange: "$",
               image: "https://pureaguaenterprise.com/images/og-image.png",

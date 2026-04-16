@@ -6,6 +6,6 @@ declare global {
 
 export function trackPhoneConversion() {
   if (typeof window !== "undefined" && window.gtag_report_conversion) {
-    window.gtag_report_conversion("tel:+14077732883");
+    window.gtag_report_conversion("tel:+14075128342");
   }
 }

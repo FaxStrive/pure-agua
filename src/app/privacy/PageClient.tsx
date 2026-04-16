@@ -286,10 +286,10 @@ export default function PrivacyPageClient() {
               <li>
                 Phone:{" "}
                 <a
-                  href="tel:+14077732883"
+                  href="tel:+14075128342"
                   className="text-[var(--color-primary)] hover:underline"
                 >
-                  (407) 773-2883
+                  (407) 512-8342
                 </a>
               </li>
               <li>

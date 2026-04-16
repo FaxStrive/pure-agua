@@ -18,7 +18,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Water Filtration & Softeners Kissimmee FL',
-  description: 'Pure Agua Enterprises provides water filtration, softeners, and reverse osmosis in Kissimmee and Orlando FL. Free in-home water test. Call (407) 773-2883 today.',
+  description: 'Pure Agua Enterprises provides water filtration, softeners, and reverse osmosis in Kissimmee and Orlando FL. Free in-home water test. Call (407) 512-8342 today.',
   alternates: { canonical: '/' },
   openGraph: {
     title: 'Water Filtration & Softeners Kissimmee FL | Pure Agua',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Water Filtration & Softeners Kissimmee FL | Pure Agua',
-    description: 'Family-owned water filtration experts in Kissimmee and Orlando FL. Free in-home water test. Call (407) 773-2883.',
+    description: 'Family-owned water filtration experts in Kissimmee and Orlando FL. Free in-home water test. Call (407) 512-8342.',
     images: ['/images/og-image.png'],
   },
 };
@@ -54,7 +54,7 @@ export default function Home() {
       <InlineCTA variant="text" text="See how much you could save with clean water" />
       <AboutPreview />
       <SocialFeed />
-      <InlineCTA variant="banner" text="Your Family Deserves Better Water" message="Professional installation with financing available. Call 407-773-2883." />
+      <InlineCTA variant="banner" text="Your Family Deserves Better Water" message="Professional installation with financing available. Call 407-512-8342." />
       <Testimonials />
       <FAQ />
       <CTA />
