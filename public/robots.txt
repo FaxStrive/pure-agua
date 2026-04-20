@@ -26,7 +26,7 @@ User-agent: Meta-ExternalAgent
 Disallow: /
 
 User-agent: Applebot-Extended
-Disallow: /
+Allow: /
 
 User-agent: Amazonbot
 Disallow: /
@@ -57,7 +57,7 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://pureaguaenterprise.com/sitemap.xml
 
 # LLM content discovery
-# https://example.com/llms.txt
+# https://pureaguaenterprise.com/llms.txt

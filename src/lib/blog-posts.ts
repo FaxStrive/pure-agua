@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Kissimmee and Orlando draw from different water sources and face distinct quality challenges. Here's a county-by-county breakdown and what it means for your home.",
     date: "2026-01-12",
-    author: "Pure Agua Team",
+    author: "Carlos Rivera",
     category: "Water Quality",
     readTime: "10 min read",
     tags: ["Kissimmee", "Orlando", "Water Quality", "Central Florida"],
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "With Central Florida water hardness often exceeding 15 GPG, water softeners aren't a luxury — they're appliance insurance. Here's everything you need to make an informed decision.",
     date: "2026-01-25",
-    author: "Pure Agua Team",
+    author: "Carlos Rivera",
     category: "Water Softeners",
     readTime: "12 min read",
     tags: ["Water Softeners", "Hard Water", "Home Protection"],
@@ -164,7 +164,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "RO removes 95–99% of contaminants in your drinking water, costs less per gallon than bottled water, and ends the plastic bottle habit. Here's the complete picture.",
     date: "2026-02-03",
-    author: "Pure Agua Team",
+    author: "Carlos Rivera",
     category: "Reverse Osmosis",
     readTime: "9 min read",
     tags: ["Reverse Osmosis", "Drinking Water", "Orlando"],
@@ -248,7 +248,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Private wells in Osceola and Orange County commonly test positive for iron, hydrogen sulfide, hardness, and bacteria. Here's what to test for and how to treat it.",
     date: "2026-02-14",
-    author: "Pure Agua Team",
+    author: "Carlos Rivera",
     category: "Well Water",
     readTime: "10 min read",
     tags: ["Well Water", "Osceola County", "Orange County", "Water Treatment"],
@@ -314,7 +314,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "From shorter appliance lifespans to 75% more soap usage, hard water quietly costs Central Florida homeowners thousands of dollars annually. Here's the documented evidence.",
     date: "2026-02-25",
-    author: "Pure Agua Team",
+    author: "Carlos Rivera",
     category: "Hard Water",
     readTime: "10 min read",
     tags: ["Hard Water", "Appliances", "Home Protection", "Central Florida"],
