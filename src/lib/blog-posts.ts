@@ -408,7 +408,281 @@ export const blogPosts: BlogPost[] = [
   {"slug":"well-water-treatment-cost-florida","title":"How Much Does Well Water Treatment Cost in Florida?","excerpt":"Get pricing details for well water treatment in Florida, including iron removal, sulfur treatment, and bacteria filtration.","date":"2026-03-10","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["well water","cost","florida"],"content":"<p>Understanding the cost of well water treatment in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Well Water Treatment Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of well water treatment in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Well Water Treatment Cost in Florida?</h2> <strong>1. Home size and water usage</strong> — Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong> — Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong> — Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong> — Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Well Water Treatment in Florida</h2> <p>1. <strong>Get multiple quotes</strong> — Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong> — Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong> — Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong> — Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Well Water Treatment Cost in Florida?</h3> <p>The average cost of well water treatment in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Well Water Treatment Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Well Water Treatment in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for well water treatment in Florida. Call +11799836455.</p> <h2>Get a Free Well Water Treatment Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for well water treatment in Florida."},
   {"slug":"water-softener-vs-water-conditioner","title":"Water Softener vs. Water Conditioner: Which Is Right for Your Home?","excerpt":"Compare salt-based water softeners with salt-free water conditioners to find the right solution for your Florida home.","date":"2026-01-13","author":"Pure Agua Team","category":"Guide","readTime":"6 min read","tags":["water softener","water conditioner","comparison"],"content":"<p>Compare water softeners and salt-free water conditioners for Florida homes. Cost, effectiveness, and maintenance differences explained. Pure Agua Enterprises breaks down the key differences to help Florida homeowners make an informed decision.</p> <h2>Water Softener vs. Water Conditioner: Quick Answer</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>For most Florida homes with hard water, a traditional water softener provides the most complete solution. For homes with moderate hardness or dietary sodium concerns, a salt-free conditioner is a practical alternative.</p> </blockquote> <h2>Side-by-Side Comparison</h2> <table><tbody><tr><th>Feature</th><th>Water Softener</th><th>Water Conditioner</th></tr><tr><td>Installed Cost</td><td>$800-$2,500</td><td>$500-$1,500</td></tr><tr><td>Lifespan</td><td>10-15 years</td><td>5-10 years</td></tr><tr><td>Best For</td><td>Homes with very hard water</td><td>Homes with moderate hardness or salt restrictions</td></tr><tr><td>Maintenance</td><td>Salt refills every 4-8 weeks</td><td>Minimal - occasional filter replacement</td></tr></tbody></table> <h2>When to Choose Water Softener</h2> <p>Choose a water softener if your Florida home has hard water above 7 GPG, visible scale on fixtures, or you want complete hardness removal. Ion exchange softeners are the most effective solution for truly hard water.</p> <h2>When to Choose Water Conditioner</h2> <p>Choose a water conditioner if you are on a sodium-restricted diet, prefer a maintenance-free approach, or have moderate hardness levels below 7 GPG. Salt-free conditioners prevent scale without adding sodium.</p> <h2>What Pure Agua Enterprises Recommends for Florida Homes</h2> <p>The right choice depends on your specific situation. Pure Agua Enterprises provides free in-home assessments where we test, evaluate, and recommend the best option for your Florida home — with no pressure and no obligation.</p> <h2>Frequently Asked Questions</h2> <h3>Which Is Better: Water Softener or Water Conditioner?</h3> <p>For most Florida homes with hard water, a traditional water softener provides the most complete solution. For homes with moderate hardness or dietary sodium concerns, a salt-free conditioner is a practical alternative.</p> <h3>How Much Does Each Option Cost in Florida?</h3> <p>Water Softener typically costs $800-$2,500 installed, while Water Conditioner costs $500-$1,500 installed in Florida. Pure Agua Enterprises provides free quotes for both options.</p> <h2>Get Expert Advice from Pure Agua Enterprises</h2> <a href=\"/contact\">Schedule your free assessment</a> or call +11799836455. Pure Agua Enterprises helps Florida homeowners choose the right solution — not the most expensive one."},
   {"slug":"winter-water-tips-florida","title":"Winter Water System Tips for Florida Homeowners","excerpt":"Seasonal tips for maintaining your water filtration and softening systems during Florida winters from Pure Agua Enterprises.","date":"2025-12-20","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["maintenance","winter","florida"],"content":"<p>Winter in Florida brings unique challenges for water treatment systems. Cold temperatures can affect system performance, and freeze risk — even in mild climates — can cause expensive damage if you are not prepared. Pure Agua Enterprises shares the essential steps to protect your investment.</p> <h2>Freeze Prevention for Water Treatment Systems</h2> <p>Even in Florida's relatively mild winters, overnight temperatures can drop low enough to freeze exposed pipes and system components. Insulate all exposed water lines, ensure your water softener is in a climate-controlled space, and know where your main water shut-off valve is located.</p> <h2>Winter Maintenance Checklist</h2> <strong>Check salt levels</strong> — Cold weather can cause salt to bridge more easily in your brine tank. Check monthly and break up any bridges. <strong>Test water quality</strong> — Winter changes in municipal water treatment can affect your system performance. Test hardness and TDS. <strong>Inspect for leaks</strong> — Temperature fluctuations stress fittings and connections. Check all visible connections for drips. <h2>When to Schedule Professional Service</h2> <p>Pure Agua Enterprises recommends scheduling a professional system inspection before winter arrives. Our technicians check all connections, test system performance, and ensure your Florida water treatment system is ready for the season.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call +11799836455 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},
-  {"slug":"summer-water-guide-florida","title":"Summer Water Quality Guide for Florida Homeowners","excerpt":"How summer heat and increased water usage affect your Florida water quality, and what you can do about it.","date":"2026-04-06","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["water quality","summer","florida"],"content":"<p>Summer in Florida means higher water usage, increased chlorine levels from the municipal supply, and greater demand on your water treatment system. Understanding these seasonal changes helps you maintain optimal water quality throughout the warmest months.</p> <h2>Why Water Quality Changes in Summer</h2> <p>Municipal water systems in Florida typically increase disinfectant levels during summer because warmer water temperatures promote bacterial growth in distribution pipes. You may notice a stronger chlorine taste or smell — this is normal but can be addressed with proper filtration.</p> <h2>Summer Maintenance for Your Water System</h2> <strong>Increase salt checks</strong> — Higher water usage in summer means your softener works harder. Check salt levels every 2-3 weeks. <strong>Replace filters on schedule</strong> — Higher volume means filters reach capacity sooner. Consider early replacement if water quality drops. <strong>Monitor RO production</strong> — Warmer input water actually improves RO membrane performance, but higher demand may require a larger storage tank. <h2>Staying Hydrated with Clean Water</h2> <p>Florida summers demand proper hydration. A reverse osmosis system ensures your drinking water is pure and great-tasting, encouraging your family to drink more water. Pure Agua Enterprises can evaluate your current system and recommend upgrades to meet summer demand.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call +11799836455 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},];
+  {"slug":"summer-water-guide-florida","title":"Summer Water Quality Guide for Florida Homeowners","excerpt":"How summer heat and increased water usage affect your Florida water quality, and what you can do about it.","date":"2026-04-06","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["water quality","summer","florida"],"content":"<p>Summer in Florida means higher water usage, increased chlorine levels from the municipal supply, and greater demand on your water treatment system. Understanding these seasonal changes helps you maintain optimal water quality throughout the warmest months.</p> <h2>Why Water Quality Changes in Summer</h2> <p>Municipal water systems in Florida typically increase disinfectant levels during summer because warmer water temperatures promote bacterial growth in distribution pipes. You may notice a stronger chlorine taste or smell — this is normal but can be addressed with proper filtration.</p> <h2>Summer Maintenance for Your Water System</h2> <strong>Increase salt checks</strong> — Higher water usage in summer means your softener works harder. Check salt levels every 2-3 weeks. <strong>Replace filters on schedule</strong> — Higher volume means filters reach capacity sooner. Consider early replacement if water quality drops. <strong>Monitor RO production</strong> — Warmer input water actually improves RO membrane performance, but higher demand may require a larger storage tank. <h2>Staying Hydrated with Clean Water</h2> <p>Florida summers demand proper hydration. A reverse osmosis system ensures your drinking water is pure and great-tasting, encouraging your family to drink more water. Pure Agua Enterprises can evaluate your current system and recommend upgrades to meet summer demand.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call +11799836455 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},
+  {
+    slug: "kissimmee-orlando-water-quality",
+    title: "Kissimmee and Orlando Water Quality: OUC, KUA, and What Central Florida Residents Need to Know",
+    excerpt: "Central Florida water from the Floridan Aquifer — OUC and Kissimmee Utility Authority sources, hardness ranges, chloramines, and specific contaminants for Orlando and Kissimmee homeowners.",
+    date: "2026-04-15",
+    author: "Carlos Rivera",
+    category: "Local Water Quality",
+    readTime: "9 min read",
+    tags: ["Orlando water quality", "Kissimmee water quality", "Central Florida water", "OUC water quality"],
+    content: `<p>If you live in Kissimmee or Orlando, your tap water travels a unique path from source to faucet — and understanding that path is the first step toward knowing what treatment (if any) your home actually needs. Central Florida's water comes primarily from the Floridan Aquifer, but the utility serving your home determines the specific treatment, blending, and quality characteristics you experience.</p>
+
+<h2>Where Kissimmee Water Comes From</h2>
+
+<p>Kissimmee Utility Authority (KUA) and Toho Water Authority serve most of the Kissimmee area and unincorporated Osceola County. The primary source is the Floridan Aquifer — a massive limestone formation underlying all of Central Florida. As water passes through this limestone over thousands of years, it dissolves calcium and magnesium, creating the hard water that defines Central Florida's water quality.</p>
+
+<p><strong>Kissimmee water hardness:</strong> Toho Water Authority's finished water typically tests at 12–22 grains per gallon (GPG). This is considered very hard water by national standards. For reference, the Water Quality Association classifies anything above 10.5 GPG as "very hard." Most Kissimmee homes without treatment experience visible scale on fixtures within months of moving in.</p>
+
+<p><strong>Chloramine disinfection:</strong> Toho Water Authority uses chloramines (a combination of chlorine and ammonia) rather than free chlorine. Chloramines persist longer in distribution pipes but are significantly harder to remove at home. Standard carbon block filters that remove chlorine in seconds take much longer with chloramines — catalytic carbon media is required for effective removal.</p>
+
+<p><strong>Hydrogen sulfide:</strong> Many Kissimmee residents notice a rotten-egg odor in their water, particularly first thing in the morning. This is hydrogen sulfide (H₂S) naturally present in Osceola County groundwater. While not a health hazard at typical residential concentrations, it affects taste, corrodes metal plumbing, and tarnishes silverware.</p>
+
+<h2>Where Orlando Water Comes From</h2>
+
+<p>Orlando Utilities Commission (OUC) and Orange County Utilities serve different parts of the Orlando metro area. Orlando's water system is more complex than Kissimmee's — it blends multiple sources:</p>
+
+<p><strong>Southern Water Treatment Plant:</strong> Uses reverse osmosis to treat deep Floridan Aquifer water, then blends it with surficial aquifer and surface water. The result is typically 8–14 GPG hardness — still hard, but noticeably softer than raw Floridan Aquifer water.</p>
+
+<p><strong>Disinfection byproducts:</strong> OUC's Consumer Confidence Report shows total trihalomethanes (TTHMs) that, while within EPA limits, run higher during summer months when warmer source water requires more aggressive disinfection. TTHMs are a known carcinogen group produced when chloramines react with organic matter in the water.</p>
+
+<p><strong>PFAS monitoring:</strong> Orange County Utilities has been testing for PFAS (per- and polyfluoroalkyl substances) and reports levels below the EPA's 2024 Maximum Contaminant Levels (4 parts per trillion for PFOA and PFOS). However, the EPA's health advisory level is effectively zero — any detectable amount carries some risk.</p>
+
+<h2>What the Consumer Confidence Reports Don't Tell You</h2>
+
+<p>Your annual water quality report from KUA or OUC shows compliance with EPA standards — that's its purpose. What it doesn't address:</p>
+
+<ul>
+<li><strong>What happens in your pipes:</strong> Water quality at the treatment plant differs from water at your tap. Older distribution mains and home plumbing can add lead, copper, and sediment between the treatment plant and your glass.</li>
+<li><strong>Aesthetic quality:</strong> Hardness, taste, and odor are secondary standards — utilities aren't required to fix them. Your water can be "safe" while still damaging your appliances and tasting unpleasant.</li>
+<li><strong>Emerging contaminants:</strong> The EPA regulates approximately 90 contaminants. The Environmental Working Group's database identifies over a dozen compounds in Central Florida water that exceed health-based guidelines but are legal under current EPA rules.</li>
+</ul>
+
+<h2>What Central Florida Homeowners Should Test For</h2>
+
+<p>Whether you're on KUA, OUC, Toho, or any Central Florida municipal water, a comprehensive in-home water test reveals what's actually coming out of your specific tap — not what the utility measures at the plant. Pure Agua Enterprise tests for:</p>
+
+<ul>
+<li><strong>Total hardness</strong> (GPG) — determines if and what size softener you need</li>
+<li><strong>Chloramine levels</strong> — determines filtration media type</li>
+<li><strong>pH</strong> — affects corrosion in your plumbing</li>
+<li><strong>Iron</strong> — even city water can have iron from aging distribution pipes</li>
+<li><strong>TDS (Total Dissolved Solids)</strong> — overall mineral content indicator</li>
+<li><strong>Hydrogen sulfide</strong> — if odor is present</li>
+</ul>
+
+<h2>Treatment Recommendations by Area</h2>
+
+<p><strong>Kissimmee / Osceola County (Toho Water):</strong> Most homes benefit from a water softener (for 12–22 GPG hardness) plus whole-house catalytic carbon filtration (for chloramine and H₂S removal). Add an under-sink reverse osmosis for drinking water if you want to remove the remaining dissolved contaminants.</p>
+
+<p><strong>Orlando / Orange County (OUC):</strong> Softening is still recommended at 8–14 GPG for appliance protection. Catalytic carbon handles chloramines. An RO system addresses PFAS and disinfection byproducts at the drinking water tap.</p>
+
+<p><strong>Well water homes (rural Osceola, Orange, Polk):</strong> Completely different treatment profile — see our <a href="/blog/well-water-kissimmee-orlando">well water guide</a> for details.</p>
+
+<h2>Get Your Free Water Test</h2>
+
+<p>Pure Agua Enterprise provides free in-home water testing across Kissimmee, Orlando, and all of Central Florida. We test your actual tap water — not a sample from the treatment plant — and explain exactly what treatment makes sense for your home. Family-owned since 2016, 5.0★ rating with 200+ Google reviews, NSF/ANSI 58 and 61 certified, FL licensed.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "hard-water-central-florida-floridan-aquifer",
+    title: "The Floridan Aquifer and Hard Water in Central Florida: What It Costs You and How to Fix It",
+    excerpt: "Why Central Florida has hard water, how the Floridan Aquifer deposits minerals in your home, what scale damage to appliances actually costs Florida homeowners, and how water softeners solve it.",
+    date: "2026-04-15",
+    author: "Carlos Rivera",
+    category: "Water Quality",
+    readTime: "10 min read",
+    tags: ["hard water Central Florida", "Floridan Aquifer water quality", "water softener Kissimmee", "Orlando water"],
+    content: `<p>If you've lived in Central Florida for any length of time, you've seen the evidence: white crusty buildup on faucets, spotted glassware that no amount of rinsing fixes, a water heater that failed years before its rated lifespan. This is hard water at work — and in Central Florida, the Floridan Aquifer is responsible.</p>
+
+<h2>Why Central Florida Has Some of America's Hardest Water</h2>
+
+<p>The Floridan Aquifer is one of the most productive aquifer systems in the world — a massive limestone formation underlying all of Florida and parts of Georgia, Alabama, and South Carolina. It's the primary drinking water source for approximately 10 million people.</p>
+
+<p>The problem: limestone is calcium carbonate. As rainwater percolates through hundreds of feet of limestone over decades, it dissolves calcium and magnesium from the rock. By the time it reaches the depth where wells draw water, it's loaded with dissolved minerals — the definition of hard water.</p>
+
+<p><strong>Central Florida hardness ranges:</strong></p>
+<ul>
+<li>Kissimmee / Osceola County: 12–22 GPG (very hard to extremely hard)</li>
+<li>Orlando / Orange County: 8–14 GPG after utility blending (still hard)</li>
+<li>Well water throughout region: 20–40+ GPG (extremely hard)</li>
+</ul>
+
+<p>For context: the Water Quality Association classifies water above 10.5 GPG as "very hard." Most of Central Florida exceeds this threshold significantly.</p>
+
+<h2>What Hard Water Actually Costs You</h2>
+
+<p>Hard water isn't a health hazard — calcium and magnesium are minerals your body needs. The damage is economic: hard water destroys appliances, wastes energy, and costs you money every month you live with it untreated.</p>
+
+<h3>Water Heater Damage</h3>
+
+<p>Scale accumulates on the heating elements of your water heater at a rate proportional to your water's hardness and temperature. At Central Florida's typical 15–20 GPG, a conventional tank water heater accumulates approximately 1–2 pounds of scale per year on the lower heating element.</p>
+
+<p>This scale acts as insulation between the heating element and the water. The result: the element runs hotter and longer to heat the same amount of water. Studies from the Water Quality Research Foundation show that at 26 GPG hardness, water heaters lose 29% of their efficiency over their lifetime and fail 2–3 years earlier than rated.</p>
+
+<p><strong>Cost impact:</strong> A 50-gallon electric water heater costs $1,200–$2,000 installed in Central Florida. If hard water reduces its lifespan from 12 years to 8 years, you're replacing it 50% more often — an extra $400–$667 per year in amortized replacement cost, plus the efficiency loss on your monthly electric bill.</p>
+
+<h3>Dishwasher and Washing Machine</h3>
+
+<p>Scale builds up on dishwasher spray arms (reducing water pressure), heating elements, and seals. The same WQRF study found dishwashers in hard water areas required twice the detergent to achieve clean results and had significantly shorter lifespans.</p>
+
+<p>Washing machines in hard water require 50–75% more detergent, and clothes washed in hard water retain mineral deposits that make fabrics stiff, dull colored clothing, and shorten textile life. A family of four spending $40/month on laundry detergent could reduce that to $20–$25 with softened water.</p>
+
+<h3>Plumbing System</h3>
+
+<p>Scale accumulates inside pipes, gradually reducing flow diameter. In severe cases (Central Florida's 20+ GPG well water), a half-inch copper supply line can lose 30–40% of its internal diameter within 10–15 years. The result is progressively lower water pressure throughout the house, followed eventually by pipe replacement.</p>
+
+<p>Scale also accumulates in fixture cartridges, shower valves, and toilet fill valves — causing drips, leaks, and premature failure of components that should last much longer.</p>
+
+<h3>The Total Cost Without Treatment</h3>
+
+<p>Conservative estimate for a Central Florida home at 15 GPG with no water softener:</p>
+<ul>
+<li>Early water heater replacement: $300–$500/year amortized</li>
+<li>Extra energy cost (scale insulation): $80–$150/year</li>
+<li>Extra detergent and cleaning products: $150–$250/year</li>
+<li>Shortened appliance life (dishwasher, washing machine): $100–$200/year amortized</li>
+<li>Plumbing repairs and fixture replacement: $100–$300/year averaged</li>
+</ul>
+
+<p><strong>Total annual cost of untreated hard water: $730–$1,400/year</strong></p>
+
+<p>At the higher hardness levels common in Osceola County and well water homes (20–40 GPG), these costs increase proportionally.</p>
+
+<h2>How Water Softeners Solve the Problem</h2>
+
+<p>A water softener uses ion exchange to remove calcium and magnesium from your water before it enters your home's plumbing. Hard water passes through a resin bed that captures calcium and magnesium ions, replacing them with sodium ions. Periodically, the system regenerates by flushing the resin with a salt (sodium chloride) solution that strips off the accumulated minerals and sends them to drain.</p>
+
+<p><strong>The result:</strong> Water throughout your home is soft (below 1 GPG), eliminating scale formation completely. Existing light scale begins to dissolve over weeks to months as softened water flows through your plumbing.</p>
+
+<h3>Sizing for Central Florida</h3>
+
+<p>Water softener sizing depends on two factors: your water's hardness (in GPG) and your household's daily water consumption. A family of four in Kissimmee using 300 gallons per day at 18 GPG needs a softener that can remove 5,400 grains per day between regenerations.</p>
+
+<p>Undersized softeners regenerate too frequently (wasting salt and water). Oversized softeners go too long between regenerations (allowing bacteria growth in stagnant resin). Proper sizing — based on an actual water test, not a guess — is critical for both performance and efficiency.</p>
+
+<h2>What Pure Agua Enterprise Recommends</h2>
+
+<p>After testing over a thousand Central Florida homes since 2016, our recommendation is consistent: virtually every home in Kissimmee, Orlando, and surrounding communities benefits from water softening. The question isn't "if" — it's which system is sized correctly for your specific hardness level and household size.</p>
+
+<p>We install NSF/ANSI 44 certified softeners — the gold standard certification that verifies the system actually removes hardness to the levels claimed. Combined with our NSF/ANSI 58 certified reverse osmosis for drinking water and NSF/ANSI 61 certified components throughout, every Pure Agua installation meets the highest industry standards.</p>
+
+<h2>Get Your Free Hard Water Test</h2>
+
+<p>Pure Agua Enterprise tests your home's water hardness for free — no obligation, same-day results. We'll show you exactly how hard your water is, calculate what it's costing you annually, and recommend the right-sized system if treatment makes sense. Family-owned, 5.0★ with 200+ reviews, serving Central Florida since 2016.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "well-water-kissimmee-orlando",
+    title: "Well Water in Kissimmee and Orlando: Problems, Testing, and Treatment for Central Florida",
+    excerpt: "Rural Osceola, Orange, and Polk County well water faces iron, sulfur, bacteria, and high hardness without municipal treatment. A complete guide to Central Florida well water testing and treatment.",
+    date: "2026-04-15",
+    author: "Carlos Rivera",
+    category: "Well Water",
+    readTime: "10 min read",
+    tags: ["well water Kissimmee FL", "well water Orlando", "Central Florida well water treatment", "well water testing"],
+    content: `<p>Thousands of homes in rural Kissimmee, St. Cloud, Poinciana, and unincorporated Orange and Osceola County rely on private wells rather than municipal water. If you're one of them, your water quality is entirely your responsibility — no utility is testing it, treating it, or notifying you when something changes.</p>
+
+<p>Private well water in Central Florida faces a distinct set of challenges that differ significantly from city water. Here's what you need to know about testing, common problems, and treatment options.</p>
+
+<h2>Common Well Water Problems in Central Florida</h2>
+
+<h3>Extreme Hardness (20–40+ GPG)</h3>
+
+<p>While city water in Kissimmee runs 12–22 GPG after utility treatment, private well water comes straight from the Floridan Aquifer with zero treatment. Raw aquifer water in Osceola and Orange counties commonly tests 20–40 GPG — among the hardest residential water in the United States.</p>
+
+<p>At these levels, scale accumulation is aggressive. Water heaters can accumulate several pounds of calcium carbonate per year. Showerheads clog within months. Faucet aerators require monthly cleaning. Without softening, a well water home's plumbing system deteriorates measurably faster than one on treated city water.</p>
+
+<h3>Iron Staining</h3>
+
+<p>Dissolved iron (ferrous iron) is extremely common in Central Florida wells — concentrations of 1–10 mg/L are typical, well above the 0.3 mg/L threshold where staining becomes visible. Iron manifests as:</p>
+
+<ul>
+<li>Orange-brown staining on toilets, sinks, and tubs</li>
+<li>Rust-colored laundry stains (particularly on whites)</li>
+<li>Metallic taste in drinking water</li>
+<li>Orange biofilm in toilet tanks</li>
+</ul>
+
+<p>Iron in well water exists in two forms: ferrous (dissolved, water appears clear until exposed to air) and ferric (already oxidized, water appears tinted). Treatment differs by type — oxidation + filtration for ferrous iron, sediment filtration for ferric. A proper water test distinguishes between the two.</p>
+
+<h3>Hydrogen Sulfide (Rotten Egg Smell)</h3>
+
+<p>The distinctive rotten-egg odor reported by many Central Florida well owners comes from hydrogen sulfide (H₂S) produced by sulfate-reducing bacteria in the anaerobic aquifer environment. It's particularly common in Osceola County and parts of Polk County.</p>
+
+<p>While not typically a health hazard at residential concentrations, H₂S is corrosive to copper and brass plumbing, tarnishes silver, and makes water unpleasant to drink or cook with. Treatment options include aeration, oxidation (chlorine injection or ozone), and catalytic carbon filtration — the best approach depends on concentration levels.</p>
+
+<h3>Bacteria Contamination</h3>
+
+<p>Unlike city water, private well water has no ongoing disinfection. Bacteria can enter your well through:</p>
+
+<ul>
+<li>Degraded well seals (common in wells over 15–20 years old)</li>
+<li>Surface water infiltration during heavy rains (Florida's karst geology creates direct connections between surface and groundwater)</li>
+<li>Nearby septic systems (extremely common in rural Central Florida where municipal sewer doesn't reach)</li>
+<li>Flooding events during hurricane season</li>
+</ul>
+
+<p>The EPA recommends annual coliform bacteria testing for all private wells. In Central Florida's karst environment with high water tables and dense septic systems, this annual test isn't optional — it's essential.</p>
+
+<h3>Tannins</h3>
+
+<p>Some Central Florida wells — particularly shallower wells in areas with organic-rich soils — produce water with a yellow-brown tint from naturally occurring tannins (humic and fulvic acids from decomposing plant matter). Tannins aren't a health hazard but they stain fixtures, laundry, and give water an unpleasant appearance and taste.</p>
+
+<h2>Well Water Testing: What to Test and How Often</h2>
+
+<p><strong>Annual testing (minimum):</strong></p>
+<ul>
+<li>Total coliform bacteria and E. coli</li>
+<li>Nitrates</li>
+<li>pH</li>
+</ul>
+
+<p><strong>Every 2–3 years:</strong></p>
+<ul>
+<li>Total hardness</li>
+<li>Iron and manganese</li>
+<li>Total dissolved solids (TDS)</li>
+<li>Hydrogen sulfide (if odor present)</li>
+</ul>
+
+<p><strong>At installation or if concerns arise:</strong></p>
+<ul>
+<li>Arsenic (naturally occurs in Floridan Aquifer)</li>
+<li>PFAS (if near military bases, airports, or agricultural operations)</li>
+<li>Lead and copper (especially in homes with older plumbing)</li>
+<li>Radon (in some Central Florida geological zones)</li>
+</ul>
+
+<p><strong>Test immediately after:</strong> Flooding, nearby construction or land clearing, changes in taste/color/odor, new nearby development, or any time you haven't tested in over a year.</p>
+
+<h2>Treatment Solutions for Central Florida Well Water</h2>
+
+<p>Most Central Florida well water homes need a multi-stage treatment approach because multiple issues exist simultaneously. A typical system might include:</p>
+
+<p><strong>Stage 1 — Oxidation + Filtration:</strong> An air injection or chemical feed system oxidizes dissolved iron and hydrogen sulfide, converting them to particulate form. A multimedia or greensand filter then captures the oxidized particles. This addresses iron staining and sulfur odor.</p>
+
+<p><strong>Stage 2 — Water Softener:</strong> An ion-exchange softener removes the extreme hardness (20–40 GPG) that characterizes raw Floridan Aquifer water. Sized based on actual tested hardness and household water consumption.</p>
+
+<p><strong>Stage 3 — UV Disinfection:</strong> A UV sterilization system provides continuous bacterial protection without chemicals. No chlorine taste, no chemical residual — just clean water verified safe from bacteria and viruses.</p>
+
+<p><strong>Stage 4 — Reverse Osmosis (drinking water):</strong> An under-sink RO system removes the remaining dissolved contaminants (nitrates, arsenic, PFAS, TDS) from your drinking and cooking water. NSF/ANSI 58 certified systems remove 95%+ of dissolved contaminants.</p>
+
+<h2>When to Call a Professional</h2>
+
+<p>Some well water issues are DIY-manageable (checking pressure tanks, adding salt to softeners). Others require professional assessment:</p>
+
+<ul>
+<li>Any bacteria detection — shock chlorination and source investigation needed</li>
+<li>Iron above 3 mg/L — proper system sizing requires professional water analysis</li>
+<li>Multiple simultaneous issues — treatment order matters (iron removal before softening, for example)</li>
+<li>New well or newly purchased home — baseline testing establishes what treatment is needed</li>
+<li>Change in water quality — may indicate well structural issues or aquifer changes</li>
+</ul>
+
+<h2>Pure Agua Enterprise Well Water Services</h2>
+
+<p>Pure Agua Enterprise has been treating Central Florida well water since 2016. We provide free comprehensive well water testing — not just a basic hardness check, but a full panel covering hardness, iron (ferrous and total), pH, TDS, bacteria, and sulfide. Carlos Rivera and the Pure Agua team design multi-stage treatment systems specifically for Central Florida's Floridan Aquifer water chemistry.</p>
+
+<p>NSF/ANSI 58 and 61 certified. WQA member. FL licensed. 5.0★ with 200+ Google reviews. Family-owned and serving Kissimmee, St. Cloud, Poinciana, Orlando, and all of Central Florida.</p>
+
+<p><a href="/contact">Schedule your free well water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+];
 
 export function getAllPosts(): BlogPost[] {
   return blogPosts.sort(
