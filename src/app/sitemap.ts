@@ -42,5 +42,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/well-water-treatment`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     // Geo landing pages
     { url: `${baseUrl}/water-softener-in-florida`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    // New 2026-04 long-form articles
+    { url: `${baseUrl}/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection`, lastModified: new Date('2026-04-21'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/sinkholes-karst-central-florida-wells`, lastModified: new Date('2026-04-20'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/agua-kissimmee-orlando-guia-espanol`, lastModified: new Date('2026-04-19'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/vacation-rental-water-quality-disney-area`, lastModified: new Date('2026-04-18'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/pfas-central-florida-2026-orange-county`, lastModified: new Date('2026-04-17'), changeFrequency: 'monthly', priority: 0.8 },
   ];
 }

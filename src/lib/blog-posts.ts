@@ -682,6 +682,548 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="/contact">Schedule your free well water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
   },
+  {
+    slug: "chloramine-vs-ozone-orlando-kissimmee-disinfection",
+    title: "Chloramine vs. Ozone: How Your Central Florida Utility Actually Disinfects Your Water",
+    excerpt:
+      "OUC uses ozone. Toho Water uses chloramines. Orange County Utilities uses free chlorine. Here is why the disinfection method at your utility changes what home filter you actually need.",
+    date: "2026-04-21",
+    author: "Carlos Rivera",
+    category: "Water Quality",
+    readTime: "10 min read",
+    tags: ["chloramine", "ozone", "Orlando water", "Kissimmee water", "disinfection"],
+    content: `<p>Most Central Florida homeowners assume drinking water is "chlorinated" and leave it at that. But the three biggest utilities in the Orlando metro — OUC, Toho Water Authority, and Orange County Utilities — use three different disinfection approaches, and the difference directly determines whether your home carbon filter is doing its job or quietly letting disinfection residuals through.</p>
+
+<h2>The Three Disinfection Approaches</h2>
+
+<h3>OUC — Ozone Primary + Chlorine Residual</h3>
+<p>Orlando Utilities Commission uses <strong>ozone (O₃) as its primary disinfectant</strong>, with free chlorine added only to maintain a residual in the distribution system. Ozone is an exceptionally powerful oxidizer — more effective than either chlorine or chloramines against pathogens — and it also removes hydrogen sulfide (the rotten-egg odor naturally present in Floridan Aquifer water). Because ozone decomposes rapidly back into oxygen, it leaves no persistent residual of its own; that's why OUC still adds chlorine at the end of treatment.</p>
+
+<p>For OUC customers, the water reaching your tap carries a <strong>free chlorine residual</strong>, not chloramines. This matters because free chlorine is easy to remove with standard activated carbon filtration at residential flow rates.</p>
+
+<h3>Toho Water Authority — Chloramines</h3>
+<p>Toho Water Authority, which serves more than 100,000 customers in Kissimmee, Poinciana, and unincorporated Osceola County, uses <strong>chloramines</strong> — a combination of chlorine and ammonia. Chloramines persist longer in distribution pipes and produce fewer trihalomethanes (regulated carcinogenic byproducts) than free chlorine. Toho does run occasional temporary free-chlorine conversions for specific areas; a notice in March 2026 alerted Harmony-area customers to a 5–7 day switch for maintenance purposes.</p>
+
+<p>For Toho customers, the water reaching your tap carries a <strong>chloramine residual</strong> — which is fundamentally harder to remove with standard carbon.</p>
+
+<h3>Orange County Utilities — Likely Free Chlorine</h3>
+<p>Orange County Utilities, separate from OUC, serves unincorporated Orange County. OCU typically uses free chlorine, though you should verify against the current Annual Drinking Water Report (CCR) for your specific service area before assuming.</p>
+
+<h2>Typical Residual Levels</h2>
+<p>EPA sets a Maximum Residual Disinfectant Level (MRDL) of <strong>4.0 ppm</strong> for both chlorine and chloramines in finished drinking water. Central Florida utilities typically run:</p>
+
+<ul>
+<li><strong>Chloramine residual (Toho):</strong> 1.5–3.5 ppm</li>
+<li><strong>Free chlorine residual (OUC, OCU):</strong> 1.0–2.5 ppm at the plant, lower at distant distribution points</li>
+</ul>
+
+<h2>Why the Distinction Matters for Home Filtration</h2>
+
+<p>Standard granular activated carbon (GAC) removes free chlorine through a fast surface reaction — water contacts carbon, chlorine is reduced to chloride, and filtered water exits. Typical residential GAC removes 90%+ of chlorine at normal flow rates.</p>
+
+<p>Chloramines don't work that way. The N-Cl bond in monochloramine (NH₂Cl) is far more stable, and removing it requires chemical decomposition rather than simple adsorption. Published performance data:</p>
+
+<ul>
+<li><strong>Standard GAC on chloramine:</strong> 40–65% removal at residential flow — much lower than chlorine removal, and it drops further as the carbon ages.</li>
+<li><strong>Catalytic carbon on chloramine:</strong> 90%+ removal. The media surface is specifically treated to catalyze the chloramine decomposition reaction.</li>
+</ul>
+
+<p>If you're a Toho Water customer and you bought a "chlorine taste and odor" filter, you're probably getting significantly less chloramine removal than you think. After 6–12 months of use, most standard GAC units are pass-through for chloramine.</p>
+
+<h2>Practical Selection Guide</h2>
+
+<p><strong>OUC customer:</strong> Standard GAC whole-house filter works for chlorine. Consider an under-sink RO for drinking water quality (DBPs, trace contaminants). The ozone upstream means your water already has lower H₂S and lower overall organic loading.</p>
+
+<p><strong>Toho Water customer:</strong> You specifically need <strong>catalytic carbon</strong> media — not standard GAC — for whole-house chloramine removal. NSF/ANSI 42 certified for chloramine reduction is the standard. An under-sink RO adds a second barrier for drinking water.</p>
+
+<p><strong>Orange County Utilities customer:</strong> Likely same approach as OUC (free chlorine removable with standard GAC) but verify your CCR. OCU has a separate PFAS situation — two facilities detected at or above the 4 ppt MCL (Malcolm Road ~4.7 ppt; County Road 535 ~5 ppt) — so under-sink RO is worth serious consideration for drinking water.</p>
+
+<h2>How to Verify Your Disinfectant</h2>
+
+<p>Three ways:</p>
+<ol>
+<li><strong>Your utility's CCR.</strong> The annual Consumer Confidence Report identifies the primary disinfectant. Published by July 1 each year.</li>
+<li><strong>Simple home test strips.</strong> Total chlorine vs. free chlorine strips are cheap. If total chlorine is significantly higher than free chlorine, you have chloramines (the difference is combined chlorine = chloramines).</li>
+<li><strong>Ask a water professional.</strong> Pure Agua tests chloramine specifically during free water testing.</li>
+</ol>
+
+<h2>Aquarium and Pond Owners</h2>
+
+<p>Chloramines are acutely toxic to fish at Toho residual levels. Unlike free chlorine, chloramines do not off-gas from standing water within hours — they persist for days. Dechlorination conditioners specifically formulated for chloramines (not just chlorine) are required for every water change.</p>
+
+<p>OUC's ozone-primary approach doesn't reach aquariums — by the time water reaches your tap, you're dealing with the free chlorine residual added at the end of treatment. Standard aquarium conditioners handle this fine.</p>
+
+<h2>Get Your Water Tested</h2>
+
+<p>Pure Agua provides free in-home water testing throughout Osceola, Orange, and Seminole Counties — we measure your exact chloramine or chlorine residual, hardness, pH, and TDS, and we know the differences between Toho Water, OUC, and OCU service areas. 5.0★ rated with 200+ Google reviews. Family-owned since 2016.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "sinkholes-karst-central-florida-wells",
+    title: "Sinkholes, Karst Geology, and Your Central Florida Well: What the Polk County Events Tell Us",
+    excerpt:
+      "Central Florida sits on karst limestone that can collapse without warning. Here is what sinkhole formation means for private wells, what FDEP's Delineated Areas Program actually requires, and how to protect a well in karst terrain.",
+    date: "2026-04-20",
+    author: "Carlos Rivera",
+    category: "Well Water",
+    readTime: "11 min read",
+    tags: ["sinkholes", "karst geology", "Central Florida wells", "Floridan Aquifer"],
+    content: `<p>In January 2024, a sinkhole approximately 70 feet deep and 15 feet wide opened on Royal Crest Drive in Highland City, Polk County. In November of the same year, a second sinkhole — roughly 8 feet wide and 20 feet deep — formed at the same property. Two sinkholes in 10 months at the same address is unusual even for Central Florida, but the underlying geology that caused them is universal across the Orlando metro. Understanding karst behavior matters for anyone on a private well, anyone considering well-drilled property, and anyone whose drinking water comes from the Floridan Aquifer — which is essentially everyone in Osceola, Orange, Seminole, and Polk Counties.</p>
+
+<h2>What Karst Actually Is</h2>
+
+<p>Central Florida's geology is defined by limestone and dolomite — carbonate rocks that slowly dissolve when contacted by mildly acidic water. Rainwater picks up CO₂ from the atmosphere and soil, forming carbonic acid. Over geologic time, that acid has dissolved the underlying carbonate rock into an extensive network of voids, caves, fissures, and conduits. This dissolved-rock landscape is called <strong>karst</strong>.</p>
+
+<p>The <strong>Floridan Aquifer</strong> — the drinking water source for approximately 10 million people across Florida, Georgia, Alabama, South Carolina, and Mississippi, covering roughly 100,000 square miles — is hosted in these karst limestone formations. The same dissolution processes that create water-storage capacity also create structural instability.</p>
+
+<h2>How Sinkholes Form</h2>
+
+<p>A typical Central Florida sinkhole forms when:</p>
+
+<ol>
+<li>A void in the underlying limestone grows gradually over decades or centuries through continuing dissolution.</li>
+<li>A <strong>confining clay layer</strong> above the limestone bridges the void at the surface.</li>
+<li>Changes in groundwater levels (drought lowering water tables; heavy rains saturating the clay) destabilize the bridge.</li>
+<li>The clay bridge collapses into the void below, and surface soils cascade downward to fill the new space.</li>
+<li>At the surface, a hole appears — sometimes slowly over hours (a "cover-subsidence" sinkhole), sometimes in seconds (a "cover-collapse" sinkhole).</li>
+</ol>
+
+<p>Cover-collapse sinkholes are the dramatic ones — Highland City's 70-foot-deep January 2024 event is a classic example. Cover-subsidence is slower and easier to miss until significant damage has occurred.</p>
+
+<h2>Sinkholes and Wells — The Direct Connection</h2>
+
+<p>When a sinkhole opens, it can directly breach the confining clay layer that normally separates surface water (and surface contamination) from the Floridan Aquifer below. In ordinary conditions, the confining layer provides natural filtration — surface runoff, septic effluent, fertilizer, pesticides, and pathogens all take months to years to migrate through clay and soil before reaching the aquifer. A sinkhole creates a shortcut.</p>
+
+<p>For private well owners in the area of a new sinkhole:</p>
+
+<ul>
+<li><strong>Immediate contamination risk:</strong> Surface water can reach the well's water-bearing zone within hours or days, carrying with it anything that was on the surface or in the shallow subsurface.</li>
+<li><strong>Elevated turbidity:</strong> Collapse events often mobilize sediment into the aquifer, causing temporary turbidity spikes.</li>
+<li><strong>Structural damage to the well itself:</strong> Wells within 100–200 feet of a sinkhole can experience casing damage, grout seal failure, or loss of well yield.</li>
+</ul>
+
+<p>Even if your well is not directly in the sinkhole footprint, the regional hydraulic connectivity of karst means contamination entering at one point can propagate to nearby wells faster than in non-karst geology.</p>
+
+<h2>FDEP's Delineated Areas Program</h2>
+
+<p>Florida Department of Environmental Protection regulates groundwater protection in areas where contamination has been identified or where geology creates elevated risk. The Delineated Areas Program, authorized under Chapter 373 F.S. Part III and codified in Chapter 62-524 F.A.C., designates specific zones with enhanced requirements.</p>
+
+<p>Within a Delineated Area:</p>
+
+<ul>
+<li>New wells must meet stricter construction standards (deeper casing, improved grout, approved annular seal).</li>
+<li>Mandatory water quality testing by the County Health Department before the well can be cleared for potable use.</li>
+<li>Certain land uses may be restricted.</li>
+<li>Existing wells may be scheduled for periodic monitoring.</li>
+</ul>
+
+<p>If you're considering buying property with a private well in Central Florida, checking whether the parcel is inside a Delineated Area should be a standard due-diligence item.</p>
+
+<h2>Florida DOH Well Surveillance</h2>
+
+<p>Florida Department of Health maintains a Well Surveillance Program that monitors threats to private wells from industrial contamination sites, agricultural operations, and hydrogeologic risks. DOH coordinates with county health departments to test wells in documented risk areas; if your well is in a surveillance zone, you may be eligible for free testing on a periodic basis.</p>
+
+<h2>What This Means for Homeowners</h2>
+
+<p><strong>Existing well owners:</strong></p>
+<ol>
+<li><strong>Know your well construction.</strong> Ask your well driller or the previous owner for the well log (total depth, casing depth, casing material, grout information). Shallower wells in karst are higher-risk for sinkhole-related contamination.</li>
+<li><strong>Test annually at minimum.</strong> Coliform, nitrate, hardness, pH, and iron as a baseline panel. More frequent testing if you're near agricultural operations, septic-dense neighborhoods, or known contamination sites.</li>
+<li><strong>Watch for signs of sinkhole activity:</strong> new cracks in foundations, doors that stop fitting their frames, slumping ground near trees or structures, sudden changes in well water clarity or pressure.</li>
+<li><strong>If a sinkhole opens anywhere within 500 feet of your well:</strong> do not drink from the well until a certified laboratory confirms no coliform contamination.</li>
+</ol>
+
+<p><strong>Prospective property buyers:</strong></p>
+<ul>
+<li>Check FDEP's Delineated Areas database for the parcel.</li>
+<li>Request the well log before closing.</li>
+<li>Get an independent water quality test (not just the seller's most recent test).</li>
+<li>Check for sinkhole activity on adjacent parcels within a mile radius — county records and Florida Geological Survey databases both track documented events.</li>
+</ul>
+
+<h2>Whole-House and Point-of-Use Treatment for Karst Wells</h2>
+
+<p>Even a properly constructed well in karst terrain benefits from multi-barrier treatment:</p>
+
+<ul>
+<li><strong>Sediment pre-filter:</strong> Captures turbidity spikes from nearby surface disturbances.</li>
+<li><strong>UV disinfection:</strong> Inactivates coliform bacteria that may enter through hydraulic connections. Requires low turbidity upstream.</li>
+<li><strong>Whole-house carbon:</strong> Removes agricultural herbicides, pesticides, and volatile organic compounds that may reach the aquifer through sinkhole-mediated pathways.</li>
+<li><strong>Under-sink RO:</strong> Provides final polishing for drinking water — removes nitrates, any residual bacterial contaminants, and dissolved inorganic concerns.</li>
+</ul>
+
+<h2>Free Well Water Testing</h2>
+
+<p>Pure Agua tests private wells throughout Osceola, Orange, Seminole, and Polk Counties. We test coliform, nitrate, hardness, iron, pH, and sulfur, and we know the karst geology across Central Florida. 5.0★ rated with 200+ Google reviews.</p>
+
+<p><a href="/contact">Schedule your free well water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "agua-kissimmee-orlando-guia-espanol",
+    title: "Agua de Kissimmee y Orlando: Guía en Español para Dueños de Casa",
+    excerpt:
+      "Osceola County es 54-56% hispano. Guía bilingüe sobre dureza del agua, cloraminas, ósmosis inversa, y pruebas de agua gratis para familias de Kissimmee y Orlando.",
+    date: "2026-04-19",
+    author: "Carlos Rivera",
+    category: "Local Water",
+    readTime: "9 min read",
+    tags: ["agua Kissimmee", "agua Orlando", "Spanish", "ósmosis inversa", "ablandador de agua"],
+    content: `<p>El Condado de Osceola es uno de los tres condados de mayoría hispana en Florida — aproximadamente 54–56% de la población se identifica como hispana o latina según datos del Censo 2024, con mayoría puertorriqueña. Esta guía cubre los problemas de calidad del agua más comunes en Kissimmee, Orlando, Poinciana, y áreas cercanas, en español simple, con los términos técnicos que necesita conocer para tomar decisiones informadas sobre el agua de su casa.</p>
+
+<h2>El Agua Dura (Hard Water) — El Problema Más Común</h2>
+
+<p>El <strong>agua dura</strong> es agua con altos niveles de calcio y magnesio. En Osceola County, el agua del Floridan Aquifer pasa por formaciones de piedra caliza (limestone), lo que carga el agua con estos minerales. Los niveles típicos en la zona de servicio de Toho Water Authority:</p>
+
+<ul>
+<li><strong>Dureza:</strong> 200–300 ppm (12–18 granos por galón / gpg)</li>
+<li><strong>Clasificación:</strong> "muy dura" según la Water Quality Association (más de 180 ppm = muy dura)</li>
+</ul>
+
+<p><strong>Señales de agua dura en su casa:</strong></p>
+<ul>
+<li>Manchas blancas en platos, grifos y cabezas de ducha</li>
+<li>Jabón que no hace espuma</li>
+<li>Piel seca e irritada después de la ducha</li>
+<li>Ropa dura y colores que se desvanecen rápido</li>
+<li>Calentador de agua que falla antes de tiempo (daño por escama / scale)</li>
+</ul>
+
+<p><strong>La solución:</strong> Un <strong>ablandador de agua</strong> (water softener — también se le dice "suavizador"). El ablandador usa un proceso llamado intercambio iónico (ion exchange) para remover el calcio y magnesio, reemplazándolos con sodio. El sistema se regenera automáticamente con sal (salt) cada pocos días.</p>
+
+<p>Costo típico instalado: $1,500–$3,500 dependiendo del tamaño de la casa. Costo operativo: $10–$20 al mes en sal.</p>
+
+<h2>Cloraminas en el Agua de Kissimmee</h2>
+
+<p><strong>Toho Water Authority</strong> — el proveedor principal de agua en Kissimmee, Poinciana, y Osceola County no incorporado — usa <strong>cloraminas</strong> como desinfectante primario. Las cloraminas son una combinación de cloro y amoníaco (ammonia). Son más estables en las tuberías y producen menos subproductos cancerígenos que el cloro libre, pero son más difíciles de remover con filtros de carbón (carbon filters) estándar.</p>
+
+<p><strong>Niveles típicos:</strong> 1.5–3.5 ppm de cloramina en el agua que llega a su grifo.</p>
+
+<p><strong>Efectos en la casa:</strong></p>
+<ul>
+<li>Sabor y olor químico / medicinal en el agua</li>
+<li>Piel seca y picazón después de la ducha</li>
+<li>Ropa con vida útil más corta</li>
+<li>Peligro para acuarios — las cloraminas son tóxicas para peces</li>
+</ul>
+
+<p><strong>La solución:</strong> Un filtro de <strong>carbón catalítico</strong> (catalytic carbon) para toda la casa. El carbón estándar (standard GAC) solo remueve 40–65% de las cloraminas; el carbón catalítico remueve más de 90%.</p>
+
+<h2>Ósmosis Inversa (Reverse Osmosis) para Agua Potable</h2>
+
+<p>Aunque el agua de Kissimmee/Orlando cumple con los estándares federales de la EPA, muchas familias prefieren un sistema de <strong>ósmosis inversa</strong> para el agua de beber y cocinar. La ósmosis inversa:</p>
+
+<ul>
+<li>Remueve 95–99% de los contaminantes disueltos</li>
+<li>Incluye PFAS (productos químicos "para siempre"), cloraminas residuales, nitratos, metales pesados</li>
+<li>Se instala debajo del fregadero de la cocina (under-sink)</li>
+<li>Tiene su propio grifo dedicado para agua filtrada</li>
+</ul>
+
+<p>Costo típico instalado: $400–$900 para un sistema de 4–5 etapas.</p>
+
+<h2>El Problema de PFAS en Orange County</h2>
+
+<p>Orange County Utilities ha reportado detecciones de <strong>PFAS</strong> (sustancias per- y polifluoroalquilo, conocidas como "productos químicos para siempre") en dos plantas:</p>
+
+<ul>
+<li><strong>Planta Malcolm Road:</strong> ~4.7 partes por trillón (ppt) — por encima del límite federal de 4.0 ppt</li>
+<li><strong>Planta County Road 535:</strong> ~5 ppt — también por encima del límite</li>
+</ul>
+
+<p>El Condado aprobó un contrato de $4.5 millones con Tetra Tech en febrero de 2025 para ingeniería de remediación de PFAS. La fecha de cumplimiento federal se extendió a <strong>2031</strong> (anteriormente 2029) por revisión de EPA en mayo de 2025.</p>
+
+<p><strong>Si usted es cliente de Orange County Utilities:</strong> Un sistema de ósmosis inversa remueve 95–99% de PFAS. Es la mejor protección residencial mientras el condado completa su trabajo de remediación.</p>
+
+<h2>Agua de Pozo (Well Water)</h2>
+
+<p>Si su casa usa <strong>agua de pozo</strong> en lugar de agua municipal, los problemas más comunes en Osceola y áreas rurales de Orange County:</p>
+
+<ul>
+<li><strong>Sulfuro de hidrógeno (olor a huevo podrido):</strong> Natural del Floridan Aquifer. Se trata con aireación o carbón catalítico.</li>
+<li><strong>Hierro y manganeso:</strong> Manchas rojas/marrones en los accesorios. Se trata con filtros de hierro especializados.</li>
+<li><strong>Bacterias coliformes:</strong> Riesgo particular después de inundaciones o huracanes. Prueba anual recomendada.</li>
+<li><strong>Nitratos:</strong> De operaciones agrícolas cercanas. Crítico si hay bebés menores de 6 meses en la casa.</li>
+</ul>
+
+<h2>Pruebas de Agua Gratis (Free Water Testing)</h2>
+
+<p>Pure Agua Enterprises ofrece <strong>pruebas de agua gratuitas</strong> en toda el área de Kissimmee, Orlando, Poinciana, y Central Florida. Nuestros técnicos visitan su casa, prueban el agua, y le explican los resultados en español. Sin compromiso, sin presión de ventas.</p>
+
+<p>Probamos:</p>
+<ul>
+<li>Dureza (hardness)</li>
+<li>Cloro / cloramina</li>
+<li>pH</li>
+<li>Sólidos disueltos totales (TDS)</li>
+<li>Hierro (iron)</li>
+<li>Sulfuro de hidrógeno (en pozos)</li>
+<li>Nitratos (en pozos)</li>
+</ul>
+
+<h2>Términos Técnicos — Referencia Rápida</h2>
+
+<ul>
+<li><strong>Agua dura</strong> = hard water</li>
+<li><strong>Ablandador de agua / Suavizador</strong> = water softener</li>
+<li><strong>Ósmosis inversa</strong> = reverse osmosis</li>
+<li><strong>Agua de pozo</strong> = well water</li>
+<li><strong>Prueba de agua / Análisis de agua</strong> = water testing / water analysis</li>
+<li><strong>Cloramina</strong> = chloramine</li>
+<li><strong>Filtro de carbón catalítico</strong> = catalytic carbon filter</li>
+<li><strong>Sulfuro de hidrógeno</strong> = hydrogen sulfide (H₂S)</li>
+<li><strong>Nitratos</strong> = nitrates</li>
+<li><strong>PFAS / productos químicos para siempre</strong> = forever chemicals</li>
+<li><strong>Certificación WQA / NSF</strong> = Water Quality Association / NSF International certification</li>
+</ul>
+
+<h2>Empresa Familiar Desde 2016</h2>
+
+<p>Pure Agua Enterprises es una empresa familiar servicio al sur-central de Florida desde 2016. Certificación NSF/WQA, licencia de Florida, 5.0 estrellas con más de 200 reseñas en Google. Bilingüe — inglés y español.</p>
+
+<p><a href="/contact">Programe su prueba de agua gratis</a> o llame al <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "vacation-rental-water-quality-disney-area",
+    title: "Vacation Rental Water Quality Near Disney: Why STR Properties Need Different Treatment",
+    excerpt:
+      "Reunion, ChampionsGate, Windsor Hills, Four Corners — STR-saturated neighborhoods face accelerated appliance wear from nonstop guest use. Here is what the scale math looks like and why turnover rate changes the water treatment equation.",
+    date: "2026-04-18",
+    author: "Carlos Rivera",
+    category: "Property Management",
+    readTime: "9 min read",
+    tags: ["vacation rental", "STR", "Disney area", "water treatment", "ChampionsGate", "Reunion"],
+    content: `<p>The short-term rental (STR) corridor near Walt Disney World — Reunion, ChampionsGate, Four Corners, Davenport, Windsor Hills, Windsor at Westside, Solara, Encore, Emerald Island, Storey Lake — runs at high occupancy year-round, with AirDNA data showing June 2024 through May 2025 median occupancy at 67% (with peaks in March, April, and December). For owners and property managers, that occupancy translates to something the standard single-family residential water treatment conversation misses: water and appliance wear at commercial-scale usage intensities.</p>
+
+<p>This article covers the specific water quality considerations for Osceola STR properties, why standard residential water treatment is under-specified for rental use, and what the financial math looks like over a typical 5–10 year ownership hold.</p>
+
+<h2>The Osceola STR Corridor</h2>
+
+<p>STR-active neighborhoods near Disney, with general characteristics:</p>
+
+<ul>
+<li><strong>Reunion:</strong> Upscale resort community with its own golf club. Large homes (4–13 bedrooms). High guest turnover.</li>
+<li><strong>ChampionsGate:</strong> Resort-oriented community (note: "ChampionsGate" — one word, not "Champions Gate"). Mix of townhomes and larger single-family.</li>
+<li><strong>Four Corners / Davenport:</strong> The sprawling unincorporated area between Disney and Clermont. Thousands of STR-designated homes.</li>
+<li><strong>Windsor Hills / Windsor at Westside:</strong> Gated resort communities closer to Disney.</li>
+<li><strong>Solara, Encore, Emerald Island, Storey Lake:</strong> Modern resort developments with heavy STR use.</li>
+<li><strong>Celebration:</strong> Largely <em>not</em> zoned for STR. Primarily long-term residential. Don't confuse it with the corridor above.</li>
+</ul>
+
+<h2>Water Source and Hardness</h2>
+
+<p>Most of the STR corridor is served by Toho Water Authority, with water sourced from the Floridan Aquifer via Osceola County wells. Typical hardness:</p>
+
+<ul>
+<li><strong>Toho Water service area:</strong> 200–300 ppm (12–18 gpg)</li>
+<li><strong>Broader Central Florida range:</strong> 180–400+ ppm depending on specific wellfield</li>
+<li><strong>Classification:</strong> "Very hard" across essentially the entire corridor</li>
+</ul>
+
+<p>For any specific property, test the tap directly or pull the most recent CCR for the actual service area.</p>
+
+<h2>Why STR Use Accelerates Hard Water Damage</h2>
+
+<p>A typical single-family residence runs:</p>
+<ul>
+<li>1–2 dishwasher cycles/day</li>
+<li>1 laundry cycle/day or less</li>
+<li>2–4 showers/day</li>
+<li>1 water heater draw cycle every few hours</li>
+</ul>
+
+<p>A typical STR at 67% occupancy with 8 guests (common for a 4-bedroom rental) runs:</p>
+<ul>
+<li>3–5 dishwasher cycles/day during occupied days</li>
+<li>2–4 laundry cycles/day (sheets, towels, guest laundry)</li>
+<li>8–16 showers/day</li>
+<li>Water heater drawing continuously most of the day</li>
+<li>Ice maker at pool bar or kitchen running nonstop</li>
+</ul>
+
+<p>The math: an STR sees <strong>3–5× the water throughput</strong> of a typical single-family home. Hard water damage is proportional to throughput, not just concentration. Scale accumulation, heater element coating, and dishwasher spray nozzle clogging all scale with gallons processed — not with time elapsed.</p>
+
+<p>A water heater rated for 12-year life in a single-family home typically fails at <strong>4–6 years in an STR property</strong> without softening. Dishwashers at 2–3 years instead of 8–10. Ice makers at 18 months instead of 5 years.</p>
+
+<h2>The Financial Math</h2>
+
+<p>For a typical 4-bedroom Osceola STR without water softening, over a 5-year hold:</p>
+
+<ul>
+<li><strong>Water heater replacement (1–2 replacements):</strong> $1,500–$3,000</li>
+<li><strong>Dishwasher replacement (1–2):</strong> $800–$2,000</li>
+<li><strong>Ice maker replacement (2–3):</strong> $500–$1,500</li>
+<li><strong>Faucet cartridge replacements (multiple):</strong> $300–$800</li>
+<li><strong>Accelerated pool equipment wear:</strong> $500–$2,000</li>
+<li><strong>Guest complaints (low pressure, spotty glassware):</strong> Review impact on bookings — difficult to quantify but real</li>
+</ul>
+
+<p>Total direct cost over 5 years: <strong>$3,600–$9,300</strong> in accelerated appliance replacement alone.</p>
+
+<p>Compare to: a properly sized commercial-grade water softener (oversized for the throughput of an STR) at $2,500–$4,500 installed, plus $30–$60/month in salt = $1,800–$3,600 over 5 years.</p>
+
+<p>Break-even is typically 2–3 years. Net 5-year savings: $1,800–$5,700. Plus improved guest reviews and reduced service callouts.</p>
+
+<h2>What STR Properties Actually Need</h2>
+
+<p><strong>1. Commercial-grade water softener, oversized for residential capacity.</strong></p>
+<p>Most STRs are still sold residential-grade equipment because they look like residential homes. For a 4-bedroom at STR occupancy, a 48,000-grain softener (typically sold as "4-bathroom residential") is undersized. A 64,000 or 80,000-grain system sized for higher throughput lasts longer between regenerations and handles peak demand (guests doing laundry, running dishwashers, and showering simultaneously).</p>
+
+<p><strong>2. Whole-house chloramine removal (if on Toho Water).</strong></p>
+<p>Catalytic carbon removes chloramines that otherwise affect shower feel (skin dryness is a common guest complaint) and ice taste.</p>
+
+<p><strong>3. Under-sink RO at the kitchen tap.</strong></p>
+<p>Guests who drink tap water directly will notice quality differences. An under-sink RO system provides bottled-water-quality at the kitchen tap — particularly valuable for ice-maker lines and drinking glasses.</p>
+
+<p><strong>4. Scheduled maintenance via service contract.</strong></p>
+<p>STR owners typically don't live at the property. A preventive maintenance contract that covers softener salt delivery, filter changes, and annual inspection prevents the "surprise" of a system failure mid-guest-stay.</p>
+
+<h2>Installation and Service Considerations</h2>
+
+<ul>
+<li><strong>HOA restrictions:</strong> Most resort communities allow exterior water treatment equipment but may have aesthetic requirements (specific equipment locations, color matching, enclosure requirements). Verify before purchase.</li>
+<li><strong>Access for guests:</strong> Water treatment equipment should be protected from guest tampering. Install in garages or utility rooms with restricted guest access.</li>
+<li><strong>Monitoring:</strong> Salt-level sensors and remote diagnostics are worth the incremental cost — a softener that runs out of salt produces hard water complaints within days.</li>
+<li><strong>Emergency response:</strong> Have a relationship with a local water treatment company that can respond within 24 hours for guest-facing issues.</li>
+</ul>
+
+<h2>Property Manager Pro Tips</h2>
+
+<ul>
+<li>Include "filtered drinking water available" in listing photos and descriptions — it's a differentiator.</li>
+<li>Test water at every property annually even on municipal supply; distribution system variations do occur.</li>
+<li>Document water treatment equipment in the property's operations manual for cleaners, maintenance staff, and future buyers.</li>
+</ul>
+
+<h2>Free Water Testing and STR Consultations</h2>
+
+<p>Pure Agua services STR properties across the entire Disney corridor — Reunion, ChampionsGate, Four Corners, Davenport, Windsor Hills, Windsor at Westside, Solara, Encore, Emerald Island, Storey Lake, and the broader Osceola/Polk STR market. We test the property, size the system for STR throughput (not just bedroom count), and offer service contracts for ongoing maintenance.</p>
+
+<p><a href="/contact">Schedule free STR property water testing</a> or call <a href="tel:+14075128342">(407) 512-8342</a>. 5.0★ rated with 200+ Google reviews. Family-owned since 2016.</p>`,
+  },
+  {
+    slug: "pfas-central-florida-2026-orange-county",
+    title: "PFAS in Central Florida Water: Orange County's $4.5M Remediation Plan and What Homeowners Should Do Now",
+    excerpt:
+      "Orange County detected PFAS above the 4 ppt EPA MCL at two facilities. OUC tested its Floridan Aquifer sources. Toho Water is monitoring. Compliance pushed to 2031. Here is what the current numbers actually say.",
+    date: "2026-04-17",
+    author: "Carlos Rivera",
+    category: "Water Quality",
+    readTime: "11 min read",
+    tags: ["PFAS Central Florida", "Orange County Utilities", "PFOA PFOS", "forever chemicals"],
+    content: `<p>PFAS — per- and polyfluoroalkyl substances, the "forever chemicals" class — has been the biggest story in U.S. drinking water regulation over the past 24 months. The April 2024 EPA rule set the first enforceable national standards. The May 2025 EPA revision extended compliance to 2031 and rescinded several individual-compound standards. And right in the middle of all this federal activity, Orange County Utilities (OCU) here in Central Florida disclosed PFAS detections at or above the 4 ppt MCL at two of its treatment facilities and approved a $4.5 million remediation engineering contract.</p>
+
+<p>This article covers what the actual numbers are, what Orange County is doing about them, what Toho Water Authority and OUC customers should know, and what practical steps Central Florida homeowners can take right now.</p>
+
+<h2>The Current Federal PFAS Rule — Status April 2026</h2>
+
+<p><strong>April 10, 2024 (Federal Register April 26, 2024):</strong> EPA finalized the first-ever federal PFAS drinking water standards:</p>
+<ul>
+<li>PFOA: MCL 4.0 ppt</li>
+<li>PFOS: MCL 4.0 ppt</li>
+<li>PFHxS: MCL 10 ppt</li>
+<li>PFNA: MCL 10 ppt</li>
+<li>HFPO-DA (GenX): MCL 10 ppt</li>
+<li>Hazard Index (for mixtures): 1.0</li>
+</ul>
+<p>Original compliance deadline: 2029.</p>
+
+<p><strong>May 14, 2025:</strong> EPA issued a significant revision:</p>
+<ul>
+<li>Kept the 4 ppt MCLs for PFOA and PFOS.</li>
+<li><strong>Extended compliance deadline to 2031</strong> (a two-year extension from the 2029 original).</li>
+<li><strong>Proposed to revoke the MCLs for PFHxS, PFNA, HFPO-DA, and PFBS</strong> pending re-evaluation.</li>
+<li>Kept initial monitoring requirements at 2027.</li>
+</ul>
+
+<p>As of April 2026, the enforceable standards are PFOA 4 ppt and PFOS 4 ppt. Utilities have until 2031 to meet those limits. The other compounds are no longer directly regulated for drinking water but are still monitored under the Unregulated Contaminant Monitoring Rule (UCMR5).</p>
+
+<h2>Orange County Utilities — The Specific Data</h2>
+
+<p>OCU's PFAS test results page (ocfl.net/WaterGarbageRecycling/PFAS/PFASTestResults.aspx) documents detections at multiple facilities. The most significant:</p>
+
+<ul>
+<li><strong>Malcolm Road facility:</strong> approximately <strong>4.7 ppt</strong> — above the 4 ppt MCL</li>
+<li><strong>County Road 535 facility:</strong> approximately <strong>5 ppt</strong> — above the 4 ppt MCL</li>
+</ul>
+
+<p>In February 2025, Orange County approved a <strong>$4.5 million engineering contract with Tetra Tech</strong> to design and implement PFAS remediation at affected facilities. The contract covers engineering studies, pilot testing, and design of treatment upgrades (likely GAC or ion exchange based on EPA Best Available Technology guidance).</p>
+
+<p>The 2031 compliance deadline gives OCU time to build out full-scale treatment without immediate public health emergency response. But the detections are real and exceed the MCL today.</p>
+
+<h2>OUC's Position</h2>
+
+<p>Orlando Utilities Commission conducted PFAS sampling in April 2025. OUC's primary water sources are the <strong>deep Lower Floridan Aquifer</strong> — roughly a quarter-mile down, geologically distant from surface-level PFAS contamination sources. Deep Floridan water typically has lower PFAS exposure than shallow groundwater or surface water because PFAS compounds haven't had time to migrate through the thick confining layers above the Lower Floridan.</p>
+
+<p>OUC customers should consult the utility's most recent published PFAS data and CCR for specific values. As a general pattern, OUC's deep-aquifer sourcing provides structural protection that OCU (which blends multiple sources, including more surficial groundwater) does not have.</p>
+
+<h2>Toho Water Authority</h2>
+
+<p>Toho participates in UCMR5 monitoring and FDEP's initial PFAS monitoring program. Specific detection values should be pulled from Toho's published water quality reports rather than assumed. As of publication, there are no verified reports of Toho water exceeding the 4 ppt PFOA/PFOS MCLs; do not treat the Orange County detections as Toho detections.</p>
+
+<p>For Toho customers, the more immediate water quality concerns are chloramines, hardness, and occasional hydrogen sulfide — PFAS is not currently a documented problem at Toho but is being monitored.</p>
+
+<h2>Potential PFAS Sources in Central Florida</h2>
+
+<p>PFAS contamination typically traces to specific, identifiable sources:</p>
+
+<ul>
+<li><strong>Military and aviation AFFF:</strong> Aqueous Film Forming Foam used in firefighter training contains high PFAS concentrations. Orlando MCO (Orlando International Airport) is a potential legacy AFFF source area consistent with the national pattern of airport-adjacent PFAS contamination, though no specific MCO study has been publicly released. The FAA ordered transition to fluorine-free foam (F3) starting in 2023; contamination from pre-2023 AFFF use persists in surrounding soils and groundwater.</li>
+<li><strong>Industrial manufacturing:</strong> PFAS have been used in a wide range of manufacturing, coating, and chemical processing. Central Florida's industrial footprint is smaller than, say, the I-4 Tampa corridor, but some legacy sites exist.</li>
+<li><strong>Wastewater treatment plant discharge:</strong> PFAS from consumer products (carpets, textiles, paper packaging) reach wastewater streams and survive conventional treatment. Downstream groundwater can be affected.</li>
+<li><strong>Biosolids land application:</strong> Historically, some PFAS-containing sludges were land-applied as agricultural amendments. Long-term subsurface contamination is possible at these sites.</li>
+</ul>
+
+<h2>What EPA Considers Best Available Technology (BAT)</h2>
+
+<p>EPA's 2024 BAT guidance for PFAS removal from drinking water:</p>
+
+<ul>
+<li><strong>Reverse Osmosis (RO):</strong> Up to <strong>99% removal of PFAS6</strong> (the six compounds originally regulated). Most reliable single-technology barrier. Works across short-chain and long-chain PFAS variants.</li>
+<li><strong>Granular Activated Carbon (GAC):</strong> Can reduce PFAS below detection limits with sufficient contact time. Better performance on long-chain PFAS (PFOA, PFOS) than short-chain. Requires regular media changeout — PFAS-loaded carbon must be regenerated or disposed as hazardous waste.</li>
+<li><strong>Ion Exchange (anion resin):</strong> <strong>94–99% of PFAS6</strong>. Performs better than GAC on short-chain PFAS. Single-use disposal (resins are not regenerated in this application).</li>
+</ul>
+
+<p>For utility-scale implementation, both GAC and ion exchange are typically preferred over RO (RO produces brine waste at utility scale that's difficult to handle). For residential point-of-use treatment, RO is usually the simplest and most effective choice.</p>
+
+<h2>What Orange County Customers Should Do Now</h2>
+
+<p>With compliance at 2031 and detected PFAS above MCL today, OCU customers have a 5-year window before full remediation. Practical actions:</p>
+
+<ol>
+<li><strong>Under-sink RO for drinking water.</strong> NSF/ANSI 58 certified for PFAS reduction specifically. Cost $400–$900 installed. Covers drinking and cooking water.</li>
+<li><strong>Consider whole-house GAC if you're particularly concerned.</strong> NSF/ANSI 53 certified GAC catches PFAS at every tap (shower, bath, laundry). Best-performing for long-chain; less effective for short-chain.</li>
+<li><strong>Follow OCU's updates.</strong> As Tetra Tech's engineering work proceeds, the utility will publish treatment milestones.</li>
+<li><strong>Do not rely on pitcher or refrigerator filters for PFAS</strong> unless they are specifically certified to NSF/ANSI 53 or 58 for PFOA/PFOS reduction. Most basic filters don't catch PFAS.</li>
+</ol>
+
+<h2>What OUC and Toho Customers Should Do</h2>
+
+<p>Your direct PFAS exposure is currently lower than OCU customers based on available data. But:</p>
+<ul>
+<li>An under-sink RO system is reasonable insurance regardless of utility. RO also handles the chloramines (Toho) or residual chlorine (OUC) at the drinking water tap.</li>
+<li>Review your utility's CCR annually for PFAS monitoring updates.</li>
+<li>If you have infants, immune-compromised family members, or specific health concerns, RO is more strongly justified.</li>
+</ul>
+
+<h2>Private Well Owners</h2>
+
+<p>If you're on a private well in Central Florida, standard well testing does <strong>not</strong> include PFAS. The test has to be specifically ordered and run by a lab certified for EPA Method 533 or 537.1. Priority testing for wells near:</p>
+<ul>
+<li>Orlando MCO and surrounding commercial aviation areas</li>
+<li>Industrial sites (historical or current)</li>
+<li>Firefighter training facilities</li>
+<li>Former land-application biosolids sites</li>
+</ul>
+
+<h2>Free PFAS-Aware Water Testing</h2>
+
+<p>Pure Agua offers free in-home water testing throughout Osceola, Orange, Seminole, and Polk Counties. We review your specific utility's PFAS data, test your tap water for the standard parameters, and discuss PFAS-specific treatment options if the situation warrants. NSF/ANSI 58 RO installations and NSF/ANSI 53 whole-house systems are standard offerings.</p>
+
+<p>5.0★ rated with 200+ Google reviews. Family-owned since 2016. WQA certified. Florida licensed. Bilingual service.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
