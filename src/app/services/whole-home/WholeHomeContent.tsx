@@ -94,7 +94,7 @@ export function WholeHomeContent() {
                   loop
                   muted
                   playsInline
-                  className="w-full h-auto object-cover aspect-[4/3]"
+                  className="w-full h-auto object-cover aspect-[4/3] object-center"
                 >
                   <source src="/videos/whole-home-water.mp4" type="video/mp4" />
                 </video>
@@ -261,7 +261,7 @@ export function WholeHomeContent() {
             loop
             muted
             playsInline
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           >
             <source src="/videos/whole-home-process-bg.mp4" type="video/mp4" />
           </video>

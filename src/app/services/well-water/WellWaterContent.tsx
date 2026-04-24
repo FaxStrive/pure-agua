@@ -439,7 +439,7 @@ function ProcessTimeline({ steps, label, heading }: { steps: ProcessStep[]; labe
   return (
     <section ref={ref} className="relative py-24 lg:py-32 overflow-hidden bg-[var(--color-dark)]">
       <div className="absolute inset-0">
-        <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+        <video autoPlay loop muted playsInline className="w-full h-full object-cover object-center">
           <source src="/videos/whole-home-process-bg.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-[var(--color-dark)]/[0.92]" />
