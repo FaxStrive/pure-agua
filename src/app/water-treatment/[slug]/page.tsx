@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { pillars, getPillar } from "@/lib/pillars";
+import ImageCredit from "@/components/ImageCredit";
 
 export function generateStaticParams() {
   return pillars.map((p) => ({ slug: p.slug }));
@@ -251,6 +252,8 @@ export default function PillarPage({
                 </a>
               </div>
             </section>
+
+            <ImageCredit src={pillar.heroImage} className="mt-10 not-prose" />
           </div>
         </article>
       </main>

@@ -1234,7 +1234,7 @@ export const blogPosts: BlogPost[] = [
     category: "Cost Guides",
     readTime: "11 min read",
     tags: ["Water Softeners", "Cost", "Central Florida", "2026"],
-    content: `<figure><img src="/images/blog-hero/water-softener-cost-central-florida-2026.jpg" alt="A residential water softener and brine tank installed in a Central Florida garage" width="1200" height="630" /><figcaption>Hero image: a residential water softener installed at the main water line. Placeholder image; will be replaced with a licensed photograph in a follow-up content pass.</figcaption></figure>
+    content: `<figure><img src="/images/blog-hero/water-softener-cost-central-florida-2026.jpg" alt="A residential water softener and brine tank installed in a Central Florida garage" width="1200" height="630" /><figcaption>Photo: రవిచంద్ర, CC BY-SA 4.0, via Wikimedia Commons (File:Water softener.jpg).</figcaption></figure>
 
 <p data-bluf>Industry-standard installed pricing for a residential water softener in the Central Florida market in 2026 sits in the $1,800 to $3,800 range for a single-tank metered demand-initiated system, with combined softener and whole-house carbon stacks at $3,000 to $6,000. Real numbers depend on hardness, household size, plumbing complexity, and whether iron pre-treatment is required. This article walks through what drives those numbers, what should be included in a written quote, and how to avoid the three most common cost mistakes.</p>
 
@@ -1298,7 +1298,7 @@ export const blogPosts: BlogPost[] = [
     category: "Diagnostics",
     readTime: "12 min read",
     tags: ["Diagnostics", "Iron", "Sulfur", "Staining", "Central Florida"],
-    content: `<figure><img src="/images/blog-hero/why-orlando-water-smells-or-stains-2026.jpg" alt="A residential water faucet with mineral and iron staining" width="1200" height="630" /><figcaption>Hero image: visible iron staining around a residential fixture. Placeholder image; will be replaced with a licensed photograph in a follow-up content pass.</figcaption></figure>
+    content: `<figure><img src="/images/blog-hero/why-orlando-water-smells-or-stains-2026.jpg" alt="Hard water calcification and mineral scaling on a residential fixture" width="1200" height="630" /><figcaption>Photo: Bbypnda, CC BY-SA 3.0, via Wikimedia Commons (File:Hard Water Calcification.jpg).</figcaption></figure>
 
 <p data-bluf>If your water in Kissimmee, Orlando, or anywhere in Central Florida smells or stains, the cause is almost always one of six things: iron, manganese, hydrogen sulfide, low pH, chlorine or chloramine residual, or a bacterial colony in the water heater. Each one has a different fix. This article walks through a step-by-step diagnostic so you can identify what you are seeing before you spend money on the wrong treatment.</p>
 
@@ -1382,7 +1382,7 @@ export const blogPosts: BlogPost[] = [
     category: "Regulation",
     readTime: "11 min read",
     tags: ["PFAS", "EPA", "Regulation", "Central Florida", "Reverse Osmosis"],
-    content: `<figure><img src="/images/blog-hero/pfas-central-florida-2026.jpg" alt="A glass of drinking water being poured at a kitchen tap" width="1200" height="630" /><figcaption>Hero image: drinking water at a residential tap. Placeholder image; will be replaced with a licensed photograph in a follow-up content pass.</figcaption></figure>
+    content: `<figure><img src="/images/blog-hero/pfas-central-florida-2026.jpg" alt="Jar testing equipment used to evaluate water quality in a treatment laboratory" width="1200" height="630" /><figcaption>Photo: US EPA, Public domain, via Wikimedia Commons (File:Jar testing equipment for testing water quality.jpg).</figcaption></figure>
 
 <p data-bluf>In April 2024 the U.S. Environmental Protection Agency finalized the first enforceable National Primary Drinking Water Regulation for PFAS, setting Maximum Contaminant Levels of 4 parts per trillion (ppt) for PFOA and PFOS individually, with additional MCLs for PFHxS, HFPO-DA (GenX), and PFNA. Utilities have a phased compliance timeline. For Central Florida residents in 2026, the practical takeaway is: pull your utility's PFAS data from its water-quality page, and if you want point-of-use treatment, NSF/ANSI 58 certified reverse osmosis is the proven technology.</p>
 

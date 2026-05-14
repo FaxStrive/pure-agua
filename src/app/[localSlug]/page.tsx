@@ -9,6 +9,7 @@ import {
   type LocalCity,
   type LocalService,
 } from "@/lib/local-services";
+import ImageCredit from "@/components/ImageCredit";
 
 export function generateStaticParams() {
   return localPages.map((p) => ({ localSlug: p.slug }));
@@ -555,6 +556,8 @@ export default function LocalServicePage({
                 </a>
               </div>
             </section>
+
+            <ImageCredit src={page.service.heroImage} className="mt-8" />
           </div>
         </section>
       </main>
