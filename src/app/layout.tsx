@@ -91,8 +91,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "HomeAndConstructionBusiness",
-              "@id": "https://pureaguaenterprise.com/#business",
+              "@type": ["HomeAndConstructionBusiness", "Plumber"],
+              "@id": "https://pureaguaenterprise.com/#organization",
               name: "Pure Agua Enterprises",
               description: "Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems.",
               url: "https://pureaguaenterprise.com",
@@ -128,13 +128,12 @@ export default function RootLayout({
                 { "@type": "EducationalOccupationalCredential", credentialCategory: "license", name: "FL State Licensed & Insured" },
               ],
               sameAs: [
-                "https://www.facebook.com/pureaguaenterprise",
-                "https://www.instagram.com/pureaguaenterprise",
-                "https://www.youtube.com/@pureaguaenterprise",
-                "https://x.com/pureaguafl",
-                "https://www.linkedin.com/company/pureaguaenterprise",
                 "https://www.google.com/maps/place/Pure+Agua+Enterprise",
               ],
+              speakable: {
+                "@type": "SpeakableSpecification",
+                cssSelector: ["h1", "[data-bluf]"],
+              },
             }),
           }}
         />

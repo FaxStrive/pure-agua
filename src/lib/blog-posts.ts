@@ -1224,6 +1224,241 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
   },
+  {
+    slug: "water-softener-cost-central-florida-2026",
+    title: "How Much Does a Water Softener Cost in Central Florida in 2026?",
+    excerpt:
+      "Industry-standard installed ranges for a Central Florida water softener in 2026, broken down by system type, household size, and what is actually included in a real quote.",
+    date: "2026-05-14",
+    author: "Pure Agua Enterprises Team",
+    category: "Cost Guides",
+    readTime: "11 min read",
+    tags: ["Water Softeners", "Cost", "Central Florida", "2026"],
+    content: `<figure><img src="/images/blog-hero/water-softener-cost-central-florida-2026.jpg" alt="A residential water softener and brine tank installed in a Central Florida garage" width="1200" height="630" /><figcaption>Hero image: a residential water softener installed at the main water line. Placeholder image; will be replaced with a licensed photograph in a follow-up content pass.</figcaption></figure>
+
+<p data-bluf>Industry-standard installed pricing for a residential water softener in the Central Florida market in 2026 sits in the $1,800 to $3,800 range for a single-tank metered demand-initiated system, with combined softener and whole-house carbon stacks at $3,000 to $6,000. Real numbers depend on hardness, household size, plumbing complexity, and whether iron pre-treatment is required. This article walks through what drives those numbers, what should be included in a written quote, and how to avoid the three most common cost mistakes.</p>
+
+<h2>Why Central Florida hard water is a softener question</h2>
+
+<p>The Floridan Aquifer system, mapped by the USGS, supplies most municipal and private wells across Orange, Osceola, Seminole, Polk, Lake, and Volusia counties. The aquifer is hosted in karst limestone, which dissolves slowly into the groundwater and loads finished water with calcium and magnesium. The USGS classifies most Central Florida groundwater as very hard (above 180 mg/L as CaCO3, or about 10.5 grains per gallon). Toho Water Authority, Orlando Utilities Commission, the City of Sanford, and the other regional utilities post their water-quality reports on their websites; pull yours before sizing a softener. Hardness is not regulated by the EPA and is not required in the Consumer Confidence Report, so utility-published numbers vary. We test on site.</p>
+
+<h2>The $1,800 to $3,800 single-tank install: what is in it</h2>
+
+<p>The bottom of the installed range covers a basic 32,000-grain single-tank metered softener (mid-range valve, mid-range resin, polyethylene brine tank, demand-initiated regeneration) installed at the main water line in the garage of a typical Central Florida home. Included: water test, permit if required, copper sweat or PEX-crimp connections to code, bypass valve, drain line with code-compliant air gap, brine line, system programmed to the household's measured hardness, salt-type recommendation, walk-through with the homeowner, and the manufacturer's warranty.</p>
+
+<p>The top of the range adds: a heavier 48,000-grain resin tank for a higher-use household, a stainless brine tank, a smart head with usage telemetry, or a long plumbing run (the softener has to live more than 15 feet from the main, or in a closet, or outdoors with weather protection). Florida ranches with the softener mounted outside under a weather cover routinely land in the upper third of the range simply because the install takes longer and the plumbing run is longer.</p>
+
+<h2>Adding whole-house carbon for chlorine or chloramine</h2>
+
+<p>Toho Water Authority and OUC use chloramines as the residual disinfectant. Standard granular activated carbon (GAC) is slow at reducing chloramines; catalytic carbon is the right media. A whole-house catalytic carbon system installed at the main water line in 2026 runs $1,500 to $3,500 depending on bed volume and head type. A combined softener and whole-house carbon stack at the same install visit typically runs $3,000 to $6,000 installed, because the plumbing labor is shared and the second tank goes in at a marginal cost rather than a full second install.</p>
+
+<p>If you are on a private well, swap the catalytic carbon for an air-injection iron and sulfur filter upstream of the softener. AIO installed runs $1,800 to $3,500. A typical well stack of acid neutralizer (if pH is low), AIO iron and sulfur, softener, and under-sink RO runs $5,500 to $9,500 installed.</p>
+
+<h2>The three cost mistakes</h2>
+
+<p><strong>Mistake one: buying a softener sized to bedroom count.</strong> Sizing should be by hardness in gpg, by iron in ppm, and by daily water use in gallons. A four-bedroom house with two people in it uses very different water than a four-bedroom house with five. Size to the gallons per day, not the floor plan. We use (hardness gpg + 4 gpg per ppm iron) x daily gallons = grains per day treated, and target a 3 to 7 day regeneration interval.</p>
+
+<p><strong>Mistake two: skipping the iron pre-treatment on a well.</strong> Softeners can hold small amounts of clear iron (up to about 3 ppm), but they are the wrong tool when iron exceeds 3 ppm or when any hydrogen sulfide is present. The resin fouls quickly and the brine never fully restores it. The savings from skipping AIO disappear inside 18 months when the softener resin is dead.</p>
+
+<p><strong>Mistake three: paying for a "salt-free softener" thinking it is equivalent to ion exchange.</strong> Template-assisted crystallization (TAC) systems do not remove hardness. They cause dissolved calcium and magnesium to form microscopic crystals that pass through plumbing without scaling. Independent testing puts scale reduction in the 80 to 90% range under controlled conditions. TAC does nothing for soap lather, skin and hair feel, or dissolved sodium content. They are legitimate for homes that want scale reduction without salt regeneration, but the installed price of a quality TAC system is in the same $1,500 to $3,000 range as a real ion-exchange softener.</p>
+
+<h2>The ROI math at Central Florida hardness</h2>
+
+<p>The Water Quality Research Foundation has published household-level savings estimates from softening. The U.S. Department of Energy has separately documented water-heater efficiency gains of up to 29% on softened water compared to hard water at residential hardness levels. At Central Florida hardness (typically 10 to 20 gpg at the tap), reduced detergent and soap use, extended dishwasher and water-heater life, and reduced cleaning-product spend together commonly recover the install cost inside two to four years. We do not promise specific dollar savings because every household runs different water, but the directional math is well established.</p>
+
+<h2>What to look for in a written quote</h2>
+
+<p>A real quote names the system: brand, model number, resin volume, brine tank type, valve manufacturer. It lists the install scope: plumbing connections, bypass valve, drain line and air gap, electrical (head plug), and any code-required permits. It states the warranty terms in writing, separately for the tank, the valve, and the resin. It documents the water test the system was sized from. It includes the post-install verification test. If a quote is a single round number with no system specs, ask for the detail in writing before signing.</p>
+
+<h2>Financing and the Florida market</h2>
+
+<p>Pure Agua and most established Central Florida water-treatment companies offer financing through third-party providers for qualifying homeowners. Plans commonly include introductory 0% APR options with terms up to 60 months. Financing rates and terms are set by the lender, not by us; we publish the plans we offer on the <a href="/financing">financing page</a> and can walk through the math at the consultation.</p>
+
+<h2>Maintenance and operating cost</h2>
+
+<p>Salt runs $10 to $30 per month depending on water hardness, household size, and salt type. Annual maintenance is minimal: brine tank cleaning every two to three years and resin cleaner treatment twice a year if iron is present in the feed water. Pure Agua offers an annual service plan that handles the cleaning and includes a verification water test at every visit.</p>
+
+<h2>Brand and equipment notes</h2>
+
+<p>Pure Agua installs Watershield-brand water treatment systems across Central Florida, chosen for valve reliability, resin quality, and a warranty that we can stand behind from the install team to the manufacturer. Other reputable residential-grade brands exist in this market; we do not disparage them. What matters more than the brand sticker is the sizing, the installation craftsmanship, and the warranty terms. A premium-priced system installed by a crew that does not size correctly will underperform a mid-priced system sized to your actual water.</p>
+
+<h2>What to do next</h2>
+
+<p>If you are sizing a softener in Kissimmee, Orlando, Lakeland, Lake Mary, Sanford, Clermont, or anywhere else in our service area, start with the test. Pure Agua brings a calibrated kit on every consultation. We test, we explain, we quote in writing. No high-pressure sales. For deeper background, our <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> covers sizing in detail, our <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers the well-specific stack, and our <a href="/blog/water-softener-complete-guide">complete water softener guide</a> covers ion exchange chemistry and salt selection.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "why-orlando-water-smells-or-stains-2026",
+    title: "Why Does My Kissimmee or Orlando Water Smell or Stain? A Diagnostic Guide",
+    excerpt:
+      "Orange staining, black staining, rotten-egg smell, chlorine taste, blue rings around fixtures: a step-by-step diagnostic for Central Florida homeowners.",
+    date: "2026-05-14",
+    author: "Pure Agua Enterprises Team",
+    category: "Diagnostics",
+    readTime: "12 min read",
+    tags: ["Diagnostics", "Iron", "Sulfur", "Staining", "Central Florida"],
+    content: `<figure><img src="/images/blog-hero/why-orlando-water-smells-or-stains-2026.jpg" alt="A residential water faucet with mineral and iron staining" width="1200" height="630" /><figcaption>Hero image: visible iron staining around a residential fixture. Placeholder image; will be replaced with a licensed photograph in a follow-up content pass.</figcaption></figure>
+
+<p data-bluf>If your water in Kissimmee, Orlando, or anywhere in Central Florida smells or stains, the cause is almost always one of six things: iron, manganese, hydrogen sulfide, low pH, chlorine or chloramine residual, or a bacterial colony in the water heater. Each one has a different fix. This article walks through a step-by-step diagnostic so you can identify what you are seeing before you spend money on the wrong treatment.</p>
+
+<h2>Step one: look at the stain color</h2>
+
+<p>Orange or reddish-brown staining on porcelain, in toilet tanks, on white laundry, or around faucet aerators points to iron. Iron above 0.3 ppm in water is enough to leave a visible stain over time. Ferrous iron (dissolved) is the most common form in Central Florida well water; it is clear at the tap and oxidizes to ferric (visible) iron after it sits in contact with air. Ferric iron is already a particle when it leaves the tap and is the easier of the two to filter. Either form responds to air-injection oxidation (AIO) followed by a catalytic media bed. On municipal supply, iron staining is uncommon; if you see it, the iron is more likely from corroded household plumbing than from the utility.</p>
+
+<p>Black or dark-brown staining points to manganese, often present alongside iron in Central Florida well water. Manganese above 0.05 ppm leaves visible stains. The treatment is the same AIO + catalytic media stack used for iron, sometimes with a higher pH set point because manganese oxidizes more readily above pH 7.5.</p>
+
+<p>Blue or green staining around copper fittings or in tubs and sinks points to acidic water dissolving copper out of household plumbing. The Florida well water culprit is low pH (below 6.8). The fix is an acid neutralizer (calcite media) upstream of the rest of the treatment stack. On municipal supply, blue staining is rare because utilities corrosion-control the finished water; if you see it on city water, have the plumbing inspected.</p>
+
+<p>White or chalky scale on fixtures, showerheads, and the dishwasher heating element is hardness from the Floridan Aquifer. The USGS classifies most Central Florida groundwater as very hard. The fix is a properly sized ion-exchange water softener.</p>
+
+<h2>Step two: smell on the cold versus the hot tap</h2>
+
+<p>Sulfur (rotten egg) smell on both the cold and the hot tap, with the smell strongest on the hot side, points to hydrogen sulfide gas in the source water. The biological origin is sulfate-reducing bacteria in the anaerobic zone of the well or in the deep aquifer. The treatment is AIO, the same system used for iron, with the sulfide oxidizing to elemental sulfur and dropping out into the media bed.</p>
+
+<p>Sulfur smell only on the hot tap, with no smell on the cold, almost always points to a bacterial colony inside the water heater. The water heater anode rod (typically magnesium or aluminum) reacts with sulfate ions in the heater tank in the presence of sulfate-reducing bacteria to produce hydrogen sulfide. The fix is to flush the heater, then swap the anode rod for a powered (zinc-aluminum or electronic) anode that does not feed the bacteria. The smell typically disappears within a week of the swap.</p>
+
+<p>Chlorine or pool smell, particularly on hot water, points to chlorine or chloramine residual from the utility. Toho Water Authority and OUC both chloraminate. Chloramines are more stable in the distribution loop than free chlorine and harder to remove at the home. A whole-house catalytic carbon filter is the right treatment.</p>
+
+<h2>Step three: taste</h2>
+
+<p>Metallic taste points to iron, copper, or other metals. Confirm with a test panel. Iron and copper both show up at low ppb levels in taste before they reach the threshold of visible staining.</p>
+
+<p>Salty taste, particularly noticeable when you have not added salt to food, points to sodium or chloride above background. On municipal supply this is rarely a problem outside coastal saltwater intrusion zones. On a well, sodium or chloride above 250 mg/L is the EPA secondary standard for chloride and is a sign of saltwater intrusion or contamination from a nearby brine source.</p>
+
+<p>Bitter or "harsh" taste points to magnesium or sulfate above the secondary standard, or to high TDS in general. Central Florida municipal supply commonly runs 200 to 500 ppm TDS. Anything above 500 ppm starts to taste noticeably. The fix at the kitchen sink is reverse osmosis.</p>
+
+<p>Earthy or musty taste points to surface-water source (less common in Central Florida) or to a biofilm in the household plumbing. If it is intermittent and only at one fixture, flush the line at that fixture and clean the aerator. If it is at every tap, the issue is upstream of the home.</p>
+
+<h2>Step four: time of day and season</h2>
+
+<p>Worse-tasting or worse-smelling water in the morning, after the household has been still overnight, points to stagnation in the household plumbing. Flush each fixture for 30 to 60 seconds before drinking in the morning if you are on a well, particularly if you have lead solder in older plumbing (lead solder in plumbing was banned in the U.S. in 1986; homes from before that have lead-solder risk in their copper joints).</p>
+
+<p>Worse-tasting or smellier water in summer, particularly on municipal supply, points to seasonal disinfection adjustment by the utility. Warmer source water requires more aggressive disinfection, which can drive up trihalomethane and haloacetic acid by-products. OUC and Toho both publish quarterly disinfection by-product data on their CCRs.</p>
+
+<h2>Step five: where the symptom shows up</h2>
+
+<p>If the symptom is only at the ice maker (cloudy ice, off taste in ice, scale in the ice bin), the cause is the supply line to the fridge or a fouled fridge inline filter. Replace the fridge filter on schedule (every six months for most models) and verify the inline shutoff at the wall is fully open. If you have an under-sink RO, tee the fridge line off the RO storage tank for crystal ice.</p>
+
+<p>If the symptom is only at the kitchen tap (chlorine taste, sediment, TDS), an under-sink filtration or RO upgrade fixes it without touching the whole-house plumbing. If the symptom is at every fixture in the house, it is upstream of the home or at the main water line and needs point-of-entry treatment.</p>
+
+<h2>Putting the diagnostic together</h2>
+
+<p>Run through the five steps in order: look, smell, taste, when, and where. You will land in one of about a dozen common cases:</p>
+
+<ul>
+  <li>Orange staining everywhere + sulfur smell on both taps = well water with iron and hydrogen sulfide; install AIO + softener.</li>
+  <li>Orange staining everywhere + no smell = well water with iron; install AIO + softener.</li>
+  <li>No staining + sulfur smell only on hot tap = water heater anode rod problem; flush heater and swap anode.</li>
+  <li>White scale everywhere + chlorine smell = municipal supply with normal Central Florida hardness; install softener + catalytic carbon.</li>
+  <li>Blue or green stains on fixtures = acidic well water; install neutralizer + softener.</li>
+  <li>Cloudy ice and bad-tasting drinking water only = under-sink RO at the kitchen tap.</li>
+  <li>Earthy taste at one fixture = local biofilm; clean aerator and flush.</li>
+</ul>
+
+<p>If your symptoms do not match any of these, or if you have multiple symptoms at once, the test is the next step. We do not size a stack from a phone call. A real on-site test takes 30 to 45 minutes and we do not charge for it. <a href="/contact">Schedule a free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>
+
+<h2>What not to do</h2>
+
+<p>Do not pour bleach into the well casing without testing first. Shock chlorination is the right step for bacteria, but it should be done by someone who has the chlorine dose and contact time right. Wrong-dose shock chlorination either misses the contamination entirely or damages the well casing and pump.</p>
+
+<p>Do not buy a treatment system off a price list before testing the water. Every well in Central Florida is different. A stack that worked for your neighbor may not be the right stack for you.</p>
+
+<p>Do not assume the stain or smell is harmless because it has always been there. Iron and sulfur are aesthetic problems on their own, but they sometimes mask underlying bacterial or nitrate contamination. The Florida Department of Health recommends annual private well testing for bacteria and nitrate at minimum. If you have not run that test in the last 12 months, run it.</p>
+
+<h2>Background reading</h2>
+
+<p>For deeper background on each case, see our <a href="/water-treatment/florida-well-water">Florida well water guide</a> (the full well stack), <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> (softening), <a href="/water-treatment/reverse-osmosis-drinking-water">reverse osmosis guide</a> (point-of-use drinking water), and the <a href="/blog/well-water-treatment-osceola-orange-county">Osceola and Orange County well water article</a>.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "pfas-central-florida-2026",
+    title: "PFAS in Central Florida Drinking Water in 2026: What Residents Need to Know",
+    excerpt:
+      "The EPA's April 2024 PFAS rule set the first enforceable MCLs for PFOA and PFOS at 4 ppt. Here is what that means for Central Florida residents in 2026.",
+    date: "2026-05-14",
+    author: "Pure Agua Enterprises Team",
+    category: "Regulation",
+    readTime: "11 min read",
+    tags: ["PFAS", "EPA", "Regulation", "Central Florida", "Reverse Osmosis"],
+    content: `<figure><img src="/images/blog-hero/pfas-central-florida-2026.jpg" alt="A glass of drinking water being poured at a kitchen tap" width="1200" height="630" /><figcaption>Hero image: drinking water at a residential tap. Placeholder image; will be replaced with a licensed photograph in a follow-up content pass.</figcaption></figure>
+
+<p data-bluf>In April 2024 the U.S. Environmental Protection Agency finalized the first enforceable National Primary Drinking Water Regulation for PFAS, setting Maximum Contaminant Levels of 4 parts per trillion (ppt) for PFOA and PFOS individually, with additional MCLs for PFHxS, HFPO-DA (GenX), and PFNA. Utilities have a phased compliance timeline. For Central Florida residents in 2026, the practical takeaway is: pull your utility's PFAS data from its water-quality page, and if you want point-of-use treatment, NSF/ANSI 58 certified reverse osmosis is the proven technology.</p>
+
+<h2>What PFAS are and why they matter</h2>
+
+<p>PFAS (per- and polyfluoroalkyl substances) are a class of more than 14,000 synthetic chemicals first manufactured in the 1940s. They are used in non-stick cookware, water-repellent fabrics, firefighting foam, food packaging, and industrial coatings. The carbon-fluorine bond that makes them useful also makes them extremely persistent in the environment; PFAS are sometimes called "forever chemicals" because they do not break down on any timescale relevant to drinking-water treatment. EPA documents PFOA, PFOS, and several related compounds as linked to adverse health outcomes including liver damage, immune-system effects, certain cancers, and developmental impacts. The EPA's 2024 rule represents the first time these compounds have been regulated as primary contaminants under the Safe Drinking Water Act.</p>
+
+<h2>The 2024 EPA rule, in plain language</h2>
+
+<p>The final rule, published April 10, 2024 in the Federal Register, sets:</p>
+
+<ul>
+  <li>MCL of 4 ppt (4 parts per trillion, or 0.004 micrograms per liter) for PFOA</li>
+  <li>MCL of 4 ppt for PFOS</li>
+  <li>MCL of 10 ppt for PFHxS</li>
+  <li>MCL of 10 ppt for HFPO-DA (GenX)</li>
+  <li>MCL of 10 ppt for PFNA</li>
+  <li>A Hazard Index of 1 for mixtures of PFHxS, HFPO-DA, PFNA, and PFBS</li>
+</ul>
+
+<p>Compliance dates: public water systems must complete initial monitoring by 2027 and meet the MCLs by 2029. Utilities serving more than 3,300 people must publish PFAS monitoring data starting in 2027. The rule applies to about 66,000 public water systems nationwide.</p>
+
+<h2>Where to find Central Florida PFAS data</h2>
+
+<p>Each Central Florida utility publishes its own water-quality data on its website. Three of the largest serving our work area:</p>
+
+<ul>
+  <li>Orlando Utilities Commission posts water-quality reports at <a href="https://www.ouc.com/environment-community/water/water-quality" target="_blank" rel="noopener noreferrer">ouc.com/environment-community/water/water-quality</a>.</li>
+  <li>Toho Water Authority (Kissimmee, Poinciana, Buenaventura Lakes) posts water-quality reports at <a href="https://www.tohowater.com/your-water/water-quality" target="_blank" rel="noopener noreferrer">tohowater.com/your-water/water-quality</a>.</li>
+  <li>Orange County Utilities posts water-quality data at <a href="https://www.ocfl.net/UtilitiesEnvironment.aspx" target="_blank" rel="noopener noreferrer">ocfl.net/UtilitiesEnvironment.aspx</a>.</li>
+</ul>
+
+<p>Each utility's annual Consumer Confidence Report is the right starting place. Look for the PFAS section (sometimes titled "Unregulated Contaminant Monitoring" prior to 2027 and "Per- and Polyfluoroalkyl Substances" once the final rule takes effect at your utility). Pull the most recent CCR before assuming anything about your water.</p>
+
+<p>We do not republish specific PFAS numbers for individual Central Florida utilities in this article. The numbers change with monitoring cycles, and the only authoritative source is the utility's own CCR. If you want help reading your utility's report, bring a copy to the free in-home water test and we will walk through it.</p>
+
+<h2>Point-of-use treatment that actually works for PFAS</h2>
+
+<p>NSF International has tested point-of-use technologies against PFAS for years. The Standards that matter:</p>
+
+<ul>
+  <li><strong>NSF/ANSI 58 (Reverse Osmosis):</strong> RO consistently removes more than 90% of PFOA and PFOS. A correctly installed under-sink RO is the proven point-of-use solution for the PFAS MCL.</li>
+  <li><strong>NSF/ANSI 53 (Drinking Water Treatment Units - Health Effects):</strong> Specific high-end carbon block filters certified to Standard 53 for PFOA and PFOS reduction. Performance varies by product; the certification on the filter is what matters, not the brand sticker.</li>
+  <li><strong>NSF/ANSI P473:</strong> An older PFAS-specific certification still used on some products; checks PFOA and PFOS reduction to below the EPA Health Advisory levels in place before the 2024 rule.</li>
+</ul>
+
+<p>Pitcher filters, faucet-mount filters, and refrigerator inline filters generally do not have NSF/ANSI 58 or NSF/ANSI 53 PFAS certification. If a manufacturer makes a PFAS claim without one of those certifications on the product, the claim is marketing, not validated performance.</p>
+
+<h2>Whole-house carbon and PFAS</h2>
+
+<p>A whole-house granular activated carbon (GAC) system can reduce PFAS at the point of entry. The catch is service life. PFAS will eventually break through a GAC bed and from that point forward the bed produces effluent that may carry PFAS at higher levels than the influent (a "chromatographic effect"). The EPA documents this in its drinking-water treatability database. Whole-house GAC for PFAS specifically requires more frequent media changeouts than the same bed used only for chlorine and taste/odor, and the timing depends on the influent PFAS concentration and the bed volume. For most Central Florida homes the simpler and more reliable approach is an NSF/ANSI 58 certified under-sink RO at the kitchen tap, where the volume of treated water is small and the membrane lifetime is predictable.</p>
+
+<h2>What about boiling, distillation, or ion exchange?</h2>
+
+<p>Boiling does not remove PFAS. The carbon-fluorine bond is stable through boiling temperatures, and the water that evaporates is pure water while the PFAS concentrate in what remains. Distillation works (the PFAS stay in the boiler) but residential distillation is impractical for daily use.</p>
+
+<p>Specific anion-exchange resins can remove PFAS at the point of entry and are used at some municipal treatment plants. Residential anion-exchange for PFAS is a more specialized install and not common in the Central Florida residential market.</p>
+
+<h2>What Pure Agua actually installs for PFAS-concerned households</h2>
+
+<p>Our standard recommendation for a Central Florida home concerned about PFAS, with finished water that is otherwise typical Floridan Aquifer supply: a properly sized water softener at the point of entry (for the underlying hardness), a whole-house catalytic carbon filter at the point of entry (for chlorine and chloramine residual), and an NSF/ANSI 58 certified under-sink reverse osmosis system at the kitchen tap (for PFAS, lead, arsenic, fluoride, nitrate, and dissolved solids generally). The RO is the workhorse for drinking water; the softener and carbon protect the house and improve shower and laundry water.</p>
+
+<p>For homes on a private well with concern about PFAS, the stack is the same plus the well-specific pre-treatment (sediment, neutralizer if pH is low, AIO if iron and sulfur are present). RO is always at the polishing stage, downstream of the rest.</p>
+
+<h2>Costs and timeline</h2>
+
+<p>Installed pricing in the Central Florida market for 2026 sits in industry-standard ranges. An NSF/ANSI 58 certified under-sink RO with permeate pump runs $400 to $1,200 installed; a re-mineralization post-filter adds $80 to $150. Filter and membrane maintenance runs $80 to $150 per year for filters and $80 to $150 every two to five years for the membrane.</p>
+
+<p>EPA compliance timeline: utilities have until 2027 for initial monitoring and 2029 for compliance with the MCL. If your utility is over the new MCL on any of the regulated PFAS compounds, the utility is required to publish that finding and take corrective action. Treatment changes at the utility level (typically adding GAC or anion exchange at the plant) are funded in part through federal grants under the Bipartisan Infrastructure Law. Residential point-of-use RO is your fastest path to PFAS-treated drinking water at home regardless of where the utility is in its compliance timeline.</p>
+
+<h2>What to do next</h2>
+
+<p>Pull your utility's most recent CCR. Read the PFAS section. Compare the numbers to the 2024 MCLs. If you want a point-of-use treatment installed before the utility-level compliance date, an NSF/ANSI 58 certified under-sink RO is the right tool. Pure Agua sizes, installs, and maintains under-sink RO across Kissimmee, Orlando, Lake Mary, Sanford, Clermont, Lakeland, Winter Park, and the rest of Central Florida. For deeper background, our <a href="/water-treatment/reverse-osmosis-drinking-water">reverse osmosis pillar</a> covers RO chemistry and sizing in detail, and our <a href="/water-treatment/central-florida-hard-water">hard water guide</a> covers the upstream softening question.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>. We will read your CCR with you, test on site, and quote in writing.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
