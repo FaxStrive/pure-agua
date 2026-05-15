@@ -16,6 +16,8 @@ export async function generateMetadata({
   if (!post) return { title: "Article Not Found" };
 
   const metaDescription = post.excerpt.length > 155 ? post.excerpt.slice(0, 152) + '...' : post.excerpt;
+  const heroImage = `/images/blog-hero/${post.slug}.jpg`;
+  const ogImage = post.slug === "central-florida-whole-house-water-install-2026" ? heroImage : "/images/og-image.png";
 
   return {
     title: post.title,
@@ -26,13 +28,13 @@ export async function generateMetadata({
       description: metaDescription,
       url: `https://pureaguaenterprise.com/blog/${post.slug}`,
       type: "article",
-      images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: `${post.title} - Pure Agua Enterprises Blog` }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: `${post.title} - Pure Agua Enterprises Blog` }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${post.title} | Pure Agua`,
       description: metaDescription,
-      images: ["/images/og-image.png"],
+      images: [ogImage],
     },
   };
 }

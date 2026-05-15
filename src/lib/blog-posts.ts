@@ -1224,6 +1224,152 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
   },
+  {
+    slug: "central-florida-whole-house-water-install-2026",
+    title: "Central FL Whole-House Install 2026: Day-of Guide",
+    excerpt:
+      "Step-by-step whole-house water system installation in Central Florida. Free water test, NSF certified equipment, 3-5 hour install timeline, annual service.",
+    date: "2026-05-15",
+    author: "Pure Agua Enterprises Team",
+    category: "Installation",
+    readTime: "11 min read",
+    tags: ["Whole-House Install", "Central Florida", "Water Softener", "Reverse Osmosis"],
+    content: `<p data-bluf>Most Central Florida whole-house installs run 3 to 5 hours of plumbing. The Pure Agua Enterprises team brings NSF/ANSI 58 and 61 certified equipment, performs a free in-home water test on arrival (hardness 4 to 12 gpg is typical from the Floridan Aquifer, plus chloramines for OUC and sediment), and walks the homeowner through controller programming. Family-owned since 2016, 200+ reviews, 5.0★.</p>
+
+<div style="background:#f0f9ff;border-left:4px solid #0284c7;padding:1rem 1.25rem;margin:1.5rem 0;border-radius:0.5rem;">
+<p style="margin:0;font-weight:600;color:#0c4a6e;">Start here: book your free in-home water test</p>
+<p style="margin:0.5rem 0 0;color:#0c4a6e;">Same-week appointments in Kissimmee, Orlando, and surrounding cities. Call <a href="tel:+14075128342">(407) 512-8342</a> or <a href="/contact">request a visit online</a>. No obligation, no pressure quote.</p>
+</div>
+
+<h2>Pre-install: the free in-home water test (what we measure)</h2>
+
+<p>Every Pure Agua install starts with a free in-home water test, and we run it before anyone touches your plumbing. The test takes about 20 minutes at your kitchen sink. We measure total hardness in grains per gallon (gpg), free chlorine versus total chlorine (the gap reveals chloramines on OUC homes), pH, iron, hydrogen sulfide where the rotten-egg smell is reported, and total dissolved solids (TDS). On private wells we add a bacterial screen and a manganese check.</p>
+
+<p>Why this matters: <a href="/water-treatment/central-florida-hard-water">Central Florida hardness</a> varies block by block. Kissimmee on Toho frequently reads 12 to 22 gpg straight from the Floridan Aquifer. Orange County blends sources and often runs 8 to 14 gpg. Seminole County pockets test as soft as 6 gpg. A 14 gpg home and a 22 gpg home need different softener capacities, so we size from your numbers, not a county average. Detailed quality context lives in our <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>.</p>
+
+<p>We leave a one-page test report on the counter so you can compare quotes if you choose to. About 30 percent of homeowners we test do not need a softener at all (Seminole pockets, recent reverse osmosis at the utility, very low-water-use households), and we say so on the spot.</p>
+
+<p>The test also flags red-flag conditions that change the install plan. Iron above 0.3 mg/L moves you to an air-injection oxidizer ahead of the softener. A pH below 6.8 (occasionally seen on shallow surficial wells in southeast Osceola) calls for a calcite neutralizer before any softener resin, because acidic water leaches copper from your supply lines and dissolves softener resin from underneath. Hydrogen sulfide above 1 mg/L is no longer an "aesthetic" issue and requires aeration plus catalytic carbon. We have walked away from installs where the test revealed a problem that needed a different fix; that is what the free test is for.</p>
+
+<h2>Equipment selection (softener, carbon, iron staging, RO)</h2>
+
+<p>The four building blocks of a Central Florida whole-house install:</p>
+
+<ul>
+<li><strong>Ion-exchange softener</strong> sized 32,000 to 80,000 grain capacity depending on hardness and household size. All resin and tanks Pure Agua installs carry NSF/ANSI 44 (for softeners) or NSF/ANSI 61 (drinking-water materials safety). Pricing detail in our <a href="/blog/water-softener-cost-florida">water softener cost guide</a>.</li>
+<li><strong>Whole-house carbon backwash filter</strong> for chlorine and chloramines. OUC primarily delivers free chlorine; Toho delivers chloramines, which require catalytic carbon (standard GAC will not strip ammonia). For OUC homes a standard high-grade GAC bed is fine; for Toho we always specify catalytic.</li>
+<li><strong>Iron staging</strong> for the outlying Osceola and Lake County wells that read above 0.3 mg/L iron or above 0.05 mg/L manganese. This is usually an air-injection oxidizer ahead of the softener or a dedicated greensand filter.</li>
+<li><strong>Under-sink reverse osmosis</strong> at the kitchen, NSF/ANSI 58 certified for TDS, lead, and PFAS reduction. We pair RO with NSF/ANSI 61 tubing and a lead-free faucet.</li>
+</ul>
+
+<p>Pure Agua does not white-label discount tank rebrands. The membranes, control valves, and resin we use are WQA Gold Seal where applicable and carry manufacturer warranties (typically 10 years on tanks, 5 to 10 years on electronics). For the full pillar overview see <a href="/water-treatment/reverse-osmosis-drinking-water">our reverse osmosis page</a>.</p>
+
+<h2>Central FL-specific considerations</h2>
+
+<p>What makes Central Florida different from a generic "whole-house" install:</p>
+
+<p><strong>Floridan Aquifer chemistry.</strong> The aquifer's limestone bed loads water with calcium and magnesium, and in pockets, with hydrogen sulfide. A correctly programmed softener handles both; a 32,000-grain residential unit will not. We size up.</p>
+
+<p><strong>Utility-specific disinfection.</strong> OUC runs free chlorine; carbon removes it quickly. Toho Water Authority runs chloramines (chlorine plus ammonia), which require catalytic carbon and longer contact time. Some boundary neighborhoods blend feeds month to month, which is why we test your tap, not the published utility CCR. Background reading: our <a href="/blog/pfas-central-florida-2026-orange-county">Central FL PFAS coverage</a> and <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hardness explainer</a>.</p>
+
+<p><strong>Well water in outlying counties.</strong> Eastern Osceola, southern Lake, and parts of unincorporated Orange County run on private wells. Iron and hydrogen sulfide complicate the install (oxidation stage required) and a bacterial screen is mandatory before you skip municipal disinfection. The <a href="/water-treatment/florida-well-water">Florida well-water pillar</a> walks through this in detail, and our <a href="/well-water-treatment">well water treatment service page</a> covers what we install.</p>
+
+<p>Authoritative utility sources (open in a new tab): <a href="https://www.ouc.com/environment-community/water/water-quality-report" rel="noopener" target="_blank">OUC Water Quality Report</a> and <a href="https://www.tohowater.com/customer-service/water-quality" rel="noopener" target="_blank">Toho Water Authority quality page</a>.</p>
+
+<h2>The install timeline (8 AM to ~1 PM)</h2>
+
+<p>A typical Pure Agua Enterprises Team install runs five hours door to door. Here is the standard sequence:</p>
+
+<p><strong>8:00 AM, arrival and walkthrough.</strong> Two-technician crew confirms the install location (garage, utility closet, or exterior pad), staging area, and the route from the water main to the appliance. We lay drop cloths and floor protection on any indoor runs.</p>
+
+<p><strong>8:20 AM, main shutoff and pressure bleed.</strong> Main valve is closed at the meter or backflow preventer. Lines drain via a downstream hose bib. We check static and dynamic pressure here, because Central Florida service lines occasionally read above 80 psi and a pressure-reducing valve gets added if needed.</p>
+
+<p><strong>9:00 AM, bypass loop and brine drain.</strong> The bypass loop is the most important plumbing decision in the install. It lets the homeowner isolate the softener for service, regeneration troubleshooting, or future media replacement without shutting off house water. Brine drain is run to the nearest approved discharge (laundry standpipe, dedicated condensate line, or an exterior gravel pad where code allows).</p>
+
+<p><strong>10:30 AM, equipment set and connections.</strong> Tanks set, control valve threaded, brine tank filled with the first 80 lb of solar salt, RO under-sink unit mounted on the cabinet wall and tied to the cold supply and drain saddle.</p>
+
+<p><strong>11:30 AM, controller programming.</strong> We program the valve for your measured hardness with a 20 percent capacity reserve. Regen frequency is metered, not timed, so the unit only regenerates after consuming its capacity. We label the bypass valve, brine drain, and shutoff in a way the homeowner can identify a year later.</p>
+
+<p><strong>12:30 PM, leak test and walkthrough.</strong> Every joint is wiped, pressurized, and re-checked at 15 minutes and again at 45 minutes. We rerun the hardness test at the kitchen tap to confirm zero gpg (or your target post-softening reading), then walk you through salt refill, bypass operation, RO filter-change interval, and the annual service we include.</p>
+
+<p><strong>1:00 PM, leave-behind.</strong> Owner's manual, warranty card, salt-fill instructions, your before/after water test card, and a magnet with our service line.</p>
+
+<p>Two notes on this timeline. First, the 8 AM start is by design: we want sealed joints to cure during the warmest hours of a Central Florida day, which catches any pinhole leak by the time the walkthrough begins. Second, we never leave a homeowner with a partially commissioned system. If a part arrives wrong, if a fitting cracks during pressure test, or if the panel detects a fault during programming, we either complete the install that day with a swap from the truck or restore the home to pre-install plumbing and reschedule. You always have water at the tap before the team leaves.</p>
+
+<h2>Recommended method: condition to action table</h2>
+
+<p>Pick the row that matches your tap. The recommended configuration column is what Pure Agua installs by default for that profile.</p>
+
+<table>
+<thead>
+<tr><th>Central FL water profile</th><th>Recommended Pure Agua configuration</th><th>Typical install duration and price band</th></tr>
+</thead>
+<tbody>
+<tr><td>OUC service, 8 to 12 gpg, free chlorine</td><td>48,000-grain softener + whole-house GAC</td><td>3 to 4 hours, $1,800 to $2,800</td></tr>
+<tr><td>Toho service, 12 to 22 gpg, chloramines</td><td>64,000-grain softener + catalytic carbon</td><td>4 to 5 hours, $2,400 to $3,400</td></tr>
+<tr><td>Seminole County, 6 to 10 gpg, free chlorine</td><td>32,000-grain softener + GAC (optional)</td><td>3 to 4 hours, $1,500 to $2,200</td></tr>
+<tr><td>Private well, Osceola or Lake County, iron above 0.3 mg/L</td><td>Air-injection iron filter + 64,000-grain softener</td><td>5 to 6 hours, $3,200 to $4,800</td></tr>
+<tr><td>Any utility, family drinking RO requested</td><td>Add under-sink NSF/ANSI 58 RO at kitchen</td><td>+45 minutes, +$450 to $750</td></tr>
+<tr><td>PFAS-aware household, OCU service area</td><td>Whole-house GAC + under-sink RO</td><td>4 to 5 hours, $2,600 to $3,800</td></tr>
+</tbody>
+</table>
+
+<p>Prices reflect installed cost including standard parts, labor, permits where required, and first-fill salt. Detailed line items are in our <a href="/blog/water-softener-cost-florida">cost guide</a>. <a href="/financing">Financing options</a> are available, including 0 percent APR for 12 months on qualifying approvals.</p>
+
+<h2>Permits and plumbing code</h2>
+
+<p>Florida Plumbing Code (FBC-P), adopted from the International Plumbing Code, governs every water-treatment install in the state. Three practical points:</p>
+
+<ul>
+<li><strong>Permits.</strong> City of Kissimmee and City of Orlando both require a plumbing permit when an install ties into the main supply or creates a new drain. Permit fees run $40 to $120 depending on jurisdiction and are pulled by Pure Agua, not the homeowner. Unincorporated Osceola and Orange County permitting is similar in scope.</li>
+<li><strong>Backflow protection.</strong> Brine and RO drain lines must be air-gapped per code (no direct connection to a sanitary line). We use an approved air-gap fitting at the laundry standpipe or condensate line.</li>
+<li><strong>HOA approval.</strong> If your equipment lives outside on a side pad, many HOAs require a screening enclosure or specific paint color. We check the HOA letter before drilling. If the pad has to be inside the garage, that drives the conduit run and may add an hour to the install.</li>
+</ul>
+
+<p>Every Pure Agua technician carries a current Florida plumbing license and our company carries general liability and workers comp. Verify any contractor at <a href="https://www.myfloridalicense.com" rel="noopener" target="_blank">myfloridalicense.com</a> before signing.</p>
+
+<h2>Call a professional if...</h2>
+
+<p>Pure Agua installs about half its volume into homes where the owner started the project as a DIY and stalled. Five signs you should book the pros from the start:</p>
+
+<ul>
+<li><strong>Private well, no recent bacterial test.</strong> Bacterial contamination requires UV or chlorine disinfection upstream of any softener resin, and that decision needs lab data.</li>
+<li><strong>Multi-zone home or guest house.</strong> A loop that feeds two structures or a detached suite requires a manifold rebuild, not a tee, to maintain pressure on both legs.</li>
+<li><strong>Pre-1986 home with original supply lines.</strong> Pre-1986 plumbing can include lead solder or galvanized pipe. A softener installed on a corroding line accelerates leaks; we recommend a line replacement or partial replumb first.</li>
+<li><strong>HOA with aesthetic restrictions.</strong> Side-yard installs in HOA communities frequently require enclosure plans submitted in advance.</li>
+<li><strong>Water pressure above 80 psi or below 40 psi.</strong> High pressure damages resin tanks and RO membranes; low pressure starves them. A pressure regulator or booster pump may be required before the install.</li>
+<li><strong>Visible iron staining plus sulfur smell on a well.</strong> This is a multi-stage build (oxidation, filtration, softening), not a single-tank job.</li>
+<li><strong>You rent.</strong> Tenant installs need landlord sign-off and a portable bypass plan. We can scope a removable system.</li>
+</ul>
+
+<h2>FAQs</h2>
+
+<p><strong>How long does a whole-house install take in Central Florida?</strong></p>
+<p>Plan on 3 to 5 hours of work for a softener-plus-carbon install on city water, and 5 to 6 hours when iron staging is added for a private well. Same-day water restoration is standard, and we leave you with treated water before our truck leaves the driveway.</p>
+
+<p><strong>Do I need a permit for a water softener in Kissimmee or Orlando?</strong></p>
+<p>Yes, in most cases. City of Kissimmee and City of Orlando both require a plumbing permit when the install ties into the home's main supply line. Pure Agua pulls the permit as part of the install fee; you do not file paperwork.</p>
+
+<p><strong>Will my water taste different right after install?</strong></p>
+<p>Yes. The first 30 to 60 minutes of softened water can taste slightly slick or salty as the resin bed equilibrates, and any first-fill carbon dust flushes through. By the next morning the water is at steady state, and most homeowners report a noticeable improvement in coffee, ice, and shower feel.</p>
+
+<p><strong>What is included in annual service?</strong></p>
+<p>Pure Agua includes one annual service visit on every install. That visit covers a hardness retest, control-valve diagnostic, brine-tank cleanout, RO filter and membrane inspection (replacement billed separately at our cost), and a full leak check on every joint placed during the original install.</p>
+
+<p><strong>Does the system work during a power outage?</strong></p>
+<p>The softener and carbon tanks pass water passively during a power outage; you keep filtered, softened water as long as municipal pressure holds. The regen cycle pauses, and the controller resumes scheduling once power returns. RO systems require pressure but no power.</p>
+
+<p><strong>How does this compare to a water conditioner or "salt-free" system?</strong></p>
+<p>Salt-free template-assisted crystallization (TAC) systems precipitate hardness into a non-scaling crystal form. They do not soften water (the hardness number does not drop), and they perform inconsistently above 20 gpg or with chlorinated feed. For Central Florida's hardness profile, an ion-exchange softener remains the standard answer.</p>
+
+<h2>Ready to book your install?</h2>
+
+<p>Pure Agua Enterprises has been installing whole-house systems across Central Florida since 2016. We are family-owned, 5.0★ rated with 200+ Google reviews, WQA certified, NSF/ANSI 58 and 61 compliant on every install, and Florida licensed and insured. Service area includes Kissimmee, Orlando, Winter Park, Lake Mary, Sanford, Apopka, St. Cloud, and surrounding cities; details on our <a href="/service-area">service area page</a> and broader coverage on <a href="/service-areas">service areas</a>.</p>
+
+<p>Quick links: <a href="/water-filtration">whole-house filtration</a>, <a href="/water-softener">water softener</a>, <a href="/reverse-osmosis">reverse osmosis</a>, <a href="/well-water-treatment">well water treatment</a>, <a href="/water-testing">free water testing</a>, <a href="/water-treatment">water treatment overview</a>, <a href="/about">about Pure Agua</a>, <a href="/financing">financing</a>, <a href="/faq">FAQ</a>, and the central <a href="/water-softener-in-florida">Florida softener landing</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">request your free in-home water test online</a>. Same-week appointments most weeks. No obligation, no pressure quote, and you keep the test card whether you book the install or not.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
