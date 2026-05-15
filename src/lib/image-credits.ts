@@ -43,10 +43,10 @@ export const IMAGE_CREDITS: Record<string, ImageCredit> = {
     sourceUrl: "https://commons.wikimedia.org/wiki/File:Wasserfilter_mit_Aktivkohle-Filterpatrone.JPG",
   },
   "/images/service-hero/reverse-osmosis.jpg": {
-    artist: "Z22",
+    artist: "Solomon203",
     license: "CC BY-SA 4.0",
-    sourceFile: "File:Reverse osmosis system at Bedok NEWater Factory.jpg",
-    sourceUrl: "https://commons.wikimedia.org/wiki/File:Reverse_osmosis_system_at_Bedok_NEWater_Factory.jpg",
+    sourceFile: "File:Yen Sun Technology YS-8103RWT 20201101.jpg",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Yen_Sun_Technology_YS-8103RWT_20201101.jpg",
   },
   "/images/service-hero/well-water-treatment.jpg": {
     artist: "KVDP",

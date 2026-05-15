@@ -15,11 +15,11 @@ export type Pillar = {
   faqs: { q: string; a: string }[];
 };
 
-const BLUF_HARD_WATER = `Central Florida sits on the Floridan Aquifer, a limestone formation that loads finished water with calcium and magnesium. The USGS classifies most groundwater across Orange, Osceola, Seminole, Polk, Lake, and Volusia counties as very hard. The right fix depends on whether you are on municipal supply or a private well, what hardness number your water actually tests at, and whether you also have iron or sulfur in the line.`;
+const BLUF_HARD_WATER = `Central Florida sits on the Floridan Aquifer, and the USGS classifies most groundwater across Orange, Osceola, Seminole, Polk, Lake, and Volusia counties as very hard. The right fix depends on whether you are on city water or a private well, what your water actually tests at, and whether you also have iron or sulfur in the line.`;
 
-const BLUF_WELL = `Florida private wells draw straight from the Floridan or surficial aquifer with no municipal treatment between the well and your kitchen tap. That means iron, manganese, hydrogen sulfide, low pH, sediment, and (in some wells) bacteria are yours to handle. The Florida Department of Health recommends annual bacterial and nitrate testing of every private well at minimum. The right treatment stack is built around your specific test results.`;
+const BLUF_WELL = `Florida private wells draw straight from the Floridan or surficial aquifer with no municipal treatment between the well and your tap. Iron, manganese, hydrogen sulfide, low pH, sediment, and sometimes bacteria are yours to handle. The Florida Department of Health recommends annual bacterial and nitrate testing on every private well in the state.`;
 
-const BLUF_RO = `Reverse osmosis is the only point-of-use technology that consistently removes dissolved solids, lead, arsenic, fluoride, nitrates, chloramines, and PFAS to bottled-water quality. For Central Florida homes on chloraminated municipal supply or on a well with elevated TDS, a properly installed RO system at the kitchen sink replaces the bottled-water habit and outperforms pitcher filters by an order of magnitude.`;
+const BLUF_RO = `Reverse osmosis is the point-of-use technology that consistently removes dissolved solids, lead, arsenic, fluoride, nitrates, chloramines, and PFAS to bottled-water quality. For Central Florida homes on chloraminated city supply or a well with elevated TDS, an under-sink RO at the kitchen tap outperforms pitcher filters by an order of magnitude.`;
 
 export const pillars: Pillar[] = [
   {
