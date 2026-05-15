@@ -1,7 +1,7 @@
 # Site: Pure Agua Enterprises
 
 ## Site Details
-- **URL:** https://pureaguaenterprise.com
+- **URL:** https://pure-agua.vercel.app (Vercel preview — `pureaguaenterprise.com` is NOT registered as of 2026-05-15 WHOIS check. Domain must be purchased + pointed before any SEO equity accrues. Use Vercel URL for all current audits/PSI/drift work. Also: `netlify.toml` in repo conflicts with Vercel deploy — clean up.)
 - **Phone:** (407) 512-8342
 - **CMS:** Next.js 14.2.15 + React 18 + Tailwind
 - **Business Type:** Local Service — Water Treatment
