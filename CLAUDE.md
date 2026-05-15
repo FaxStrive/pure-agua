@@ -16,6 +16,9 @@
 - Well water treatment
 - Free water testing
 
+## Author Byline Rule
+All blog posts, articles, and bylined content on this site MUST use "Pure Agua Enterprises Team". Owner identity is withheld at client request. Do NOT invent a named author. A prior LLM pass fabricated the name "Carlos Rivera" (Alex-Martinez-style fabrication), which has been excised from the repo on 2026-05-14. Do not reintroduce it or any other invented person name.
+
 ## Trust Signals
 - Family-owned
 - 200+ reviews
