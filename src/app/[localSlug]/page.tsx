@@ -21,6 +21,16 @@ const SITE = "https://pureaguaenterprise.com";
 const PHONE_DISPLAY = "(407) 512-8342";
 const PHONE_TEL = "+14075128342";
 
+// Short, title-case service labels used in <title> and meta description.
+// Kept separate from local-services.ts shortName (lower-case body-copy phrase)
+// so titles stay under 60 chars after layout.tsx appends " | Pure Agua".
+const TITLE_SHORT: Record<string, string> = {
+  "water-softener": "Water Softener",
+  "whole-house-filtration": "Whole-House Filtration",
+  "reverse-osmosis": "Reverse Osmosis",
+  "well-water-treatment": "Well Water Treatment",
+};
+
 export function generateMetadata({
   params,
 }: {
@@ -29,15 +39,18 @@ export function generateMetadata({
   const page = getLocalPage(params.localSlug);
   if (!page) return { title: "Not Found" };
 
-  const title = `${page.service.name} in ${page.city.name}, FL`;
-  const description = `Professional ${page.service.shortName} for ${page.city.name}, Florida homes. Free in-home water test, transparent pricing, and a system sized to your actual water. Schedule with Pure Agua Enterprises.`;
+  // Bare title: layout.tsx metadata.title.template adds " | Pure Agua" suffix.
+  // Do NOT append brand here or titles double-suffix past 60 chars.
+  const titleShort = TITLE_SHORT[page.service.slug] ?? page.service.name;
+  const title = `${titleShort} in ${page.city.name}, FL`;
+  const description = `${titleShort} for ${page.city.name}, FL. Free in-home water test. NSF/WQA certified. Call (407) 512-8342.`;
 
   return {
     title,
     description,
     alternates: { canonical: `${SITE}/${page.slug}` },
     openGraph: {
-      title: `${title} | Pure Agua Enterprises`,
+      title: `${title} | Pure Agua`,
       description,
       type: "article",
       url: `${SITE}/${page.slug}`,
@@ -142,6 +155,7 @@ export default function LocalServicePage({
 
   const { city, service } = page;
   const url = `${SITE}/${page.slug}`;
+  const titleShortBody = TITLE_SHORT[service.slug] ?? service.name;
   const title = `${service.name} in ${city.name}, FL`;
   const faqs = buildFaqs(city, service);
 
@@ -533,10 +547,141 @@ export default function LocalServicePage({
               ))}
             </div>
 
-            <section className="not-prose mt-12 mb-16 rounded-2xl bg-gradient-to-br from-cyan-700 to-blue-800 p-8 text-white">
-              <h2 className="font-bold text-2xl md:text-3xl mb-3">
-                Ready to fix the water at your {city.name} home?
+            <section
+              aria-label="Related resources"
+              className="not-prose mt-14 mb-10 rounded-2xl border border-slate-200 bg-slate-50 p-6 md:p-8"
+            >
+              <h2 className="font-bold text-2xl md:text-3xl text-slate-900 mb-2">
+                Related Resources
               </h2>
+              <p className="text-slate-600 text-sm mb-5">
+                Pillar guides, service pages, and recent articles for {city.name} homeowners researching {titleShortBody}.
+              </p>
+
+              <div className="grid md:grid-cols-3 gap-6 text-sm">
+                <div>
+                  <p className="font-semibold text-slate-900 mb-2">Pillar guides</p>
+                  <ul className="space-y-1.5">
+                    <li>
+                      <Link href="/water-treatment/central-florida-hard-water" className="text-cyan-700 hover:underline">
+                        Central Florida hard water
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/water-treatment/florida-well-water" className="text-cyan-700 hover:underline">
+                        Florida well water
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/water-treatment/reverse-osmosis-drinking-water" className="text-cyan-700 hover:underline">
+                        Reverse osmosis drinking water
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <p className="font-semibold text-slate-900 mb-2">Services</p>
+                  <ul className="space-y-1.5">
+                    <li>
+                      <Link href="/water-filtration" className="text-cyan-700 hover:underline">
+                        Whole-house water filtration
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/water-softener" className="text-cyan-700 hover:underline">
+                        Water softener installation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/reverse-osmosis" className="text-cyan-700 hover:underline">
+                        Reverse osmosis systems
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/well-water-treatment" className="text-cyan-700 hover:underline">
+                        Well water treatment
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/water-testing" className="text-cyan-700 hover:underline">
+                        Free in-home water testing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/water-treatment" className="text-cyan-700 hover:underline">
+                        All water-treatment services
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <p className="font-semibold text-slate-900 mb-2">Company</p>
+                  <ul className="space-y-1.5">
+                    <li>
+                      <Link href="/about" className="text-cyan-700 hover:underline">
+                        About Pure Agua
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/financing" className="text-cyan-700 hover:underline">
+                        Financing options
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/faq" className="text-cyan-700 hover:underline">
+                        Frequently asked questions
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/contact" className="text-cyan-700 hover:underline">
+                        Schedule a free water test
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mt-6 pt-5 border-t border-slate-200">
+                <p className="font-semibold text-slate-900 mb-2 text-sm">Recent articles</p>
+                <ul className="grid md:grid-cols-2 gap-x-6 gap-y-1.5 text-sm">
+                  <li>
+                    <Link href="/blog/water-softener-cost-central-florida-2026" className="text-cyan-700 hover:underline">
+                      Water softener cost in Central Florida (2026)
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/pfas-central-florida-2026" className="text-cyan-700 hover:underline">
+                      PFAS in Central Florida drinking water (2026)
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/why-orlando-water-smells-or-stains-2026" className="text-cyan-700 hover:underline">
+                      Why Orlando water smells or stains
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection" className="text-cyan-700 hover:underline">
+                      Chloramine vs ozone disinfection
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/sinkholes-karst-central-florida-wells" className="text-cyan-700 hover:underline">
+                      Sinkholes, karst, and Central Florida wells
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section
+              aria-label="Schedule a free water test"
+              className="not-prose mt-12 mb-16 rounded-2xl bg-gradient-to-br from-cyan-700 to-blue-800 p-8 text-white"
+            >
+              <p className="font-bold text-2xl md:text-3xl mb-3 leading-tight">
+                Ready to fix the water at your {city.name} home?
+              </p>
               <p className="text-white/90 mb-5">
                 Free in-home water test. No high-pressure sales. A written
                 quote with the system sized for your home.
