@@ -6,7 +6,7 @@ Disallow: /*?sort=
 Disallow: /*?filter=
 Disallow: /*?ref=
 
-# AI training data crawlers — block
+# AI training data crawlers, block
 User-agent: GPTBot
 Disallow: /
 
@@ -37,7 +37,7 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-# AI search index builders — allow (these can send traffic)
+# AI search index builders, allow (these can send traffic)
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -47,7 +47,7 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# User-triggered AI fetches — allow
+# User-triggered AI fetches, allow
 User-agent: ChatGPT-User
 Allow: /
 
