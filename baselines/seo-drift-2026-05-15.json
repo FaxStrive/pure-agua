@@ -1,0 +1,33 @@
+{
+  "site": "pure-agua",
+  "url": "https://pureaguaenterprise.com",
+  "captured_at": "2026-05-15T23:18:19.871416+00:00",
+  "captured_by": "SEOMAN /seo drift baseline",
+  "method": "curl + python parse (drift_baseline.py SQLite skipped \u2014 file-based output preferred)",
+  "skip_cwv": true,
+  "status": "failed",
+  "error": "DNS NXDOMAIN for pureaguaenterprise.com",
+  "pages": [],
+  "robots_txt": null,
+  "sitemap_url_count": 0,
+  "llms_txt": {
+    "present": false,
+    "size_bytes": 0
+  },
+  "ai_crawlers": {
+    "GPTBot": "unknown (site unreachable)",
+    "ChatGPT-User": "unknown (site unreachable)",
+    "ClaudeBot": "unknown (site unreachable)",
+    "Claude-Web": "unknown (site unreachable)",
+    "anthropic-ai": "unknown (site unreachable)",
+    "PerplexityBot": "unknown (site unreachable)",
+    "Google-Extended": "unknown (site unreachable)",
+    "Applebot-Extended": "unknown (site unreachable)",
+    "Bytespider": "unknown (site unreachable)",
+    "CCBot": "unknown (site unreachable)",
+    "FacebookBot": "unknown (site unreachable)",
+    "OAI-SearchBot": "unknown (site unreachable)",
+    "cohere-ai": "unknown (site unreachable)",
+    "DuckAssistBot": "unknown (site unreachable)"
+  }
+}

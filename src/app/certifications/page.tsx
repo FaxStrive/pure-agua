@@ -11,16 +11,16 @@ const certSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'What certifications does Pure Agua Enterprise hold?', acceptedAnswer: { '@type': 'Answer', text: 'Pure Agua Enterprise holds NSF/ANSI 58 certification (reverse osmosis systems), NSF/ANSI 61 certification (drinking water system components — material safety), WQA (Water Quality Association) membership, and a Florida contractor license. The company is family-owned and has served Central Florida since 2016 with a 5.0★ rating and 200+ Google reviews.' } },
+    { '@type': 'Question', name: 'What certifications does Pure Agua Enterprise hold?', acceptedAnswer: { '@type': 'Answer', text: 'Pure Agua Enterprise holds NSF/ANSI 58 certification (reverse osmosis systems), NSF/ANSI 61 certification (drinking water system components, material safety), WQA (Water Quality Association) membership, and a Florida contractor license. The company is family-owned and has served Central Florida since 2016 with a 5.0★ rating and 200+ Google reviews.' } },
   ],
 }
 
 const certs = [
-  { name: 'NSF/ANSI 58', what: 'Reverse Osmosis Systems', means: 'NSF/ANSI 58 certifies that reverse osmosis systems remove contaminants — lead, arsenic, nitrates, fluoride, chloramine, chromium — to the levels claimed, and that all materials in contact with drinking water are safe. For Kissimmee and Central Florida homeowners, this is the key certification that separates verified RO systems from marketing claims.' },
-  { name: 'NSF/ANSI 61', what: 'Drinking Water System Components — Material Safety', means: 'NSF/ANSI 61 certifies that all materials and components in contact with drinking water don\'t leach contaminants above health-based thresholds. This applies to pipes, fittings, valves, and hardware used in Pure Agua\'s installations — not just the treatment media itself.' },
+  { name: 'NSF/ANSI 58', what: 'Reverse Osmosis Systems', means: 'NSF/ANSI 58 certifies that reverse osmosis systems remove contaminants, lead, arsenic, nitrates, fluoride, chloramine, chromium, to the levels claimed, and that all materials in contact with drinking water are safe. For Kissimmee and Central Florida homeowners, this is the key certification that separates verified RO systems from marketing claims.' },
+  { name: 'NSF/ANSI 61', what: 'Drinking Water System Components, Material Safety', means: 'NSF/ANSI 61 certifies that all materials and components in contact with drinking water don\'t leach contaminants above health-based thresholds. This applies to pipes, fittings, valves, and hardware used in Pure Agua\'s installations, not just the treatment media itself.' },
   { name: 'WQA Member', what: 'Water Quality Association', means: 'Pure Agua Enterprise is a WQA (Water Quality Association) member. WQA is the leading professional organization for US water treatment specialists. WQA membership requires adherence to a code of professional ethics and access to ongoing technical education in water chemistry and treatment technologies.' },
   { name: 'FL Licensed & Insured', what: 'Florida Contractor License', means: 'Pure Agua Enterprise holds a Florida contractor license covering water treatment system installation in Kissimmee, Orlando, and all of Central Florida. All work is fully insured. Licensing documentation is provided before any work begins.' },
-  { name: '5.0★ — 200+ Reviews', what: 'Customer Satisfaction Record', means: 'Pure Agua Enterprise maintains a 5.0★ Google rating from 200+ verified customer reviews — a perfect score across a significant number of reviews in Central Florida. This rating reflects consistent installation quality and customer service from founding in 2016 through today.' },
+  { name: '5.0★, 200+ Reviews', what: 'Customer Satisfaction Record', means: 'Pure Agua Enterprise maintains a 5.0★ Google rating from 200+ verified customer reviews, a perfect score across a significant number of reviews in Central Florida. This rating reflects consistent installation quality and customer service from founding in 2016 through today.' },
 ]
 
 export default function CertificationsPage() {

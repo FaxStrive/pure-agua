@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
 
     const data = await res.json();
 
-    // Handle duplicate contact — GHL returns 400 with existing contactId
+    // Handle duplicate contact, GHL returns 400 with existing contactId
     if (!res.ok && data.meta?.contactId) {
       // Update the existing contact with career tags/fields
       const updateRes = await fetch(
