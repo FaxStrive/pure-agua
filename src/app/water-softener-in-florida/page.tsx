@@ -46,7 +46,7 @@ const faqSchema = {
       "name": "How Much Does Water Softener Cost in Florida?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Water softener pricing in Florida ranges from entry-level to whole-home solutions depending on your property's requirements. Pure Agua Enterprises provides transparent, written quotes after a free in-home evaluation — no estimates over the phone that change once we arrive."
+        "text": "Water softener pricing in Florida ranges from entry-level to whole-home solutions depending on your property's requirements. Pure Agua Enterprises provides transparent, written quotes after a free in-home evaluation, no estimates over the phone that change once we arrive."
       }
     },
     {
@@ -62,7 +62,7 @@ const faqSchema = {
       "name": "How Quickly Can Pure Agua Enterprises Schedule Water Softener in Florida?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pure Agua Enterprises prioritizes fast scheduling for Florida homeowners — most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent."
+        "text": "Pure Agua Enterprises prioritizes fast scheduling for Florida homeowners, most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent."
       }
     },
     {
@@ -78,7 +78,7 @@ const faqSchema = {
       "name": "Why Should Florida Homeowners Choose Pure Agua Enterprises for Water Softener?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pure Agua Enterprises is a locally trusted provider with deep experience serving Florida. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Florida — not generic packages."
+        "text": "Pure Agua Enterprises is a locally trusted provider with deep experience serving Florida. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Florida, not generic packages."
       }
     },
     {
@@ -151,7 +151,7 @@ export default function WaterSoftenerInFloridaPage() {
         </h1>
 
         <p className="text-lg mb-8 text-gray-700">
-          Looking for professional water softener in Florida? Pure Agua Enterprises provides expert water softener solutions for homes and businesses throughout Florida. Our WQA-certified and NSF-trained technicians understand local conditions and deliver solutions tailored to Florida&apos;s specific needs — not generic packages designed for any market.
+          Looking for professional water softener in Florida? Pure Agua Enterprises provides expert water softener solutions for homes and businesses throughout Florida. Our WQA-certified and NSF-trained technicians understand local conditions and deliver solutions tailored to Florida&apos;s specific needs, not generic packages designed for any market.
         </p>
 
         <section aria-labelledby="services-heading">
@@ -159,14 +159,14 @@ export default function WaterSoftenerInFloridaPage() {
             Our Water Softener Services in Florida
           </h2>
           <p className="mb-6 text-gray-700">
-            As a trusted water softener provider serving Florida, Pure Agua Enterprises offers comprehensive solutions backed by professional service and ongoing support. Every recommendation is based on your Florida home&apos;s specific needs — not a one-size-fits-all package.
+            As a trusted water softener provider serving Florida, Pure Agua Enterprises offers comprehensive solutions backed by professional service and ongoing support. Every recommendation is based on your Florida home&apos;s specific needs, not a one-size-fits-all package.
           </p>
         </section>
 
         <section aria-labelledby="local-context-heading">
           <h2 id="local-context-heading" className="text-2xl font-semibold mb-4">Water Quality in Florida</h2>
           <p className="mb-6 text-gray-700">
-            Municipal water in Florida meets EPA Safe Drinking Water Act standards, but that standard was last comprehensively updated in 1974. The Environmental Working Group&apos;s Tap Water Database identifies dozens of contaminants in Florida water supplies that are legal under current law but exceed the organization&apos;s health-based guidelines — including chromium-6, trihalomethanes, and haloacetic acids.
+            Municipal water in Florida meets EPA Safe Drinking Water Act standards, but that standard was last comprehensively updated in 1974. The Environmental Working Group&apos;s Tap Water Database identifies dozens of contaminants in Florida water supplies that are legal under current law but exceed the organization&apos;s health-based guidelines, including chromium-6, trihalomethanes, and haloacetic acids.
           </p>
         </section>
 
@@ -174,8 +174,8 @@ export default function WaterSoftenerInFloridaPage() {
           <h2 id="why-us-heading" className="text-2xl font-semibold mb-4">Why Florida Residents Choose Pure Agua Enterprises</h2>
           <ul className="list-disc pl-6 mb-10 space-y-2 text-gray-700">
             <li>WQA-certified and NSF-trained specialists dedicated to Florida and surrounding area communities</li>
-            <li>Free consultations and personalized recommendations — no obligation, no sales pressure</li>
-            <li>Licensed, bonded, and insured — all work fully documented and guaranteed</li>
+            <li>Free consultations and personalized recommendations, no obligation, no sales pressure</li>
+            <li>Licensed, bonded, and insured, all work fully documented and guaranteed</li>
             <li>Ongoing maintenance plans and support long after installation in Florida</li>
             <li>Full-service coverage: Water Softener, Reverse Osmosis, Water Filtration and more in Florida</li>
           </ul>
@@ -201,7 +201,7 @@ export default function WaterSoftenerInFloridaPage() {
           <div className="space-y-6 mb-10">
             <div>
               <h3 className="font-semibold text-lg mb-2">How Much Does Water Softener Cost in Florida?</h3>
-              <p className="text-gray-700">Water softener pricing in Florida ranges from entry-level to whole-home solutions depending on your property&apos;s requirements. Pure Agua Enterprises provides transparent, written quotes after a free in-home evaluation — no estimates over the phone that change once we arrive.</p>
+              <p className="text-gray-700">Water softener pricing in Florida ranges from entry-level to whole-home solutions depending on your property&apos;s requirements. Pure Agua Enterprises provides transparent, written quotes after a free in-home evaluation, no estimates over the phone that change once we arrive.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Does Pure Agua Enterprises Serve All of Florida?</h3>
@@ -209,7 +209,7 @@ export default function WaterSoftenerInFloridaPage() {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">How Quickly Can Pure Agua Enterprises Schedule Water Softener in Florida?</h3>
-              <p className="text-gray-700">Pure Agua Enterprises prioritizes fast scheduling for Florida homeowners — most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent.</p>
+              <p className="text-gray-700">Pure Agua Enterprises prioritizes fast scheduling for Florida homeowners, most appointments are confirmed within 24 hours of inquiry. Emergency availability varies by season; call ahead if your situation is urgent.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Is Pure Agua Enterprises Licensed and Insured for Water Softener in Florida?</h3>
@@ -217,7 +217,7 @@ export default function WaterSoftenerInFloridaPage() {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Why Should Florida Homeowners Choose Pure Agua Enterprises for Water Softener?</h3>
-              <p className="text-gray-700">Pure Agua Enterprises is a locally trusted provider with deep experience serving Florida. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Florida — not generic packages.</p>
+              <p className="text-gray-700">Pure Agua Enterprises is a locally trusted provider with deep experience serving Florida. We offer professional service, transparent pricing, ongoing support, and solutions designed specifically for the water quality, climate, and housing conditions found in Florida, not generic packages.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-2">Is Florida Tap Water Safe to Drink Without a Filter?</h3>

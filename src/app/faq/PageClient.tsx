@@ -27,7 +27,7 @@ export default function FAQPageClient() {
         ]}
       />
       <FAQCategories />
-      <InlineCTA variant="button" text="Still Have Questions? Talk to an Expert" trustLine="Free consultation — no pressure" />
+      <InlineCTA variant="button" text="Still Have Questions? Talk to an Expert" trustLine="Free consultation, no pressure" />
       <AskQuestion />
       <FAQContactCTA />
       <CTA />

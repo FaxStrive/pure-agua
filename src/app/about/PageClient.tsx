@@ -20,7 +20,7 @@ export default function AboutPageClient() {
       <InlineCTA variant="button" text="Get Your Free Water Assessment" trustLine="Family-owned, serving Central Florida" />
       <AboutStats />
       <Values />
-      <InlineCTA variant="banner" text="Clean Water Starts With a Conversation" message="Book a free water test — we'll come to your home." />
+      <InlineCTA variant="banner" text="Clean Water Starts With a Conversation" message="Book a free water test, we'll come to your home." />
       <WhyChooseUs />
       <ServiceAreaBanner />
       <Testimonials />

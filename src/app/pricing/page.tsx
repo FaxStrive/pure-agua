@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Water Treatment Pricing — Kissimmee & Central Florida | Pure Agua',
+  title: 'Water Treatment Pricing, Kissimmee & Central Florida | Pure Agua',
   description: 'Transparent pricing for water softeners, whole-house filtration, and reverse osmosis in Kissimmee, Orlando, and Central Florida. Pure Agua Enterprise. 5.0★ 200+ reviews. Free water test.',
   alternates: { canonical: 'https://pureaguaenterprise.com/pricing' },
 }
@@ -63,7 +63,7 @@ export default function PricingPage() {
           <div className="mt-12 p-8 bg-blue-50 rounded-2xl">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Always Included</h2>
             <ul className="space-y-2 text-gray-700">
-              {['Free in-home water test (hardness, chlorine, pH, iron, TDS)', 'Written quote before any work begins', 'NSF/ANSI 58 + NSF/ANSI 61 certified systems', 'WQA certified installation', 'FL licensed and insured', '5.0★ rated — 200+ Google reviews', 'Family-owned, Central Florida based since 2016'].map((i) => (
+              {['Free in-home water test (hardness, chlorine, pH, iron, TDS)', 'Written quote before any work begins', 'NSF/ANSI 58 + NSF/ANSI 61 certified systems', 'WQA certified installation', 'FL licensed and insured', '5.0★ rated, 200+ Google reviews', 'Family-owned, Central Florida based since 2016'].map((i) => (
                 <li key={i} className="flex items-start gap-2"><span className="text-blue-700 font-bold">✓</span><span>{i}</span></li>
               ))}
             </ul>
