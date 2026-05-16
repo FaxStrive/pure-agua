@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Water Treatment Pricing, Kissimmee and Central Florida',
   description: 'Transparent pricing for water softeners, whole-house filtration, and reverse osmosis in Kissimmee, Orlando, and Central Florida. Family-owned since 2016. Free water test.',
-  alternates: { canonical: 'https://pureaguaenterprise.com/pricing' },
+  alternates: { canonical: 'https://pureaguafl.com/pricing' },
 }
 
 const pricingSchema = {

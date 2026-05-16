@@ -20,11 +20,11 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: metaDescription,
-    alternates: { canonical: `https://pureaguaenterprise.com/blog/${post.slug}` },
+    alternates: { canonical: `https://pureaguafl.com/blog/${post.slug}` },
     openGraph: {
       title: `${post.title} | Pure Agua`,
       description: metaDescription,
-      url: `https://pureaguaenterprise.com/blog/${post.slug}`,
+      url: `https://pureaguafl.com/blog/${post.slug}`,
       type: "article",
       images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: `${post.title} - Pure Agua Enterprises Blog` }],
     },
@@ -56,22 +56,22 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     author: {
       "@type": "Organization",
       name: "Pure Agua Enterprises",
-      url: "https://pureaguaenterprise.com",
+      url: "https://pureaguafl.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Pure Agua Enterprises",
-      url: "https://pureaguaenterprise.com",
+      url: "https://pureaguafl.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://pureaguaenterprise.com/images/pure-agua-logo.png",
+        url: "https://pureaguafl.com/images/pure-agua-logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://pureaguaenterprise.com/blog/${post.slug}`,
+      "@id": `https://pureaguafl.com/blog/${post.slug}`,
     },
-    image: "https://pureaguaenterprise.com/images/og-image.png",
+    image: "https://pureaguafl.com/images/og-image.png",
   };
 
   return (

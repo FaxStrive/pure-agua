@@ -17,7 +17,7 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
-const SITE = "https://pureaguaenterprise.com";
+const SITE = "https://pureaguafl.com";
 const PHONE_DISPLAY = "(407) 512-8342";
 const PHONE_TEL = "+14075128342";
 

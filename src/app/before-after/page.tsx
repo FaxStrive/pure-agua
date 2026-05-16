@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "See real before and after water treatment results from Central Florida homes. TDS readings and installation photos. Free water test.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/before-after",
+    canonical: "https://pureaguafl.com/before-after",
   },
   openGraph: {
     title: "Before & After Water Treatment Results | Pure Agua",
     description: "Real before and after water filtration results from Central Florida homes.",
-    url: "https://pureaguaenterprise.com/before-after",
+    url: "https://pureaguafl.com/before-after",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Before & After - Pure Agua Enterprises" }],
   },
   twitter: {

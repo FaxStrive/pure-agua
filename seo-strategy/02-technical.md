@@ -4,7 +4,7 @@ Last updated: 2026-05-14
 
 ## What shipped
 
-- Org schema unified under `@id: https://pureaguaenterprise.com/#organization`. Mirror block in `src/app/layout.tsx` (server-rendered, AI-crawler-safe) and the client `SchemaMarkup` component in `src/components/seo/schema-markup.tsx`. Both now use `["HomeAndConstructionBusiness","Plumber"]` and carry a `speakable` block targeting `h1` and `[data-bluf]`.
+- Org schema unified under `@id: https://pureaguafl.com/#organization`. Mirror block in `src/app/layout.tsx` (server-rendered, AI-crawler-safe) and the client `SchemaMarkup` component in `src/components/seo/schema-markup.tsx`. Both now use `["HomeAndConstructionBusiness","Plumber"]` and carry a `speakable` block targeting `h1` and `[data-bluf]`.
 - `hasCredential` retained (NSF/ANSI 58, NSF/ANSI 61, WQA member, FL licensed). Verify with the live business before claiming the same in marketing copy.
 - `sameAs` reduced to the verified Google Maps URL only. Social URLs that could not be verified during the audit were removed; re-add each one when verified by following the actual link.
 - `areaServed` expanded from 12 to 23 Central Florida cities to match the local-grid coverage.

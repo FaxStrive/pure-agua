@@ -20,4 +20,4 @@ Last updated: 2026-05-14
 
 - Query each pillar page with `/geo citability <url>` to get a 0–100 score and rewrite suggestions.
 - Run `/geo platforms <url>` on the homepage to score Google AIO, ChatGPT, Perplexity, Gemini, and Bing Copilot readiness individually.
-- Run `/geo drift baseline pureaguaenterprise.com` after merge so we can measure the lift from this PR in the August 2026 monthly comparison.
+- Run `/geo drift baseline pureaguafl.com` after merge so we can measure the lift from this PR in the August 2026 monthly comparison.

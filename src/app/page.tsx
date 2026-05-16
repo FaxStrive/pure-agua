@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Filtration & Softeners Kissimmee FL | Pure Agua',
     description: 'Family-owned water filtration experts serving Kissimmee and Orlando. Free in-home water test available.',
-    url: 'https://pureaguaenterprise.com',
+    url: 'https://pureaguafl.com',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Pure Agua Enterprises - Central Florida Water Filtration and Softener Experts' }],
   },
   twitter: {

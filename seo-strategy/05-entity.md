@@ -15,7 +15,7 @@ Google Knowledge Graph and Wikidata are the two primary entity-resolution source
 ## 90-day plan
 
 1. **Verify GBP.** Confirm the Google Business Profile is verified, categories are correct ("Water filter supplier" primary), service area covers the 23-city `areaServed` block, and the website link points to the canonical https URL.
-2. **Wikidata entry.** Create a Wikidata entity for "Pure Agua Enterprises" with `instance of: business`, `country: United States`, `headquarters location: Kissimmee, Florida`, `inception: 2016`, `industry: water treatment`, `official website: https://pureaguaenterprise.com`. Cross-reference the entity from the website via `sameAs` once the Wikidata QID is assigned.
+2. **Wikidata entry.** Create a Wikidata entity for "Pure Agua Enterprises" with `instance of: business`, `country: United States`, `headquarters location: Kissimmee, Florida`, `inception: 2016`, `industry: water treatment`, `official website: https://pureaguafl.com`. Cross-reference the entity from the website via `sameAs` once the Wikidata QID is assigned.
 3. **GBP review velocity.** 200+ Google reviews at 5.0★ is the existing trust signal. Maintain a steady 4–8 new reviews per month via post-install follow-up.
 4. **Trade-association profiles.** Verify or create Water Quality Association (WQA) member profile if claimed. Add direct URL to `sameAs` only after verification.
 5. **Local citations.** BBB (if member), Angi, HomeAdvisor, Nextdoor business profile. Each adds an authoritative `sameAs` candidate.

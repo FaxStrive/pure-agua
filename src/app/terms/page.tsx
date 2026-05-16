@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Terms of Service for Pure Agua Enterprises. Review our terms including SMS/text messaging policies, service agreements, and user responsibilities.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/terms",
+    canonical: "https://pureaguafl.com/terms",
   },
   openGraph: {
     title: "Terms of Service & User Agreement Info | Pure Agua",
     description: "Review Pure Agua Enterprises terms of service, SMS policies, and service agreements.",
-    url: "https://pureaguaenterprise.com/terms",
+    url: "https://pureaguafl.com/terms",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Terms of Service" }],
   },
   twitter: {
