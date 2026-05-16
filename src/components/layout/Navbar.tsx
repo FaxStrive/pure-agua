@@ -50,6 +50,14 @@ export function Navbar() {
         { href: "/services/well-water", label: t("common", "wellWater") },
       ],
     },
+    {
+      label: "Guides",
+      dropdown: [
+        { href: "/water-treatment/central-florida-hard-water", label: "Central Florida Hard Water" },
+        { href: "/water-treatment/florida-well-water", label: "Florida Well Water" },
+        { href: "/water-treatment/reverse-osmosis-drinking-water", label: "Reverse Osmosis Drinking Water" },
+      ],
+    },
     { href: "/about", label: t("common", "about") },
     { href: "/testimonials", label: t("nav", "testimonials") },
     { href: "/service-area", label: t("nav", "serviceArea") },

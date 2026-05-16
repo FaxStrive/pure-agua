@@ -17,15 +17,26 @@ const SERVICE_AREAS = [
   'Ocoee',
   'Apopka',
   'Clermont',
+  'Winter Garden',
+  'Winter Park',
+  'Altamonte Springs',
+  'Lake Mary',
+  'Sanford',
+  'Oviedo',
+  'Davenport',
+  'Haines City',
   'Winter Haven',
   'Lakeland',
-  'Haines City',
+  'Deltona',
+  'DeLand',
+  'Leesburg',
+  'Mount Dora',
 ]
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'HomeAndConstructionBusiness',
-  '@id': `${SITE_URL}/#business`,
+  '@type': ['HomeAndConstructionBusiness', 'Plumber'],
+  '@id': `${SITE_URL}/#organization`,
   name: BUSINESS_NAME,
   description:
     'Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.',
@@ -141,13 +152,12 @@ const localBusinessSchema = {
     },
   ],
   sameAs: [
-    'https://www.facebook.com/pureaguaenterprise',
-    'https://www.instagram.com/pureaguaenterprise',
-    'https://www.youtube.com/@pureaguaenterprise',
-    'https://x.com/pureaguafl',
-    'https://www.linkedin.com/company/pureaguaenterprise',
     'https://www.google.com/maps/place/Pure+Agua+Enterprise',
   ],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '[data-bluf]'],
+  },
   dateModified: DATE_MODIFIED,
 }
 
@@ -756,7 +766,7 @@ function getServiceSchema(pathname: string) {
     dateModified: DATE_MODIFIED,
     provider: {
       '@type': 'HomeAndConstructionBusiness',
-      '@id': `${SITE_URL}/#business`,
+      '@id': `${SITE_URL}/#organization`,
       name: BUSINESS_NAME,
       url: SITE_URL,
       telephone: PHONE,

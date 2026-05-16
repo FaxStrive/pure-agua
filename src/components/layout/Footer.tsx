@@ -28,6 +28,12 @@ export function Footer() {
     { href: "/services/well-water", label: t("common", "wellWater") },
   ];
 
+  const guideLinks = [
+    { href: "/water-treatment/central-florida-hard-water", label: "Central Florida Hard Water" },
+    { href: "/water-treatment/florida-well-water", label: "Florida Well Water" },
+    { href: "/water-treatment/reverse-osmosis-drinking-water", label: "Reverse Osmosis Drinking Water" },
+  ];
+
   const supportLinks = [
     { href: "/service-area", label: t("common", "serviceArea") },
     { href: "/faq", label: t("common", "faq") },
@@ -60,7 +66,7 @@ export function Footer() {
 
       {/* Main footer */}
       <div className="container-custom py-10 sm:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 md:gap-12 lg:gap-8">
           {/* Brand Column */}
           <motion.div
             className="lg:col-span-2"
@@ -172,6 +178,30 @@ export function Footer() {
             </h4>
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white/60 hover:text-white transition-colors duration-300 text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          {/* Guides Links */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewportConfig}
+            transition={{ duration: 0.5, delay: 0.18 }}
+          >
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white/40 mb-6">
+              Guides
+            </h4>
+            <ul className="space-y-3">
+              {guideLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
