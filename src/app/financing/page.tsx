@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Affordable water filtration financing with 0% intro rates and no money down in Kissimmee and Orlando, FL. Get your free quote today.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/financing",
+    canonical: "https://pureaguafl.com/financing",
   },
   openGraph: {
     title: "Water Filtration System Financing Plans | Pure Agua",
     description: "0% introductory financing, no money down. Affordable water filtration in Central Florida.",
-    url: "https://pureaguaenterprise.com/financing",
+    url: "https://pureaguafl.com/financing",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Financing - Pure Agua Enterprises" }],
   },
   twitter: {

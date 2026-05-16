@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Whole home water filtration removing chlorine, sediment, and VOCs from every faucet. Professional installation in Kissimmee and Orlando, FL.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/services/whole-home",
+    canonical: "https://pureaguafl.com/services/whole-home",
   },
   openGraph: {
     title: "Whole Home Water Filtration in Kissimmee | Pure Agua",
     description: "Complete point-of-entry water filtration for every faucet. Remove chlorine, sediment, and contaminants. Free water test in Central Florida.",
-    url: "https://pureaguaenterprise.com/services/whole-home",
+    url: "https://pureaguafl.com/services/whole-home",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Whole Home Water Filtration - Pure Agua Enterprises" }],
   },
   twitter: {

@@ -277,10 +277,10 @@ export default function PrivacyPageClient() {
               <li>
                 Email:{" "}
                 <a
-                  href="mailto:info@pureaguaenterprise.com"
+                  href="mailto:info@pureaguafl.com"
                   className="text-[var(--color-primary)] hover:underline"
                 >
-                  info@pureaguaenterprise.com
+                  info@pureaguafl.com
                 </a>
               </li>
               <li>

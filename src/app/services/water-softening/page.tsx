@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "End hard water problems in Kissimmee and Orlando with salt-based and salt-free water softeners. Protect pipes and appliances. Free water test.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/services/water-softening",
+    canonical: "https://pureaguafl.com/services/water-softening",
   },
   openGraph: {
     title: "Water Softener Systems for FL Hard Water | Pure Agua",
     description: "Salt-based and salt-free water softeners for Central Florida homes. End hard water problems. Free water test in Kissimmee and Orlando.",
-    url: "https://pureaguaenterprise.com/services/water-softening",
+    url: "https://pureaguafl.com/services/water-softening",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Water Softening Systems - Pure Agua Enterprises" }],
   },
   twitter: {

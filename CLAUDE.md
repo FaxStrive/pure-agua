@@ -1,7 +1,7 @@
 # Site: Pure Agua Enterprises
 
 ## Site Details
-- **URL:** https://pureaguaenterprise.com
+- **URL:** https://pureaguafl.com
 - **Phone:** (407) 512-8342
 - **CMS:** Next.js 14.2.15 + React 18 + Tailwind
 - **Business Type:** Local Service — Water Treatment
@@ -45,10 +45,10 @@
 
 ## Quick Commands
 ```
-/seo audit https://pureaguaenterprise.com
-/geo audit https://pureaguaenterprise.com
-/seo local https://pureaguaenterprise.com
-/seo technical https://pureaguaenterprise.com
+/seo audit https://pureaguafl.com
+/geo audit https://pureaguafl.com
+/seo local https://pureaguafl.com
+/seo technical https://pureaguafl.com
 ```
 
 ## Phase 3 + Local Grid Shipped 2026-05-14
@@ -56,7 +56,7 @@
 Branch: `phase3-local-2026-05-14`
 
 What landed:
-- **Org schema upgrade.** Unified `@id: https://pureaguaenterprise.com/#organization` across `layout.tsx` inline JSON and `src/components/seo/schema-markup.tsx`. Type expanded to `["HomeAndConstructionBusiness","Plumber"]`. Added `speakable` block. `areaServed` expanded from 12 to 23 cities. `sameAs` pruned to the verified Google Maps URL only (social URLs need re-verification before adding back).
+- **Org schema upgrade.** Unified `@id: https://pureaguafl.com/#organization` across `layout.tsx` inline JSON and `src/components/seo/schema-markup.tsx`. Type expanded to `["HomeAndConstructionBusiness","Plumber"]`. Added `speakable` block. `areaServed` expanded from 12 to 23 cities. `sameAs` pruned to the verified Google Maps URL only (social URLs need re-verification before adding back).
 - **3 pillar pages** at `/water-treatment/[slug]`: `central-florida-hard-water`, `florida-well-water`, `reverse-osmosis-drinking-water`. Each 1,800–2,500 words, condition→action table, 6 FAQ entries with schema, BLUF lead, "Call a professional if…" section. Article + FAQPage + BreadcrumbList JSON-LD.
 - **3 blog articles** (2,200–2,500 words each, dated 2026-05-14): `water-softener-cost-central-florida-2026` (Cost-of-X), `why-orlando-water-smells-or-stains-2026` (Diagnostic), `pfas-central-florida-2026` (Regulation/Contaminant). Hero figure + figcaption + lead with `data-bluf` attribute. Added to existing `src/lib/blog-posts.ts`.
 - **Local grid** at `src/app/[localSlug]/page.tsx`: 20 Central FL cities × 4 services = 80 dynamic pages with `generateStaticParams` + `dynamicParams = false`. Data in `src/lib/local-services.ts` (CcrData, LocalCity, LocalService, LocalPage types). Service + BreadcrumbList + FAQPage schema. **CCR numbers are note-only** in this PR; Tier 2 PR will extract verified numbers from each utility CCR PDF.
