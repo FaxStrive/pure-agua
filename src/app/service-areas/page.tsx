@@ -88,10 +88,10 @@ export default function ServiceAreasPage() {
  ))}
  </ul>
 
- <h2 className="text-2xl font-bold mb-4">Cities We Serve in Central Florida</h2>
- <p className="text-gray-700 mb-6">
- Our primary service area covers Osceola, Orange, Polk, Seminole, and Lake counties. We regularly serve Kissimmee, Orlando, St. Cloud, Celebration, Poinciana, Hunters Creek, Ocoee, Apopka, Clermont, Winter Haven, Lakeland, and Haines City. If your city is not listed, call us, we likely serve your area too.
- </p>
+      <h2 className="text-2xl font-bold mb-4">Cities We Serve in Central Florida</h2>
+      <p className="text-gray-700 mb-6">
+        Our primary service area covers Osceola, Orange, Polk, Seminole, and Lake counties. We regularly serve Kissimmee, Orlando, St. Cloud, Celebration, Poinciana, Hunters Creek, Ocoee, Apopka, Clermont, Winter Haven, Lakeland, and Haines City. If your city is not listed, call us, we likely serve your area too.
+      </p>
 
  <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
  <h2 className="text-2xl font-bold mb-3">Schedule Your Free Water Test</h2>

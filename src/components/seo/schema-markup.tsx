@@ -224,35 +224,35 @@ const homeFaqSchema = {
 }
 
 const waterSofteningFaqSchema = {
- '@context': 'https://schema.org',
- '@type': 'FAQPage',
- dateModified: DATE_MODIFIED,
- mainEntity: [
- {
- '@type': 'Question',
- name: 'How hard is the water in Kissimmee and Orlando?',
- acceptedAnswer: {
- '@type': 'Answer',
- text: 'Osceola and Orange County water typically measures 15-25 grains per gallon (gpg), classified as "very hard" by USGS standards. The national average is just 10-12 gpg. This extreme hardness accelerates scale buildup in pipes, causes appliances to fail 30-50% earlier, and requires 2x more soap than soft water regions.',
- },
- },
- {
- '@type': 'Question',
- name: 'What is the difference between salt-based and salt-free water softeners?',
- acceptedAnswer: {
- '@type': 'Answer',
- text: 'Salt-based softeners use ion exchange to physically remove calcium and magnesium from water, producing truly soft water. Salt-free conditioners change the mineral structure to prevent scale without removing minerals, they do not soften water. For Central Florida\'s extreme hardness (15-25 gpg), salt-based systems are typically more effective.',
- },
- },
- {
- '@type': 'Question',
- name: 'How much can a water softener save me in Central Florida?',
- acceptedAnswer: {
- '@type': 'Answer',
- text: 'The Water Quality Research Foundation estimates annual savings of $479 for a family of four with a water softener. In Central Florida where hardness is 2x the national average, savings can be higher through reduced soap use (up to 75% less), lower water heating costs (up to 29% savings per U.S. DOE), and extended appliance lifespan.',
- },
- },
- ],
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  dateModified: DATE_MODIFIED,
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How hard is the water in Kissimmee and Orlando?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Osceola and Orange County water typically measures 15-25 grains per gallon (gpg), classified as "very hard" by USGS standards. The national average is just 10-12 gpg. This extreme hardness accelerates scale buildup in pipes, causes appliances to fail 30-50% earlier, and requires 2x more soap than soft water regions.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the difference between salt-based and salt-free water softeners?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Salt-based softeners use ion exchange to physically remove calcium and magnesium from water, producing truly soft water. Salt-free conditioners change the mineral structure to prevent scale without removing minerals, they do not soften water. For Central Florida\'s extreme hardness (15-25 gpg), salt-based systems are typically more effective.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much can a water softener save me in Central Florida?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The Water Quality Research Foundation estimates annual savings of $479 for a family of four with a water softener. In Central Florida where hardness is 2x the national average, savings can be higher through reduced soap use (up to 75% less), lower water heating costs (up to 29% savings per U.S. DOE), and extended appliance lifespan.',
+      },
+    },
+  ],
 }
 
 const reverseOsmosisFaqSchema = {

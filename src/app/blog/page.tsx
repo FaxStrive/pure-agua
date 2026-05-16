@@ -3,49 +3,50 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
- title: "Water Quality Blog for Florida Homeowners",
- description:
- "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
- alternates: { canonical: "https://pureaguaenterprise.com/blog" },
- openGraph: {
- title: "Water Quality Blog for Florida Homeowners | Pure Agua",
- description:
- "Expert water quality guides for Central Florida homeowners, Orlando, Kissimmee, and surrounding areas.",
- url: "https://pureaguaenterprise.com/blog",
- images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Water Quality Blog - Expert Guides for Central Florida" }],
- },
- twitter: {
- card: "summary_large_image",
- title: "Water Quality Blog for Florida Homeowners | Pure Agua",
- description: "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
- images: ["/images/og-image.png"],
- },
+  title: "Water Quality Blog for Florida Homeowners",
+  description:
+    "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
+  alternates: { canonical: "https://pureaguaenterprise.com/blog" },
+  openGraph: {
+    title: "Water Quality Blog for Florida Homeowners | Pure Agua",
+    description:
+      "Expert water quality guides for Central Florida homeowners, Orlando, Kissimmee, and surrounding areas.",
+    url: "https://pureaguaenterprise.com/blog",
+    images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Water Quality Blog - Expert Guides for Central Florida" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Water Quality Blog for Florida Homeowners | Pure Agua",
+    description: "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
+    images: ["/images/og-image.png"],
+  },
 };
 
 export default function BlogPage() {
  const posts = getAllPosts();
  const [featured, ...rest] = posts;
 
- return (
- <div className="min-h-screen">
- {/* Hero */}
- <section className="relative pt-32 pb-20 overflow-hidden bg-[var(--color-dark)]">
- <div className="absolute inset-0 pointer-events-none">
- <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[var(--color-primary)]/10 blur-3xl" />
- <div className="absolute bottom-0 left-1/4 w-96 h-96 rounded-full bg-[var(--color-secondary)]/10 blur-3xl" />
- </div>
- <div className="container-custom relative text-center">
- <p className="text-xs font-semibold uppercase tracking-widest text-white/50 mb-4">
- Knowledge Base
- </p>
- <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
- Central Florida Water Quality Blog
- </h1>
- <p className="text-xl text-white/70 max-w-2xl mx-auto">
- Expert guides on water quality, softeners, filtration, and well water treatment, written for Orlando and Kissimmee homeowners.
- </p>
- </div>
- </section>
+  return (
+    <div className="min-h-screen">
+      {/* Hero */}
+      <section className="relative pt-32 pb-20 overflow-hidden bg-[var(--color-dark)]">
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[var(--color-primary)]/10 blur-3xl" />
+          <div className="absolute bottom-0 left-1/4 w-96 h-96 rounded-full bg-[var(--color-secondary)]/10 blur-3xl" />
+        </div>
+        <div className="container-custom relative text-center">
+          <p className="text-xs font-semibold uppercase tracking-widest text-white/50 mb-4">
+            Knowledge Base
+          </p>
+          <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+            Central Florida Water Quality Blog
+          </h1>
+          <p className="text-xl text-white/70 max-w-2xl mx-auto">
+            Expert guides on water quality, softeners, filtration, and well water treatment
+written for Orlando and Kissimmee homeowners.
+          </p>
+        </div>
+      </section>
 
  {/* Featured Post */}
  {featured && (

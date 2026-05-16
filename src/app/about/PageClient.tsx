@@ -12,19 +12,19 @@ import { CTA } from "@/components/sections/CTA";
 import InlineCTA from "@/components/InlineCTA";
 
 export default function AboutPageClient() {
- return (
- <main>
- <AboutHero />
- <TrustBadgeBar />
- <OurStory />
- <InlineCTA variant="button" text="Get Your Free Water Assessment" trustLine="Family-owned, serving Central Florida" />
- <AboutStats />
- <Values />
- <InlineCTA variant="banner" text="Clean Water Starts With a Conversation" message="Book a free water test, we'll come to your home." />
- <WhyChooseUs />
- <ServiceAreaBanner />
- <Testimonials />
- <CTA />
- </main>
- );
+  return (
+    <main>
+      <AboutHero />
+      <TrustBadgeBar />
+      <OurStory />
+      <InlineCTA variant="button" text="Get Your Free Water Assessment" trustLine="Family-owned, serving Central Florida" />
+      <AboutStats />
+      <Values />
+      <InlineCTA variant="banner" text="Clean Water Starts With a Conversation" message="Book a free water test, we'll come to your home." />
+      <WhyChooseUs />
+      <ServiceAreaBanner />
+      <Testimonials />
+      <CTA />
+    </main>
+  );
 }
