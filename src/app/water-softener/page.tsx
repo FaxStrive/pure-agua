@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Water Softener Installation Orlando FL',
   description: 'Professional water softener installation in Kissimmee, Orlando, and Central Florida. Salt-based and salt-free options. Free water test.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/water-softener',
+    canonical: 'https://pureaguafl.com/water-softener',
   },
   openGraph: {
     title: 'Water Softener Installation Orlando FL | Pure Agua',
     description: 'End hard water problems with professional water softener installation in Kissimmee, Orlando, and Central Florida. Salt-based and salt-free options. Free water test. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/water-softener',
+    url: 'https://pureaguafl.com/water-softener',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/og-water-softener.jpg',
+        url: 'https://pureaguafl.com/og-water-softener.jpg',
         width: 1200,
         height: 630,
         alt: 'Professional water softener installation by Pure Agua Enterprises in Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/water-softener",
+  "url": "https://pureaguafl.com/water-softener",
   "description": "Pure Agua Enterprises provides professional water softener services in Central Florida. Free consultations available."
 };
 

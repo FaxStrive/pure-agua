@@ -57,7 +57,7 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-Sitemap: https://pureaguaenterprise.com/sitemap.xml
+Sitemap: https://pureaguafl.com/sitemap.xml
 
 # LLM content discovery
-# https://pureaguaenterprise.com/llms.txt
+# https://pureaguafl.com/llms.txt

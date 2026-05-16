@@ -227,7 +227,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@pureaguaenterprise.com"
+                  href="mailto:info@pureaguafl.com"
                   className="flex items-center gap-3 text-white/60 hover:text-white transition-colors text-sm"
                 >
                   <Mail className="w-4 h-4 shrink-0" />

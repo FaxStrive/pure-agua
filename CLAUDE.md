@@ -1,7 +1,7 @@
 # Site: Pure Agua Enterprises
 
 ## Site Details
-- **URL:** https://pureaguaenterprise.com
+- **URL:** https://pureaguafl.com
 - **Phone:** (407) 512-8342
 - **CMS:** Next.js 14.2.15 + React 18 + Tailwind
 - **Business Type:** Local Service — Water Treatment
@@ -45,8 +45,8 @@
 
 ## Quick Commands
 ```
-/seo audit https://pureaguaenterprise.com
-/geo audit https://pureaguaenterprise.com
-/seo local https://pureaguaenterprise.com
-/seo technical https://pureaguaenterprise.com
+/seo audit https://pureaguafl.com
+/geo audit https://pureaguafl.com
+/seo local https://pureaguafl.com
+/seo technical https://pureaguafl.com
 ```

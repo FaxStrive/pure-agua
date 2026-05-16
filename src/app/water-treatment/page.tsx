@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Water Treatment Services in Kissimmee FL',
   description: 'Water treatment services in Kissimmee, Orlando, and Central Florida. Filtration, softening, and reverse osmosis. Free estimate available.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/water-treatment',
+    canonical: 'https://pureaguafl.com/water-treatment',
   },
   openGraph: {
     title: 'Water Treatment Services in Kissimmee FL | Pure Agua',
     description: 'Professional water treatment services in Kissimmee, Orlando, and Central Florida. Whole-home filtration, softening, and reverse osmosis. Free estimate. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/water-treatment',
+    url: 'https://pureaguafl.com/water-treatment',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/og-water-treatment.jpg',
+        url: 'https://pureaguafl.com/og-water-treatment.jpg',
         width: 1200,
         height: 630,
         alt: 'Pure Agua Enterprises water treatment services in Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/water-treatment",
+  "url": "https://pureaguafl.com/water-treatment",
   "description": "Pure Agua Enterprises provides professional water treatment services in Central Florida. Free consultations available."
 };
 

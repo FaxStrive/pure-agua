@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Reverse Osmosis Water Systems Kissimmee',
   description: 'Reverse osmosis installation in Kissimmee, Orlando, and Central Florida. Removes 99% of contaminants. Free water test. Call today.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/reverse-osmosis',
+    canonical: 'https://pureaguafl.com/reverse-osmosis',
   },
   openGraph: {
     title: 'Reverse Osmosis Water Systems Kissimmee | Pure Agua',
     description: 'Professional reverse osmosis system installation in Kissimmee, Orlando, and Central Florida. Removes 99% of contaminants. Free in-home water test. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/reverse-osmosis',
+    url: 'https://pureaguafl.com/reverse-osmosis',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/images/og-reverse-osmosis.jpg',
+        url: 'https://pureaguafl.com/images/og-reverse-osmosis.jpg',
         width: 1200,
         height: 630,
         alt: 'Pure Agua Enterprises reverse osmosis system installation in Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/reverse-osmosis",
+  "url": "https://pureaguafl.com/reverse-osmosis",
   "description": "Pure Agua Enterprises provides professional reverse osmosis services in Central Florida. Free consultations available."
 };
 

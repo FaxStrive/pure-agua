@@ -1,7 +1,7 @@
 # SEO Audit Report
 
 **Site:** Pure Agua Enterprises
-**URL:** https://pureaguaenterprise.com
+**URL:** https://pureaguafl.com
 **Date:** 2026-04-06
 **Mode:** Live Crawl
 **Pages Analyzed:** 28

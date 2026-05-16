@@ -28,7 +28,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pureaguaenterprise.com'),
+  metadataBase: new URL('https://pureaguafl.com'),
 
   title: {
     default: "Water Filtration & Softeners Kissimmee FL | Pure Agua",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
       "Family-owned water filtration experts serving Kissimmee and Orlando, FL. Schedule your free water test today.",
     type: "website",
     locale: "en_US",
-    url: "https://pureaguaenterprise.com",
+    url: "https://pureaguafl.com",
     siteName: "Pure Agua Enterprises",
     images: [
       {
@@ -92,15 +92,15 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HomeAndConstructionBusiness",
-              "@id": "https://pureaguaenterprise.com/#business",
+              "@id": "https://pureaguafl.com/#business",
               name: "Pure Agua Enterprises",
               description: "Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems.",
-              url: "https://pureaguaenterprise.com",
+              url: "https://pureaguafl.com",
               telephone: "+14075128342",
-              email: "info@pureaguaenterprise.com",
+              email: "info@pureaguafl.com",
               priceRange: "$",
-              image: "https://pureaguaenterprise.com/images/og-image.png",
-              logo: "https://pureaguaenterprise.com/images/pure-agua-logo.png",
+              image: "https://pureaguafl.com/images/og-image.png",
+              logo: "https://pureaguafl.com/images/pure-agua-logo.png",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "3705 Eagle Isle Circle",

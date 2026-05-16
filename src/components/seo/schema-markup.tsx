@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 
-const SITE_URL = 'https://pureaguaenterprise.com'
+const SITE_URL = 'https://pureaguafl.com'
 const BUSINESS_NAME = 'Pure Agua Enterprises'
 const PHONE = '+14075128342'
 const DATE_MODIFIED = '2026-04-06'
@@ -31,7 +31,7 @@ const localBusinessSchema = {
     'Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.',
   url: SITE_URL,
   telephone: PHONE,
-  email: 'info@pureaguaenterprise.com',
+  email: 'info@pureaguafl.com',
   priceRange: '$',
   image: `${SITE_URL}/images/og-image.png`,
   logo: `${SITE_URL}/images/pure-agua-logo.png`,

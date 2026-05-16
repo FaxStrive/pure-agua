@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Pure Agua is a family-owned water filtration company in Kissimmee and Orlando, FL. Trusted Central Florida water experts. Free quote.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/about",
+    canonical: "https://pureaguafl.com/about",
   },
   openGraph: {
     title: "About Us - Family-Owned Water Experts FL | Pure Agua",
     description: "Family-owned water filtration company serving Kissimmee and Orlando, FL. Pure water for every Central Florida home.",
-    url: "https://pureaguaenterprise.com/about",
+    url: "https://pureaguafl.com/about",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "About Pure Agua Enterprises" }],
   },
   twitter: {
