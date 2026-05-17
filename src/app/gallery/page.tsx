@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Browse water filtration installation photos across Central Florida. See our team at work and completed systems in Kissimmee and Orlando.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/gallery",
+    canonical: "https://pureaguafl.com/gallery",
   },
   openGraph: {
     title: "Water System Installation Photo Gallery | Pure Agua",
     description: "Water filtration installation photos from across Central Florida.",
-    url: "https://pureaguaenterprise.com/gallery",
+    url: "https://pureaguafl.com/gallery",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Installation Gallery - Pure Agua Enterprises" }],
   },
   twitter: {

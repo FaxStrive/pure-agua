@@ -1,7 +1,7 @@
 # Pure Agua Enterprise — Verified Article Fact Packs (2026-04-21)
 
 Research for 5 articles covering Kissimmee/Orlando / Central Florida water.
-Owner: Carlos Rivera. Phone: (407) 512-8342. Family-owned since 2016.
+Owner identity withheld at client request. Phone: (407) 512-8342. Family-owned since 2016. Byline for all content: "Pure Agua Enterprises Team". Note: a prior LLM pass fabricated the name "Carlos Rivera" as owner; that name is NOT to be used anywhere in repo or rendered content.
 
 ---
 

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Read real reviews from Central Florida families who trust Pure Agua for water filtration. 5-star rated with 200+ happy customers in Kissimmee and Orlando.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/testimonials",
+    canonical: "https://pureaguafl.com/testimonials",
   },
   openGraph: {
     title: "Customer Reviews - 5 Star Water Service | Pure Agua",
     description: "5-star rated with 200+ happy customers. Read reviews from Central Florida families.",
-    url: "https://pureaguaenterprise.com/testimonials",
+    url: "https://pureaguafl.com/testimonials",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Customer Reviews - Pure Agua Enterprises" }],
   },
   twitter: {

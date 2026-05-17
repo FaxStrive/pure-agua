@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Schedule your free in-home water test today. Call (407) 512-8342 or contact Pure Agua Enterprises serving Kissimmee and Orlando, FL. No obligation.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/contact",
+    canonical: "https://pureaguafl.com/contact",
   },
   openGraph: {
     title: "Contact Us - Schedule a Free Water Test | Pure Agua",
     description: "Schedule your free in-home water test. Call (407) 512-8342. Serving Kissimmee and Orlando, FL.",
-    url: "https://pureaguaenterprise.com/contact",
+    url: "https://pureaguafl.com/contact",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Contact Pure Agua Enterprises for a Free Water Test in Central Florida" }],
   },
   twitter: {
