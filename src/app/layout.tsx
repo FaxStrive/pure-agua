@@ -28,7 +28,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pureaguaenterprise.com'),
+  metadataBase: new URL('https://pureaguafl.com'),
 
   title: {
     default: "Water Filtration & Softeners Kissimmee FL | Pure Agua",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
       "Family-owned water filtration experts serving Kissimmee and Orlando, FL. Schedule your free water test today.",
     type: "website",
     locale: "en_US",
-    url: "https://pureaguaenterprise.com",
+    url: "https://pureaguafl.com",
     siteName: "Pure Agua Enterprises",
     images: [
       {
@@ -91,16 +91,16 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "HomeAndConstructionBusiness",
-              "@id": "https://pureaguaenterprise.com/#business",
+              "@type": ["HomeAndConstructionBusiness", "Plumber"],
+              "@id": "https://pureaguafl.com/#organization",
               name: "Pure Agua Enterprises",
               description: "Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems.",
-              url: "https://pureaguaenterprise.com",
+              url: "https://pureaguafl.com",
               telephone: "+14075128342",
-              email: "info@pureaguaenterprise.com",
+              email: "info@pureaguafl.com",
               priceRange: "$",
-              image: "https://pureaguaenterprise.com/images/og-image.png",
-              logo: "https://pureaguaenterprise.com/images/pure-agua-logo.png",
+              image: "https://pureaguafl.com/images/og-image.png",
+              logo: "https://pureaguafl.com/images/pure-agua-logo.png",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "3705 Eagle Isle Circle",
@@ -128,13 +128,12 @@ export default function RootLayout({
                 { "@type": "EducationalOccupationalCredential", credentialCategory: "license", name: "FL State Licensed & Insured" },
               ],
               sameAs: [
-                "https://www.facebook.com/pureaguaenterprise",
-                "https://www.instagram.com/pureaguaenterprise",
-                "https://www.youtube.com/@pureaguaenterprise",
-                "https://x.com/pureaguafl",
-                "https://www.linkedin.com/company/pureaguaenterprise",
                 "https://www.google.com/maps/place/Pure+Agua+Enterprise",
               ],
+              speakable: {
+                "@type": "SpeakableSpecification",
+                cssSelector: ["h1", "[data-bluf]"],
+              },
             }),
           }}
         />
@@ -163,6 +162,13 @@ export default function RootLayout({
               return false;
             }
           `}
+        </Script>
+        <Script id="ms-clarity" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "wj21gz4umj");`}
         </Script>
         <Script id="ga4-events" strategy="afterInteractive">
           {`

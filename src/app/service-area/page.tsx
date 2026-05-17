@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Pure Agua serves Osceola, Orange, Polk, Seminole, and Lake counties in Central Florida. Free water testing in Kissimmee and Orlando.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/service-area",
+    canonical: "https://pureaguafl.com/service-area",
   },
   openGraph: {
     title: "Service Areas - Kissimmee & Orlando FL | Pure Agua",
     description: "Water filtration services in Kissimmee, Orlando, St. Cloud, Celebration, and Central Florida.",
-    url: "https://pureaguaenterprise.com/service-area",
+    url: "https://pureaguafl.com/service-area",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Service Area - Pure Agua Enterprises" }],
   },
   twitter: {

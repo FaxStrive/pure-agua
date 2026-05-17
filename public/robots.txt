@@ -57,7 +57,20 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-Sitemap: https://pureaguaenterprise.com/sitemap.xml
+# Additional AI crawlers, explicit Allow per SEOMAN portfolio GEO policy 2026-05-16
+User-Agent: Claude-Web
+Allow: /
+
+User-Agent: Bytespider
+Allow: /
+
+User-Agent: FacebookBot
+Allow: /
+
+User-Agent: DuckAssistBot
+Allow: /
+
+Sitemap: https://pureaguafl.com/sitemap.xml
 
 # LLM content discovery
-# https://pureaguaenterprise.com/llms.txt
+# https://pureaguafl.com/llms.txt

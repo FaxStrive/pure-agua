@@ -141,8 +141,9 @@ export function Hero() {
           muted
           loop
           playsInline
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover object-center"
-          poster="https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          poster="/images/hero-water-poster.jpg"
         >
           <source src="/videos/hero-water.mp4" type="video/mp4" />
         </video>

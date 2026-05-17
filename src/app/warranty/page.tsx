@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Every Pure Agua water system includes a lifetime warranty on the control valve and tank. Coverage details and claims for Central Florida.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/warranty",
+    canonical: "https://pureaguafl.com/warranty",
   },
   openGraph: {
     title: "Lifetime Warranty on All Water Systems | Pure Agua",
     description: "Comprehensive lifetime warranty on all water filtration systems installed in Central Florida.",
-    url: "https://pureaguaenterprise.com/warranty",
+    url: "https://pureaguafl.com/warranty",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Lifetime Warranty - Pure Agua Enterprises" }],
   },
   twitter: {
