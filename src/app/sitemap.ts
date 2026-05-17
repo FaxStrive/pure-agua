@@ -54,6 +54,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/water-softener-cost-central-florida-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/why-orlando-water-smells-or-stains-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/pfas-central-florida-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    // 2026-05-17 Lane B fresh blog articles
+    { url: `${baseUrl}/blog/water-softener-cost-orlando-2026-installed-pricing`, lastModified: new Date('2026-05-17'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/orlando-water-sulfur-rotten-egg-smell-2026`, lastModified: new Date('2026-05-17'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/florida-drinking-water-standards-2026-pfas-lead-disinfection`, lastModified: new Date('2026-05-17'), changeFrequency: 'monthly', priority: 0.8 },
   ];
 
   // Phase 3 pillar pages

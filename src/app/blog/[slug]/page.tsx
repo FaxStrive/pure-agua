@@ -73,8 +73,46 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       "@type": "WebPage",
       "@id": `https://pureaguafl.com/blog/${post.slug}`,
     },
-    image: "https://pureaguafl.com/images/og-image.png",
+    image: `https://pureaguafl.com/images/blog-hero/${post.slug}.jpg`,
   };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://pureaguafl.com/" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://pureaguafl.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://pureaguafl.com/blog/${post.slug}` },
+    ],
+  };
+
+  // Extract H3/p pairs from a faq <div class="faq">...</div> block, if present
+  const faqMatch = post.content.match(/<div class="faq">([\s\S]*?)<\/div>/);
+  let faqSchema: Record<string, unknown> | null = null;
+  if (faqMatch) {
+    const faqBlock = faqMatch[1];
+    const qaRegex = /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g;
+    const entities: Array<Record<string, unknown>> = [];
+    let m: RegExpExecArray | null;
+    while ((m = qaRegex.exec(faqBlock)) !== null) {
+      const q = m[1].replace(/<[^>]+>/g, "").trim();
+      const a = m[2].replace(/<[^>]+>/g, "").trim();
+      if (q && a) {
+        entities.push({
+          "@type": "Question",
+          name: q,
+          acceptedAnswer: { "@type": "Answer", text: a },
+        });
+      }
+    }
+    if (entities.length > 0) {
+      faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: entities,
+      };
+    }
+  }
 
   return (
     <div className="min-h-screen">
@@ -82,6 +120,16 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Hero */}
       <section className="relative pt-32 pb-16 overflow-hidden bg-[var(--color-dark)]">

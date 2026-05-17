@@ -1784,6 +1784,378 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">request your free in-home water test online</a>. Same-week appointments most weeks. No obligation, no pressure quote, and you keep the test card whether you book the install or not.</p>`,
   },
+  {
+    slug: "water-softener-cost-orlando-2026-installed-pricing",
+    title: "Water Softener Cost Orlando FL 2026: Installed Pricing",
+    excerpt:
+      "What an Orlando water softener actually costs installed in 2026, with line-item pricing, sizing math, and the questions to ask before signing a quote.",
+    date: "2026-05-17",
+    author: "Pure Agua Enterprises Team",
+    category: "Cost Guides",
+    readTime: "11 min read",
+    tags: ["Water Softeners", "Cost", "Orlando", "Installed Pricing", "2026"],
+    content: `<figure><img src="/images/blog-hero/water-softener-cost-orlando-2026-installed-pricing.jpg" alt="A residential water softener and brine tank installed in an Orlando-area garage" width="1200" height="630" /><figcaption>Photo: Residential softener install reference image, illustrative only.</figcaption></figure>
+
+<p data-bluf>An installed water softener in Orlando, FL in 2026 typically runs $1,800 to $3,800 for a single-tank metered system on city water, and $3,000 to $6,000 when paired with a whole-house catalytic carbon stack for chloramine reduction. Final pricing depends on hardness (Orlando city water tests 8 to 16 grains per gallon, the south Orange and Osceola side runs higher), household size, plumbing complexity, whether a permit is required, and whether iron pre-treatment is needed on a well. This article breaks the number down line by line so you can read any quote in the Orlando market and know what you are buying.</p>
+
+<h2>What an "installed" Orlando softener actually includes</h2>
+
+<p>An honest installed quote in the Orlando market covers a complete swap-in at the home's main water line: the softener tank with resin, the brine tank, the control valve and head, a bypass valve, a code-compliant drain line with an air gap, the brine line back to the tank, copper or PEX connections to code at the main, electrical to the head outlet, programming the head to your tested hardness, and a post-install verification test. Permits are pulled by the installer when the municipality requires one. A clean walk-through with the homeowner closes the visit. If a quote does not list each of those items, that quote is incomplete and the missing pieces will show up later as change orders.</p>
+
+<p>Orlando-specific items that drive the install upward in the range include outdoor installs (city heat and humidity require a weather cover and a longer plumbing run), garage installs in older Pine Hills and College Park homes where the original galvanized stub-out has to be cut back to clean copper, and Lake Nona and Horizon West builds where the softener has to be tucked into a utility closet rather than the typical garage corner.</p>
+
+<h2>Recommended method: which Orlando-area home gets which system</h2>
+
+<table>
+  <thead><tr><th>Your situation</th><th>Recommended system</th><th>Installed range</th></tr></thead>
+  <tbody>
+    <tr><td>OUC city water, 1 to 3 people, garage stub-out</td><td>32,000-grain single-tank softener, 10% crosslink resin</td><td>$1,800 to $2,600</td></tr>
+    <tr><td>OUC or Orange County city water, 4 to 5 people, chloramine taste complaints</td><td>48,000-grain softener plus whole-house catalytic carbon stack</td><td>$3,200 to $5,200</td></tr>
+    <tr><td>South Orange or north Osceola, 5+ people, hardness above 18 gpg</td><td>64,000-grain softener with high-flow valve, plus carbon</td><td>$4,200 to $6,000</td></tr>
+    <tr><td>Apopka or East Orlando well, clear iron at 1 to 3 ppm</td><td>AIO iron filter plus softener plus under-sink RO</td><td>$5,500 to $9,500</td></tr>
+    <tr><td>HOA community, no salt regen allowed</td><td>Template-assisted crystallization (TAC) conditioner plus carbon</td><td>$2,000 to $4,200</td></tr>
+  </tbody>
+</table>
+
+<p>These are industry-standard installed ranges for the Orlando-metro market in 2026. We test on site and publish a specific number on the day of the consultation. For deeper sizing detail, the <a href="/blog/water-softener-complete-guide">complete water softener guide</a> and the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> cover the gpg-by-household math in full.</p>
+
+<h2>Line-item breakdown on a typical $2,800 Orlando install</h2>
+
+<p>To make the range concrete, here is the structure of a representative single-tank softener install at an Orlando home in 2026. Numbers are typical for the market; your quote should look something like this.</p>
+
+<ul>
+  <li><strong>Control valve, resin tank, brine tank, 32k or 48k of 10% crosslink resin:</strong> $1,000 to $1,900. Chloramine-grade resin is the right call on OUC and Toho supply.</li>
+  <li><strong>Installation labor at an existing garage stub-out:</strong> $500 to $800. Adds $200 to $500 for outdoor mount, long runs, or galvanized cut-back.</li>
+  <li><strong>Bypass valve, drain line, brine line, code-compliant air gap:</strong> $120 to $250 in parts and labor.</li>
+  <li><strong>Plumbing permit (when required):</strong> $0 to $150. Most City of Orlando and unincorporated Orange softener swaps at an existing stub do not require a permit. New installs at the main may.</li>
+  <li><strong>On-site water test and post-install verification test:</strong> $0. Pure Agua includes both on every quote.</li>
+  <li><strong>Warranty registration, head programming, homeowner walk-through:</strong> $0. Included.</li>
+</ul>
+
+<p>That stack puts the typical Orlando install at $1,800 on the low end and $3,800 on the high end, with most homes landing in the $2,400 to $3,200 zone. The combined softener-plus-carbon stack adds $1,200 to $2,400 on top depending on the catalytic carbon bed size.</p>
+
+<h2>The three quote mistakes Orlando homeowners make</h2>
+
+<p><strong>Sizing to bedroom count instead of gallons per day.</strong> A 4-bedroom Baldwin Park home with two retirees uses very different water than a 4-bedroom Hunters Creek home with five. Size to (hardness gpg + 4 gpg per ppm iron) x daily gallons used, and target a 3 to 7 day regen interval. The <a href="/water-treatment/central-florida-hard-water">hard water guide</a> walks through the math.</p>
+
+<p><strong>Buying the cheapest valve.</strong> The control head is the single most failure-prone component on a softener. A reputable Clack, Fleck, or Pentair head with documented Florida service history is worth $150 to $300 more than the bargain alternative; you will get that back in year four when the head is still running and the cheap one has been replaced.</p>
+
+<p><strong>Confusing "salt-free conditioner" with "softener" on price.</strong> A TAC conditioner is a legitimate product but it does not soften water. If a $2,800 quote turns out to be a TAC unit and you wanted ion exchange, that is a category mismatch, not a deal. Ask the installer in writing: "Is this an ion-exchange softener with regeneration, or a salt-free conditioner?"</p>
+
+<h2>OUC vs Orange County Utilities vs Toho: how Orlando's source water shapes the quote</h2>
+
+<p>The Orlando metro is served by three primary utilities plus several smaller systems. The water profile differs and so does the right softener configuration.</p>
+
+<p><strong>OUC (Orlando Utilities Commission)</strong> serves the City of Orlando proper plus parts of unincorporated Orange. OUC uses chloramines as the residual disinfectant. Hardness at the tap runs 8 to 14 gpg depending on the source plant. A chloramine-rated catalytic carbon stack is the correct companion to the softener on OUC water; standard granular activated carbon is too slow.</p>
+
+<p><strong>Orange County Utilities</strong> serves much of unincorporated Orange County including South Apopka, parts of east Orlando, and the Dr. Phillips area. Orange County blends Floridan Aquifer groundwater with reverse-osmosis-treated deep aquifer water at the Southern Water Treatment Plant; finished hardness typically runs 8 to 14 gpg.</p>
+
+<p><strong>Toho Water Authority</strong> serves Kissimmee, Poinciana, and much of Osceola. Toho water is harder than the Orange County average, with finished hardness reported at 12 to 22 gpg, and hydrogen sulfide is common. Toho also chloraminates. If you are in Kissimmee or south Osceola, plan on the upper end of the softener size range. Background on the regional source water is in our <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>.</p>
+
+<h2>Financing on an Orlando softener install</h2>
+
+<p>Most established Orlando water-treatment companies, Pure Agua included, offer third-party financing through Synchrony or Wells Fargo Home Projects for qualifying credit. Promotional plans commonly include 12 to 18 month deferred-interest options and longer fixed-rate plans at 7.99% to 12.99% APR over 60 months. Rates and terms are set by the lender. We publish the plans currently available on the <a href="/financing">financing page</a>. Many Orlando buyers self-finance off a HELOC or savings; the install does not need financing to be affordable, and we never push it.</p>
+
+<h2>Maintenance cost in the Orlando climate</h2>
+
+<p>Salt runs $10 to $30 per month depending on household size and hardness. In Orlando humidity, evaporated salt pellets perform much better than solar salt crystals; we recommend pellets to avoid brine tank mushing. Brine tank cleanout every two to three years is standard. If iron is present, plan on a resin cleaner treatment twice a year. The <a href="/blog/water-softener-complete-guide">complete softener guide</a> covers salt selection and maintenance in detail.</p>
+
+<h2>Call a professional if...</h2>
+
+<ul>
+  <li><strong>You are on a well in Apopka, east Orlando, or anywhere outside city limits.</strong> Iron, manganese, and sulfur in well water require a multi-stage build (AIO iron filter, then softener), not a single-tank softener.</li>
+  <li><strong>Hardness measured at the tap exceeds 25 gpg.</strong> Above that threshold a single 32,000-grain tank cannot keep up with a typical family; you need 48k or 64k.</li>
+  <li><strong>Your home was built before 1986 and still has the original supply lines.</strong> Lead solder and galvanized pipe risk both contamination and accelerated leaks after a softener install. A line inspection comes first.</li>
+  <li><strong>You have an HOA in Lake Nona, Horizon West, Hunters Creek, or any other community with salt-discharge restrictions.</strong> Confirm the HOA rule in writing before signing a softener contract; TAC is the alternative.</li>
+  <li><strong>Water pressure measures above 80 psi or below 40 psi.</strong> Outside that range, a pressure regulator or booster has to be installed first.</li>
+  <li><strong>You see visible iron staining plus a sulfur smell.</strong> Multi-stage well treatment, not a softener job.</li>
+  <li><strong>You rent your Orlando home.</strong> Tenant installs require landlord sign-off and a removable plan; we can scope it.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>How much does a water softener really cost installed in Orlando in 2026?</h3>
+
+<p>Industry-standard installed pricing for a single-tank ion-exchange softener in Orlando in 2026 runs $1,800 to $3,800. A combined softener plus whole-house catalytic carbon stack runs $3,000 to $6,000 installed. Well-water stacks with iron pre-treatment, softener, and RO run $5,500 to $9,500. Pure Agua publishes a specific number after the free in-home test, not a Web ballpark.</p>
+
+<h3>Does Orlando city water actually need softening?</h3>
+
+<p>OUC and Orange County Utilities finished water typically tests 8 to 14 gpg, which the USGS classifies as hard to very hard. Toho Water on the Osceola side runs 12 to 22 gpg. At those levels, soap lather, hair and skin feel, laundry, and water-heater life all benefit from softening. Whether the benefit is worth the install cost is a household-specific decision; the <a href="/water-treatment/central-florida-hard-water">hard water guide</a> covers the ROI math.</p>
+
+<h3>What is the difference between an Orlando softener install and a Kissimmee softener install?</h3>
+
+<p>The plumbing is the same. The water profile is different: Kissimmee on Toho runs harder (12 to 22 gpg vs Orlando's 8 to 14) and has more hydrogen sulfide, so Kissimmee installs more often need a larger softener tank and the carbon-plus-softener stack rather than softener alone. The <a href="/blog/kissimmee-orlando-water-quality">Kissimmee vs Orlando water quality guide</a> covers the source differences.</p>
+
+<h3>Do I need a plumbing permit for a softener swap in Orlando?</h3>
+
+<p>Most existing-stub-out softener swaps in the City of Orlando and unincorporated Orange County do not require a permit. New installs that tie into the main water supply line typically do. Toho Water and the City of Kissimmee both require a plumbing permit for new tie-ins. Pure Agua pulls the permit as part of the install fee when one is required; the homeowner does not file paperwork.</p>
+
+<h3>How long does the install take?</h3>
+
+<p>A standard single-tank softener swap at an existing stub-out in an Orlando garage takes three to four hours arrival to walk-through. Combined softener-plus-catalytic-carbon stacks add an hour or two. Well-water multi-stage installs are a full day. We schedule installs in morning blocks and finish the same day.</p>
+
+<h3>Can I install a softener myself in Orlando?</h3>
+
+<p>The equipment is available at big-box stores and a homeowner with plumbing experience can install one. The risk is sizing. A softener sized wrong for Orlando-area hardness will either regenerate constantly (wasting salt and water) or run out between cycles (delivering hard water to the tap). The labor savings disappear if the system has to be replaced in year four. Pure Agua sizes on-site for free and quotes in writing.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>If you are sizing a softener anywhere in the Orlando metro, including Winter Park, Lake Mary, Baldwin Park, Lake Nona, Dr. Phillips, Apopka, Sanford, or Kissimmee, start with the on-site water test. The number on a paper strip from Home Depot is not the number you size to. Pure Agua brings a calibrated WQA-grade test kit on every consultation. We test, we explain, we quote in writing. No pressure, no upsell on equipment you do not need.</p>
+
+<p>For more reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> covers sizing in depth, the <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers private-well stacks, the <a href="/blog/water-softener-complete-guide">complete softener guide</a> covers ion exchange chemistry, the <a href="/blog/hard-water-damage-guide-central-florida">hard water damage guide</a> covers what untreated water does to your home, and the <a href="/blog/water-softener-cost-central-florida-2026">regional cost guide</a> covers the broader Central Florida market beyond Orlando proper. For point-of-use drinking water, see the <a href="/water-treatment/reverse-osmosis-drinking-water">RO guide</a> and the related <a href="/blog/reverse-osmosis-benefits-orlando">RO benefits article</a>. For service area details, see the <a href="/service-area">service area page</a>, the broader <a href="/service-areas">service areas index</a>, our <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. Same-week appointments are usually available. No obligation. The test card is yours whether you book the install or not.</p>`,
+  },
+  {
+    slug: "orlando-water-sulfur-rotten-egg-smell-2026",
+    title: "Why Orlando Tap Water Smells Like Sulfur or Rotten Eggs",
+    excerpt:
+      "A Central Florida diagnostic for sulfur or rotten-egg odor at the tap: the hot-only test, well vs city causes, and the right fix for each.",
+    date: "2026-05-17",
+    author: "Pure Agua Enterprises Team",
+    category: "Diagnostics",
+    readTime: "11 min read",
+    tags: ["Diagnostics", "Sulfur", "Hydrogen Sulfide", "Orlando", "Well Water"],
+    content: `<figure><img src="/images/blog-hero/orlando-water-sulfur-rotten-egg-smell-2026.jpg" alt="A homeowner inspecting a kitchen faucet for water odor in an Orlando-area home" width="1200" height="630" /><figcaption>Photo: Residential diagnostic reference image, illustrative only.</figcaption></figure>
+
+<p data-bluf>If your Orlando-area tap water smells like rotten eggs, the cause is almost always hydrogen sulfide gas (H2S) somewhere in the system. On Floridan Aquifer well water it is naturally occurring and needs upstream treatment. On city water served by OUC, Orange County Utilities, or Toho Water Authority it is almost always sulfate-reducing bacteria living inside the water heater, not the supply line. A quick hot-only vs cold-only test in the kitchen tells you which one you have, and from there the fix is straightforward. This article walks the diagnostic in order.</p>
+
+<h2>The first test: hot only, cold only, or both</h2>
+
+<p>Before you call anyone, run this test at the kitchen sink. Open the cold tap. Wait a minute. Sniff a glass of cold water at arm's length. Then run the hot tap, fill another glass, and sniff that one separately. The pattern of the smell is the diagnostic.</p>
+
+<p><strong>Hot only:</strong> the odor source is the water heater. Sulfate-reducing bacteria are reacting with the magnesium sacrificial anode rod and producing H2S inside the tank. The supply water is fine.</p>
+
+<p><strong>Cold only or both:</strong> the odor is in the supply line. If you are on a private well, that is naturally occurring H2S from the Floridan Aquifer. If you are on city water and the smell is at the cold tap, the cause is rarer (a stagnant section of premise plumbing, a contaminated softener, or a service-line issue) and needs a site visit.</p>
+
+<p><strong>Smell at one tap only:</strong> the issue is downstream of the supply, often a faucet aerator with bacterial growth or a contaminated drain releasing sewer gas back into the air at the sink (sewer gas is also H2S but is not coming from the water itself). Clean the aerator, flush the trap, smell again.</p>
+
+<h2>Recommended method: matching the cause to the fix</h2>
+
+<table>
+  <thead><tr><th>Where the smell shows up</th><th>Likely cause</th><th>Right fix</th></tr></thead>
+  <tbody>
+    <tr><td>Hot tap only, both kitchen and bathrooms</td><td>Sulfate-reducing bacteria in water heater, reacting with Mg anode</td><td>Replace Mg anode with aluminum-zinc anode; chlorine shock the heater</td></tr>
+    <tr><td>Cold and hot taps on a private well in Apopka, east Orlando, or rural Orange</td><td>Naturally occurring H2S in Floridan Aquifer water</td><td>Air-injection oxidation (AIO) filter upstream of softener, sized to your sulfide concentration</td></tr>
+    <tr><td>Cold and hot taps on Toho Water in Kissimmee or Poinciana</td><td>Background H2S in Toho source water plus a fouled premise softener or fouled water heater</td><td>Service the softener, shock the heater, add catalytic carbon at the main if persistent</td></tr>
+    <tr><td>One tap only, drain area smells</td><td>Sewer gas from a dry P-trap or biofilm in faucet aerator</td><td>Clean aerator, run all unused fixtures monthly to keep traps wet</td></tr>
+    <tr><td>Whole-house smell intensifies after softener regen</td><td>Bacterial growth in softener resin bed (especially on well water)</td><td>Resin sanitization cycle and chlorine pellet feeder, or AIO upstream</td></tr>
+  </tbody>
+</table>
+
+<p>For background on Central Florida source water, including why H2S is common in Floridan Aquifer wells, see our <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer guide</a>.</p>
+
+<h2>Why the water heater is the usual Orlando-city culprit</h2>
+
+<p>Every standard residential water heater ships with a magnesium sacrificial anode rod. The anode dissolves preferentially over the steel tank wall and protects the tank from corrosion. That is the design. In Florida groundwater chemistry, sulfate-reducing bacteria (SRB) that live harmlessly in trace amounts in many water supplies can colonize the warm, low-oxygen environment inside a hot-water heater. SRB metabolize the magnesium from the anode and produce hydrogen sulfide gas as a byproduct. The H2S dissolves into the hot water and you smell it the moment the tap opens.</p>
+
+<p>The fix is two-step. First, drain the heater and replace the magnesium anode rod with an aluminum-zinc rod. Aluminum-zinc anodes do not feed SRB the same way and almost universally eliminate the smell within 24 to 72 hours. Second, chlorine-shock the tank to kill the existing bacterial population: turn off the heater, drain a few gallons, add a quart of household bleach through the anode port, refill, and let it sit overnight before flushing through the hot taps. The anode swap is a 60 to 90 minute job for a plumber or a competent DIYer. Anode rods cost $30 to $60 at any plumbing supply.</p>
+
+<p>One catch: if your heater is more than 8 to 10 years old and the existing magnesium anode is more than half consumed, the smell is the early warning that the tank is approaching end of life. Replacing the heater (and selecting one with an aluminum-zinc anode from the factory, or swapping the anode at install) is more cost-effective than another year of SRB management.</p>
+
+<h2>Why the well is the usual Apopka, east Orlando, and rural Orange culprit</h2>
+
+<p>The Floridan Aquifer system, the source for most private wells across Central Florida, naturally produces hydrogen sulfide as part of normal subsurface biogeochemistry. Wells in Apopka, east Orange near Christmas, parts of Seminole County, and the rural fringe of Osceola routinely test 0.5 to 5 mg/L of total sulfide at the wellhead. Above 0.3 mg/L the odor is noticeable; above 1 mg/L it is unmistakable.</p>
+
+<p>The treatment is air-injection oxidation, often called AIO. An AIO filter draws a small bubble of air into the top of a media tank ahead of the household plumbing. The air oxidizes dissolved H2S into elemental sulfur, which the media bed captures. The system backwashes itself overnight, flushes the captured sulfur to drain, and rebuilds the air pocket on its own. AIO filters installed in Central Florida typically run $1,800 to $3,500 and handle sulfide loads up to about 5 mg/L. Above 5 mg/L, an oxidizer feed (chlorine or peroxide) followed by a contact tank and carbon polish is the right answer.</p>
+
+<p>On a well, the AIO has to be upstream of the softener. H2S poisons softener resin quickly; the savings from skipping AIO disappear within 12 to 18 months when the resin is dead and the softener has to be re-bedded. The <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers the full multi-stage stack.</p>
+
+<h2>Why Toho and OUC city customers occasionally smell sulfur at the cold tap</h2>
+
+<p>Toho Water Authority's source water carries background H2S that is mostly stripped at the treatment plant. Occasionally, on long stagnant runs (vacation homes in Poinciana, second homes near Disney that sit empty for weeks), the residual sulfide and the chloramine disinfectant interact in the premise plumbing and produce a faint sulfur note at the cold tap. The fix is simple: flush the home thoroughly when you return, run every tap for two to three minutes, and the smell clears.</p>
+
+<p>OUC and Orange County Utilities customers rarely report sulfur at the cold tap. When they do, the cause is almost always a fouled in-home softener resin bed that has gone too long without regeneration, or a brine tank that has bridged and is not regenerating effectively. Service the softener; the smell goes away.</p>
+
+<h2>What does not work, and why</h2>
+
+<p>Two common DIY responses to a sulfur smell are worth flagging because they make the problem worse.</p>
+
+<p><strong>Removing the water heater anode and not replacing it.</strong> This kills the bacterial reaction but also leaves the tank wall unprotected. Inside 12 to 24 months the tank rusts through and floods the garage. Always replace the magnesium anode with aluminum-zinc, not no anode.</p>
+
+<p><strong>Pouring bleach into a softener brine tank without a sanitization cycle.</strong> Free chlorine destroys ion-exchange resin in concentrated form. Softener sanitization is a controlled process with diluted chlorine and a programmed cycle, not a bleach bomb. The <a href="/blog/water-softener-complete-guide">complete softener guide</a> covers sanitization correctly.</p>
+
+<h2>Call a professional if...</h2>
+
+<ul>
+  <li><strong>The smell is at both hot and cold taps on a private well.</strong> AIO sizing has to match measured sulfide concentration, and that needs an on-site test.</li>
+  <li><strong>The smell appeared suddenly after a power outage or pump failure on a well.</strong> A stagnant well can grow iron and sulfur bacteria fast; a shock-chlorination of the well plus AIO sizing is the right sequence.</li>
+  <li><strong>You see black staining on fixtures or laundry along with the smell.</strong> That is sulfide reacting with iron and is a sign you need iron removal as well as sulfur removal.</li>
+  <li><strong>The water heater is more than 8 years old and the smell is hot-tap only.</strong> An anode swap on an aging tank is a band-aid; we will quote both the anode and the heater replacement and let you choose.</li>
+  <li><strong>You are on city water in the Orlando metro and the cold tap consistently smells.</strong> This is unusual and warrants a sample collection plus a service-line inspection.</li>
+  <li><strong>The smell is concentrated at one bathroom but not the kitchen.</strong> That is plumbing isolation: the issue is in the branch line or a fixture, not the supply.</li>
+  <li><strong>You have a vacation rental or second home in the Disney corridor.</strong> See our <a href="/blog/vacation-rental-water-quality-disney-area">vacation rental water quality guide</a> for the empty-home flush protocol.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>Is hydrogen sulfide in my Orlando tap water dangerous?</h3>
+
+<p>At residential drinking-water concentrations (typically under 5 mg/L), hydrogen sulfide is an aesthetic problem, not a health hazard, according to EPA secondary drinking water guidance. The smell is detectable far below any toxic threshold. That said, H2S above about 1 mg/L corrodes copper plumbing, blackens silverware, and shortens water-heater life, so the fix is worth doing even if the health risk is low.</p>
+
+<h3>How quickly does an anode swap stop the rotten-egg smell?</h3>
+
+<p>Most homeowners report the smell is gone within 24 to 72 hours after replacing the magnesium anode with an aluminum-zinc rod and chlorine-shocking the tank. If the smell persists past a week, the issue is not the water heater and the diagnostic has to widen, usually to the softener or to the supply water.</p>
+
+<h3>Will a softener alone fix sulfur smell?</h3>
+
+<p>No. Softeners exchange calcium and magnesium for sodium. They do not remove dissolved gases. In fact, H2S poisons softener resin within a year if no upstream removal is in place. On a Central Florida well with sulfur, the correct stack is AIO then softener, not softener alone. The <a href="/water-treatment/florida-well-water">well water guide</a> covers the order.</p>
+
+<h3>Why does the smell come back after the AIO regenerates?</h3>
+
+<p>If you smell sulfur briefly during or right after an AIO backwash, that is the captured sulfur flushing to drain. It clears within 15 to 30 minutes. If the smell is back permanently, the AIO bed is exhausted (typical at 7 to 10 years) or the air pocket has collapsed and the system needs service.</p>
+
+<h3>Do I need to test my well water for anything besides sulfur?</h3>
+
+<p>Yes. Standard Central Florida well baseline is sulfur, total iron, manganese, hardness, pH, total coliform bacteria, and nitrate. If the home is near former agricultural or industrial land, add a VOC panel and arsenic. Pure Agua's free in-home test covers sulfide, iron, hardness, and pH; a lab panel for the rest runs $150 to $350 depending on the panel.</p>
+
+<h3>What does the H2S removal stack cost installed in Orlando?</h3>
+
+<p>For a typical Central Florida well with 1 to 3 mg/L sulfide and clear iron, the installed stack of AIO plus softener runs $4,000 to $6,500. Adding under-sink RO for drinking water adds $400 to $900. For a city customer with a hot-tap-only smell, the anode swap and chlorine shock runs $200 to $400. See the <a href="/blog/water-softener-cost-orlando-2026-installed-pricing">2026 Orlando installed pricing guide</a> for the broader cost picture.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>Start with the hot-only vs cold-only test. If the smell is hot only, call a plumber for an anode swap or call Pure Agua and we will refer you to a vetted plumber in the Orlando area, no upsell on water treatment unless you need it. If the smell is cold-and-hot on a well, schedule the free in-home test and we will measure sulfide, iron, hardness, and pH at the wellhead and at the kitchen tap.</p>
+
+<p>Background reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a>, the <a href="/water-treatment/florida-well-water">Florida well water guide</a>, the <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a>, the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer guide</a>, the <a href="/blog/well-water-kissimmee-orlando">well water in Kissimmee and Orlando</a>, the <a href="/blog/why-orlando-water-smells-or-stains-2026">general smell and staining diagnostic</a>, the <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine vs ozone background</a>, the <a href="/blog/sinkholes-karst-central-florida-wells">sinkholes and karst aquifer notes</a>, the <a href="/blog/vacation-rental-water-quality-disney-area">vacation rental water guide</a>, the <a href="/service-area">service area page</a>, the <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">request your free in-home water test</a>. We arrive with a calibrated sulfide test kit, an iron test, a hardness test, and a pH meter. Test on the spot, written diagnosis, no pressure.</p>`,
+  },
+  {
+    slug: "florida-drinking-water-standards-2026-pfas-lead-disinfection",
+    title: "Florida Drinking Water Standards 2026 Update",
+    excerpt:
+      "What changed in Florida drinking water regulation in 2025 and 2026: EPA PFAS MCLs, the revised Lead and Copper Rule, and disinfection byproducts.",
+    date: "2026-05-17",
+    author: "Pure Agua Enterprises Team",
+    category: "Regulation",
+    readTime: "12 min read",
+    tags: ["Regulation", "PFAS", "Lead", "Disinfection", "EPA", "Central Florida", "2026"],
+    content: `<figure><img src="/images/blog-hero/florida-drinking-water-standards-2026-pfas-lead-disinfection.jpg" alt="Water-quality testing equipment used to evaluate municipal drinking water in a laboratory" width="1200" height="630" /><figcaption>Photo: Laboratory water testing reference image, illustrative only.</figcaption></figure>
+
+<p data-bluf>Three federal rules now shape what Central Florida utilities have to deliver at the tap in 2026: the April 2024 PFAS National Primary Drinking Water Regulation (enforceable MCLs of 4 ppt for PFOA and PFOS, with monitoring underway and full compliance by 2029), the October 2024 Lead and Copper Rule Improvements (mandatory full lead-service-line replacement within 10 years and a lower action level), and the long-standing Stage 2 Disinfectants and Disinfection Byproducts Rule (TTHM and HAA5 limits enforced as locational running annual averages). Florida adopts and enforces all three through the Department of Environmental Protection. For homeowners in the Orlando and Kissimmee metro, the practical question is how OUC, Orange County Utilities, Toho, and the smaller systems are performing against the new numbers, and what point-of-use treatment closes any remaining gap. This article summarizes what changed, what stayed the same, and what to do at home.</p>
+
+<h2>What changed and when</h2>
+
+<p>Three regulatory updates in the last 18 months affect Central Florida drinking water in 2026.</p>
+
+<p><strong>EPA PFAS NPDWR, finalized April 2024.</strong> First enforceable federal MCLs for six PFAS compounds. PFOA and PFOS individually at 4 ppt. PFHxS, HFPO-DA (GenX), and PFNA at 10 ppt individually. A hazard index of 1.0 for mixtures of PFHxS, GenX, PFNA, and PFBS. Utilities began initial monitoring in 2025; final compliance deadline is 2029. The full rule is at the EPA's PFAS National Primary Drinking Water Regulation page.</p>
+
+<p><strong>Lead and Copper Rule Improvements, finalized October 2024.</strong> Lowered the lead action level from 15 ppb to 10 ppb. Required all U.S. utilities to complete a service-line inventory by October 2024 (Orange, Osceola, and Seminole County utilities have all published theirs) and to replace all lead service lines within 10 years, with limited exceptions. Compliance enforcement begins November 2027.</p>
+
+<p><strong>Stage 2 D/DBP Rule (in force since 2012, but still the operative standard).</strong> Maximum Contaminant Levels of 80 ppb for total trihalomethanes (TTHM) and 60 ppb for five haloacetic acids (HAA5), enforced as locational running annual averages at sample sites throughout the distribution system. Central Florida utilities that chloraminate (OUC, Toho, Orange County) generate lower DBP loads than chlorine-only systems but still report measurable TTHM and HAA5 in the upper half of the allowable range during warm-water months.</p>
+
+<h2>Where Central Florida utilities stand in 2026</h2>
+
+<p>Every Florida community water system publishes an annual Consumer Confidence Report (CCR), usually in June, covering the prior calendar year. The 2025 CCRs (covering 2024 data) are the current baseline; 2026 CCRs land mid-year. We do not republish utility numbers in this article because they change annually and the right source is each utility's own page. Pull yours directly.</p>
+
+<p><strong>OUC (Orlando Utilities Commission)</strong> publishes water-quality data at ouc.com under "Water Quality Report." OUC chloraminates and has been actively monitoring PFAS since 2020; PFOA and PFOS have historically tested below the new 4 ppt MCL in OUC supply. Background source-water context is in our <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>.</p>
+
+<p><strong>Orange County Utilities</strong> publishes the CCR at ocfl.net. Orange County has invested in deep-aquifer RO blending at the Southern Water Treatment Plant, which lowers finished hardness and reduces background PFAS load.</p>
+
+<p><strong>Toho Water Authority</strong> publishes the CCR at tohowater.com. Toho serves Kissimmee, Poinciana, and most of Osceola.</p>
+
+<p><strong>Seminole County Utilities</strong> publishes the CCR at seminolecountyfl.gov. Seminole draws almost entirely from the Upper Floridan Aquifer.</p>
+
+<p>For homeowners outside these service areas in unincorporated Lake, Volusia, or rural Orange, the operator may be a smaller system (a few hundred connections) or a private well. Smaller community systems are subject to the same federal rules; private wells are not regulated at the federal level and rely on owner-initiated testing.</p>
+
+<h2>Recommended method: matching the rule to the action at home</h2>
+
+<table>
+  <thead><tr><th>Concern</th><th>Federal rule</th><th>What to do at home</th></tr></thead>
+  <tbody>
+    <tr><td>PFAS in drinking water</td><td>EPA NPDWR April 2024, MCLs 4 ppt PFOA/PFOS</td><td>Pull utility CCR; install NSF/ANSI 53 or 58 certified point-of-use RO if you want belt-and-suspenders treatment</td></tr>
+    <tr><td>Lead from pre-1986 service line or premise plumbing</td><td>LCRI October 2024, action level 10 ppb, full LSL replacement by 2037</td><td>Check utility service-line inventory; if pre-1986 home, test first-draw cold water at the kitchen tap; certified RO removes lead</td></tr>
+    <tr><td>Disinfection byproducts (TTHM, HAA5)</td><td>Stage 2 D/DBP Rule, 80 ppb TTHM, 60 ppb HAA5 LRAA</td><td>Whole-house catalytic carbon at the main reduces chloramines and DBP precursors; under-sink RO polishes drinking water</td></tr>
+    <tr><td>Chloramine taste, smell, or skin sensitivity</td><td>Not a violation; aesthetic issue</td><td>Catalytic carbon (not standard GAC); see our <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine guide</a></td></tr>
+    <tr><td>Private well, unregulated</td><td>No federal MCLs apply</td><td>Annual coliform, nitrate, lead test; baseline PFAS test once if home is near former military, fire-training, or industrial site</td></tr>
+  </tbody>
+</table>
+
+<h2>The PFAS rule in plain English</h2>
+
+<p>Per- and polyfluoroalkyl substances (PFAS) are a family of synthetic chemicals used since the 1940s in nonstick coatings, stain-resistant fabrics, food packaging, firefighting foam, and many industrial processes. They are persistent (do not break down in the environment), bioaccumulative, and linked in EPA's hazard assessment to cancer, immune effects, and developmental harm at very low concentrations. The April 2024 NPDWR established the first enforceable federal MCLs for any PFAS, with the strictest individual MCL at 4 parts per trillion for PFOA and PFOS.</p>
+
+<p>For Central Florida, the practical PFAS context is that the metro is not a high-PFAS region. There are no major fluorochemical manufacturers in the watershed, and the historical military and firefighting-foam plumes that drive PFAS contamination in the Cape Fear, Tennessee River, and other regions are mostly absent here. Initial PFAS monitoring at OUC, Orange County, and Toho has reported values well below the new MCLs. The exception is point-source proximity: homes near former military air stations, fire-training grounds, or certain industrial facilities have a higher baseline risk and a one-time baseline PFAS test is a reasonable precaution.</p>
+
+<p>Treatment options for PFAS at home are well established. NSF/ANSI 58 certified reverse osmosis removes 95 to 99% of PFOA, PFOS, and most PFAS compounds. NSF/ANSI 53 certified granular activated carbon removes 70 to 95% depending on the specific PFAS and the carbon media. Pure Agua installs RO systems certified to NSF/ANSI 58 standards for drinking water; the <a href="/blog/pfas-central-florida-2026">earlier PFAS article</a> covers the technology in more depth.</p>
+
+<h2>The Lead and Copper Rule Improvements (LCRI) and the Orlando service-line picture</h2>
+
+<p>The October 2024 LCRI requires every U.S. water utility to inventory its service lines (the pipe between the water main and the customer's meter) and replace any line containing lead within 10 years. The action level (the concentration at which the utility must take corrective action) dropped from 15 ppb to 10 ppb of lead. Compliance enforcement begins November 2027.</p>
+
+<p>Orlando's metro is well positioned for this rule. Florida banned lead service lines in 1986, and the vast majority of Orange, Osceola, and Seminole County housing stock was built after that date. OUC, Orange County Utilities, Toho, and Seminole County all published service-line inventories in fall 2024, and the count of confirmed-lead service lines across the metro is small relative to older Northeastern and Midwestern cities. That said, premise plumbing (the pipes inside the home) is not regulated by the utility. Pre-1986 homes in older Orlando neighborhoods such as College Park, Audubon Park, Delaney Park, and parts of downtown Kissimmee may have copper plumbing with lead solder, brass fixtures with leaded brass, or in rare cases original galvanized supply.</p>
+
+<p>If your home was built before 1986, run the first-draw cold-water lead test. Collect a 250 mL sample from the kitchen tap first thing in the morning after at least 6 hours of standing time, send to a state-certified lab, and compare to the 10 ppb action level. Pure Agua's free in-home test does not include lab-grade lead analysis; a certified lab panel runs $25 to $80. If lead is detected above 10 ppb, point-of-use RO at the kitchen tap reduces lead by 95%+ and addresses the drinking-water exposure. Whole-house lead removal is more involved and requires either targeted plumbing replacement or a specialized point-of-entry system.</p>
+
+<h2>Disinfection byproducts and what carbon does</h2>
+
+<p>When chlorine or chloramine reacts with natural organic matter in source water, the byproducts include trihalomethanes (TTHMs) and haloacetic acids (HAA5s), both regulated. Florida's warm climate and high natural organic matter loading mean DBP levels in finished water are typically in the upper half of the allowable range, especially May through October. Compliance is enforced as a locational running annual average across multiple sample sites, so a single high reading does not constitute a violation, but persistent high readings do.</p>
+
+<p>At the home, whole-house catalytic carbon at the main reduces chloramines (and the DBPs they form) before water enters the premise plumbing. Under-sink RO at the kitchen tap further reduces DBPs in drinking water specifically. Catalytic carbon is the right media on chloraminated supply; standard granular activated carbon is too slow at chloramine reduction to be useful at typical residential flow rates. The <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine vs ozone article</a> covers the disinfection chemistry in more depth.</p>
+
+<h2>How the rules connect at the kitchen tap</h2>
+
+<p>All three rules, PFAS, lead, and DBPs, are addressed by the same household solution: a NSF/ANSI 58 certified reverse osmosis system installed under the kitchen sink. RO removes 95 to 99% of PFOA and PFOS, 95%+ of lead, and 90%+ of TTHM and HAA5. It is the most studied, most standardized, and most cost-effective point-of-use treatment for the contaminants this article covers. For whole-house protection from chloramines and DBP precursors, add a catalytic carbon stack at the main. For hardness, add a softener. The full stack for a Central Florida home that wants belt-and-suspenders protection beyond what the utility delivers is softener plus catalytic carbon plus under-sink RO, installed in that order from the main.</p>
+
+<h2>Call a professional if...</h2>
+
+<ul>
+  <li><strong>Your home was built before 1986 and you have not run a lead test.</strong> First-draw lead testing is straightforward and the result decides whether RO is sufficient or whether plumbing replacement is the right call.</li>
+  <li><strong>You live near a former military air station, fire-training facility, or industrial site.</strong> A one-time baseline PFAS test is worth doing even when the utility's distribution averages look clean.</li>
+  <li><strong>You are on a private well.</strong> Federal rules do not apply; you are responsible for testing and treatment. Pure Agua tests on-site for free and refers to a lab for lead, PFAS, and bacteria panels.</li>
+  <li><strong>You manage a daycare, preschool, or assisted-living facility in Central Florida.</strong> Sensitive-population sites have separate state and federal testing requirements; a commercial water quality review is warranted.</li>
+  <li><strong>Your annual CCR shows TTHM or HAA5 in the upper third of the allowable range.</strong> Compliance does not mean optimal; whole-house catalytic carbon plus under-sink RO is a reasonable response.</li>
+  <li><strong>You see a "do not drink" or "boil water" advisory in your area.</strong> Follow the utility's instructions during the advisory; point-of-use RO is not a substitute for boil-water compliance.</li>
+  <li><strong>Your utility's service-line inventory flags your address as "unknown" rather than "non-lead."</strong> Request a service-line inspection; the utility is required to investigate and update the inventory.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>Does my Orlando-area utility comply with the new PFAS MCLs in 2026?</h3>
+
+<p>Initial PFAS monitoring across OUC, Orange County Utilities, Toho, and Seminole County in 2025 has reported PFOA and PFOS values well below the 4 ppt MCL. Full compliance is required by 2029, and ongoing monitoring will continue. Your utility's CCR (published mid-year) reports the latest numbers. Pull yours for the specific data.</p>
+
+<h3>Do I need point-of-use RO if my utility is below the PFAS MCLs?</h3>
+
+<p>That is a household judgment call. The MCLs are health-based, not aesthetic, and below-MCL water is compliant. Many Central Florida homeowners install RO anyway because it also removes DBPs, lead from premise plumbing, sodium added by softening, chloramines, and most pharmaceutical residues. RO under the kitchen sink is installed at $400 to $900 in 2026, and the operating cost is a $60 to $120 annual filter set.</p>
+
+<h3>How do I know if my Orlando home has a lead service line?</h3>
+
+<p>Check your utility's service-line inventory at the utility website (OUC, Orange County Utilities, Toho, Seminole County all published theirs in fall 2024). Enter your address; the inventory will return "lead," "non-lead," "galvanized requiring replacement," or "unknown." If "unknown" or "lead," request investigation. Florida banned lead service lines in 1986; homes built after that date almost certainly have a non-lead service.</p>
+
+<h3>What is the difference between TTHM and HAA5?</h3>
+
+<p>Both are disinfection byproducts. TTHM (total trihalomethanes) is the sum of four compounds (chloroform, bromodichloromethane, dibromochloromethane, and bromoform) formed when chlorine reacts with natural organic matter. HAA5 (five haloacetic acids) is a different family of DBPs formed in similar reactions. EPA regulates TTHM at 80 ppb and HAA5 at 60 ppb. Both are addressed by point-of-use RO and whole-house catalytic carbon.</p>
+
+<h3>Is bottled water safer than treated tap water in Central Florida?</h3>
+
+<p>Bottled water is regulated by the FDA, not the EPA, and the standards are similar but not identical. Independent testing has consistently shown that NSF/ANSI 58 certified RO treated tap water meets or exceeds typical bottled-water quality at a small fraction of the per-gallon cost. RO is also free of PET plastic leachate. The financial case for switching from bottled to RO is straightforward: a $600 install pays back in 12 to 24 months for a typical Central Florida family.</p>
+
+<h3>Where can I find my utility's 2026 Consumer Confidence Report?</h3>
+
+<p>OUC: ouc.com under Water Quality. Orange County Utilities: ocfl.net. Toho: tohowater.com. Seminole County: seminolecountyfl.gov. The 2026 CCRs (covering 2025 data) typically publish between June and July. The Florida Department of Environmental Protection also maintains a public Drinking Water Watch portal at dep.state.fl.us that lists every Florida community water system's compliance status.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>Step one: pull your utility's most recent CCR. Step two: if your home is pre-1986, run a first-draw lead test at the kitchen tap. Step three: decide whether you want point-of-use RO for belt-and-suspenders protection beyond utility-delivered water. Pure Agua installs NSF/ANSI 58 certified RO across the Orlando and Kissimmee metro and tests for free in your home, no obligation. We do not install whole-house lead removal (the right answer for pre-1986 lead-soldered premise plumbing is plumbing replacement, not whole-house filtration), and we will tell you that on the consultation.</p>
+
+<p>Further reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a>, the <a href="/water-treatment/florida-well-water">Florida well water guide</a>, the <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a>, the <a href="/blog/pfas-central-florida-2026">2026 PFAS in Central Florida article</a>, the <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>, the <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine vs ozone disinfection background</a>, the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hard water context</a>, the <a href="/blog/well-water-kissimmee-orlando">well water in Kissimmee and Orlando</a>, the <a href="/blog/water-softener-cost-orlando-2026-installed-pricing">2026 Orlando installed pricing guide</a>, the <a href="/service-area">service area page</a>, the <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. We will measure hardness, chlorine or chloramine residual, iron, and pH on-site, walk you through your utility's most recent CCR with you, and recommend only the treatment your specific water actually needs.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
