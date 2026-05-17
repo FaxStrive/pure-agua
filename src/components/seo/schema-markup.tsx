@@ -266,7 +266,7 @@ const waterSofteningFaqSchema = {
       name: 'What is the difference between salt-based and salt-free water softeners?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Salt-based softeners use ion exchange to physically remove calcium and magnesium from water, producing truly soft water. Salt-free conditioners change the mineral structure to prevent scale without removing minerals — they do not soften water. For Central Florida\'s extreme hardness (15-25 gpg), salt-based systems are typically more effective.',
+        text: 'Salt-based softeners use ion exchange to physically remove calcium and magnesium from water, producing truly soft water. Salt-free conditioners change the mineral structure to prevent scale without removing minerals, they do not soften water. For Central Florida\'s extreme hardness (15-25 gpg), salt-based systems are typically more effective.',
       },
     },
     {
