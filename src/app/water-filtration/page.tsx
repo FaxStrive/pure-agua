@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Whole Home Water Filtration Systems FL',
   description: 'Whole-home water filtration in Kissimmee, Orlando, and Central Florida. Remove chlorine, sediment, and contaminants. Free water test today.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/water-filtration',
+    canonical: 'https://pureaguafl.com/water-filtration',
   },
   openGraph: {
     title: 'Whole Home Water Filtration Systems FL | Pure Agua',
     description: 'Professional whole-home water filtration in Kissimmee, Orlando, and Central Florida. Remove chlorine, sediment, and contaminants. Free water test. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/water-filtration',
+    url: 'https://pureaguafl.com/water-filtration',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/og-water-filtration.jpg',
+        url: 'https://pureaguafl.com/og-water-filtration.jpg',
         width: 1200,
         height: 630,
         alt: 'Pure Agua Enterprises water filtration systems serving Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/water-filtration",
+  "url": "https://pureaguafl.com/water-filtration",
   "description": "Pure Agua Enterprises provides professional water filtration services in Central Florida. Free consultations available."
 };
 

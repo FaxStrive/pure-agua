@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Well Water Treatment in Central Florida',
   description: 'Well water treatment for iron, sulfur, and bacteria in Kissimmee, Orlando, and Central Florida. Lifetime warranty. Call (407) 512-8342.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/well-water-treatment',
+    canonical: 'https://pureaguafl.com/well-water-treatment',
   },
   openGraph: {
     title: 'Well Water Treatment in Central Florida | Pure Agua',
     description: 'Professional well water treatment for iron, sulfur, bacteria, and sediment in Kissimmee, Orlando, and Central Florida. Custom solutions with lifetime warranty. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/well-water-treatment',
+    url: 'https://pureaguafl.com/well-water-treatment',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/images/well-water-treatment-og.jpg',
+        url: 'https://pureaguafl.com/images/well-water-treatment-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Professional well water treatment services by Pure Agua in Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/well-water-treatment",
+  "url": "https://pureaguafl.com/well-water-treatment",
   "description": "Pure Agua Enterprises provides professional well water treatment services in Central Florida. Free consultations available."
 };
 

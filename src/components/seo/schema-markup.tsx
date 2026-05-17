@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 
-const SITE_URL = 'https://pureaguaenterprise.com'
+const SITE_URL = 'https://pureaguafl.com'
 const BUSINESS_NAME = 'Pure Agua Enterprises'
 const PHONE = '+14075128342'
 const DATE_MODIFIED = '2026-04-06'
@@ -17,21 +17,32 @@ const SERVICE_AREAS = [
   'Ocoee',
   'Apopka',
   'Clermont',
+  'Winter Garden',
+  'Winter Park',
+  'Altamonte Springs',
+  'Lake Mary',
+  'Sanford',
+  'Oviedo',
+  'Davenport',
+  'Haines City',
   'Winter Haven',
   'Lakeland',
-  'Haines City',
+  'Deltona',
+  'DeLand',
+  'Leesburg',
+  'Mount Dora',
 ]
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'HomeAndConstructionBusiness',
-  '@id': `${SITE_URL}/#business`,
+  '@type': ['HomeAndConstructionBusiness', 'Plumber'],
+  '@id': `${SITE_URL}/#organization`,
   name: BUSINESS_NAME,
   description:
     'Pure Agua Enterprises is a family-owned water filtration company serving Kissimmee, Orlando, and Central Florida with whole-home water purification, reverse osmosis, and water softening systems. Get a free water test today.',
   url: SITE_URL,
   telephone: PHONE,
-  email: 'info@pureaguaenterprise.com',
+  email: 'info@pureaguafl.com',
   priceRange: '$',
   image: `${SITE_URL}/images/og-image.png`,
   logo: `${SITE_URL}/images/pure-agua-logo.png`,
@@ -91,7 +102,7 @@ const localBusinessSchema = {
         name: 'Whole Home Water Filtration',
         description:
           'Complete point-of-entry water filtration systems removing chlorine, sediment, and contaminants at every faucet in your Central Florida home.',
-        url: `${SITE_URL}/services/whole-home`,
+        url: `${SITE_URL}/water-filtration`,
         areaServed: SERVICE_AREAS.map((city) => ({ '@type': 'City', name: city })),
       },
     },
@@ -102,7 +113,7 @@ const localBusinessSchema = {
         name: 'Water Softening Systems',
         description:
           'Salt-based and salt-free water softening systems for Central Florida homes. Eliminates hard water mineral buildup and extends appliance lifespan.',
-        url: `${SITE_URL}/services/water-softening`,
+        url: `${SITE_URL}/water-softener`,
         areaServed: SERVICE_AREAS.map((city) => ({ '@type': 'City', name: city })),
       },
     },
@@ -113,7 +124,7 @@ const localBusinessSchema = {
         name: 'Reverse Osmosis Systems',
         description:
           'Multi-stage reverse osmosis drinking water systems removing up to 99% of contaminants including PFAS, lead, and arsenic.',
-        url: `${SITE_URL}/services/reverse-osmosis`,
+        url: `${SITE_URL}/reverse-osmosis`,
         areaServed: SERVICE_AREAS.map((city) => ({ '@type': 'City', name: city })),
       },
     },
@@ -124,7 +135,7 @@ const localBusinessSchema = {
         name: 'Well Water Treatment',
         description:
           'Custom well water treatment systems for Florida well water problems including iron, sulfur, bacteria, and sediment.',
-        url: `${SITE_URL}/services/well-water`,
+        url: `${SITE_URL}/well-water-treatment`,
         areaServed: SERVICE_AREAS.map((city) => ({ '@type': 'City', name: city })),
       },
     },
@@ -135,19 +146,18 @@ const localBusinessSchema = {
         name: 'Free Water Testing',
         description:
           'Complimentary in-home water quality analysis measuring hardness, pH, iron, chlorine, TDS, and contaminants specific to your Central Florida water supply.',
-        url: `${SITE_URL}/contact`,
+        url: `${SITE_URL}/water-testing`,
         areaServed: SERVICE_AREAS.map((city) => ({ '@type': 'City', name: city })),
       },
     },
   ],
   sameAs: [
-    'https://www.facebook.com/pureaguaenterprise',
-    'https://www.instagram.com/pureaguaenterprise',
-    'https://www.youtube.com/@pureaguaenterprise',
-    'https://x.com/pureaguafl',
-    'https://www.linkedin.com/company/pureaguaenterprise',
     'https://www.google.com/maps/place/Pure+Agua+Enterprise',
   ],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '[data-bluf]'],
+  },
   dateModified: DATE_MODIFIED,
 }
 
@@ -157,37 +167,52 @@ const websiteSchema = {
   '@id': `${SITE_URL}/#website`,
   name: BUSINESS_NAME,
   url: SITE_URL,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: `${SITE_URL}/?s={search_term_string}`,
-    'query-input': 'required name=search_term_string',
-  },
+  publisher: { '@id': `${SITE_URL}/#business` },
+  inLanguage: 'en-US',
 }
 
 const SERVICE_PAGE_MAP: Record<string, { name: string; description: string; url: string }> = {
-  '/services/whole-home': {
+  '/water-filtration': {
     name: 'Whole Home Water Filtration',
     description:
       'Complete point-of-entry water filtration removing chlorine, sediment, VOCs, and other contaminants at every tap. Professional installation in Kissimmee, Orlando, and Central Florida.',
-    url: `${SITE_URL}/services/whole-home`,
+    url: `${SITE_URL}/water-filtration`,
   },
-  '/services/water-softening': {
+  '/water-softener': {
     name: 'Water Softening Systems',
     description:
       'Salt-based and salt-free water softeners for Central Florida homes. Eliminates hard water scale, extends appliance life by up to 50%, and reduces soap use by up to 75%.',
-    url: `${SITE_URL}/services/water-softening`,
+    url: `${SITE_URL}/water-softener`,
   },
-  '/services/reverse-osmosis': {
+  '/reverse-osmosis': {
     name: 'Reverse Osmosis Drinking Water Systems',
     description:
       'Multi-stage reverse osmosis systems removing up to 99% of dissolved contaminants including PFAS, lead, arsenic, fluoride, and nitrates. Under-sink installation with dedicated faucet.',
-    url: `${SITE_URL}/services/reverse-osmosis`,
+    url: `${SITE_URL}/reverse-osmosis`,
   },
-  '/services/well-water': {
+  '/well-water-treatment': {
     name: 'Well Water Treatment Systems',
     description:
       'Comprehensive well water treatment for Florida properties addressing iron, hydrogen sulfide, bacteria, manganese, sediment, and pH imbalance with lifetime warranty.',
-    url: `${SITE_URL}/services/well-water`,
+    url: `${SITE_URL}/well-water-treatment`,
+  },
+  '/water-testing': {
+    name: 'Free Water Testing',
+    description:
+      'Complimentary in-home water quality analysis measuring hardness, pH, iron, chlorine, TDS, and contaminants specific to your Central Florida water supply.',
+    url: `${SITE_URL}/water-testing`,
+  },
+  '/water-treatment': {
+    name: 'Residential Water Treatment',
+    description:
+      'Full-service residential water treatment for Central Florida: filtration, softening, reverse osmosis, and well water systems with free in-home testing.',
+    url: `${SITE_URL}/water-treatment`,
+  },
+  '/water-softener-in-florida': {
+    name: 'Water Softener Installation in Florida',
+    description:
+      'Professional water softener installation across Central Florida. Salt-based and salt-free options for very hard water (15-25 gpg) typical of the Floridan aquifer.',
+    url: `${SITE_URL}/water-softener-in-florida`,
   },
 }
 
@@ -705,10 +730,10 @@ const careersFaqSchema = {
 
 const FAQ_SCHEMAS: Record<string, object> = {
   '/': homeFaqSchema,
-  '/services/water-softening': waterSofteningFaqSchema,
-  '/services/reverse-osmosis': reverseOsmosisFaqSchema,
-  '/services/well-water': wellWaterFaqSchema,
-  '/services/whole-home': wholeHomeFaqSchema,
+  '/water-softener': waterSofteningFaqSchema,
+  '/reverse-osmosis': reverseOsmosisFaqSchema,
+  '/well-water-treatment': wellWaterFaqSchema,
+  '/water-filtration': wholeHomeFaqSchema,
   '/faq': faqPageFaqSchema,
   '/contact': contactFaqSchema,
   '/financing': financingFaqSchema,
@@ -756,7 +781,7 @@ function getServiceSchema(pathname: string) {
     dateModified: DATE_MODIFIED,
     provider: {
       '@type': 'HomeAndConstructionBusiness',
-      '@id': `${SITE_URL}/#business`,
+      '@id': `${SITE_URL}/#organization`,
       name: BUSINESS_NAME,
       url: SITE_URL,
       telephone: PHONE,
@@ -766,128 +791,6 @@ function getServiceSchema(pathname: string) {
       name: city,
     })),
   }
-}
-
-const howToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: 'How to Get Clean Water for Your Central Florida Home',
-  description:
-    'Pure Agua Enterprises makes it easy to get professional water filtration installed in your home in four simple steps.',
-  totalTime: 'P1D',
-  estimatedCost: {
-    '@type': 'MonetaryAmount',
-    currency: 'USD',
-    value: '0',
-  },
-  step: [
-    {
-      '@type': 'HowToStep',
-      position: 1,
-      name: 'Schedule a Free Water Test',
-      text: 'Call (407) 512-8342 or fill out our contact form to schedule a complimentary in-home water quality analysis. We test for hardness, pH, iron, chlorine, TDS, and other contaminants specific to your Central Florida water supply.',
-      url: `${SITE_URL}/contact`,
-    },
-    {
-      '@type': 'HowToStep',
-      position: 2,
-      name: 'Receive a Personalized Recommendation',
-      text: 'Based on your water test results, our certified technician will explain exactly what is in your water and recommend the right filtration system for your home and budget.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 3,
-      name: 'Professional Installation',
-      text: 'Our licensed and insured technicians install your water treatment system, typically in 2-4 hours. We handle all plumbing connections and system startup so you have filtered water the same day.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 4,
-      name: 'Enjoy Clean Water for Life',
-      text: 'With your new water filtration system installed and backed by our lifetime warranty, enjoy pure, healthy water at every faucet in your home. Annual maintenance plans available.',
-    },
-  ],
-}
-
-const wholeHomeHowToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: 'How to Install a Whole Home Water Filtration System',
-  description:
-    'Steps to getting a whole-home water filtration system installed in your Central Florida home by Pure Agua Enterprises.',
-  totalTime: 'P1D',
-  step: [
-    {
-      '@type': 'HowToStep',
-      position: 1,
-      name: 'Schedule a Free Water Test',
-      text: 'Call (407) 512-8342 to schedule a free in-home water quality test. Our technician tests for chlorine, TDS, hardness, sediment, and other contaminants specific to your water source.',
-      url: `${SITE_URL}/contact`,
-    },
-    {
-      '@type': 'HowToStep',
-      position: 2,
-      name: 'Review Your Custom Treatment Plan',
-      text: 'Based on your water test results and household size, we recommend the right whole-home filtration system. You receive a written estimate with transparent pricing.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 3,
-      name: 'Professional Installation',
-      text: 'A licensed Pure Agua technician installs the filtration system at your main water line entry point, typically in the garage. Installation takes 3-4 hours.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 4,
-      name: 'Post-Installation Verification',
-      text: 'After installation, we test your water again to confirm contaminant reduction. You receive before-and-after results and a maintenance schedule for your system.',
-    },
-  ],
-}
-
-const waterSofteningHowToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: 'How to Get a Water Softener Installed in Central Florida',
-  description:
-    'Steps to solving hard water problems in your Central Florida home with a professional water softener installation by Pure Agua.',
-  totalTime: 'P1D',
-  step: [
-    {
-      '@type': 'HowToStep',
-      position: 1,
-      name: 'Test Your Water Hardness',
-      text: 'Schedule a free water test to measure your hardness level in grains per gallon (gpg). Central Florida averages 15-25 gpg, classified as very hard by USGS standards.',
-      url: `${SITE_URL}/contact`,
-    },
-    {
-      '@type': 'HowToStep',
-      position: 2,
-      name: 'Choose Salt-Based or Salt-Free',
-      text: 'Based on your hardness level and preferences, choose between a salt-based ion exchange softener (best for extreme hardness) or a salt-free conditioner (scale prevention without salt).',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 3,
-      name: 'Professional Installation',
-      text: 'Our licensed technician installs your water softener near the main water line and a drain, typically in the garage or utility room. Installation takes 2-3 hours.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 4,
-      name: 'Enjoy Soft Water',
-      text: 'Experience softer skin, cleaner dishes, less soap usage, and extended appliance lifespan. Your system is backed by a lifetime warranty on the control valve and tank.',
-    },
-  ],
-}
-
-const HOWTO_MAP: Record<string, object> = {
-  '/': howToSchema,
-  '/contact': howToSchema,
-  '/services/whole-home': wholeHomeHowToSchema,
-  '/services/water-softening': waterSofteningHowToSchema,
-  '/services/reverse-osmosis': howToSchema,
-  '/services/well-water': howToSchema,
 }
 
 const articleCollectionSchema = {
@@ -921,9 +824,6 @@ export default function SchemaMarkup() {
 
   const faq = FAQ_SCHEMAS[pathname]
   if (faq) schemas.push(faq)
-
-  const howTo = HOWTO_MAP[pathname]
-  if (howTo) schemas.push(howTo)
 
   if (pathname === '/blog') {
     schemas.push(articleCollectionSchema)

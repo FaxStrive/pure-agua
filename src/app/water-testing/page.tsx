@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Free Water Testing Kissimmee & Orlando',
   description: 'Free in-home water testing in Kissimmee, Orlando, and Central Florida. We test for hardness, chlorine, iron, pH, and TDS. Call today.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/water-testing',
+    canonical: 'https://pureaguafl.com/water-testing',
   },
   openGraph: {
     title: 'Free Water Testing Kissimmee & Orlando | Pure Agua',
     description: 'Get a free in-home water quality test in Kissimmee, Orlando, and Central Florida. We test for hardness, chlorine, iron, pH, TDS, and contaminants. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/water-testing',
+    url: 'https://pureaguafl.com/water-testing',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/og-water-testing.jpg',
+        url: 'https://pureaguafl.com/og-water-testing.jpg',
         width: 1200,
         height: 630,
         alt: 'Free water testing services by Pure Agua Enterprises in Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/water-testing",
+  "url": "https://pureaguafl.com/water-testing",
   "description": "Pure Agua Enterprises provides professional water testing services in Central Florida. Free consultations available."
 };
 

@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Water Treatment Services in Kissimmee FL',
   description: 'Water treatment services in Kissimmee, Orlando, and Central Florida. Filtration, softening, and reverse osmosis. Free estimate available.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/water-treatment',
+    canonical: 'https://pureaguafl.com/water-treatment',
   },
   openGraph: {
     title: 'Water Treatment Services in Kissimmee FL | Pure Agua',
     description: 'Professional water treatment services in Kissimmee, Orlando, and Central Florida. Whole-home filtration, softening, and reverse osmosis. Free estimate. Call (407) 512-8342.',
-    url: 'https://pureaguaenterprise.com/water-treatment',
+    url: 'https://pureaguafl.com/water-treatment',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [
       {
-        url: 'https://pureaguaenterprise.com/og-water-treatment.jpg',
+        url: 'https://pureaguafl.com/og-water-treatment.jpg',
         width: 1200,
         height: 630,
         alt: 'Pure Agua Enterprises water treatment services in Central Florida',
@@ -38,10 +38,10 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     "name": "Pure Agua Enterprises",
     "telephone": "+14075128342",
-    "url": "https://pureaguaenterprise.com"
+    "url": "https://pureaguafl.com"
   },
   "areaServed": [{ "@type": "City", "name": "Florida" }],
-  "url": "https://pureaguaenterprise.com/water-treatment",
+  "url": "https://pureaguafl.com/water-treatment",
   "description": "Pure Agua Enterprises provides professional water treatment services in Central Florida. Free consultations available."
 };
 
@@ -70,7 +70,7 @@ const faqSchema = {
       "name": "Do I Need a Permit for Water Treatment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service, we're familiar with local requirements and manage the paperwork on your behalf."
+        "text": "Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service. We're familiar with local requirements and manage the paperwork on your behalf."
       }
     },
     {
@@ -188,7 +188,7 @@ export default function WaterTreatmentPage() {
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Custom Recommendation & Transparent Quote</h3>
-                <p className="text-gray-600">Based on the assessment, we provide a written recommendation tailored to your home&apos;s needs. Your quote includes all equipment, installation labor, and applicable permits, no hidden costs.</p>
+                <p className="text-gray-600">Based on the assessment, we provide a written recommendation tailored to your home&apos;s needs. Your quote includes all equipment, installation labor, and applicable permits, with no hidden costs.</p>
               </div>
             </li>
             <li className="flex gap-6">
@@ -237,7 +237,7 @@ export default function WaterTreatmentPage() {
             </div>
             <div className="border-b border-gray-100 pb-6">
               <h3 className="font-semibold text-lg mb-2">Do I Need a Permit for Water Treatment?</h3>
-              <p className="text-gray-700">Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service, we&apos;re familiar with local requirements and manage the paperwork on your behalf.</p>
+              <p className="text-gray-700">Permit requirements depend on the specific work being done and local municipal regulations. Pure Agua Enterprises handles all required local permits as part of our service. We&apos;re familiar with local requirements and manage the paperwork on your behalf.</p>
             </div>
             <div className="border-b border-gray-100 pb-6">
               <h3 className="font-semibold text-lg mb-2">What Warranty Does Pure Agua Enterprises Provide for Water Treatment?</h3>
@@ -276,10 +276,11 @@ export default function WaterTreatmentPage() {
       </section>
     
         <nav className="mt-12 pt-8 border-t border-gray-200" aria-label="Related resources">
-          <h2 className="text-lg font-semibold mb-3">Related Resources</h2>
+          <h2 className="text-lg font-semibold mb-3">Related Guides</h2>
           <ul className="space-y-2">
-            <li><Link href="/water-treatment-in-florida" className="text-blue-600 hover:underline">Water Treatment in Florida</Link></li>
-            <li><Link href="/well-water-treatment-in-florida" className="text-blue-600 hover:underline">Well Water Treatment in Florida</Link></li>
+            <li><Link href="/water-treatment/central-florida-hard-water" className="text-blue-600 hover:underline">Central Florida Hard Water Guide</Link></li>
+            <li><Link href="/water-treatment/florida-well-water" className="text-blue-600 hover:underline">Florida Well Water Treatment Guide</Link></li>
+            <li><Link href="/water-treatment/reverse-osmosis-drinking-water" className="text-blue-600 hover:underline">Reverse Osmosis Drinking Water Guide</Link></li>
             <li><Link href="/water-filtration" className="text-blue-600 hover:underline">Water Filtration Services</Link></li>
             <li><Link href="/reverse-osmosis" className="text-blue-600 hover:underline">Reverse Osmosis Systems</Link></li>
             <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us for a Free Estimate</Link></li>

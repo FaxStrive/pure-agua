@@ -120,10 +120,10 @@ export default function TermsPageClient() {
               For assistance, reply <strong>HELP</strong> to any of our text
               messages, or contact us directly at{" "}
               <a
-                href="mailto:info@pureaguaenterprise.com"
+                href="mailto:info@pureaguafl.com"
                 className="text-[var(--color-primary)] hover:underline"
               >
-                info@pureaguaenterprise.com
+                info@pureaguafl.com
               </a>{" "}
               or{" "}
               <a
@@ -296,10 +296,10 @@ export default function TermsPageClient() {
               <li>
                 Email:{" "}
                 <a
-                  href="mailto:info@pureaguaenterprise.com"
+                  href="mailto:info@pureaguafl.com"
                   className="text-[var(--color-primary)] hover:underline"
                 >
-                  info@pureaguaenterprise.com
+                  info@pureaguafl.com
                 </a>
               </li>
               <li>

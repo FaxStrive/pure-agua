@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Best Water Softener Services in Florida',
   description: 'Pure Agua Enterprises provides professional water softener services in Florida. Free consultation and expert service from locally trusted specialists.',
   alternates: {
-    canonical: 'https://pureaguaenterprise.com/water-softener-in-florida',
+    canonical: 'https://pureaguafl.com/water-softener-in-florida',
   },
   openGraph: {
     title: 'Best Water Softener Services in Florida | Pure Agua',
     description: 'Pure Agua Enterprises provides professional water softener services in Florida. Free consultation and expert service from locally trusted specialists.',
-    url: 'https://pureaguaenterprise.com/water-softener-in-florida',
+    url: 'https://pureaguafl.com/water-softener-in-florida',
     siteName: 'Pure Agua Enterprises',
     type: 'website',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Water Softener Installation in Florida - Pure Agua Enterprises' }],
@@ -33,7 +33,7 @@ const serviceSchema = {
     "telephone": "+14075128342"
   },
   "areaServed": { "@type": "City", "name": "Florida" },
-  "url": "https://pureaguaenterprise.com/water-softener-in-florida",
+  "url": "https://pureaguafl.com/water-softener-in-florida",
   "description": "Professional water softener services in Florida by Pure Agua Enterprises."
 };
 
@@ -100,19 +100,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       "position": 1,
       "name": "Pure Agua Enterprises",
-      "item": "https://pureaguaenterprise.com"
+      "item": "https://pureaguafl.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Water Softener",
-      "item": "https://pureaguaenterprise.com/water-softener"
+      "item": "https://pureaguafl.com/water-softener"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Water Softener in Florida",
-      "item": "https://pureaguaenterprise.com/water-softener-in-florida"
+      "item": "https://pureaguafl.com/water-softener-in-florida"
     }
   ]
 };

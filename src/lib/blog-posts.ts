@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Kissimmee and Orlando draw from different water sources and face distinct quality challenges. Here's a county-by-county breakdown and what it means for your home.",
     date: "2026-01-12",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Water Quality",
     readTime: "10 min read",
     tags: ["Kissimmee", "Orlando", "Water Quality", "Central Florida"],
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "With Central Florida water hardness often exceeding 15 GPG, water softeners aren't a luxury, they're appliance insurance. Here's everything you need to make an informed decision.",
     date: "2026-01-25",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Water Softeners",
     readTime: "12 min read",
     tags: ["Water Softeners", "Hard Water", "Home Protection"],
@@ -164,7 +164,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "RO removes 95–99% of contaminants in your drinking water, costs less per gallon than bottled water, and ends the plastic bottle habit. Here's the complete picture.",
     date: "2026-02-03",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Reverse Osmosis",
     readTime: "9 min read",
     tags: ["Reverse Osmosis", "Drinking Water", "Orlando"],
@@ -248,7 +248,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Private wells in Osceola and Orange County commonly test positive for iron, hydrogen sulfide, hardness, and bacteria. Here's what to test for and how to treat it.",
     date: "2026-02-14",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Well Water",
     readTime: "10 min read",
     tags: ["Well Water", "Osceola County", "Orange County", "Water Treatment"],
@@ -314,7 +314,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "From shorter appliance lifespans to 75% more soap usage, hard water quietly costs Central Florida homeowners thousands of dollars annually. Here's the documented evidence.",
     date: "2026-02-25",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Hard Water",
     readTime: "10 min read",
     tags: ["Hard Water", "Appliances", "Home Protection", "Central Florida"],
@@ -400,21 +400,21 @@ export const blogPosts: BlogPost[] = [
 
 <p>Pure Agua offers a free water hardness assessment and appliance protection consultation for every new customer. We'll assess your current situation, estimate your accumulated scale buildup, and design a system sized correctly for your household.</p>`,
   },
-  {"slug":"water-softener-cost-florida","title":"How Much Does Water Softener Cost in Florida?","excerpt":"Find out the typical cost of water softener installation in Florida including equipment, labor, and ongoing maintenance from Pure Agua Enterprises.","date":"2026-02-24","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water softener","cost","florida"],"content":"<p>Understanding the cost of water softener in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Softener Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of water softener in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Softener Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Softener in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Softener Cost in Florida?</h3> <p>The average cost of water softener in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Softener Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Softener in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water softener in Florida. Call +11799836455.</p> <h2>Get a Free Water Softener Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for water softener in Florida."},
-  {"slug":"reverse-osmosis-cost-florida","title":"How Much Does Reverse Osmosis Cost in Florida?","excerpt":"Learn about reverse osmosis system pricing in Florida, including under-sink and whole-home options from Pure Agua Enterprises.","date":"2026-04-01","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["reverse osmosis","cost","florida"],"content":"<p>Understanding the cost of reverse osmosis in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Reverse Osmosis Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of reverse osmosis in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Reverse Osmosis Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Reverse Osmosis in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Reverse Osmosis Cost in Florida?</h3> <p>The average cost of reverse osmosis in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Reverse Osmosis Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Reverse Osmosis in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for reverse osmosis in Florida. Call +11799836455.</p> <h2>Get a Free Reverse Osmosis Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for reverse osmosis in Florida."},
-  {"slug":"water-filtration-cost-florida","title":"How Much Does Water Filtration Cost in Florida?","excerpt":"Explore water filtration system costs in Florida, from basic carbon filters to advanced whole-home systems by Pure Agua Enterprises.","date":"2026-02-10","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water filtration","cost","florida"],"content":"<p>Understanding the cost of water filtration in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Filtration Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of water filtration in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Filtration Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Filtration in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Filtration Cost in Florida?</h3> <p>The average cost of water filtration in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Filtration Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Filtration in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water filtration in Florida. Call +11799836455.</p> <h2>Get a Free Water Filtration Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for water filtration in Florida."},
-  {"slug":"water-testing-cost-florida","title":"How Much Does Water Testing Cost in Florida?","excerpt":"Learn about water testing options and costs in Florida. Pure Agua Enterprises offers free in-home water quality testing.","date":"2026-01-27","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water testing","cost","florida"],"content":"<p>Understanding the cost of water testing in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Testing Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of water testing in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Testing Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Testing in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Testing Cost in Florida?</h3> <p>The average cost of water testing in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Testing Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Testing in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water testing in Florida. Call +11799836455.</p> <h2>Get a Free Water Testing Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for water testing in Florida."},
-  {"slug":"water-treatment-cost-florida","title":"How Much Does Water Treatment Cost in Florida?","excerpt":"Discover the cost of professional water treatment systems in Florida, including softeners, filters, and reverse osmosis.","date":"2026-03-24","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water treatment","cost","florida"],"content":"<p>Understanding the cost of water treatment in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Treatment Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of water treatment in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Treatment Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Treatment in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Treatment Cost in Florida?</h3> <p>The average cost of water treatment in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Treatment Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Treatment in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water treatment in Florida. Call +11799836455.</p> <h2>Get a Free Water Treatment Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for water treatment in Florida."},
-  {"slug":"well-water-treatment-cost-florida","title":"How Much Does Well Water Treatment Cost in Florida?","excerpt":"Get pricing details for well water treatment in Florida, including iron removal, sulfur treatment, and bacteria filtration.","date":"2026-03-10","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["well water","cost","florida"],"content":"<p>Understanding the cost of well water treatment in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Well Water Treatment Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>The average cost of well water treatment in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Well Water Treatment Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Well Water Treatment in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Well Water Treatment Cost in Florida?</h3> <p>The average cost of well water treatment in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Well Water Treatment Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Well Water Treatment in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for well water treatment in Florida. Call +11799836455.</p> <h2>Get a Free Well Water Treatment Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call +11799836455. Pure Agua Enterprises provides transparent, no-obligation pricing for well water treatment in Florida."},
-  {"slug":"water-softener-vs-water-conditioner","title":"Water Softener vs. Water Conditioner: Which Is Right for Your Home?","excerpt":"Compare salt-based water softeners with salt-free water conditioners to find the right solution for your Florida home.","date":"2026-01-13","author":"Pure Agua Team","category":"Guide","readTime":"6 min read","tags":["water softener","water conditioner","comparison"],"content":"<p>Compare water softeners and salt-free water conditioners for Florida homes. Cost, effectiveness, and maintenance differences explained. Pure Agua Enterprises breaks down the key differences to help Florida homeowners make an informed decision.</p> <h2>Water Softener vs. Water Conditioner: Quick Answer</h2> <blockquote cite=\"https://pureaguaenterprise.com\"> <p>For most Florida homes with hard water, a traditional water softener provides the most complete solution. For homes with moderate hardness or dietary sodium concerns, a salt-free conditioner is a practical alternative.</p> </blockquote> <h2>Side-by-Side Comparison</h2> <table><tbody><tr><th>Feature</th><th>Water Softener</th><th>Water Conditioner</th></tr><tr><td>Installed Cost</td><td>$800-$2,500</td><td>$500-$1,500</td></tr><tr><td>Lifespan</td><td>10-15 years</td><td>5-10 years</td></tr><tr><td>Best For</td><td>Homes with very hard water</td><td>Homes with moderate hardness or salt restrictions</td></tr><tr><td>Maintenance</td><td>Salt refills every 4-8 weeks</td><td>Minimal - occasional filter replacement</td></tr></tbody></table> <h2>When to Choose Water Softener</h2> <p>Choose a water softener if your Florida home has hard water above 7 GPG, visible scale on fixtures, or you want complete hardness removal. Ion exchange softeners are the most effective solution for truly hard water.</p> <h2>When to Choose Water Conditioner</h2> <p>Choose a water conditioner if you are on a sodium-restricted diet, prefer a maintenance-free approach, or have moderate hardness levels below 7 GPG. Salt-free conditioners prevent scale without adding sodium.</p> <h2>What Pure Agua Enterprises Recommends for Florida Homes</h2> <p>The right choice depends on your specific situation. Pure Agua Enterprises provides free in-home assessments where we test, evaluate, and recommend the best option for your Florida home, with no pressure and no obligation.</p> <h2>Frequently Asked Questions</h2> <h3>Which Is Better: Water Softener or Water Conditioner?</h3> <p>For most Florida homes with hard water, a traditional water softener provides the most complete solution. For homes with moderate hardness or dietary sodium concerns, a salt-free conditioner is a practical alternative.</p> <h3>How Much Does Each Option Cost in Florida?</h3> <p>Water Softener typically costs $800-$2,500 installed, while Water Conditioner costs $500-$1,500 installed in Florida. Pure Agua Enterprises provides free quotes for both options.</p> <h2>Get Expert Advice from Pure Agua Enterprises</h2> <a href=\"/contact\">Schedule your free assessment</a> or call +11799836455. Pure Agua Enterprises helps Florida homeowners choose the right solution, not the most expensive one."},
-  {"slug":"winter-water-tips-florida","title":"Winter Water System Tips for Florida Homeowners","excerpt":"Seasonal tips for maintaining your water filtration and softening systems during Florida winters from Pure Agua Enterprises.","date":"2025-12-20","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["maintenance","winter","florida"],"content":"<p>Winter in Florida brings unique challenges for water treatment systems. Cold temperatures can affect system performance, and freeze risk, even in mild climates, can cause expensive damage if you are not prepared. Pure Agua Enterprises shares the essential steps to protect your investment.</p> <h2>Freeze Prevention for Water Treatment Systems</h2> <p>Even in Florida's relatively mild winters, overnight temperatures can drop low enough to freeze exposed pipes and system components. Insulate all exposed water lines, ensure your water softener is in a climate-controlled space, and know where your main water shut-off valve is located.</p> <h2>Winter Maintenance Checklist</h2> <strong>Check salt levels</strong>, Cold weather can cause salt to bridge more easily in your brine tank. Check monthly and break up any bridges. <strong>Test water quality</strong>, Winter changes in municipal water treatment can affect your system performance. Test hardness and TDS. <strong>Inspect for leaks</strong>, Temperature fluctuations stress fittings and connections. Check all visible connections for drips. <h2>When to Schedule Professional Service</h2> <p>Pure Agua Enterprises recommends scheduling a professional system inspection before winter arrives. Our technicians check all connections, test system performance, and ensure your Florida water treatment system is ready for the season.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call +11799836455 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},
-  {"slug":"summer-water-guide-florida","title":"Summer Water Quality Guide for Florida Homeowners","excerpt":"How summer heat and increased water usage affect your Florida water quality, and what you can do about it.","date":"2026-04-06","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["water quality","summer","florida"],"content":"<p>Summer in Florida means higher water usage, increased chlorine levels from the municipal supply, and greater demand on your water treatment system. Understanding these seasonal changes helps you maintain optimal water quality throughout the warmest months.</p> <h2>Why Water Quality Changes in Summer</h2> <p>Municipal water systems in Florida typically increase disinfectant levels during summer because warmer water temperatures promote bacterial growth in distribution pipes. You may notice a stronger chlorine taste or smell, this is normal but can be addressed with proper filtration.</p> <h2>Summer Maintenance for Your Water System</h2> <strong>Increase salt checks</strong>, Higher water usage in summer means your softener works harder. Check salt levels every 2-3 weeks. <strong>Replace filters on schedule</strong>, Higher volume means filters reach capacity sooner. Consider early replacement if water quality drops. <strong>Monitor RO production</strong>, Warmer input water actually improves RO membrane performance, but higher demand may require a larger storage tank. <h2>Staying Hydrated with Clean Water</h2> <p>Florida summers demand proper hydration. A reverse osmosis system ensures your drinking water is pure and great-tasting, encouraging your family to drink more water. Pure Agua Enterprises can evaluate your current system and recommend upgrades to meet summer demand.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call +11799836455 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},
+  {"slug":"water-softener-cost-florida","title":"How Much Does Water Softener Cost in Florida?","excerpt":"Find out the typical cost of water softener installation in Florida including equipment, labor, and ongoing maintenance from Pure Agua Enterprises.","date":"2026-02-24","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water softener","cost","florida"],"content":"<p>Understanding the cost of water softener in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Softener Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>The average cost of water softener in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Softener Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Softener in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Softener Cost in Florida?</h3> <p>The average cost of water softener in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Softener Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Softener in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water softener in Florida. Call (407) 512-8342.</p> <h2>Get a Free Water Softener Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call (407) 512-8342. Pure Agua Enterprises provides transparent, no-obligation pricing for water softener in Florida."},
+  {"slug":"reverse-osmosis-cost-florida","title":"How Much Does Reverse Osmosis Cost in Florida?","excerpt":"Learn about reverse osmosis system pricing in Florida, including under-sink and whole-home options from Pure Agua Enterprises.","date":"2026-04-01","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["reverse osmosis","cost","florida"],"content":"<p>Understanding the cost of reverse osmosis in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Reverse Osmosis Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>The average cost of reverse osmosis in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Reverse Osmosis Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Reverse Osmosis in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Reverse Osmosis Cost in Florida?</h3> <p>The average cost of reverse osmosis in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Reverse Osmosis Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Reverse Osmosis in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for reverse osmosis in Florida. Call (407) 512-8342.</p> <h2>Get a Free Reverse Osmosis Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call (407) 512-8342. Pure Agua Enterprises provides transparent, no-obligation pricing for reverse osmosis in Florida."},
+  {"slug":"water-filtration-cost-florida","title":"How Much Does Water Filtration Cost in Florida?","excerpt":"Explore water filtration system costs in Florida, from basic carbon filters to advanced whole-home systems by Pure Agua Enterprises.","date":"2026-02-10","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water filtration","cost","florida"],"content":"<p>Understanding the cost of water filtration in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Filtration Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>The average cost of water filtration in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Filtration Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Filtration in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Filtration Cost in Florida?</h3> <p>The average cost of water filtration in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Filtration Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Filtration in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water filtration in Florida. Call (407) 512-8342.</p> <h2>Get a Free Water Filtration Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call (407) 512-8342. Pure Agua Enterprises provides transparent, no-obligation pricing for water filtration in Florida."},
+  {"slug":"water-testing-cost-florida","title":"How Much Does Water Testing Cost in Florida?","excerpt":"Learn about water testing options and costs in Florida. Pure Agua Enterprises offers free in-home water quality testing.","date":"2026-01-27","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water testing","cost","florida"],"content":"<p>Understanding the cost of water testing in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Testing Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>The average cost of water testing in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Testing Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Testing in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Testing Cost in Florida?</h3> <p>The average cost of water testing in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Testing Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Testing in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water testing in Florida. Call (407) 512-8342.</p> <h2>Get a Free Water Testing Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call (407) 512-8342. Pure Agua Enterprises provides transparent, no-obligation pricing for water testing in Florida."},
+  {"slug":"water-treatment-cost-florida","title":"How Much Does Water Treatment Cost in Florida?","excerpt":"Discover the cost of professional water treatment systems in Florida, including softeners, filters, and reverse osmosis.","date":"2026-03-24","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["water treatment","cost","florida"],"content":"<p>Understanding the cost of water treatment in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Water Treatment Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>The average cost of water treatment in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Water Treatment Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Water Treatment in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Water Treatment Cost in Florida?</h3> <p>The average cost of water treatment in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Water Treatment Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Water Treatment in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for water treatment in Florida. Call (407) 512-8342.</p> <h2>Get a Free Water Treatment Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call (407) 512-8342. Pure Agua Enterprises provides transparent, no-obligation pricing for water treatment in Florida."},
+  {"slug":"well-water-treatment-cost-florida","title":"How Much Does Well Water Treatment Cost in Florida?","excerpt":"Get pricing details for well water treatment in Florida, including iron removal, sulfur treatment, and bacteria filtration.","date":"2026-03-10","author":"Pure Agua Team","category":"Guide","readTime":"5 min read","tags":["well water","cost","florida"],"content":"<p>Understanding the cost of well water treatment in Florida is essential before making any decisions. This guide breaks down real pricing ranges, the factors that affect your total cost, and how to ensure you're getting fair value from any provider in Florida.</p> <h2>Well Water Treatment Pricing Overview for Florida</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>The average cost of well water treatment in Florida ranges from <strong>$1,500 to $4,500</strong> installed. The final price depends on your home's specific requirements, system capacity, and installation complexity.</p> </blockquote> <table><tbody><tr><th>Cost Tier</th><th>Price Range</th><th>Best For</th></tr><tr><td>Budget</td><td>$500 - $1,200</td><td>Basic solutions for smaller homes</td></tr><tr><td>Mid-Range</td><td>$1,200 - $3,000</td><td>Standard installations for average homes</td></tr><tr><td>Premium</td><td>$3,000 - $5,000+</td><td>Whole-home or advanced systems</td></tr></tbody></table> <h2>What Factors Affect Well Water Treatment Cost in Florida?</h2> <strong>1. Home size and water usage</strong>, Larger homes in Florida require higher-capacity systems, which cost more upfront but provide better per-unit value. <strong>2. Existing infrastructure</strong>, Homes with compatible plumbing or electrical already in place have lower installation costs than those requiring modifications. <strong>3. System quality and brand</strong>, Professional-grade equipment costs more upfront but delivers better performance and longer service life. Pure Agua Enterprises uses only manufacturer-warranted, professional-grade systems. <strong>4. Local Florida conditions</strong>, Water quality, climate, and local code requirements in Florida all influence the right system and installation approach. <h2>How to Get the Best Value on Well Water Treatment in Florida</h2> <p>1. <strong>Get multiple quotes</strong>, Compare at least 2-3 estimates from licensed Florida providers 2. <strong>Ask about total cost of ownership</strong>, Upfront price is only part of the picture; maintenance and energy costs matter 3. <strong>Verify licensing and insurance</strong>, Only work with licensed, insured contractors in Florida 4. <strong>Check references</strong>, Ask for recent Florida customer references before committing</p> <h2>Frequently Asked Questions</h2> <h3>How Much Does Well Water Treatment Cost in Florida?</h3> <p>The average cost of well water treatment in Florida ranges from $1,500 to $4,500 installed, depending on system size and complexity. Pure Agua Enterprises provides free in-home assessments with detailed, no-obligation quotes.</p> <h3>What Factors Affect Well Water Treatment Cost in Florida?</h3> <p>Key factors include home size, existing infrastructure, system type, installation complexity, and local Florida conditions. Pure Agua Enterprises evaluates all of these during a free assessment.</p> <h3>Does Pure Agua Enterprises Offer Financing for Well Water Treatment in Florida?</h3> <p>Contact Pure Agua Enterprises to learn about available financing options for well water treatment in Florida. Call (407) 512-8342.</p> <h2>Get a Free Well Water Treatment Estimate in Florida</h2> <a href=\"/contact\">Request your free estimate</a> or call (407) 512-8342. Pure Agua Enterprises provides transparent, no-obligation pricing for well water treatment in Florida."},
+  {"slug":"water-softener-vs-water-conditioner","title":"Water Softener vs. Water Conditioner: Which Is Right for Your Home?","excerpt":"Compare salt-based water softeners with salt-free water conditioners to find the right solution for your Florida home.","date":"2026-01-13","author":"Pure Agua Team","category":"Guide","readTime":"6 min read","tags":["water softener","water conditioner","comparison"],"content":"<p>Compare water softeners and salt-free water conditioners for Florida homes. Cost, effectiveness, and maintenance differences explained. Pure Agua Enterprises breaks down the key differences to help Florida homeowners make an informed decision.</p> <h2>Water Softener vs. Water Conditioner: Quick Answer</h2> <blockquote cite=\"https://pureaguafl.com\"> <p>For most Florida homes with hard water, a traditional water softener provides the most complete solution. For homes with moderate hardness or dietary sodium concerns, a salt-free conditioner is a practical alternative.</p> </blockquote> <h2>Side-by-Side Comparison</h2> <table><tbody><tr><th>Feature</th><th>Water Softener</th><th>Water Conditioner</th></tr><tr><td>Installed Cost</td><td>$800-$2,500</td><td>$500-$1,500</td></tr><tr><td>Lifespan</td><td>10-15 years</td><td>5-10 years</td></tr><tr><td>Best For</td><td>Homes with very hard water</td><td>Homes with moderate hardness or salt restrictions</td></tr><tr><td>Maintenance</td><td>Salt refills every 4-8 weeks</td><td>Minimal - occasional filter replacement</td></tr></tbody></table> <h2>When to Choose Water Softener</h2> <p>Choose a water softener if your Florida home has hard water above 7 GPG, visible scale on fixtures, or you want complete hardness removal. Ion exchange softeners are the most effective solution for truly hard water.</p> <h2>When to Choose Water Conditioner</h2> <p>Choose a water conditioner if you are on a sodium-restricted diet, prefer a maintenance-free approach, or have moderate hardness levels below 7 GPG. Salt-free conditioners prevent scale without adding sodium.</p> <h2>What Pure Agua Enterprises Recommends for Florida Homes</h2> <p>The right choice depends on your specific situation. Pure Agua Enterprises provides free in-home assessments where we test, evaluate, and recommend the best option for your Florida home, with no pressure and no obligation.</p> <h2>Frequently Asked Questions</h2> <h3>Which Is Better: Water Softener or Water Conditioner?</h3> <p>For most Florida homes with hard water, a traditional water softener provides the most complete solution. For homes with moderate hardness or dietary sodium concerns, a salt-free conditioner is a practical alternative.</p> <h3>How Much Does Each Option Cost in Florida?</h3> <p>Water Softener typically costs $800-$2,500 installed, while Water Conditioner costs $500-$1,500 installed in Florida. Pure Agua Enterprises provides free quotes for both options.</p> <h2>Get Expert Advice from Pure Agua Enterprises</h2> <a href=\"/contact\">Schedule your free assessment</a> or call (407) 512-8342. Pure Agua Enterprises helps Florida homeowners choose the right solution, not the most expensive one."},
+  {"slug":"winter-water-tips-florida","title":"Winter Water System Tips for Florida Homeowners","excerpt":"Seasonal tips for maintaining your water filtration and softening systems during Florida winters from Pure Agua Enterprises.","date":"2025-12-20","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["maintenance","winter","florida"],"content":"<p>Winter in Florida brings unique challenges for water treatment systems. Cold temperatures can affect system performance, and freeze risk, even in mild climates, can cause expensive damage if you are not prepared. Pure Agua Enterprises shares the essential steps to protect your investment.</p> <h2>Freeze Prevention for Water Treatment Systems</h2> <p>Even in Florida's relatively mild winters, overnight temperatures can drop low enough to freeze exposed pipes and system components. Insulate all exposed water lines, ensure your water softener is in a climate-controlled space, and know where your main water shut-off valve is located.</p> <h2>Winter Maintenance Checklist</h2> <strong>Check salt levels</strong>, Cold weather can cause salt to bridge more easily in your brine tank. Check monthly and break up any bridges. <strong>Test water quality</strong>, Winter changes in municipal water treatment can affect your system performance. Test hardness and TDS. <strong>Inspect for leaks</strong>, Temperature fluctuations stress fittings and connections. Check all visible connections for drips. <h2>When to Schedule Professional Service</h2> <p>Pure Agua Enterprises recommends scheduling a professional system inspection before winter arrives. Our technicians check all connections, test system performance, and ensure your Florida water treatment system is ready for the season.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call (407) 512-8342 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},
+  {"slug":"summer-water-guide-florida","title":"Summer Water Quality Guide for Florida Homeowners","excerpt":"How summer heat and increased water usage affect your Florida water quality, and what you can do about it.","date":"2026-04-06","author":"Pure Agua Team","category":"Guide","readTime":"4 min read","tags":["water quality","summer","florida"],"content":"<p>Summer in Florida means higher water usage, increased chlorine levels from the municipal supply, and greater demand on your water treatment system. Understanding these seasonal changes helps you maintain optimal water quality throughout the warmest months.</p> <h2>Why Water Quality Changes in Summer</h2> <p>Municipal water systems in Florida typically increase disinfectant levels during summer because warmer water temperatures promote bacterial growth in distribution pipes. You may notice a stronger chlorine taste or smell, this is normal but can be addressed with proper filtration.</p> <h2>Summer Maintenance for Your Water System</h2> <strong>Increase salt checks</strong>, Higher water usage in summer means your softener works harder. Check salt levels every 2-3 weeks. <strong>Replace filters on schedule</strong>, Higher volume means filters reach capacity sooner. Consider early replacement if water quality drops. <strong>Monitor RO production</strong>, Warmer input water actually improves RO membrane performance, but higher demand may require a larger storage tank. <h2>Staying Hydrated with Clean Water</h2> <p>Florida summers demand proper hydration. A reverse osmosis system ensures your drinking water is pure and great-tasting, encouraging your family to drink more water. Pure Agua Enterprises can evaluate your current system and recommend upgrades to meet summer demand.</p> <h2>Schedule Seasonal Service with Pure Agua Enterprises</h2> <a href=\"/contact\">Contact Pure Agua Enterprises</a> or call (407) 512-8342 to schedule seasonal water softener service in Florida. Proactive maintenance saves money and prevents emergency situations."},
   {
     slug: "kissimmee-orlando-water-quality",
     title: "Kissimmee and Orlando Water Quality: OUC, KUA, and What Central Florida Residents Need to Know",
     excerpt: "Central Florida water from the Floridan Aquifer, OUC and Kissimmee Utility Authority sources, hardness ranges, chloramines, and specific contaminants for Orlando and Kissimmee homeowners.",
     date: "2026-04-15",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Local Water Quality",
     readTime: "9 min read",
     tags: ["Orlando water quality", "Kissimmee water quality", "Central Florida water", "OUC water quality"],
@@ -482,7 +482,7 @@ export const blogPosts: BlogPost[] = [
     title: "The Floridan Aquifer and Hard Water in Central Florida: What It Costs You and How to Fix It",
     excerpt: "Why Central Florida has hard water, how the Floridan Aquifer deposits minerals in your home, what scale damage to appliances actually costs Florida homeowners, and how water softeners solve it.",
     date: "2026-04-15",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Water Quality",
     readTime: "10 min read",
     tags: ["hard water Central Florida", "Floridan Aquifer water quality", "water softener Kissimmee", "Orlando water"],
@@ -571,7 +571,7 @@ export const blogPosts: BlogPost[] = [
     title: "Well Water in Kissimmee and Orlando: Problems, Testing, and Treatment for Central Florida",
     excerpt: "Rural Osceola, Orange, and Polk County well water faces iron, sulfur, bacteria, and high hardness without municipal treatment. A complete guide to Central Florida well water testing and treatment.",
     date: "2026-04-15",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Well Water",
     readTime: "10 min read",
     tags: ["well water Kissimmee FL", "well water Orlando", "Central Florida well water treatment", "well water testing"],
@@ -676,7 +676,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Pure Agua Enterprise Well Water Services</h2>
 
-<p>Pure Agua Enterprise has been treating Central Florida well water since 2016. We provide free comprehensive well water testing, not just a basic hardness check, but a full panel covering hardness, iron (ferrous and total), pH, TDS, bacteria, and sulfide. Carlos Rivera and the Pure Agua team design multi-stage treatment systems specifically for Central Florida's Floridan Aquifer water chemistry.</p>
+<p>Pure Agua Enterprise has been treating Central Florida well water since 2016. We provide free comprehensive well water testing, not just a basic hardness check, but a full panel covering hardness, iron (ferrous and total), pH, TDS, bacteria, and sulfide. Our Pure Agua Enterprises team designs multi-stage treatment systems specifically for Central Florida's Floridan Aquifer water chemistry.</p>
 
 <p>NSF/ANSI 58 and 61 certified. WQA member. FL licensed. 5.0★ with 200+ Google reviews. Family-owned and serving Kissimmee, St. Cloud, Poinciana, Orlando, and all of Central Florida.</p>
 
@@ -688,7 +688,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "OUC uses ozone. Toho Water uses chloramines. Orange County Utilities uses free chlorine. Here is why the disinfection method at your utility changes what home filter you actually need.",
     date: "2026-04-21",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Water Quality",
     readTime: "10 min read",
     tags: ["chloramine", "ozone", "Orlando water", "Kissimmee water", "disinfection"],
@@ -765,7 +765,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Central Florida sits on karst limestone that can collapse without warning. Here is what sinkhole formation means for private wells, what FDEP's Delineated Areas Program actually requires, and how to protect a well in karst terrain.",
     date: "2026-04-20",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Well Water",
     readTime: "11 min read",
     tags: ["sinkholes", "karst geology", "Central Florida wells", "Floridan Aquifer"],
@@ -865,7 +865,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Osceola County es 54-56% hispano. Guía bilingüe sobre dureza del agua, cloraminas, ósmosis inversa, y pruebas de agua gratis para familias de Kissimmee y Orlando.",
     date: "2026-04-19",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Local Water",
     readTime: "9 min read",
     tags: ["agua Kissimmee", "agua Orlando", "Spanish", "ósmosis inversa", "ablandador de agua"],
@@ -989,7 +989,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Reunion, ChampionsGate, Windsor Hills, Four Corners, STR-saturated neighborhoods face accelerated appliance wear from nonstop guest use. Here is what the scale math looks like and why turnover rate changes the water treatment equation.",
     date: "2026-04-18",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Property Management",
     readTime: "9 min read",
     tags: ["vacation rental", "STR", "Disney area", "water treatment", "ChampionsGate", "Reunion"],
@@ -1107,7 +1107,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Orange County detected PFAS above the 4 ppt EPA MCL at two facilities. OUC tested its Floridan Aquifer sources. Toho Water is monitoring. Compliance pushed to 2031. Here is what the current numbers actually say.",
     date: "2026-04-17",
-    author: "Carlos Rivera",
+    author: "Pure Agua Enterprises Team",
     category: "Water Quality",
     readTime: "11 min read",
     tags: ["PFAS Central Florida", "Orange County Utilities", "PFOA PFOS", "forever chemicals"],
@@ -1223,6 +1223,566 @@ export const blogPosts: BlogPost[] = [
 <p>5.0★ rated with 200+ Google reviews. Family-owned since 2016. WQA certified. Florida licensed. Bilingual service.</p>
 
 <p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "water-softener-cost-central-florida-2026",
+    title: "How Much Does a Water Softener Cost in Central Florida in 2026?",
+    excerpt:
+      "Industry-standard installed ranges for a Central Florida water softener in 2026, broken down by system type, household size, and what is actually included in a real quote.",
+    date: "2026-05-14",
+    author: "Pure Agua Enterprises Team",
+    category: "Cost Guides",
+    readTime: "11 min read",
+    tags: ["Water Softeners", "Cost", "Central Florida", "2026"],
+    content: `<figure><img src="/images/blog-hero/water-softener-cost-central-florida-2026.jpg" alt="A residential water softener and brine tank installed in a Central Florida garage" width="1200" height="630" /><figcaption>Photo: రవిచంద్ర, CC BY-SA 4.0, via Wikimedia Commons (File:Water softener.jpg).</figcaption></figure>
+
+<p data-bluf>Industry-standard installed pricing for a residential water softener in the Central Florida market in 2026 sits in the $1,800 to $3,800 range for a single-tank metered demand-initiated system, with combined softener and whole-house carbon stacks at $3,000 to $6,000. Real numbers depend on hardness, household size, plumbing complexity, and whether iron pre-treatment is required. This article walks through what drives those numbers, what should be included in a written quote, and how to avoid the three most common cost mistakes.</p>
+
+<h2>Why Central Florida hard water is a softener question</h2>
+
+<p>The Floridan Aquifer system, mapped by the USGS, supplies most municipal and private wells across Orange, Osceola, Seminole, Polk, Lake, and Volusia counties. The aquifer is hosted in karst limestone, which dissolves slowly into the groundwater and loads finished water with calcium and magnesium. The USGS classifies most Central Florida groundwater as very hard (above 180 mg/L as CaCO3, or about 10.5 grains per gallon). Toho Water Authority, Orlando Utilities Commission, the City of Sanford, and the other regional utilities post their water-quality reports on their websites; pull yours before sizing a softener. Hardness is not regulated by the EPA and is not required in the Consumer Confidence Report, so utility-published numbers vary. We test on site.</p>
+
+<h2>The $1,800 to $3,800 single-tank install: what is in it</h2>
+
+<p>The bottom of the installed range covers a basic 32,000-grain single-tank metered softener (mid-range valve, mid-range resin, polyethylene brine tank, demand-initiated regeneration) installed at the main water line in the garage of a typical Central Florida home. Included: water test, permit if required, copper sweat or PEX-crimp connections to code, bypass valve, drain line with code-compliant air gap, brine line, system programmed to the household's measured hardness, salt-type recommendation, walk-through with the homeowner, and the manufacturer's warranty.</p>
+
+<p>The top of the range adds: a heavier 48,000-grain resin tank for a higher-use household, a stainless brine tank, a smart head with usage telemetry, or a long plumbing run (the softener has to live more than 15 feet from the main, or in a closet, or outdoors with weather protection). Florida ranches with the softener mounted outside under a weather cover routinely land in the upper third of the range simply because the install takes longer and the plumbing run is longer.</p>
+
+<h2>Adding whole-house carbon for chlorine or chloramine</h2>
+
+<p>Toho Water Authority and OUC use chloramines as the residual disinfectant. Standard granular activated carbon (GAC) is slow at reducing chloramines; catalytic carbon is the right media. A whole-house catalytic carbon system installed at the main water line in 2026 runs $1,500 to $3,500 depending on bed volume and head type. A combined softener and whole-house carbon stack at the same install visit typically runs $3,000 to $6,000 installed, because the plumbing labor is shared and the second tank goes in at a marginal cost rather than a full second install.</p>
+
+<p>If you are on a private well, swap the catalytic carbon for an air-injection iron and sulfur filter upstream of the softener. AIO installed runs $1,800 to $3,500. A typical well stack of acid neutralizer (if pH is low), AIO iron and sulfur, softener, and under-sink RO runs $5,500 to $9,500 installed.</p>
+
+<h2>The three cost mistakes</h2>
+
+<p><strong>Mistake one: buying a softener sized to bedroom count.</strong> Sizing should be by hardness in gpg, by iron in ppm, and by daily water use in gallons. A four-bedroom house with two people in it uses very different water than a four-bedroom house with five. Size to the gallons per day, not the floor plan. We use (hardness gpg + 4 gpg per ppm iron) x daily gallons = grains per day treated, and target a 3 to 7 day regeneration interval.</p>
+
+<p><strong>Mistake two: skipping the iron pre-treatment on a well.</strong> Softeners can hold small amounts of clear iron (up to about 3 ppm), but they are the wrong tool when iron exceeds 3 ppm or when any hydrogen sulfide is present. The resin fouls quickly and the brine never fully restores it. The savings from skipping AIO disappear inside 18 months when the softener resin is dead.</p>
+
+<p><strong>Mistake three: paying for a "salt-free softener" thinking it is equivalent to ion exchange.</strong> Template-assisted crystallization (TAC) systems do not remove hardness. They cause dissolved calcium and magnesium to form microscopic crystals that pass through plumbing without scaling. Independent testing puts scale reduction in the 80 to 90% range under controlled conditions. TAC does nothing for soap lather, skin and hair feel, or dissolved sodium content. They are legitimate for homes that want scale reduction without salt regeneration, but the installed price of a quality TAC system is in the same $1,500 to $3,000 range as a real ion-exchange softener.</p>
+
+<h2>The ROI math at Central Florida hardness</h2>
+
+<p>The Water Quality Research Foundation has published household-level savings estimates from softening. The U.S. Department of Energy has separately documented water-heater efficiency gains of up to 29% on softened water compared to hard water at residential hardness levels. At Central Florida hardness (typically 10 to 20 gpg at the tap), reduced detergent and soap use, extended dishwasher and water-heater life, and reduced cleaning-product spend together commonly recover the install cost inside two to four years. We do not promise specific dollar savings because every household runs different water, but the directional math is well established.</p>
+
+<h2>What to look for in a written quote</h2>
+
+<p>A real quote names the system: brand, model number, resin volume, brine tank type, valve manufacturer. It lists the install scope: plumbing connections, bypass valve, drain line and air gap, electrical (head plug), and any code-required permits. It states the warranty terms in writing, separately for the tank, the valve, and the resin. It documents the water test the system was sized from. It includes the post-install verification test. If a quote is a single round number with no system specs, ask for the detail in writing before signing.</p>
+
+<h2>Financing and the Florida market</h2>
+
+<p>Pure Agua and most established Central Florida water-treatment companies offer financing through third-party providers for qualifying homeowners. Plans commonly include introductory 0% APR options with terms up to 60 months. Financing rates and terms are set by the lender, not by us; we publish the plans we offer on the <a href="/financing">financing page</a> and can walk through the math at the consultation.</p>
+
+<h2>Maintenance and operating cost</h2>
+
+<p>Salt runs $10 to $30 per month depending on water hardness, household size, and salt type. Annual maintenance is minimal: brine tank cleaning every two to three years and resin cleaner treatment twice a year if iron is present in the feed water. Pure Agua offers an annual service plan that handles the cleaning and includes a verification water test at every visit.</p>
+
+<h2>Brand and equipment notes</h2>
+
+<p>Pure Agua installs Watershield-brand water treatment systems across Central Florida, chosen for valve reliability, resin quality, and a warranty that we can stand behind from the install team to the manufacturer. Other reputable residential-grade brands exist in this market; we do not disparage them. What matters more than the brand sticker is the sizing, the installation craftsmanship, and the warranty terms. A premium-priced system installed by a crew that does not size correctly will underperform a mid-priced system sized to your actual water.</p>
+
+<h2>Installed cost breakdown line by line</h2>
+
+<p>To make the $1,800 to $3,800 range less abstract, here is the structure of a typical written quote for a single-tank ion-exchange softener installed at a Kissimmee or Orlando home in 2026. Numbers are industry-standard ranges; we publish a specific number on the day of your free in-home test.</p>
+
+<ul>
+  <li><strong>Equipment (control valve, resin tank, brine tank, resin):</strong> $900 to $1,900 depending on tank size, valve manufacturer, and resin grade. Heavier 10% crosslink resin used in chloraminated supply costs more and lasts longer than the 8% crosslink default.</li>
+  <li><strong>Installation labor:</strong> $400 to $900 for a standard garage install with a clean stub-out at the main. Adds $200 to $600 if we are running new copper or PEX more than 15 feet, or if the softener is going outdoors under a cover.</li>
+  <li><strong>Drain line, brine line, bypass valve, and code-required air gap:</strong> $100 to $250 in materials and labor.</li>
+  <li><strong>Permit and inspection (where required by the municipality):</strong> $0 to $150. Most of Orange and Osceola counties do not require a permit for a residential softener swap at an existing connection. New installs at the main may require a plumbing permit.</li>
+  <li><strong>On-site water test and post-install verification test:</strong> $0. Included on every Pure Agua quote.</li>
+  <li><strong>Warranty registration and customer walk-through:</strong> $0. Included.</li>
+</ul>
+
+<p>Total: a clean single-tank install lands at the lower end of the $1,800 to $3,800 range; a larger 48,000-grain tank with chloramine-grade resin, outdoor weather protection, and a long plumbing run lands at the upper end.</p>
+
+<h2>System types compared: ion exchange vs salt-free conditioner vs magnetic</h2>
+
+<p>The Central Florida market has three categories of "softener" marketing, and only one of them softens water in the technical sense.</p>
+
+<ul>
+  <li><strong>Resin-bed ion exchange (the real softener):</strong> physically removes calcium and magnesium and replaces them with sodium. Reduces hardness to zero gpg. Requires salt, drain access, and 6 to 12 gallons of regeneration water per cycle. Installed range $1,800 to $3,800.</li>
+  <li><strong>Catalytic media salt-free conditioner (template-assisted crystallization or TAC):</strong> nucleates dissolved hardness into microscopic crystals that pass through plumbing without bonding to surfaces. Does not remove hardness. Reduces scale by 80% to 90% in controlled testing. No salt, no drain, no waste water. Installed range $1,500 to $3,000. Right tool for homes that cannot run a drain line or that are restricted from softener discharge.</li>
+  <li><strong>Magnetic and electronic "descalers":</strong> claim to alter calcium crystal structure through magnetic or electric fields. Independent testing by the Water Quality Association and university researchers has been mixed at best. Pure Agua does not install or recommend magnetic descalers as standalone treatment for Central Florida hardness levels.</li>
+</ul>
+
+<p>For a household that wants the feel of soft water (lather, hair, skin, laundry), ion exchange is the only answer. For a household that wants scale prevention on the water heater and dishwasher without salt regeneration, a TAC conditioner is a defensible second choice. We walk through which fits your situation during the free in-home consultation.</p>
+
+<h2>What financing looks like on a $3,200 install</h2>
+
+<p>On a representative $3,200 softener install in 2026, third-party financing through providers such as Synchrony or Wells Fargo Home Projects typically offers 12 or 18 month deferred-interest promotions for qualifying credit, plus longer fixed-rate plans at 7.99% to 12.99% APR over 60 months. The plans are originated and serviced by the lender; we are not the credit decisioner and we do not set rates. Pure Agua publishes the plans currently available on the <a href="/financing">financing page</a> and walks through the math at the consultation. Many Central Florida homeowners self-finance off a HELOC or savings; the install does not have to be financed to be affordable, and we never push financing as a sales close.</p>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>How long does a typical Central Florida softener install take?</h3>
+
+<p>A standard single-tank softener install at an existing stub-out in a Kissimmee or Orlando garage takes about three to four hours from arrival to walk-through. A combined softener and whole-house carbon stack adds another hour or two. A well stack with neutralizer, AIO, softener, and under-sink RO is a full-day install. We schedule installs in morning blocks and finish the same day.</p>
+
+<h3>Will a softener raise the sodium content of my drinking water?</h3>
+
+<p>Yes, but at levels that are clinically modest. A softener adds about 7.5 mg of sodium per liter for every grain per gallon of hardness removed. At 15 gpg Central Florida hardness that is about 112 mg of sodium per liter, or 27 mg per 8-ounce glass. For households on a sodium-restricted diet we install an under-sink reverse osmosis at the kitchen tap, which removes the added sodium from drinking and cooking water.</p>
+
+<h3>Do I need a softener if I have a salt-free conditioner already?</h3>
+
+<p>That depends on what you want from the water. A salt-free conditioner reduces scale on your water heater and fixtures but does not remove hardness, so soap lather, skin and hair feel, and laundry will not improve. If your priority is scale prevention only, the conditioner is doing the job. If you want soft-water feel, you need ion exchange.</p>
+
+<h3>How long does the resin in a softener last?</h3>
+
+<p>Standard 8% crosslink resin in a Central Florida home on chloraminated municipal supply lasts about 7 to 10 years before capacity loss becomes noticeable. The heavier 10% crosslink resin used on chloramine-heavy supply lasts 10 to 15 years. Well water with iron in the feed cuts resin life roughly in half unless an AIO iron filter is installed upstream.</p>
+
+<h3>Can I install a water softener myself and save money?</h3>
+
+<p>The equipment is available at big-box stores, and a homeowner with plumbing experience can install one. The risk is sizing. A softener sized wrong for your hardness, household size, or iron load will either regenerate too often (wasting salt and water) or run out of capacity between cycles (delivering hard water at the tap). The savings on labor disappear quickly if the system is replaced inside five years. We size on-site for free; the install fee is what you would pay either way to do it right.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>If you are sizing a softener in Kissimmee, Orlando, Lakeland, Lake Mary, Sanford, Clermont, or anywhere else in our service area, start with the test. Pure Agua brings a calibrated kit on every consultation. We test, we explain, we quote in writing. No high-pressure sales. For deeper background, our <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> covers sizing in detail, our <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers the well-specific stack, and our <a href="/blog/water-softener-complete-guide">complete water softener guide</a> covers ion exchange chemistry and salt selection. For point-of-use drinking water, see our <a href="/water-treatment/reverse-osmosis-drinking-water">reverse osmosis guide</a> and the related <a href="/blog/reverse-osmosis-benefits-orlando">RO benefits article</a>.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "why-orlando-water-smells-or-stains-2026",
+    title: "Why Does My Kissimmee or Orlando Water Smell or Stain? A Diagnostic Guide",
+    excerpt:
+      "Orange staining, black staining, rotten-egg smell, chlorine taste, blue rings around fixtures: a step-by-step diagnostic for Central Florida homeowners.",
+    date: "2026-05-14",
+    author: "Pure Agua Enterprises Team",
+    category: "Diagnostics",
+    readTime: "12 min read",
+    tags: ["Diagnostics", "Iron", "Sulfur", "Staining", "Central Florida"],
+    content: `<figure><img src="/images/blog-hero/why-orlando-water-smells-or-stains-2026.jpg" alt="Hard water calcification and mineral scaling on a residential fixture" width="1200" height="630" /><figcaption>Photo: Bbypnda, CC BY-SA 3.0, via Wikimedia Commons (File:Hard Water Calcification.jpg).</figcaption></figure>
+
+<p data-bluf>If your water in Kissimmee, Orlando, or anywhere in Central Florida smells or stains, the cause is almost always one of six things: iron, manganese, hydrogen sulfide, low pH, chlorine or chloramine residual, or a bacterial colony in the water heater. Each one has a different fix. This article walks through a step-by-step diagnostic so you can identify what you are seeing before you spend money on the wrong treatment.</p>
+
+<h2>Step one: look at the stain color</h2>
+
+<p>Orange or reddish-brown staining on porcelain, in toilet tanks, on white laundry, or around faucet aerators points to iron. Iron above 0.3 ppm in water is enough to leave a visible stain over time. Ferrous iron (dissolved) is the most common form in Central Florida well water; it is clear at the tap and oxidizes to ferric (visible) iron after it sits in contact with air. Ferric iron is already a particle when it leaves the tap and is the easier of the two to filter. Either form responds to air-injection oxidation (AIO) followed by a catalytic media bed. On municipal supply, iron staining is uncommon; if you see it, the iron is more likely from corroded household plumbing than from the utility.</p>
+
+<p>Black or dark-brown staining points to manganese, often present alongside iron in Central Florida well water. Manganese above 0.05 ppm leaves visible stains. The treatment is the same AIO + catalytic media stack used for iron, sometimes with a higher pH set point because manganese oxidizes more readily above pH 7.5.</p>
+
+<p>Blue or green staining around copper fittings or in tubs and sinks points to acidic water dissolving copper out of household plumbing. The Florida well water culprit is low pH (below 6.8). The fix is an acid neutralizer (calcite media) upstream of the rest of the treatment stack. On municipal supply, blue staining is rare because utilities corrosion-control the finished water; if you see it on city water, have the plumbing inspected.</p>
+
+<p>White or chalky scale on fixtures, showerheads, and the dishwasher heating element is hardness from the Floridan Aquifer. The USGS classifies most Central Florida groundwater as very hard. The fix is a properly sized ion-exchange water softener.</p>
+
+<h2>Step two: smell on the cold versus the hot tap</h2>
+
+<p>Sulfur (rotten egg) smell on both the cold and the hot tap, with the smell strongest on the hot side, points to hydrogen sulfide gas in the source water. The biological origin is sulfate-reducing bacteria in the anaerobic zone of the well or in the deep aquifer. The treatment is AIO, the same system used for iron, with the sulfide oxidizing to elemental sulfur and dropping out into the media bed.</p>
+
+<p>Sulfur smell only on the hot tap, with no smell on the cold, almost always points to a bacterial colony inside the water heater. The water heater anode rod (typically magnesium or aluminum) reacts with sulfate ions in the heater tank in the presence of sulfate-reducing bacteria to produce hydrogen sulfide. The fix is to flush the heater, then swap the anode rod for a powered (zinc-aluminum or electronic) anode that does not feed the bacteria. The smell typically disappears within a week of the swap.</p>
+
+<p>Chlorine or pool smell, particularly on hot water, points to chlorine or chloramine residual from the utility. Toho Water Authority and OUC both chloraminate. Chloramines are more stable in the distribution loop than free chlorine and harder to remove at the home. A whole-house catalytic carbon filter is the right treatment.</p>
+
+<h2>Step three: taste</h2>
+
+<p>Metallic taste points to iron, copper, or other metals. Confirm with a test panel. Iron and copper both show up at low ppb levels in taste before they reach the threshold of visible staining.</p>
+
+<p>Salty taste, particularly noticeable when you have not added salt to food, points to sodium or chloride above background. On municipal supply this is rarely a problem outside coastal saltwater intrusion zones. On a well, sodium or chloride above 250 mg/L is the EPA secondary standard for chloride and is a sign of saltwater intrusion or contamination from a nearby brine source.</p>
+
+<p>Bitter or "harsh" taste points to magnesium or sulfate above the secondary standard, or to high TDS in general. Central Florida municipal supply commonly runs 200 to 500 ppm TDS. Anything above 500 ppm starts to taste noticeably. The fix at the kitchen sink is reverse osmosis.</p>
+
+<p>Earthy or musty taste points to surface-water source (less common in Central Florida) or to a biofilm in the household plumbing. If it is intermittent and only at one fixture, flush the line at that fixture and clean the aerator. If it is at every tap, the issue is upstream of the home.</p>
+
+<h2>Step four: time of day and season</h2>
+
+<p>Worse-tasting or worse-smelling water in the morning, after the household has been still overnight, points to stagnation in the household plumbing. Flush each fixture for 30 to 60 seconds before drinking in the morning if you are on a well, particularly if you have lead solder in older plumbing (lead solder in plumbing was banned in the U.S. in 1986; homes from before that have lead-solder risk in their copper joints).</p>
+
+<p>Worse-tasting or smellier water in summer, particularly on municipal supply, points to seasonal disinfection adjustment by the utility. Warmer source water requires more aggressive disinfection, which can drive up trihalomethane and haloacetic acid by-products. OUC and Toho both publish quarterly disinfection by-product data on their CCRs.</p>
+
+<h2>Step five: where the symptom shows up</h2>
+
+<p>If the symptom is only at the ice maker (cloudy ice, off taste in ice, scale in the ice bin), the cause is the supply line to the fridge or a fouled fridge inline filter. Replace the fridge filter on schedule (every six months for most models) and verify the inline shutoff at the wall is fully open. If you have an under-sink RO, tee the fridge line off the RO storage tank for crystal ice.</p>
+
+<p>If the symptom is only at the kitchen tap (chlorine taste, sediment, TDS), an under-sink filtration or RO upgrade fixes it without touching the whole-house plumbing. If the symptom is at every fixture in the house, it is upstream of the home or at the main water line and needs point-of-entry treatment.</p>
+
+<h2>Putting the diagnostic together</h2>
+
+<p>Run through the five steps in order: look, smell, taste, when, and where. You will land in one of about a dozen common cases:</p>
+
+<ul>
+  <li>Orange staining everywhere + sulfur smell on both taps = well water with iron and hydrogen sulfide; install AIO + softener.</li>
+  <li>Orange staining everywhere + no smell = well water with iron; install AIO + softener.</li>
+  <li>No staining + sulfur smell only on hot tap = water heater anode rod problem; flush heater and swap anode.</li>
+  <li>White scale everywhere + chlorine smell = municipal supply with normal Central Florida hardness; install softener + catalytic carbon.</li>
+  <li>Blue or green stains on fixtures = acidic well water; install neutralizer + softener.</li>
+  <li>Cloudy ice and bad-tasting drinking water only = under-sink RO at the kitchen tap.</li>
+  <li>Earthy taste at one fixture = local biofilm; clean aerator and flush.</li>
+</ul>
+
+<p>If your symptoms do not match any of these, or if you have multiple symptoms at once, the test is the next step. We do not size a stack from a phone call. A real on-site test takes 30 to 45 minutes and we do not charge for it. <a href="/contact">Schedule a free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>
+
+<h2>What not to do</h2>
+
+<p>Do not pour bleach into the well casing without testing first. Shock chlorination is the right step for bacteria, but it should be done by someone who has the chlorine dose and contact time right. Wrong-dose shock chlorination either misses the contamination entirely or damages the well casing and pump.</p>
+
+<p>Do not buy a treatment system off a price list before testing the water. Every well in Central Florida is different. A stack that worked for your neighbor may not be the right stack for you.</p>
+
+<p>Do not assume the stain or smell is harmless because it has always been there. Iron and sulfur are aesthetic problems on their own, but they sometimes mask underlying bacterial or nitrate contamination. The Florida Department of Health recommends annual private well testing for bacteria and nitrate at minimum. If you have not run that test in the last 12 months, run it.</p>
+
+<h2>Recommended method: symptom-to-action table</h2>
+
+<p>Use this table to map what you are seeing or smelling at the tap to the treatment Pure Agua typically installs in Central Florida homes. Pricing is industry-standard installed range; a written quote follows the on-site test.</p>
+
+<table>
+  <thead>
+    <tr><th>Symptom</th><th>Likely cause</th><th>Recommended action</th><th>Installed range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Orange stains, no smell</td><td>Iron 0.3 to 5 ppm</td><td>Air-injection oxidation (AIO) + softener. See <a href="/water-treatment/florida-well-water">well water guide</a>.</td><td>$3,500 to $5,500</td></tr>
+    <tr><td>Black or brown stains</td><td>Manganese 0.05+ ppm</td><td>AIO with pH adjustment + softener.</td><td>$3,800 to $5,800</td></tr>
+    <tr><td>Rotten-egg smell on both taps</td><td>Hydrogen sulfide</td><td>AIO oxidation + catalytic carbon polish.</td><td>$3,500 to $5,500</td></tr>
+    <tr><td>Rotten-egg smell only on hot tap</td><td>Water heater anode reaction</td><td>Flush heater, swap anode rod. DIY-friendly.</td><td>$30 to $80 part cost</td></tr>
+    <tr><td>Blue or green stains</td><td>Low pH dissolving copper</td><td>Calcite acid neutralizer at point of entry.</td><td>$1,200 to $2,400</td></tr>
+    <tr><td>White scale, chlorine smell</td><td>Hard chloraminated city water</td><td>Softener + catalytic carbon. See <a href="/water-treatment/central-florida-hard-water">hard water guide</a>.</td><td>$3,000 to $6,000</td></tr>
+    <tr><td>Cloudy or off-tasting drinking water only</td><td>TDS, chlorine residual, taste/odor</td><td>Under-sink reverse osmosis. See <a href="/water-treatment/reverse-osmosis-drinking-water">RO guide</a>.</td><td>$400 to $1,200</td></tr>
+  </tbody>
+</table>
+
+<h2>Utility context for Central Florida</h2>
+
+<p>The big municipal suppliers across our service area treat surface water, surficial aquifer water, and deep Floridan Aquifer water in varying blends and post their results in annual Consumer Confidence Reports. Orlando Utilities Commission, Toho Water Authority, Orange County Utilities, the City of Sanford, the City of Kissimmee, and others each publish their own CCR every year on their utility websites; pull yours before assuming your symptom is sourced from the supply. Common city-water symptoms in 2026: chloramine taste and smell (universal across OUC and Toho), seasonal disinfection-byproduct increases in summer (typical of warmer surface-water periods), and modest hardness at the tap. Iron, manganese, and hydrogen sulfide on city water are unusual and usually point at premise plumbing or a water-heater problem rather than the utility.</p>
+
+<p>On private wells, the picture is different. Most private wells in Osceola, Orange, Lake, Polk, and Seminole counties tap the Floridan Aquifer directly and bring up water with measurable hardness, frequent iron and manganese, occasional hydrogen sulfide, and pH that can run on either side of neutral. The Florida Department of Health recommends annual private well testing for bacteria and nitrate at minimum, and a broader chemical panel every three to five years. We pull samples on every consultation.</p>
+
+<h2>Call a professional if...</h2>
+
+<p>The diagnostic table covers the common cases. Call Pure Agua or another licensed Central Florida water-treatment company if any of these apply:</p>
+
+<ul>
+  <li>You have multiple symptoms at once (staining plus smell plus taste change).</li>
+  <li>The symptom appeared suddenly with no change in plumbing, fixtures, or utility supply.</li>
+  <li>You are on a private well and have not tested for bacteria and nitrate in the last 12 months.</li>
+  <li>You see visible particulate or any colored discharge from a fixture that has been still overnight.</li>
+  <li>You are pregnant, have an infant in the household, or have an immunocompromised resident, and are unsure whether your water is safe.</li>
+  <li>You are buying or selling a home and need a documented water-quality test on a private well for the transaction.</li>
+</ul>
+
+<p>None of these are emergencies for most households, but they are situations where guessing at the cause is more expensive than testing.</p>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>Why does my hot water smell like sulfur but the cold does not?</h3>
+
+<p>That symptom is almost always the magnesium or aluminum anode rod inside the water heater reacting with sulfate ions and sulfate-reducing bacteria in the tank to produce hydrogen sulfide. The fix is to flush the heater, then swap the rod for a powered or zinc-aluminum anode that does not feed the bacteria. The smell typically disappears within a week of the swap.</p>
+
+<h3>Is iron in well water harmful or just an aesthetic problem?</h3>
+
+<p>Iron itself is an aesthetic problem at the levels seen in most Central Florida wells. The concern is that iron and manganese sometimes correlate with the presence of iron-reducing bacteria, and the same anaerobic conditions in a well that produce dissolved iron can also support sulfate-reducing bacteria and biofilms. Testing tells you whether the bacteria are present; treatment removes both the iron and the conditions.</p>
+
+<h3>Will a softener fix orange staining?</h3>
+
+<p>A softener will hold up to about 3 ppm of clear (ferrous) iron, but it is the wrong tool above that level or for any visible (ferric) iron. Above 3 ppm, the resin fouls inside 12 to 18 months and the softener stops softening. The right stack for Central Florida well iron is air-injection oxidation upstream of the softener. The AIO removes the iron; the softener handles hardness only.</p>
+
+<h3>My city water tastes like a swimming pool. What is going on?</h3>
+
+<p>OUC, Toho, and most Central Florida utilities use chloramine (chlorine plus ammonia) as the distribution disinfectant. Chloramine is more stable in the distribution loop than free chlorine and harder to remove at the home. A whole-house catalytic carbon filter (not standard GAC) reduces it efficiently across every fixture. Under-sink RO handles the kitchen tap.</p>
+
+<h3>How fast can a contamination problem get worse without treatment?</h3>
+
+<p>Iron staining and chloramine taste are stable; they do not get worse on their own. Bacterial contamination on a private well is the exception and can change rapidly after heavy rain, septic events, or pump-related infiltration. The Florida Department of Health recommends annual coliform testing on every private well in the state; we run that test free on every consultation.</p>
+
+</div>
+
+<h2>Background reading</h2>
+
+<p>For deeper background on each case, see our <a href="/water-treatment/florida-well-water">Florida well water guide</a> (the full well stack), <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> (softening), <a href="/water-treatment/reverse-osmosis-drinking-water">reverse osmosis guide</a> (point-of-use drinking water), and the <a href="/blog/well-water-treatment-osceola-orange-county">Osceola and Orange County well water article</a>. For the cost side of treatment see <a href="/blog/water-softener-cost-central-florida-2026">water softener cost in Central Florida</a>, and for the regulation side see <a href="/blog/pfas-central-florida-2026">PFAS in Central Florida drinking water</a>.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>`,
+  },
+  {
+    slug: "pfas-central-florida-2026",
+    title: "PFAS in Central Florida Drinking Water in 2026: What Residents Need to Know",
+    excerpt:
+      "The EPA's April 2024 PFAS rule set the first enforceable MCLs for PFOA and PFOS at 4 ppt. Here is what that means for Central Florida residents in 2026.",
+    date: "2026-05-14",
+    author: "Pure Agua Enterprises Team",
+    category: "Regulation",
+    readTime: "11 min read",
+    tags: ["PFAS", "EPA", "Regulation", "Central Florida", "Reverse Osmosis"],
+    content: `<figure><img src="/images/blog-hero/pfas-central-florida-2026.jpg" alt="Jar testing equipment used to evaluate water quality in a treatment laboratory" width="1200" height="630" /><figcaption>Photo: US EPA, Public domain, via Wikimedia Commons (File:Jar testing equipment for testing water quality.jpg).</figcaption></figure>
+
+<p data-bluf>In April 2024 the U.S. Environmental Protection Agency finalized the first enforceable National Primary Drinking Water Regulation for PFAS, setting Maximum Contaminant Levels of 4 parts per trillion (ppt) for PFOA and PFOS individually, with additional MCLs for PFHxS, HFPO-DA (GenX), and PFNA. Utilities have a phased compliance timeline. For Central Florida residents in 2026, the practical takeaway is: pull your utility's PFAS data from its water-quality page, and if you want point-of-use treatment, NSF/ANSI 58 certified reverse osmosis is the proven technology.</p>
+
+<h2>What PFAS are and why they matter</h2>
+
+<p>PFAS (per- and polyfluoroalkyl substances) are a class of more than 14,000 synthetic chemicals first manufactured in the 1940s. They are used in non-stick cookware, water-repellent fabrics, firefighting foam, food packaging, and industrial coatings. The carbon-fluorine bond that makes them useful also makes them extremely persistent in the environment; PFAS are sometimes called "forever chemicals" because they do not break down on any timescale relevant to drinking-water treatment. EPA documents PFOA, PFOS, and several related compounds as linked to adverse health outcomes including liver damage, immune-system effects, certain cancers, and developmental impacts. The EPA's 2024 rule represents the first time these compounds have been regulated as primary contaminants under the Safe Drinking Water Act.</p>
+
+<h2>The 2024 EPA rule, in plain language</h2>
+
+<p>The final rule, published April 10, 2024 in the Federal Register, sets:</p>
+
+<ul>
+  <li>MCL of 4 ppt (4 parts per trillion, or 0.004 micrograms per liter) for PFOA</li>
+  <li>MCL of 4 ppt for PFOS</li>
+  <li>MCL of 10 ppt for PFHxS</li>
+  <li>MCL of 10 ppt for HFPO-DA (GenX)</li>
+  <li>MCL of 10 ppt for PFNA</li>
+  <li>A Hazard Index of 1 for mixtures of PFHxS, HFPO-DA, PFNA, and PFBS</li>
+</ul>
+
+<p>Compliance dates: public water systems must complete initial monitoring by 2027 and meet the MCLs by 2029. Utilities serving more than 3,300 people must publish PFAS monitoring data starting in 2027. The rule applies to about 66,000 public water systems nationwide.</p>
+
+<h2>Where to find Central Florida PFAS data</h2>
+
+<p>Each Central Florida utility publishes its own water-quality data on its website. Three of the largest serving our work area:</p>
+
+<ul>
+  <li>Orlando Utilities Commission posts water-quality reports at <a href="https://www.ouc.com/environment-community/water/water-quality" target="_blank" rel="noopener noreferrer">ouc.com/environment-community/water/water-quality</a>.</li>
+  <li>Toho Water Authority (Kissimmee, Poinciana, Buenaventura Lakes) posts water-quality reports at <a href="https://www.tohowater.com/your-water/water-quality" target="_blank" rel="noopener noreferrer">tohowater.com/your-water/water-quality</a>.</li>
+  <li>Orange County Utilities posts water-quality data at <a href="https://www.ocfl.net/UtilitiesEnvironment.aspx" target="_blank" rel="noopener noreferrer">ocfl.net/UtilitiesEnvironment.aspx</a>.</li>
+</ul>
+
+<p>Each utility's annual Consumer Confidence Report is the right starting place. Look for the PFAS section (sometimes titled "Unregulated Contaminant Monitoring" prior to 2027 and "Per- and Polyfluoroalkyl Substances" once the final rule takes effect at your utility). Pull the most recent CCR before assuming anything about your water.</p>
+
+<p>We do not republish specific PFAS numbers for individual Central Florida utilities in this article. The numbers change with monitoring cycles, and the only authoritative source is the utility's own CCR. If you want help reading your utility's report, bring a copy to the free in-home water test and we will walk through it.</p>
+
+<h2>Point-of-use treatment that actually works for PFAS</h2>
+
+<p>NSF International has tested point-of-use technologies against PFAS for years. The Standards that matter:</p>
+
+<ul>
+  <li><strong>NSF/ANSI 58 (Reverse Osmosis):</strong> RO consistently removes more than 90% of PFOA and PFOS. A correctly installed under-sink RO is the proven point-of-use solution for the PFAS MCL.</li>
+  <li><strong>NSF/ANSI 53 (Drinking Water Treatment Units - Health Effects):</strong> Specific high-end carbon block filters certified to Standard 53 for PFOA and PFOS reduction. Performance varies by product; the certification on the filter is what matters, not the brand sticker.</li>
+  <li><strong>NSF/ANSI P473:</strong> An older PFAS-specific certification still used on some products; checks PFOA and PFOS reduction to below the EPA Health Advisory levels in place before the 2024 rule.</li>
+</ul>
+
+<p>Pitcher filters, faucet-mount filters, and refrigerator inline filters generally do not have NSF/ANSI 58 or NSF/ANSI 53 PFAS certification. If a manufacturer makes a PFAS claim without one of those certifications on the product, the claim is marketing, not validated performance.</p>
+
+<h2>Whole-house carbon and PFAS</h2>
+
+<p>A whole-house granular activated carbon (GAC) system can reduce PFAS at the point of entry. The catch is service life. PFAS will eventually break through a GAC bed and from that point forward the bed produces effluent that may carry PFAS at higher levels than the influent (a "chromatographic effect"). The EPA documents this in its drinking-water treatability database. Whole-house GAC for PFAS specifically requires more frequent media changeouts than the same bed used only for chlorine and taste/odor, and the timing depends on the influent PFAS concentration and the bed volume. For most Central Florida homes the simpler and more reliable approach is an NSF/ANSI 58 certified under-sink RO at the kitchen tap, where the volume of treated water is small and the membrane lifetime is predictable.</p>
+
+<h2>What about boiling, distillation, or ion exchange?</h2>
+
+<p>Boiling does not remove PFAS. The carbon-fluorine bond is stable through boiling temperatures, and the water that evaporates is pure water while the PFAS concentrate in what remains. Distillation works (the PFAS stay in the boiler) but residential distillation is impractical for daily use.</p>
+
+<p>Specific anion-exchange resins can remove PFAS at the point of entry and are used at some municipal treatment plants. Residential anion-exchange for PFAS is a more specialized install and not common in the Central Florida residential market.</p>
+
+<h2>What Pure Agua actually installs for PFAS-concerned households</h2>
+
+<p>Our standard recommendation for a Central Florida home concerned about PFAS, with finished water that is otherwise typical Floridan Aquifer supply: a properly sized water softener at the point of entry (for the underlying hardness), a whole-house catalytic carbon filter at the point of entry (for chlorine and chloramine residual), and an NSF/ANSI 58 certified under-sink reverse osmosis system at the kitchen tap (for PFAS, lead, arsenic, fluoride, nitrate, and dissolved solids generally). The RO is the workhorse for drinking water; the softener and carbon protect the house and improve shower and laundry water.</p>
+
+<p>For homes on a private well with concern about PFAS, the stack is the same plus the well-specific pre-treatment (sediment, neutralizer if pH is low, AIO if iron and sulfur are present). RO is always at the polishing stage, downstream of the rest.</p>
+
+<h2>Costs and timeline</h2>
+
+<p>Installed pricing in the Central Florida market for 2026 sits in industry-standard ranges. An NSF/ANSI 58 certified under-sink RO with permeate pump runs $400 to $1,200 installed; a re-mineralization post-filter adds $80 to $150. Filter and membrane maintenance runs $80 to $150 per year for filters and $80 to $150 every two to five years for the membrane.</p>
+
+<p>EPA compliance timeline: utilities have until 2027 for initial monitoring and 2029 for compliance with the MCL. If your utility is over the new MCL on any of the regulated PFAS compounds, the utility is required to publish that finding and take corrective action. Treatment changes at the utility level (typically adding GAC or anion exchange at the plant) are funded in part through federal grants under the Bipartisan Infrastructure Law. Residential point-of-use RO is your fastest path to PFAS-treated drinking water at home regardless of where the utility is in its compliance timeline.</p>
+
+<h2>Florida-specific PFAS context</h2>
+
+<p>Florida has not set a state PFAS standard stricter than the federal rule, so the EPA 2024 MCLs are the binding numbers for utilities in our service area. The Florida Department of Environmental Protection has been collecting PFAS occurrence data for several years through its statewide monitoring program and publishes that data on the FDEP PFAS dashboard. The dashboard is the right place to look for site-specific data on landfill leachate, fire-training-area runoff, and industrial discharge that can affect groundwater near a private well. If you are on a private well within a mile of a current or former military base, airport, fire-training site, or industrial facility that used aqueous film-forming foam, PFAS testing is worth running specifically rather than assuming background levels.</p>
+
+<p>The U.S. Geological Survey and the U.S. Environmental Protection Agency have both documented PFAS detection in Florida groundwater at varying levels. Central Florida's Floridan Aquifer is generally lower in PFAS than coastal surface-water sources, but local hot spots exist. The only reliable answer for a private well is a laboratory test using EPA Method 537.1 or 533, which most certified Florida labs will run for $250 to $400 per sample.</p>
+
+<h2>How under-sink RO actually performs against PFAS</h2>
+
+<p>NSF/ANSI 58 certification requires the manufacturer to demonstrate at least 95% reduction of total dissolved solids, plus specific reductions for arsenic, barium, cadmium, chromium, copper, fluoride, lead, nitrate, selenium, and (in some certified products) PFOA and PFOS. The PFAS-specific certification requirement was added to Standard 58 after the EPA's 2022 health advisories and is now the right thing to look for on the data plate. NSF-certified RO membranes in independent testing reduce PFOA and PFOS by 95% to 99% from typical residential influent. Performance holds across the full life of the membrane provided the system is maintained on schedule.</p>
+
+<p>Membrane life on a Central Florida home with normal feed pressure (40 to 80 PSI) and routine pre-filter changes is two to five years. The first sign of declining performance is a slow drop in production rate, not a measurable bump in TDS. A handheld TDS meter on the permeate line is a useful homeowner check: a stable reading under 30 ppm indicates the membrane is healthy. Pure Agua includes a TDS post-filter check at every annual service visit and replaces the membrane on indication, not on a fixed schedule.</p>
+
+<h2>Sizing and integration with the rest of the stack</h2>
+
+<p>Under-sink RO is a polishing stage, not a primary treatment. The right place to put it is downstream of whatever pre-treatment your home needs at the point of entry. For a typical Central Florida city-water home: softener + catalytic carbon at the main, RO at the kitchen tap. For a well home: neutralizer (if pH is low) + AIO (if iron or sulfide is present) + softener at the main, RO at the kitchen tap. The RO sees pre-treated water in both cases, which extends membrane life and gives the most consistent PFAS reduction.</p>
+
+<p>Storage tank size matters for households that draw a lot of cold filtered water at once (coffee, cooking, pets, refilling reusable bottles). A standard 3.2-gallon pressurized storage tank holds about 2 gallons of usable water; larger 4.4-gallon tanks hold about 3 usable gallons. Recovery rate (the fraction of feed water that becomes permeate) is 20% to 30% on a standard residential RO, so a 3-gallon draw demands about 10 to 15 gallons of feed at the membrane. We size storage to the household's peak draw, not the average.</p>
+
+<h2>Call a professional if...</h2>
+
+<p>RO is one of the easier installs in the residential water-treatment stack, but a few situations call for a professional:</p>
+
+<ul>
+  <li>You are on a private well and your PFAS test came back near or above the new MCLs. The treatment design needs to account for upstream pre-treatment and verify membrane performance on your specific feed.</li>
+  <li>You want the RO permeate tied into the refrigerator ice maker or a pot filler. The plumbing run and the storage-tank pressure profile both change.</li>
+  <li>You have low household water pressure (under 40 PSI at the main). The RO needs a booster pump for reliable performance.</li>
+  <li>You have a septic system and are concerned about RO reject water volume. Most Central Florida systems can handle it without modification, but verification beats assumption.</li>
+  <li>You want a re-mineralization or alkalinizing post-filter. The right configuration depends on your starting TDS and target pH.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>How worried should I be about PFAS in Central Florida tap water in 2026?</h3>
+
+<p>For most Central Florida residents on city water, the 2024 EPA rule is being implemented on a timeline. Utilities have until 2027 for initial monitoring and 2029 for MCL compliance. The right move in 2026 is to pull your utility's most recent water-quality report, check whether PFAS data is published, and decide whether you want point-of-use treatment now or after the utility-level compliance date.</p>
+
+<h3>Does boiling water remove PFAS?</h3>
+
+<p>No. PFAS are stable through boiling temperatures and concentrate in the remaining water as the cleaner water evaporates. Distillation removes them (the PFAS stay in the boiler) but residential distillation is too slow for daily drinking and cooking water. NSF/ANSI 58 certified reverse osmosis is the practical residential solution.</p>
+
+<h3>Do pitcher filters remove PFAS?</h3>
+
+<p>Most do not. Some specific pitcher and faucet-mount filters are certified to NSF/ANSI 53 for PFOA and PFOS reduction, but the certification on the package is what matters. A manufacturer claim of "removes PFAS" without an NSF certification is marketing, not validated performance. Check the data plate on the filter before relying on it for PFAS reduction.</p>
+
+<h3>How much does an NSF-certified under-sink RO cost installed in Central Florida?</h3>
+
+<p>Installed pricing in 2026 sits in the $400 to $1,200 range for a residential under-sink NSF/ANSI 58 certified RO with permeate pump and storage tank. A re-mineralization post-filter adds $80 to $150. Filter and membrane maintenance runs $80 to $150 per year for filters and $80 to $150 every two to five years for the membrane.</p>
+
+<h3>Will a whole-house carbon filter remove PFAS for the whole home?</h3>
+
+<p>A whole-house granular activated carbon system can reduce PFAS at the point of entry, but the carbon eventually saturates and can release captured PFAS back into the effluent. The EPA documents this "chromatographic effect" in its drinking-water treatability database. For most Central Florida homes, an under-sink RO at the kitchen tap is more reliable for PFAS reduction than whole-house carbon.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>Pull your utility's most recent CCR. Read the PFAS section. Compare the numbers to the 2024 MCLs. If you want a point-of-use treatment installed before the utility-level compliance date, an NSF/ANSI 58 certified under-sink RO is the right tool. Pure Agua sizes, installs, and maintains under-sink RO across Kissimmee, Orlando, Lake Mary, Sanford, Clermont, Lakeland, Winter Park, and the rest of Central Florida. For deeper background, our <a href="/water-treatment/reverse-osmosis-drinking-water">reverse osmosis pillar</a> covers RO chemistry and sizing in detail, our <a href="/water-treatment/central-florida-hard-water">hard water guide</a> covers the upstream softening question, and our <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers private-well pre-treatment. For the cost side see <a href="/blog/water-softener-cost-central-florida-2026">water softener cost in Central Florida</a>, and for diagnostic context see <a href="/blog/why-orlando-water-smells-or-stains-2026">why your Orlando water smells or stains</a>.</p>
+
+<p><a href="/contact">Schedule your free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>. We will read your CCR with you, test on site, and quote in writing.</p>`,
+  },
+  {
+    slug: "central-florida-whole-house-water-install-2026",
+    title: "Central FL Whole-House Install 2026: Day-of Guide",
+    excerpt:
+      "Step-by-step whole-house water system installation in Central Florida. Free water test, NSF certified equipment, 3-5 hour install timeline, annual service.",
+    date: "2026-05-15",
+    author: "Pure Agua Enterprises Team",
+    category: "Installation",
+    readTime: "11 min read",
+    tags: ["Whole-House Install", "Central Florida", "Water Softener", "Reverse Osmosis"],
+    content: `<p data-bluf>Most Central Florida whole-house installs run 3 to 5 hours of plumbing. The Pure Agua Enterprises team brings NSF/ANSI 58 and 61 certified equipment, performs a free in-home water test on arrival (hardness 4 to 12 gpg is typical from the Floridan Aquifer, plus chloramines for OUC and sediment), and walks the homeowner through controller programming. Family-owned since 2016, 200+ reviews, 5.0★.</p>
+
+<div style="background:#f0f9ff;border-left:4px solid #0284c7;padding:1rem 1.25rem;margin:1.5rem 0;border-radius:0.5rem;">
+<p style="margin:0;font-weight:600;color:#0c4a6e;">Start here: book your free in-home water test</p>
+<p style="margin:0.5rem 0 0;color:#0c4a6e;">Same-week appointments in Kissimmee, Orlando, and surrounding cities. Call <a href="tel:+14075128342">(407) 512-8342</a> or <a href="/contact">request a visit online</a>. No obligation, no pressure quote.</p>
+</div>
+
+<h2>Pre-install: the free in-home water test (what we measure)</h2>
+
+<p>Every Pure Agua install starts with a free in-home water test, and we run it before anyone touches your plumbing. The test takes about 20 minutes at your kitchen sink. We measure total hardness in grains per gallon (gpg), free chlorine versus total chlorine (the gap reveals chloramines on OUC homes), pH, iron, hydrogen sulfide where the rotten-egg smell is reported, and total dissolved solids (TDS). On private wells we add a bacterial screen and a manganese check.</p>
+
+<p>Why this matters: <a href="/water-treatment/central-florida-hard-water">Central Florida hardness</a> varies block by block. Kissimmee on Toho frequently reads 12 to 22 gpg straight from the Floridan Aquifer. Orange County blends sources and often runs 8 to 14 gpg. Seminole County pockets test as soft as 6 gpg. A 14 gpg home and a 22 gpg home need different softener capacities, so we size from your numbers, not a county average. Detailed quality context lives in our <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>.</p>
+
+<p>We leave a one-page test report on the counter so you can compare quotes if you choose to. About 30 percent of homeowners we test do not need a softener at all (Seminole pockets, recent reverse osmosis at the utility, very low-water-use households), and we say so on the spot.</p>
+
+<p>The test also flags red-flag conditions that change the install plan. Iron above 0.3 mg/L moves you to an air-injection oxidizer ahead of the softener. A pH below 6.8 (occasionally seen on shallow surficial wells in southeast Osceola) calls for a calcite neutralizer before any softener resin, because acidic water leaches copper from your supply lines and dissolves softener resin from underneath. Hydrogen sulfide above 1 mg/L is no longer an "aesthetic" issue and requires aeration plus catalytic carbon. We have walked away from installs where the test revealed a problem that needed a different fix; that is what the free test is for.</p>
+
+<h2>Equipment selection (softener, carbon, iron staging, RO)</h2>
+
+<p>The four building blocks of a Central Florida whole-house install:</p>
+
+<ul>
+<li><strong>Ion-exchange softener</strong> sized 32,000 to 80,000 grain capacity depending on hardness and household size. All resin and tanks Pure Agua installs carry NSF/ANSI 44 (for softeners) or NSF/ANSI 61 (drinking-water materials safety). Pricing detail in our <a href="/blog/water-softener-cost-florida">water softener cost guide</a>.</li>
+<li><strong>Whole-house carbon backwash filter</strong> for chlorine and chloramines. OUC primarily delivers free chlorine; Toho delivers chloramines, which require catalytic carbon (standard GAC will not strip ammonia). For OUC homes a standard high-grade GAC bed is fine; for Toho we always specify catalytic.</li>
+<li><strong>Iron staging</strong> for the outlying Osceola and Lake County wells that read above 0.3 mg/L iron or above 0.05 mg/L manganese. This is usually an air-injection oxidizer ahead of the softener or a dedicated greensand filter.</li>
+<li><strong>Under-sink reverse osmosis</strong> at the kitchen, NSF/ANSI 58 certified for TDS, lead, and PFAS reduction. We pair RO with NSF/ANSI 61 tubing and a lead-free faucet.</li>
+</ul>
+
+<p>Pure Agua does not white-label discount tank rebrands. The membranes, control valves, and resin we use are WQA Gold Seal where applicable and carry manufacturer warranties (typically 10 years on tanks, 5 to 10 years on electronics). For the full pillar overview see <a href="/water-treatment/reverse-osmosis-drinking-water">our reverse osmosis page</a>.</p>
+
+<h2>Central FL-specific considerations</h2>
+
+<p>What makes Central Florida different from a generic "whole-house" install:</p>
+
+<p><strong>Floridan Aquifer chemistry.</strong> The aquifer's limestone bed loads water with calcium and magnesium, and in pockets, with hydrogen sulfide. A correctly programmed softener handles both; a 32,000-grain residential unit will not. We size up.</p>
+
+<p><strong>Utility-specific disinfection.</strong> OUC runs free chlorine; carbon removes it quickly. Toho Water Authority runs chloramines (chlorine plus ammonia), which require catalytic carbon and longer contact time. Some boundary neighborhoods blend feeds month to month, which is why we test your tap, not the published utility CCR. Background reading: our <a href="/blog/pfas-central-florida-2026-orange-county">Central FL PFAS coverage</a> and <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hardness explainer</a>.</p>
+
+<p><strong>Well water in outlying counties.</strong> Eastern Osceola, southern Lake, and parts of unincorporated Orange County run on private wells. Iron and hydrogen sulfide complicate the install (oxidation stage required) and a bacterial screen is mandatory before you skip municipal disinfection. The <a href="/water-treatment/florida-well-water">Florida well-water pillar</a> walks through this in detail, and our <a href="/well-water-treatment">well water treatment service page</a> covers what we install.</p>
+
+<p>Authoritative utility sources (open in a new tab): <a href="https://www.ouc.com/environment-community/water/water-quality-report" rel="noopener" target="_blank">OUC Water Quality Report</a> and <a href="https://www.tohowater.com/customer-service/water-quality" rel="noopener" target="_blank">Toho Water Authority quality page</a>.</p>
+
+<h2>The install timeline (8 AM to ~1 PM)</h2>
+
+<p>A typical Pure Agua Enterprises Team install runs five hours door to door. Here is the standard sequence:</p>
+
+<p><strong>8:00 AM, arrival and walkthrough.</strong> Two-technician crew confirms the install location (garage, utility closet, or exterior pad), staging area, and the route from the water main to the appliance. We lay drop cloths and floor protection on any indoor runs.</p>
+
+<p><strong>8:20 AM, main shutoff and pressure bleed.</strong> Main valve is closed at the meter or backflow preventer. Lines drain via a downstream hose bib. We check static and dynamic pressure here, because Central Florida service lines occasionally read above 80 psi and a pressure-reducing valve gets added if needed.</p>
+
+<p><strong>9:00 AM, bypass loop and brine drain.</strong> The bypass loop is the most important plumbing decision in the install. It lets the homeowner isolate the softener for service, regeneration troubleshooting, or future media replacement without shutting off house water. Brine drain is run to the nearest approved discharge (laundry standpipe, dedicated condensate line, or an exterior gravel pad where code allows).</p>
+
+<p><strong>10:30 AM, equipment set and connections.</strong> Tanks set, control valve threaded, brine tank filled with the first 80 lb of solar salt, RO under-sink unit mounted on the cabinet wall and tied to the cold supply and drain saddle.</p>
+
+<p><strong>11:30 AM, controller programming.</strong> We program the valve for your measured hardness with a 20 percent capacity reserve. Regen frequency is metered, not timed, so the unit only regenerates after consuming its capacity. We label the bypass valve, brine drain, and shutoff in a way the homeowner can identify a year later.</p>
+
+<p><strong>12:30 PM, leak test and walkthrough.</strong> Every joint is wiped, pressurized, and re-checked at 15 minutes and again at 45 minutes. We rerun the hardness test at the kitchen tap to confirm zero gpg (or your target post-softening reading), then walk you through salt refill, bypass operation, RO filter-change interval, and the annual service we include.</p>
+
+<p><strong>1:00 PM, leave-behind.</strong> Owner's manual, warranty card, salt-fill instructions, your before/after water test card, and a magnet with our service line.</p>
+
+<p>Two notes on this timeline. First, the 8 AM start is by design: we want sealed joints to cure during the warmest hours of a Central Florida day, which catches any pinhole leak by the time the walkthrough begins. Second, we never leave a homeowner with a partially commissioned system. If a part arrives wrong, if a fitting cracks during pressure test, or if the panel detects a fault during programming, we either complete the install that day with a swap from the truck or restore the home to pre-install plumbing and reschedule. You always have water at the tap before the team leaves.</p>
+
+<h2>Recommended method: condition to action table</h2>
+
+<p>Pick the row that matches your tap. The recommended configuration column is what Pure Agua installs by default for that profile.</p>
+
+<table>
+<thead>
+<tr><th>Central FL water profile</th><th>Recommended Pure Agua configuration</th><th>Typical install duration and price band</th></tr>
+</thead>
+<tbody>
+<tr><td>OUC service, 8 to 12 gpg, free chlorine</td><td>48,000-grain softener + whole-house GAC</td><td>3 to 4 hours, $1,800 to $2,800</td></tr>
+<tr><td>Toho service, 12 to 22 gpg, chloramines</td><td>64,000-grain softener + catalytic carbon</td><td>4 to 5 hours, $2,400 to $3,400</td></tr>
+<tr><td>Seminole County, 6 to 10 gpg, free chlorine</td><td>32,000-grain softener + GAC (optional)</td><td>3 to 4 hours, $1,500 to $2,200</td></tr>
+<tr><td>Private well, Osceola or Lake County, iron above 0.3 mg/L</td><td>Air-injection iron filter + 64,000-grain softener</td><td>5 to 6 hours, $3,200 to $4,800</td></tr>
+<tr><td>Any utility, family drinking RO requested</td><td>Add under-sink NSF/ANSI 58 RO at kitchen</td><td>+45 minutes, +$450 to $750</td></tr>
+<tr><td>PFAS-aware household, OCU service area</td><td>Whole-house GAC + under-sink RO</td><td>4 to 5 hours, $2,600 to $3,800</td></tr>
+</tbody>
+</table>
+
+<p>Prices reflect installed cost including standard parts, labor, permits where required, and first-fill salt. Detailed line items are in our <a href="/blog/water-softener-cost-florida">cost guide</a>. <a href="/financing">Financing options</a> are available, including 0 percent APR for 12 months on qualifying approvals.</p>
+
+<h2>Permits and plumbing code</h2>
+
+<p>Florida Plumbing Code (FBC-P), adopted from the International Plumbing Code, governs every water-treatment install in the state. Three practical points:</p>
+
+<ul>
+<li><strong>Permits.</strong> City of Kissimmee and City of Orlando both require a plumbing permit when an install ties into the main supply or creates a new drain. Permit fees run $40 to $120 depending on jurisdiction and are pulled by Pure Agua, not the homeowner. Unincorporated Osceola and Orange County permitting is similar in scope.</li>
+<li><strong>Backflow protection.</strong> Brine and RO drain lines must be air-gapped per code (no direct connection to a sanitary line). We use an approved air-gap fitting at the laundry standpipe or condensate line.</li>
+<li><strong>HOA approval.</strong> If your equipment lives outside on a side pad, many HOAs require a screening enclosure or specific paint color. We check the HOA letter before drilling. If the pad has to be inside the garage, that drives the conduit run and may add an hour to the install.</li>
+</ul>
+
+<p>Every Pure Agua technician carries a current Florida plumbing license and our company carries general liability and workers comp. Verify any contractor at <a href="https://www.myfloridalicense.com" rel="noopener" target="_blank">myfloridalicense.com</a> before signing.</p>
+
+<h2>Call a professional if...</h2>
+
+<p>Pure Agua installs about half its volume into homes where the owner started the project as a DIY and stalled. Five signs you should book the pros from the start:</p>
+
+<ul>
+<li><strong>Private well, no recent bacterial test.</strong> Bacterial contamination requires UV or chlorine disinfection upstream of any softener resin, and that decision needs lab data.</li>
+<li><strong>Multi-zone home or guest house.</strong> A loop that feeds two structures or a detached suite requires a manifold rebuild, not a tee, to maintain pressure on both legs.</li>
+<li><strong>Pre-1986 home with original supply lines.</strong> Pre-1986 plumbing can include lead solder or galvanized pipe. A softener installed on a corroding line accelerates leaks; we recommend a line replacement or partial replumb first.</li>
+<li><strong>HOA with aesthetic restrictions.</strong> Side-yard installs in HOA communities frequently require enclosure plans submitted in advance.</li>
+<li><strong>Water pressure above 80 psi or below 40 psi.</strong> High pressure damages resin tanks and RO membranes; low pressure starves them. A pressure regulator or booster pump may be required before the install.</li>
+<li><strong>Visible iron staining plus sulfur smell on a well.</strong> This is a multi-stage build (oxidation, filtration, softening), not a single-tank job.</li>
+<li><strong>You rent.</strong> Tenant installs need landlord sign-off and a portable bypass plan. We can scope a removable system.</li>
+</ul>
+
+<h2>FAQs</h2>
+
+<p><strong>How long does a whole-house install take in Central Florida?</strong></p>
+<p>Plan on 3 to 5 hours of work for a softener-plus-carbon install on city water, and 5 to 6 hours when iron staging is added for a private well. Same-day water restoration is standard, and we leave you with treated water before our truck leaves the driveway.</p>
+
+<p><strong>Do I need a permit for a water softener in Kissimmee or Orlando?</strong></p>
+<p>Yes, in most cases. City of Kissimmee and City of Orlando both require a plumbing permit when the install ties into the home's main supply line. Pure Agua pulls the permit as part of the install fee; you do not file paperwork.</p>
+
+<p><strong>Will my water taste different right after install?</strong></p>
+<p>Yes. The first 30 to 60 minutes of softened water can taste slightly slick or salty as the resin bed equilibrates, and any first-fill carbon dust flushes through. By the next morning the water is at steady state, and most homeowners report a noticeable improvement in coffee, ice, and shower feel.</p>
+
+<p><strong>What is included in annual service?</strong></p>
+<p>Pure Agua includes one annual service visit on every install. That visit covers a hardness retest, control-valve diagnostic, brine-tank cleanout, RO filter and membrane inspection (replacement billed separately at our cost), and a full leak check on every joint placed during the original install.</p>
+
+<p><strong>Does the system work during a power outage?</strong></p>
+<p>The softener and carbon tanks pass water passively during a power outage; you keep filtered, softened water as long as municipal pressure holds. The regen cycle pauses, and the controller resumes scheduling once power returns. RO systems require pressure but no power.</p>
+
+<p><strong>How does this compare to a water conditioner or "salt-free" system?</strong></p>
+<p>Salt-free template-assisted crystallization (TAC) systems precipitate hardness into a non-scaling crystal form. They do not soften water (the hardness number does not drop), and they perform inconsistently above 20 gpg or with chlorinated feed. For Central Florida's hardness profile, an ion-exchange softener remains the standard answer.</p>
+
+<h2>Ready to book your install?</h2>
+
+<p>Pure Agua Enterprises has been installing whole-house systems across Central Florida since 2016. We are family-owned, 5.0★ rated with 200+ Google reviews, WQA certified, NSF/ANSI 58 and 61 compliant on every install, and Florida licensed and insured. Service area includes Kissimmee, Orlando, Winter Park, Lake Mary, Sanford, Apopka, St. Cloud, and surrounding cities; details on our <a href="/service-area">service area page</a> and broader coverage on <a href="/service-areas">service areas</a>.</p>
+
+<p>Quick links: <a href="/water-filtration">whole-house filtration</a>, <a href="/water-softener">water softener</a>, <a href="/reverse-osmosis">reverse osmosis</a>, <a href="/well-water-treatment">well water treatment</a>, <a href="/water-testing">free water testing</a>, <a href="/water-treatment">water treatment overview</a>, <a href="/about">about Pure Agua</a>, <a href="/financing">financing</a>, <a href="/faq">FAQ</a>, and the central <a href="/water-softener-in-florida">Florida softener landing</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">request your free in-home water test online</a>. Same-week appointments most weeks. No obligation, no pressure quote, and you keep the test card whether you book the install or not.</p>`,
   },
 ];
 

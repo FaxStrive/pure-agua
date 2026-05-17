@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "Water Quality Blog for Florida Homeowners",
   description:
     "Expert guides on Kissimmee and Orlando water quality, water softeners, reverse osmosis, and well water treatment from the Pure Agua team.",
-  alternates: { canonical: "https://pureaguaenterprise.com/blog" },
+  alternates: { canonical: "https://pureaguafl.com/blog" },
   openGraph: {
     title: "Water Quality Blog for Florida Homeowners | Pure Agua",
     description:
-      "Expert water quality guides for Central Florida homeowners, Orlando, Kissimmee, and surrounding areas.",
-    url: "https://pureaguaenterprise.com/blog",
+      "Expert water quality guides for Central Florida homeowners: Orlando, Kissimmee, and surrounding areas.",
+    url: "https://pureaguafl.com/blog",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Water Quality Blog - Expert Guides for Central Florida" }],
   },
   twitter: {
@@ -43,7 +43,7 @@ export default function BlogPage() {
           </h1>
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
             Expert guides on water quality, softeners, filtration, and well water treatment
-written for Orlando and Kissimmee homeowners.
+            written for Orlando and Kissimmee homeowners.
           </p>
         </div>
       </section>

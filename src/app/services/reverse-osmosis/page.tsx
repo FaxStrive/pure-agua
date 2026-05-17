@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Under-sink reverse osmosis systems removing 99% of contaminants including PFAS, lead, and arsenic. Installation in Kissimmee and Orlando, FL.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/services/reverse-osmosis",
+    canonical: "https://pureaguafl.com/services/reverse-osmosis",
   },
   openGraph: {
     title: "Reverse Osmosis Drinking Water Systems | Pure Agua",
     description: "Remove 99% of water contaminants including PFAS, lead, and arsenic. Under-sink RO systems in Central Florida.",
-    url: "https://pureaguaenterprise.com/services/reverse-osmosis",
+    url: "https://pureaguafl.com/services/reverse-osmosis",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Reverse Osmosis Systems - Pure Agua Enterprises" }],
   },
   twitter: {

@@ -1,10 +1,12 @@
 import type { MetadataRoute } from 'next';
+import { cities, services } from '@/lib/local-services';
+import { pillars } from '@/lib/pillars';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pureaguaenterprise.com';
-  const now = new Date('2026-04-05');
+  const baseUrl = 'https://pureaguafl.com';
+  const now = new Date('2026-05-14');
 
-  return [
+  const staticEntries: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${baseUrl}/services/water-softening`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/services/reverse-osmosis`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
@@ -42,11 +44,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/well-water-treatment`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     // Geo landing pages
     { url: `${baseUrl}/water-softener-in-florida`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    // New 2026-04 long-form articles
+    // 2026-04 long-form articles
     { url: `${baseUrl}/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection`, lastModified: new Date('2026-04-21'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/sinkholes-karst-central-florida-wells`, lastModified: new Date('2026-04-20'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/agua-kissimmee-orlando-guia-espanol`, lastModified: new Date('2026-04-19'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/vacation-rental-water-quality-disney-area`, lastModified: new Date('2026-04-18'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/pfas-central-florida-2026-orange-county`, lastModified: new Date('2026-04-17'), changeFrequency: 'monthly', priority: 0.8 },
+    // 2026-05 phase 3 blog articles
+    { url: `${baseUrl}/blog/water-softener-cost-central-florida-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/why-orlando-water-smells-or-stains-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog/pfas-central-florida-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
+
+  // Phase 3 pillar pages
+  const pillarEntries: MetadataRoute.Sitemap = pillars.map((p) => ({
+    url: `${baseUrl}/water-treatment/${p.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }));
+
+  // Phase 3 local grid (cities x services)
+  const localEntries: MetadataRoute.Sitemap = [];
+  for (const service of services) {
+    for (const city of cities) {
+      localEntries.push({
+        url: `${baseUrl}/${service.slug}-in-${city.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+      });
+    }
+  }
+
+  return [...staticEntries, ...pillarEntries, ...localEntries];
 }

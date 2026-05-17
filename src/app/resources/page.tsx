@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Educational articles about water quality, filtration technology, and maintenance guides for Central Florida homeowners. Free resources from Pure Agua experts.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/resources",
+    canonical: "https://pureaguafl.com/resources",
   },
   openGraph: {
     title: "Water Quality Guides & Homeowner Tools | Pure Agua",
     description: "Educational resources about water quality and filtration for Central Florida homeowners.",
-    url: "https://pureaguaenterprise.com/resources",
+    url: "https://pureaguafl.com/resources",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Water Quality Resources - Pure Agua Enterprises" }],
   },
   twitter: {

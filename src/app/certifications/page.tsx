@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'NSF/ANSI 58/61, WQA & FL Licensed | Pure Agua Enterprise',
   description: 'Pure Agua Enterprise holds NSF/ANSI 58, NSF/ANSI 61, WQA certification, and a Florida contractor license. 5.0★ 200+ reviews. Family-owned Kissimmee, FL.',
-  alternates: { canonical: 'https://pureaguaenterprise.com/certifications' },
+  alternates: { canonical: 'https://pureaguafl.com/certifications' },
 }
 
 const certSchema = {

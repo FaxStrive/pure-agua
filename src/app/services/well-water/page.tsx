@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Well water treatment for iron, sulfur, bacteria, and sediment in Central Florida. Professional installation with lifetime warranty. Call today.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/services/well-water",
+    canonical: "https://pureaguafl.com/services/well-water",
   },
   openGraph: {
     title: "Well Water Treatment Systems in Florida | Pure Agua",
     description: "Custom well water treatment for iron, sulfur, bacteria, and sediment. Professional installation in Central Florida with lifetime warranty.",
-    url: "https://pureaguaenterprise.com/services/well-water",
+    url: "https://pureaguafl.com/services/well-water",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Well Water Treatment - Pure Agua Enterprises" }],
   },
   twitter: {

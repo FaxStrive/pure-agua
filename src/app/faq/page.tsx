@@ -4,16 +4,16 @@ import dynamic from "next/dynamic";
 const PageClient = dynamic(() => import("./PageClient"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "Water Filtration Questions & Answers FAQ",
+  title: "Water Filtration FAQ, Kissimmee and Orlando | Pure Agua",
   description:
-    "Find answers to common questions about water filtration, installation, pricing, and maintenance from Pure Agua Enterprises in Kissimmee and Orlando, FL.",
+    "Answers about water softeners, reverse osmosis, well water treatment, installation, pricing, and maintenance from Pure Agua Enterprises in Kissimmee and Orlando, FL.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/faq",
+    canonical: "https://pureaguafl.com/faq",
   },
   openGraph: {
     title: "Water Filtration Questions & Answers FAQ | Pure Agua",
     description: "Common questions about water filtration, pricing, and installation in Central Florida answered by Pure Agua experts.",
-    url: "https://pureaguaenterprise.com/faq",
+    url: "https://pureaguafl.com/faq",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "FAQ - Pure Agua Enterprises" }],
   },
   twitter: {

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "Privacy Policy for Pure Agua Enterprises. Learn how we collect, use, and protect your personal information including SMS and text messaging data.",
   alternates: {
-    canonical: "https://pureaguaenterprise.com/privacy",
+    canonical: "https://pureaguafl.com/privacy",
   },
   openGraph: {
     title: "Privacy Policy for Website & SMS Users | Pure Agua",
     description: "Learn how Pure Agua Enterprises collects, uses, and protects your personal information.",
-    url: "https://pureaguaenterprise.com/privacy",
+    url: "https://pureaguafl.com/privacy",
     images: [{ url: "/images/og-image.png", width: 1200, height: 630, alt: "Pure Agua Enterprises Privacy Policy" }],
   },
   twitter: {
