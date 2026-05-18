@@ -3,7 +3,7 @@ import { cities, services } from '@/lib/local-services';
 import { pillars } from '@/lib/pillars';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pureaguafl.com';
+  const baseUrl = 'https://www.pureaguafl.com';
   const now = new Date('2026-05-14');
 
   const staticEntries: MetadataRoute.Sitemap = [
