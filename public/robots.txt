@@ -6,9 +6,10 @@ Disallow: /*?sort=
 Disallow: /*?filter=
 Disallow: /*?ref=
 
-# AI training data crawlers — block
+# AI training-corpus crawlers, Allow (SEOMAN training-bot flip 2026-05-17,
+# GEO citation visibility across all AI ecosystems).
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ClaudeBot
 Disallow: /
@@ -17,13 +18,13 @@ User-agent: anthropic-ai
 Disallow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
 User-agent: Meta-ExternalAgent
-Disallow: /
+Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
@@ -35,9 +36,9 @@ User-agent: cohere-ai
 Disallow: /
 
 User-agent: Diffbot
-Disallow: /
+Allow: /
 
-# AI search index builders — allow (these can send traffic)
+# AI search index builders, allow (these can send traffic)
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -47,7 +48,7 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# User-triggered AI fetches — allow
+# User-triggered AI fetches, allow
 User-agent: ChatGPT-User
 Allow: /
 
@@ -68,6 +69,12 @@ User-Agent: FacebookBot
 Allow: /
 
 User-Agent: DuckAssistBot
+Allow: /
+
+User-Agent: ImagesiftBot
+Allow: /
+
+User-Agent: Omgilibot
 Allow: /
 
 Sitemap: https://pureaguafl.com/sitemap.xml
