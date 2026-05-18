@@ -1785,132 +1785,6 @@ export const blogPosts: BlogPost[] = [
 <p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">request your free in-home water test online</a>. Same-week appointments most weeks. No obligation, no pressure quote, and you keep the test card whether you book the install or not.</p>`,
   },
   {
-    slug: "water-softener-cost-orlando-2026-installed-pricing",
-    title: "Water Softener Cost Orlando FL 2026: Installed Pricing",
-    excerpt:
-      "What an Orlando water softener actually costs installed in 2026, with line-item pricing, sizing math, and the questions to ask before signing a quote.",
-    date: "2026-05-17",
-    author: "Pure Agua Enterprises Team",
-    category: "Cost Guides",
-    readTime: "11 min read",
-    tags: ["Water Softeners", "Cost", "Orlando", "Installed Pricing", "2026"],
-    content: `<figure><img src="/images/blog-hero/water-softener-cost-orlando-2026-installed-pricing.jpg" alt="A residential water softener and brine tank installed in an Orlando-area garage" width="1200" height="630" /><figcaption>Photo: Residential softener install reference image, illustrative only.</figcaption></figure>
-
-<p data-bluf>An installed water softener in Orlando, FL in 2026 typically runs $1,800 to $3,800 for a single-tank metered system on city water, and $3,000 to $6,000 when paired with a whole-house catalytic carbon stack for chloramine reduction. Final pricing depends on hardness (Orlando city water tests 8 to 16 grains per gallon, the south Orange and Osceola side runs higher), household size, plumbing complexity, whether a permit is required, and whether iron pre-treatment is needed on a well. This article breaks the number down line by line so you can read any quote in the Orlando market and know what you are buying.</p>
-
-<h2>What an "installed" Orlando softener actually includes</h2>
-
-<p>An honest installed quote in the Orlando market covers a complete swap-in at the home's main water line: the softener tank with resin, the brine tank, the control valve and head, a bypass valve, a code-compliant drain line with an air gap, the brine line back to the tank, copper or PEX connections to code at the main, electrical to the head outlet, programming the head to your tested hardness, and a post-install verification test. Permits are pulled by the installer when the municipality requires one. A clean walk-through with the homeowner closes the visit. If a quote does not list each of those items, that quote is incomplete and the missing pieces will show up later as change orders.</p>
-
-<p>Orlando-specific items that drive the install upward in the range include outdoor installs (city heat and humidity require a weather cover and a longer plumbing run), garage installs in older Pine Hills and College Park homes where the original galvanized stub-out has to be cut back to clean copper, and Lake Nona and Horizon West builds where the softener has to be tucked into a utility closet rather than the typical garage corner.</p>
-
-<h2>Recommended method: which Orlando-area home gets which system</h2>
-
-<table>
-  <thead><tr><th>Your situation</th><th>Recommended system</th><th>Installed range</th></tr></thead>
-  <tbody>
-    <tr><td>OUC city water, 1 to 3 people, garage stub-out</td><td>32,000-grain single-tank softener, 10% crosslink resin</td><td>$1,800 to $2,600</td></tr>
-    <tr><td>OUC or Orange County city water, 4 to 5 people, chloramine taste complaints</td><td>48,000-grain softener plus whole-house catalytic carbon stack</td><td>$3,200 to $5,200</td></tr>
-    <tr><td>South Orange or north Osceola, 5+ people, hardness above 18 gpg</td><td>64,000-grain softener with high-flow valve, plus carbon</td><td>$4,200 to $6,000</td></tr>
-    <tr><td>Apopka or East Orlando well, clear iron at 1 to 3 ppm</td><td>AIO iron filter plus softener plus under-sink RO</td><td>$5,500 to $9,500</td></tr>
-    <tr><td>HOA community, no salt regen allowed</td><td>Template-assisted crystallization (TAC) conditioner plus carbon</td><td>$2,000 to $4,200</td></tr>
-  </tbody>
-</table>
-
-<p>These are industry-standard installed ranges for the Orlando-metro market in 2026. We test on site and publish a specific number on the day of the consultation. For deeper sizing detail, the <a href="/blog/water-softener-complete-guide">complete water softener guide</a> and the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> cover the gpg-by-household math in full.</p>
-
-<h2>Line-item breakdown on a typical $2,800 Orlando install</h2>
-
-<p>To make the range concrete, here is the structure of a representative single-tank softener install at an Orlando home in 2026. Numbers are typical for the market; your quote should look something like this.</p>
-
-<ul>
-  <li><strong>Control valve, resin tank, brine tank, 32k or 48k of 10% crosslink resin:</strong> $1,000 to $1,900. Chloramine-grade resin is the right call on OUC and Toho supply.</li>
-  <li><strong>Installation labor at an existing garage stub-out:</strong> $500 to $800. Adds $200 to $500 for outdoor mount, long runs, or galvanized cut-back.</li>
-  <li><strong>Bypass valve, drain line, brine line, code-compliant air gap:</strong> $120 to $250 in parts and labor.</li>
-  <li><strong>Plumbing permit (when required):</strong> $0 to $150. Most City of Orlando and unincorporated Orange softener swaps at an existing stub do not require a permit. New installs at the main may.</li>
-  <li><strong>On-site water test and post-install verification test:</strong> $0. Pure Agua includes both on every quote.</li>
-  <li><strong>Warranty registration, head programming, homeowner walk-through:</strong> $0. Included.</li>
-</ul>
-
-<p>That stack puts the typical Orlando install at $1,800 on the low end and $3,800 on the high end, with most homes landing in the $2,400 to $3,200 zone. The combined softener-plus-carbon stack adds $1,200 to $2,400 on top depending on the catalytic carbon bed size.</p>
-
-<h2>The three quote mistakes Orlando homeowners make</h2>
-
-<p><strong>Sizing to bedroom count instead of gallons per day.</strong> A 4-bedroom Baldwin Park home with two retirees uses very different water than a 4-bedroom Hunters Creek home with five. Size to (hardness gpg + 4 gpg per ppm iron) x daily gallons used, and target a 3 to 7 day regen interval. The <a href="/water-treatment/central-florida-hard-water">hard water guide</a> walks through the math.</p>
-
-<p><strong>Buying the cheapest valve.</strong> The control head is the single most failure-prone component on a softener. A reputable Clack, Fleck, or Pentair head with documented Florida service history is worth $150 to $300 more than the bargain alternative; you will get that back in year four when the head is still running and the cheap one has been replaced.</p>
-
-<p><strong>Confusing "salt-free conditioner" with "softener" on price.</strong> A TAC conditioner is a legitimate product but it does not soften water. If a $2,800 quote turns out to be a TAC unit and you wanted ion exchange, that is a category mismatch, not a deal. Ask the installer in writing: "Is this an ion-exchange softener with regeneration, or a salt-free conditioner?"</p>
-
-<h2>OUC vs Orange County Utilities vs Toho: how Orlando's source water shapes the quote</h2>
-
-<p>The Orlando metro is served by three primary utilities plus several smaller systems. The water profile differs and so does the right softener configuration.</p>
-
-<p><strong>OUC (Orlando Utilities Commission)</strong> serves the City of Orlando proper plus parts of unincorporated Orange. OUC uses chloramines as the residual disinfectant. Hardness at the tap runs 8 to 14 gpg depending on the source plant. A chloramine-rated catalytic carbon stack is the correct companion to the softener on OUC water; standard granular activated carbon is too slow.</p>
-
-<p><strong>Orange County Utilities</strong> serves much of unincorporated Orange County including South Apopka, parts of east Orlando, and the Dr. Phillips area. Orange County blends Floridan Aquifer groundwater with reverse-osmosis-treated deep aquifer water at the Southern Water Treatment Plant; finished hardness typically runs 8 to 14 gpg.</p>
-
-<p><strong>Toho Water Authority</strong> serves Kissimmee, Poinciana, and much of Osceola. Toho water is harder than the Orange County average, with finished hardness reported at 12 to 22 gpg, and hydrogen sulfide is common. Toho also chloraminates. If you are in Kissimmee or south Osceola, plan on the upper end of the softener size range. Background on the regional source water is in our <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>.</p>
-
-<h2>Financing on an Orlando softener install</h2>
-
-<p>Most established Orlando water-treatment companies, Pure Agua included, offer third-party financing through Synchrony or Wells Fargo Home Projects for qualifying credit. Promotional plans commonly include 12 to 18 month deferred-interest options and longer fixed-rate plans at 7.99% to 12.99% APR over 60 months. Rates and terms are set by the lender. We publish the plans currently available on the <a href="/financing">financing page</a>. Many Orlando buyers self-finance off a HELOC or savings; the install does not need financing to be affordable, and we never push it.</p>
-
-<h2>Maintenance cost in the Orlando climate</h2>
-
-<p>Salt runs $10 to $30 per month depending on household size and hardness. In Orlando humidity, evaporated salt pellets perform much better than solar salt crystals; we recommend pellets to avoid brine tank mushing. Brine tank cleanout every two to three years is standard. If iron is present, plan on a resin cleaner treatment twice a year. The <a href="/blog/water-softener-complete-guide">complete softener guide</a> covers salt selection and maintenance in detail.</p>
-
-<h2>Call a professional if...</h2>
-
-<ul>
-  <li><strong>You are on a well in Apopka, east Orlando, or anywhere outside city limits.</strong> Iron, manganese, and sulfur in well water require a multi-stage build (AIO iron filter, then softener), not a single-tank softener.</li>
-  <li><strong>Hardness measured at the tap exceeds 25 gpg.</strong> Above that threshold a single 32,000-grain tank cannot keep up with a typical family; you need 48k or 64k.</li>
-  <li><strong>Your home was built before 1986 and still has the original supply lines.</strong> Lead solder and galvanized pipe risk both contamination and accelerated leaks after a softener install. A line inspection comes first.</li>
-  <li><strong>You have an HOA in Lake Nona, Horizon West, Hunters Creek, or any other community with salt-discharge restrictions.</strong> Confirm the HOA rule in writing before signing a softener contract; TAC is the alternative.</li>
-  <li><strong>Water pressure measures above 80 psi or below 40 psi.</strong> Outside that range, a pressure regulator or booster has to be installed first.</li>
-  <li><strong>You see visible iron staining plus a sulfur smell.</strong> Multi-stage well treatment, not a softener job.</li>
-  <li><strong>You rent your Orlando home.</strong> Tenant installs require landlord sign-off and a removable plan; we can scope it.</li>
-</ul>
-
-<h2>Frequently asked questions</h2>
-
-<div class="faq">
-
-<h3>How much does a water softener really cost installed in Orlando in 2026?</h3>
-
-<p>Industry-standard installed pricing for a single-tank ion-exchange softener in Orlando in 2026 runs $1,800 to $3,800. A combined softener plus whole-house catalytic carbon stack runs $3,000 to $6,000 installed. Well-water stacks with iron pre-treatment, softener, and RO run $5,500 to $9,500. Pure Agua publishes a specific number after the free in-home test, not a Web ballpark.</p>
-
-<h3>Does Orlando city water actually need softening?</h3>
-
-<p>OUC and Orange County Utilities finished water typically tests 8 to 14 gpg, which the USGS classifies as hard to very hard. Toho Water on the Osceola side runs 12 to 22 gpg. At those levels, soap lather, hair and skin feel, laundry, and water-heater life all benefit from softening. Whether the benefit is worth the install cost is a household-specific decision; the <a href="/water-treatment/central-florida-hard-water">hard water guide</a> covers the ROI math.</p>
-
-<h3>What is the difference between an Orlando softener install and a Kissimmee softener install?</h3>
-
-<p>The plumbing is the same. The water profile is different: Kissimmee on Toho runs harder (12 to 22 gpg vs Orlando's 8 to 14) and has more hydrogen sulfide, so Kissimmee installs more often need a larger softener tank and the carbon-plus-softener stack rather than softener alone. The <a href="/blog/kissimmee-orlando-water-quality">Kissimmee vs Orlando water quality guide</a> covers the source differences.</p>
-
-<h3>Do I need a plumbing permit for a softener swap in Orlando?</h3>
-
-<p>Most existing-stub-out softener swaps in the City of Orlando and unincorporated Orange County do not require a permit. New installs that tie into the main water supply line typically do. Toho Water and the City of Kissimmee both require a plumbing permit for new tie-ins. Pure Agua pulls the permit as part of the install fee when one is required; the homeowner does not file paperwork.</p>
-
-<h3>How long does the install take?</h3>
-
-<p>A standard single-tank softener swap at an existing stub-out in an Orlando garage takes three to four hours arrival to walk-through. Combined softener-plus-catalytic-carbon stacks add an hour or two. Well-water multi-stage installs are a full day. We schedule installs in morning blocks and finish the same day.</p>
-
-<h3>Can I install a softener myself in Orlando?</h3>
-
-<p>The equipment is available at big-box stores and a homeowner with plumbing experience can install one. The risk is sizing. A softener sized wrong for Orlando-area hardness will either regenerate constantly (wasting salt and water) or run out between cycles (delivering hard water to the tap). The labor savings disappear if the system has to be replaced in year four. Pure Agua sizes on-site for free and quotes in writing.</p>
-
-</div>
-
-<h2>What to do next</h2>
-
-<p>If you are sizing a softener anywhere in the Orlando metro, including Winter Park, Lake Mary, Baldwin Park, Lake Nona, Dr. Phillips, Apopka, Sanford, or Kissimmee, start with the on-site water test. The number on a paper strip from Home Depot is not the number you size to. Pure Agua brings a calibrated WQA-grade test kit on every consultation. We test, we explain, we quote in writing. No pressure, no upsell on equipment you do not need.</p>
-
-<p>For more reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> covers sizing in depth, the <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers private-well stacks, the <a href="/blog/water-softener-complete-guide">complete softener guide</a> covers ion exchange chemistry, the <a href="/blog/hard-water-damage-guide-central-florida">hard water damage guide</a> covers what untreated water does to your home, and the <a href="/blog/water-softener-cost-central-florida-2026">regional cost guide</a> covers the broader Central Florida market beyond Orlando proper. For point-of-use drinking water, see the <a href="/water-treatment/reverse-osmosis-drinking-water">RO guide</a> and the related <a href="/blog/reverse-osmosis-benefits-orlando">RO benefits article</a>. For service area details, see the <a href="/service-area">service area page</a>, the broader <a href="/service-areas">service areas index</a>, our <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
-
-<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. Same-week appointments are usually available. No obligation. The test card is yours whether you book the install or not.</p>`,
-  },
-  {
     slug: "orlando-water-sulfur-rotten-egg-smell-2026",
     title: "Why Orlando Tap Water Smells Like Sulfur or Rotten Eggs",
     excerpt:
@@ -2017,7 +1891,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>What does the H2S removal stack cost installed in Orlando?</h3>
 
-<p>For a typical Central Florida well with 1 to 3 mg/L sulfide and clear iron, the installed stack of AIO plus softener runs $4,000 to $6,500. Adding under-sink RO for drinking water adds $400 to $900. For a city customer with a hot-tap-only smell, the anode swap and chlorine shock runs $200 to $400. See the <a href="/blog/water-softener-cost-orlando-2026-installed-pricing">2026 Orlando installed pricing guide</a> for the broader cost picture.</p>
+<p>For a typical Central Florida well with 1 to 3 mg/L sulfide and clear iron, the installed stack of AIO plus softener runs $4,000 to $6,500. Adding under-sink RO for drinking water adds $400 to $900. For a city customer with a hot-tap-only smell, the anode swap and chlorine shock runs $200 to $400. For broader cost context, see the <a href="/blog/water-softener-cost-central-florida-2026">Central Florida softener cost guide</a>.</p>
 
 </div>
 
@@ -2152,9 +2026,129 @@ export const blogPosts: BlogPost[] = [
 
 <p>Step one: pull your utility's most recent CCR. Step two: if your home is pre-1986, run a first-draw lead test at the kitchen tap. Step three: decide whether you want point-of-use RO for belt-and-suspenders protection beyond utility-delivered water. Pure Agua installs NSF/ANSI 58 certified RO across the Orlando and Kissimmee metro and tests for free in your home, no obligation. We do not install whole-house lead removal (the right answer for pre-1986 lead-soldered premise plumbing is plumbing replacement, not whole-house filtration), and we will tell you that on the consultation.</p>
 
-<p>Further reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a>, the <a href="/water-treatment/florida-well-water">Florida well water guide</a>, the <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a>, the <a href="/blog/pfas-central-florida-2026">2026 PFAS in Central Florida article</a>, the <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>, the <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine vs ozone disinfection background</a>, the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hard water context</a>, the <a href="/blog/well-water-kissimmee-orlando">well water in Kissimmee and Orlando</a>, the <a href="/blog/water-softener-cost-orlando-2026-installed-pricing">2026 Orlando installed pricing guide</a>, the <a href="/service-area">service area page</a>, the <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
+<p>Further reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a>, the <a href="/water-treatment/florida-well-water">Florida well water guide</a>, the <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a>, the <a href="/blog/pfas-central-florida-2026">2026 PFAS in Central Florida article</a>, the <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a>, the <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine vs ozone disinfection background</a>, the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hard water context</a>, the <a href="/blog/well-water-kissimmee-orlando">well water in Kissimmee and Orlando</a>, the <a href="/service-area">service area page</a>, the <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
 
 <p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. We will measure hardness, chlorine or chloramine residual, iron, and pH on-site, walk you through your utility's most recent CCR with you, and recommend only the treatment your specific water actually needs.</p>`,
+  },
+  {
+    slug: "orlando-hard-water-stains-on-glass-diagnostic",
+    title: "Orlando Hard Water Stains on Glass: Why It Happens and How to Stop It",
+    excerpt:
+      "A diagnostic guide for Orlando homeowners on why shower glass, faucets, and dishes keep clouding over with white spots, what is actually in the residue, and the fix that lasts.",
+    date: "2026-05-17",
+    author: "Pure Agua Enterprises Team",
+    category: "Diagnostic Guides",
+    readTime: "11 min read",
+    tags: ["Hard Water", "Orlando", "Diagnostic", "Glass Stains", "Central Florida", "2026"],
+    content: `<figure><img src="/images/blog-hero/orlando-hard-water-stains-on-glass-diagnostic.jpg" alt="Cloudy white mineral spots on a shower glass door in an Orlando home" width="1200" height="630" /><figcaption>Photo: Cloudy mineral residue on a Central Florida shower glass door, illustrative only.</figcaption></figure>
+
+<p data-bluf>The cloudy white film on your Orlando shower glass, the white spots on dishes out of the dishwasher, and the chalky ring at the base of the kitchen faucet are all the same problem: dissolved calcium and magnesium from the Floridan Aquifer drying onto the surface and leaving the minerals behind. Orlando city water tests between 8 and 16 grains per gallon of hardness (Toho on the Kissimmee side runs 12 to 22 gpg), which the USGS classifies as hard to very hard. Wiping harder, switching cleaners, or buying a new dishwasher will not fix it; the only durable solution is removing the calcium and magnesium before the water reaches the glass. This article shows you how to identify which type of staining you actually have, the at-home test that takes ninety seconds, and the right fix for each pattern.</p>
+
+<h2>What the white film on your glass actually is</h2>
+
+<p>Water from the Floridan Aquifer picks up calcium and magnesium as it travels through limestone. By the time it arrives at your kitchen tap, every gallon carries roughly 0.5 grams of dissolved minerals per 8 grains per gallon of hardness. When that water dries on a shower door, the H2O evaporates and the minerals stay behind, bonded to the silica in the glass as a thin scale layer. After three or four months without softening, the scale has built up enough thickness to refract light, which is why a freshly cleaned door turns hazy again within days.</p>
+
+<p>The same mineral residue causes spotting on stemware, the chalky ring around faucet aerators, cloudy dishwasher loads, the white crust at the base of the toilet bowl waterline, and the gradually shrinking pressure on your shower head as scale narrows the orifices. The minerals are not harmful to drink; they are a cosmetic and equipment problem that compounds over time and silently shortens the life of every appliance the water touches.</p>
+
+<p>For the regional source-water context, see the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> and the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hard water article</a>, which cover the geology in detail.</p>
+
+<h2>The ninety-second test: is it hard water, soap scum, or etching?</h2>
+
+<p>Three different things can leave a white film on shower glass, and the fixes are very different. Run this test before you spend money on anything.</p>
+
+<p><strong>Test step 1:</strong> Spray a small section of the cloudy glass with white vinegar. Wait three minutes. Wipe with a soft cloth.</p>
+
+<ul>
+  <li><strong>If the cloudiness lifts cleanly and the glass is clear underneath:</strong> You have classic hard water scale. The vinegar dissolved the calcium carbonate. This is the most common pattern in Orlando and the one a softener fixes.</li>
+  <li><strong>If the cloudiness softens but leaves a greasy smear:</strong> You have hard water scale plus soap scum. The scum is calcium reacting with the fatty acids in bar soap to form a sticky calcium stearate film. A softener fixes the cause; switching to a synthetic body wash speeds up the recovery.</li>
+  <li><strong>If the vinegar does nothing and the glass stays cloudy:</strong> You have etching. The glass surface is permanently pitted, usually because mineral deposits sat on it long enough to be cleaned with an aggressive acid that pulled silica out of the surface. Etching does not come back; the glass has to be replaced or polished by a glazier. A softener prevents new etching but cannot undo it.</li>
+</ul>
+
+<p>Most Orlando-area homes built since 2005 with frameless shower enclosures show a mix of types 1 and 2. The Pure Agua test technician will identify which pattern you have during the free in-home water test.</p>
+
+<h2>Recommended method: the right fix for your stain pattern</h2>
+
+<table>
+  <thead><tr><th>What you are seeing</th><th>Most likely cause</th><th>Recommended fix</th></tr></thead>
+  <tbody>
+    <tr><td>Cloudy haze on glass, dishes, faucets that wipes off with vinegar</td><td>Calcium carbonate scale, 8 to 16 gpg hardness</td><td>Whole-house ion exchange softener, 32k to 48k grain capacity</td></tr>
+    <tr><td>Cloudy haze plus greasy smear on shower glass</td><td>Hard water scale plus soap scum from bar soap</td><td>Softener plus switch to liquid synthetic body wash</td></tr>
+    <tr><td>White spots only on dishes from the dishwasher</td><td>Dishwasher fill water above 7 gpg</td><td>Softener plus high-quality rinse aid; verify dishwasher water-hardness setting</td></tr>
+    <tr><td>Orange or brown tint mixed with the white film</td><td>Iron plus hardness, common on Apopka and east Orlando wells</td><td>AIO iron filter ahead of softener, on well systems only</td></tr>
+    <tr><td>Pitted, permanently dull glass that does not respond to vinegar</td><td>Silica etching from prolonged scale plus acid cleaners</td><td>Glass replacement or professional polish, then install softener</td></tr>
+    <tr><td>White film returns within 48 hours of cleaning, very hard water area</td><td>Hardness above 18 gpg, common on Toho Water in Kissimmee</td><td>64k grain softener with high-flow valve, plus daily squeegee habit</td></tr>
+  </tbody>
+</table>
+
+<p>If you are on a well, the diagnostic order changes; see the <a href="/water-treatment/florida-well-water">Florida well water guide</a> and the <a href="/blog/well-water-kissimmee-orlando">Kissimmee and Orlando well water article</a> for the right stack.</p>
+
+<h2>Why your dishwasher rinse aid is not enough</h2>
+
+<p>Rinse aid is a surfactant that reduces water surface tension so droplets sheet off the dish rather than beading up. On 4 gpg water, that works. On the 10 to 22 gpg water most Orlando-area dishwashers see, the dropet still carries enough minerals that even a thin sheet of water leaves a residue. The dishwasher manuals from Bosch, Miele, and Whirlpool all specify that water above 7 grains per gallon requires either a built-in softener (Bosch and Miele offer this in higher-end models) or an external water softener on the supply line. Orlando water exceeds that threshold at every utility in the metro.</p>
+
+<p>The same applies to laundry detergent. The "high efficiency" detergents formulated for soft water do almost nothing in hard water; you end up using two or three times the recommended dose to get the same lift, the surfactants bind to the calcium instead of the dirt, and the residue stays in the fibers. Softened water cuts detergent use by 50 to 70 percent in most households, which is the part of the softener ROI that people forget to count.</p>
+
+<h2>The "I just cleaned it yesterday" reality on Toho water</h2>
+
+<p>Kissimmee, Poinciana, and much of Osceola County are served by Toho Water Authority, which delivers finished water reported at 12 to 22 grains per gallon. At the high end of that range, every gallon dried on a glass surface deposits about three times as much mineral as the same gallon from OUC inside Orlando city limits. That is why a Hunters Creek homeowner can squeegee the glass nightly and still see haze by the weekend.</p>
+
+<p>The fix on Toho water is a larger softener (64,000 grains rather than the 32k that suffices in Baldwin Park or College Park) and, often, a rinsing strategy at the shower itself: a daily 10-second squeegee on softened water keeps frameless glass looking clean for years. The <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a> covers the utility-by-utility breakdown.</p>
+
+<h2>What about salt-free conditioners and magnetic descalers?</h2>
+
+<p>Template-assisted crystallization (TAC) conditioners change the form of calcium so it precipitates as harmless crystals rather than bonding to surfaces. They are a legitimate product, work well on water heater coils and inside copper plumbing, and do reduce some scale formation on glass. They do not remove hardness; the minerals are still in the water, and on Orlando-area hardness levels above 14 gpg, you will still see visible white film on shower glass with TAC alone, just less of it. TAC is the right answer when an HOA prohibits salt discharge in places like Lake Nona, Horizon West, and parts of Hunters Creek.</p>
+
+<p>Magnetic descalers, which clip onto the supply pipe and claim to alter the calcium ion structure, have failed every independent test we have seen across thirty years of consumer product research. They are not a fix and we do not install them. The WQA has published this position consistently.</p>
+
+<h2>Call a professional if...</h2>
+
+<ul>
+  <li><strong>The glass stays cloudy after vinegar treatment.</strong> The surface is etched and only a glazier can restore it; installing a softener at that point prevents recurrence on the new or polished glass.</li>
+  <li><strong>The white film is mixed with orange, red, or brown tint.</strong> You have iron plus hardness. On a well, that is an AIO iron filter ahead of a softener; on city water, the iron is usually coming from corroding galvanized pipe and a pipe inspection comes first.</li>
+  <li><strong>The home was built before 1986 and you have not run a first-draw lead test.</strong> Hard water plus old plumbing accelerates lead leaching at solder joints. A free at-home softener consultation is not a substitute for a certified lead test.</li>
+  <li><strong>Your water heater makes a popping or rumbling sound at startup.</strong> Scale has built up on the heating element or the tank bottom. The softener is part of the fix; the heater may also need a flush or replacement.</li>
+  <li><strong>You see scale on the inside of clear plastic pipes or filter housings.</strong> Visible scale inside the plumbing means the hardness number is well above the strip-test reading; you need a calibrated WQA-grade test and a sized solution.</li>
+  <li><strong>Water pressure in the shower has dropped noticeably over the last year.</strong> The shower head and possibly the mixing valve are partially blocked by scale. Cleaning the head is a temporary fix; the durable fix is removing the hardness upstream.</li>
+  <li><strong>You rent your Orlando home or live in a community with HOA salt-discharge rules.</strong> A salt-based softener may not be permitted; TAC is the alternative we will scope at the consultation.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>How can I tell for sure if Orlando water is causing the spots on my dishes?</h3>
+
+<p>Two-part test. First, run a clean glass through the dishwasher with no detergent at all. If the glass still has spots, those are mineral spots from the water alone, not detergent residue. Second, request a free in-home water test from Pure Agua; we measure hardness, chlorine residual, iron, and pH with a WQA-grade kit and give you the number on the day of the visit. Strip tests from the hardware store are accurate to about plus or minus 4 gpg, which is not precise enough to size equipment.</p>
+
+<h3>Will distilled vinegar damage my shower glass?</h3>
+
+<p>Used occasionally, no. Used as a daily cleaner over years, white vinegar can begin to etch the glass surface at the points where scale was thickest, because the acid attacks the silica once the calcium is gone. The safer routine is a daily squeegee on softened water and a monthly mild-cleaner pass, which makes vinegar unnecessary.</p>
+
+<h3>Can a whole-house water softener really make hard water spots stop coming back?</h3>
+
+<p>Yes, when the softener is sized correctly. Ion exchange removes more than 99 percent of the calcium and magnesium that cause spotting. Once the soft water reaches every fixture, new scale stops forming, and the existing scale on glass and chrome will gradually lift over the following weeks as a result of normal cleaning. Old etching on glass will not reverse; only new scale formation stops.</p>
+
+<h3>How much does a water softener cost to install in Orlando?</h3>
+
+<p>Industry-standard installed pricing varies by household size, the source utility, and whether iron pre-treatment is needed on a well. We provide a specific number after a free on-site test rather than a Web ballpark. The <a href="/blog/water-softener-cost-central-florida-2026">Central Florida softener cost guide</a> covers the broader regional market and the line items every quote should include.</p>
+
+<h3>Will softened water feel slippery in the shower?</h3>
+
+<p>Many people perceive softened water as feeling slick or slippery on the skin. That sensation is the absence of soap-calcium curd, which is what was making the water feel "squeaky" before. Once you adjust over a week or two, most customers prefer softened water and use significantly less soap and shampoo.</p>
+
+<h3>Do I need an under-sink reverse osmosis system on top of the softener?</h3>
+
+<p>Different problem. A softener removes calcium and magnesium so your house stops accumulating scale. An RO system removes a much wider range of dissolved solids, including PFAS, sodium added by the softener, lead, and most pesticides, for drinking water at one tap. Many Orlando-area homes install both: softener at the main, RO under the kitchen sink. The <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a> covers when RO is the right call.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>If you are seeing recurring white film on glass in Orlando, Kissimmee, Winter Park, Lake Mary, Sanford, Baldwin Park, Apopka, Dr. Phillips, Lake Nona, or anywhere in the Pure Agua service area, the first step is a calibrated water test. Strip tests are not accurate enough to size the right equipment, and the wrong softener costs you both money and effort. Pure Agua sends a technician to your home with a WQA-grade test kit, tests hardness, chlorine or chloramine residual, iron, and pH on site, walks you through what each number means in plain English, and provides a written quote with no obligation and no pressure.</p>
+
+<p>For more reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a> covers the regional source water in depth, the <a href="/water-treatment/florida-well-water">Florida well water guide</a> covers private-well diagnostics, the <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a> covers point-of-use treatment, the <a href="/blog/water-softener-complete-guide">complete softener guide</a> covers the chemistry, the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hard water article</a> covers the geology, the <a href="/blog/kissimmee-orlando-water-quality">Kissimmee and Orlando water quality guide</a> covers the utility breakdown, the <a href="/blog/water-softener-cost-central-florida-2026">Central Florida softener cost guide</a> covers the line items, and the <a href="/blog/why-orlando-water-smells-or-stains-2026">water smells or stains diagnostic</a> covers other visible water issues. For service-area and policy details, see the <a href="/service-area">service area page</a>, the <a href="/service-areas">service areas index</a>, the <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/faq">FAQ</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. Same-week appointments are usually available. No obligation. The test card and your water-quality results are yours whether you book the install or not.</p>`,
   },
 ];
 
