@@ -2150,6 +2150,155 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. Same-week appointments are usually available. No obligation. The test card and your water-quality results are yours whether you book the install or not.</p>`,
   },
+  {
+    slug: "200-installs-central-florida-water-patterns",
+    title: "200+ Five-Star Installs Across Central Florida: 7 Patterns We See Every Time",
+    excerpt:
+      "After 200+ five-star water-treatment installs across the Orlando metro since 2016, the same seven water-quality patterns show up in nearly every home. Here is what they are and what to do about them.",
+    date: "2026-05-19",
+    author: "Pure Agua Enterprises Team",
+    category: "Water Quality",
+    readTime: "11 min read",
+    tags: ["Central Florida", "Orlando", "Kissimmee", "Water Quality", "Diagnostic"],
+    content: `<p data-bluf>Pure Agua Enterprises has completed 200+ five-star-rated water-treatment installs across Central Florida since 2016, and the same seven water-quality patterns show up in nearly every Orange, Osceola, and Seminole County home we visit. Hardness on the Floridan Aquifer, sulfur on private wells, PFAS in chlorinated city supply, and aging pre-1986 service lines are the headliners. Here is what we see, and what to do about each one.</p>
+
+<div class="cta-banner">
+<p><strong>Free in-home water test across Central Florida.</strong> A Pure Agua technician comes to your address with a WQA-grade kit, measures hardness, chlorine or chloramine, iron, and pH on site, and gives you the numbers the same day. <a href="/contact">Schedule a free water test</a> or call <a href="tel:+14075128342">(407) 512-8342</a>.</p>
+</div>
+
+<h2>Why this list comes from real homes, not a textbook</h2>
+
+<p>Pure Agua Enterprises has been installing water-treatment systems across the Kissimmee and Orlando metro since 2016, roughly a decade of in-home tests across Orange, Osceola, and Seminole counties. The 200+ five-star Google reviews are not a marketing line, they are 200+ separate kitchen tables where a technician sat down, ran a calibrated test, and walked the homeowner through their numbers. When you do that often enough, the patterns stop being a surprise.</p>
+
+<p>The seven patterns below are the ones we see on at least seven out of every ten test visits. They are the standard Central Florida water profile, not exotic edge cases. If you live anywhere from Kissimmee up to Sanford, from Winter Park out to Oviedo or Lake Mary, you almost certainly have three or four of them in your own home right now. Every one of them has a known, certified solution.</p>
+
+<h2>Pattern 1: Hardness between 12 and 18 grains per gallon</h2>
+
+<p>Hardness is the universal Central Florida signature. The Floridan Aquifer, which supplies Orlando Utilities Commission, Orange County Utilities, Toho Water Authority, and most Seminole County Utilities customers, runs through extensive limestone formations and picks up calcium and magnesium on the way to the wellhead. Our in-home tests across the tri-county area consistently land between 12 and 18 grains per gallon (gpg) on finished municipal water, with pockets of Kissimmee and south Orange County running closer to 20 gpg. The U.S. Geological Survey classifies anything above 10.5 gpg as "very hard," and the <a href="https://www.usgs.gov/special-topics/water-science-school/science/hardness-water" target="_blank" rel="noopener">USGS water-hardness primer</a> puts most of Florida in the top hardness tier on the national map.</p>
+
+<p>What you actually see at home: white film on glassware, crusty buildup on fixtures and showerheads, soap that will not lather, stiff laundry, water-heater elements that fail in five to seven years instead of twelve, and an ice maker that crusts shut. The fix is straightforward, an ion-exchange softener sized to your hardness, iron, and household size. We cover the chemistry in the <a href="/blog/water-softener-complete-guide">complete water softener guide</a> and the regional pricing in the <a href="/blog/water-softener-cost-central-florida-2026">Central Florida softener cost guide</a>. The pillar page at <a href="/water-treatment/central-florida-hard-water">Central Florida hard water</a> is the home base for the Floridan Aquifer story.</p>
+
+<h2>Pattern 2: Sulfur (rotten-egg) smell on private wells</h2>
+
+<p>Roughly half of the well-water tests we run in eastern Seminole, southern Orange, and Osceola counties (think Oviedo, Christmas, St. Cloud, Harmony) come back with detectable hydrogen sulfide, the rotten-egg odor. Hydrogen sulfide is naturally produced when sulfate-reducing bacteria break down organic matter in the aquifer, and the Florida Department of Environmental Protection (FDEP) flags it as a common nuisance compound in private wells across the Floridan and Surficial aquifer systems. It is also an aesthetic, not primary, contaminant, so utilities do not test for it on city supply, and the private-well owner is on their own.</p>
+
+<p>The smell tells you whether it is hot, cold, or both. Hot-only points to the water-heater anode rod reacting with sulfates, a cheap swap. Cold-and-hot points to the well itself, which calls for an aeration system or a catalytic carbon plus oxidation setup. We walk through the diagnostic in the <a href="/blog/orlando-water-sulfur-rotten-egg-smell-2026">Orlando sulfur smell article</a> and the broader well-water playbook in the <a href="/water-treatment/florida-well-water">Florida well water pillar</a>. Anyone on a private well in the service area should also see the <a href="/services/well-water">well water service page</a> for the install side.</p>
+
+<h2>Pattern 3: PFAS detections in recent OUC and Orange County CCRs</h2>
+
+<p>Per- and polyfluoroalkyl substances, the "forever chemicals," now have enforceable federal limits. In April 2024 the EPA finalized the first national primary drinking-water standard for six PFAS compounds, including a Maximum Contaminant Level (MCL) of 4 parts per trillion for PFOA and PFOS individually, with utilities required to comply by 2029. The full rule is documented at the <a href="https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas" target="_blank" rel="noopener">EPA PFAS regulation page</a>. Recent Consumer Confidence Reports from Orlando Utilities Commission and Orange County Utilities both show low-level PFAS detections, currently below the new MCL but above the old health-advisory level, which is exactly the band where homeowners ask us about point-of-use treatment.</p>
+
+<p>The reliable home fix is reverse osmosis (RO) at the kitchen sink, certified to NSF/ANSI 58 with the PFAS reduction claim. We cover the certification structure and the math in <a href="/blog/pfas-central-florida-2026">PFAS in Central Florida 2026</a> and the broader regulatory picture in <a href="/blog/florida-drinking-water-standards-2026-pfas-lead-disinfection">Florida drinking water standards 2026</a>. The equipment side is at <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water</a> and <a href="/services/reverse-osmosis">reverse osmosis service</a>.</p>
+
+<h2>Pattern 4: Disinfection byproducts (TTHM and HAA5) in chlorinated city supply</h2>
+
+<p>Central Florida summers are hot, the source water is warm, and warm water plus chlorine produces trihalomethanes (TTHM) and haloacetic acids (HAA5). These disinfection byproducts (DBPs) sit in the upper portion of the EPA Stage 2 Disinfectants and Disinfection Byproducts Rule allowance for several months a year on Orange County and OUC supply. The <a href="https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations" target="_blank" rel="noopener">EPA national primary drinking water regulations</a> set TTHM at 80 micrograms per liter and HAA5 at 60 micrograms per liter as running annual averages.</p>
+
+<p>DBPs are exactly what activated carbon is good at. A whole-home catalytic carbon stage upstream of the softener handles the chlorine, the chloramine in chloraminated zip codes, and the DBPs in one pass. For drinking water specifically, the RO membrane plus carbon prefilter knocks out what made it through. Our <a href="/blog/chloramine-vs-ozone-orlando-kissimmee-disinfection">chloramine vs ozone article</a> walks through the disinfection chemistry across utilities, and the <a href="/services/whole-home">whole-home filtration service page</a> covers the install.</p>
+
+<h2>Pattern 5: Lead service-line risk in pre-1986 Orlando housing</h2>
+
+<p>Federal law banned lead-content plumbing in 1986. Homes in College Park, Audubon Park, Colonialtown, parts of downtown Orlando, Edgewater, and pockets of Winter Park and Sanford that pre-date 1986 may have lead solder on copper pipes, brass fittings with legacy lead content, or in rare cases full lead service lines. The EPA's revised Lead and Copper Rule sets an action level of 15 parts per billion and a goal of zero, and the <a href="https://www.epa.gov/ground-water-and-drinking-water/lead-and-copper-rule" target="_blank" rel="noopener">EPA Lead and Copper Rule page</a> walks through the requirements.</p>
+
+<p>If you live in a pre-1986 home anywhere in the service area, the conservative move is a kitchen-tap RO unit certified to NSF/ANSI 53 for lead reduction, plus a whole-home cartridge or backwash carbon to address the rest of the supply. We see this combination installed regularly in the older neighborhoods and write it up in the <a href="/blog/florida-drinking-water-standards-2026-pfas-lead-disinfection">Florida drinking water standards article</a>. Service options live at <a href="/services/reverse-osmosis">reverse osmosis</a> and <a href="/services/whole-home">whole-home filtration</a>.</p>
+
+<h2>Pattern 6: Iron and tannins on private wells in karst country</h2>
+
+<p>Where the Floridan Aquifer is close to the surface or has been compromised by sinkhole activity, well water often carries dissolved iron (ferrous), oxidized iron (ferric), or organic tannins from decaying vegetation in surficial aquifer zones. The result is orange staining on porcelain, brown laundry, a metallic taste, or a yellow-tea tint that no softener alone can fix. The St. Johns River Water Management District maps recharge and karst zones across Central Florida in detail at <a href="https://www.sjrwmd.com/water-supply/floridan-aquifer/" target="_blank" rel="noopener">the SJRWMD Floridan Aquifer page</a>, and you can predict the iron problem from the geology.</p>
+
+<p>The fix depends on the form of iron. Ferrous iron (clear when drawn, oxidizes orange in a glass) responds to a softener with iron-tolerant resin. Ferric iron (already orange at the tap) and tannins need an oxidation stage (air injection or chemical) plus a backwashing media filter. We cover the karst risk in the <a href="/blog/sinkholes-karst-central-florida-wells">sinkholes and karst article</a> and the well diagnostic in the <a href="/blog/well-water-treatment-osceola-orange-county">Osceola and Orange County well treatment article</a>. Service: <a href="/services/well-water">well water treatment</a>.</p>
+
+<h2>Pattern 7: Aquifer recharge contamination near urbanized recharge zones</h2>
+
+<p>The Floridan Aquifer recharges through karst features (sinkholes, swallets, and porous limestone) in well-defined zones across Lake, Orange, and Seminole counties. When those recharge zones sit under parking lots, golf courses, or older industrial corridors, the aquifer can pick up nitrates from fertilizer, low-level petroleum compounds, and pesticide residues. FDEP and the water-management districts track this through the Florida Aquifer Vulnerability Assessment, and homeowners on private wells near recharge zones are the most exposed because they sit upstream of any utility treatment.</p>
+
+<p>The mitigation is the same multi-stage layout: sediment, oxidation if metals are present, catalytic carbon for the organic compounds, ion exchange for hardness, and an RO at the drinking tap. It is the install we build most often on rural Osceola, eastern Seminole, and northwest Orange wells. The <a href="/water-treatment/florida-well-water">Florida well water pillar</a> is the deep dive, and the <a href="/blog/vacation-rental-water-quality-disney-area">Disney-area vacation rental article</a> covers the suburban variant of the same problem.</p>
+
+<h2>Recommended Method: which pattern points to which install</h2>
+
+<p>The condition-to-action table below is the single piece of this article most worth screenshotting. After 200+ installs, the mapping is consistent.</p>
+
+<table>
+<thead>
+<tr><th>What you see at home</th><th>Most likely pattern</th><th>Recommended action</th></tr>
+</thead>
+<tbody>
+<tr><td>White film on glass, crusty fixtures, stiff laundry</td><td>Pattern 1, hardness 12–18 gpg</td><td><a href="/services/water-softening">Ion-exchange softener</a> sized to your gpg and household</td></tr>
+<tr><td>Rotten-egg smell, hot or cold tap, on a well</td><td>Pattern 2, hydrogen sulfide</td><td>Aeration plus catalytic carbon, see <a href="/water-treatment/florida-well-water">well water guide</a></td></tr>
+<tr><td>Recent CCR mentions PFAS, you drink from the tap</td><td>Pattern 3, PFAS in city supply</td><td>NSF 58 <a href="/services/reverse-osmosis">RO at the kitchen sink</a></td></tr>
+<tr><td>Chlorine smell, dry skin, dull hair</td><td>Pattern 4, DBPs and chloramine</td><td>Whole-home catalytic carbon, see <a href="/services/whole-home">whole-home filtration</a></td></tr>
+<tr><td>Pre-1986 home, want to be safe on drinking water</td><td>Pattern 5, lead risk</td><td>NSF 53 lead-reduction RO at the drinking tap</td></tr>
+<tr><td>Orange staining, brown laundry, metallic taste</td><td>Pattern 6, iron or tannins</td><td>Oxidation plus backwash filter, see <a href="/services/well-water">well water treatment</a></td></tr>
+<tr><td>Rural well in a known recharge zone</td><td>Pattern 7, recharge contamination</td><td>Multi-stage train plus RO, see <a href="/water-treatment/florida-well-water">well water pillar</a></td></tr>
+</tbody>
+</table>
+
+<h2>When DIY makes sense (and when it does not)</h2>
+
+<p>Plenty of pieces of this puzzle are perfectly reasonable DIY projects. Swapping a water-heater anode rod to address hot-only sulfur, installing an under-sink RO kit on a softened-water house, changing sediment cartridges, and pouring softener salt are all homeowner-friendly tasks. If you are handy with a soldering iron or PEX crimper and your water profile is straightforward (Pattern 1 alone, on a city-water house, single-story home), a DIY softener install is achievable in a weekend.</p>
+
+<h3>Call a professional if</h3>
+
+<ul>
+<li>You are on a private well and have any iron staining, sulfur smell, or unknown bacterial status. Wells need an oxidation strategy chosen against the form of iron present, not a generic softener.</li>
+<li>You live in a pre-1986 home. Lead exposure is cumulative and the diagnostic needs to be right the first time.</li>
+<li>Your CCR shows PFAS approaching the new MCL. NSF certification language is precise, and a non-certified carbon block is not the same as an NSF-58 RO.</li>
+<li>You see iron, hardness, and chloramine on the same test result. The order of operations on the install matters and a wrong sequence shortens the life of every stage downstream.</li>
+<li>You have a septic system. Softener backwash discharge needs to be set up so it does not overload the drain field, and that is jurisdiction-specific in Osceola and Orange counties.</li>
+</ul>
+
+<h2>What our typical Central Florida install looks like</h2>
+
+<p>For a representative Orange or Osceola County home (city water, two-story, four people), the install runs four to six hours. We re-test on arrival to confirm the numbers from the free test visit, set the softener in the garage or utility closet, plumb a bypass loop, run a drain line to the correct point, and, if RO is in scope, install the under-sink unit and dedicated faucet. We start the system on softened water, validate hardness drop to under 1 gpg, and walk the homeowner through salt loading and service intervals before leaving the warranty paperwork.</p>
+
+<h2>Maintenance, the part most homeowners forget</h2>
+
+<ul>
+<li>Top off salt monthly and pick the right type. Pellets or solar crystals work on most Central Florida installs, rock salt does not.</li>
+<li>Change RO prefilters every 6 to 12 months and the membrane every 2 to 3 years. The schedule is on the underside of the unit door.</li>
+<li>Sanitize the brine tank annually if you smell anything off.</li>
+<li>Do an annual mineral check with a strip or a free recheck from us, to confirm the softener is still pulling hardness down below 1 gpg.</li>
+<li>Watch the drain line for a slow trickle (a sign of a stuck regeneration valve).</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<h3>How accurate is the free in-home water test, compared to a lab?</h3>
+
+<p>The on-site kit is WQA-grade and accurate to within roughly 1 gpg on hardness, plus chlorine, chloramine, iron, and pH. That is more than enough precision to size equipment and pick the right media. For PFAS specifically, the EPA-method lab test is the gold standard, and we will refer you to a state-certified lab for that, because no field kit reliably hits parts per trillion.</p>
+
+<h3>Do I need a softener if my hardness is only 8 to 10 gpg?</h3>
+
+<p>It is a judgment call. The U.S. Geological Survey classifies 7 gpg and above as hard, and most appliance manufacturers recommend softening above that line to protect warranties on dishwashers and water heaters. If you are seeing scale on glassware and shower doors, the answer is yes regardless of the raw number. Many Seminole County homes test in this band.</p>
+
+<h3>Will softened water hurt my plants or my lawn?</h3>
+
+<p>Outside hose bibbs are best left on hard water. Plants do not benefit from softened water and large amounts of sodium can stress salt-sensitive species. The standard Central Florida install plumbs the irrigation, the outside hose bibb, and sometimes one cold kitchen tap before the softener so those lines stay on raw water.</p>
+
+<h3>How long will a softener last in Central Florida water?</h3>
+
+<p>A correctly sized, properly maintained ion-exchange softener using high-cross-link resin typically runs 12 to 15 years before the resin needs replacement and 20 plus years on the tank. The valve electronics are the most common failure point after year 10. Aggressive iron on an unsuitable resin can drop that lifespan to under 5 years, which is why iron pre-treatment matters on wells.</p>
+
+<h3>Is reverse osmosis water bad for you because it removes minerals?</h3>
+
+<p>The dietary minerals removed by RO (calcium, magnesium) are present at far higher levels in food than in tap water, and the World Health Organization has examined the question and found no conclusive evidence of harm from drinking demineralized water in a varied diet. The contaminant-removal benefit, PFAS, lead, sodium added by the softener, pesticides, and nitrates, is well documented.</p>
+
+<h3>What does Pure Agua actually charge for an install?</h3>
+
+<p>Pricing depends on household size, source utility, whether iron pre-treatment is needed on a well, and whether RO is in scope. We do not publish a single web price because the wrong number sets the wrong expectation. After the free in-home test you get a written, line-itemized quote with no obligation. The <a href="/blog/water-softener-cost-central-florida-2026">Central Florida softener cost guide</a> covers what every quote should include.</p>
+
+</div>
+
+<h2>What to do next</h2>
+
+<p>If you live anywhere in our Central Florida service area, Kissimmee, Orlando, St. Cloud, Winter Park, Altamonte Springs, Lake Mary, Sanford, Oviedo, and the rest of Orange, Osceola, and Seminole counties, the first step is a calibrated water test at your address. No obligation, and the results are yours whether you book the install or not.</p>
+
+<p>For deeper reading: the <a href="/water-treatment/central-florida-hard-water">Central Florida hard water guide</a>, the <a href="/water-treatment/florida-well-water">Florida well water guide</a>, the <a href="/water-treatment/reverse-osmosis-drinking-water">RO drinking water guide</a>, the <a href="/blog/kissimmee-orlando-water-quality-guide">Kissimmee and Orlando water quality guide</a>, and the <a href="/blog/hard-water-central-florida-floridan-aquifer">Floridan Aquifer hard water article</a>. See the <a href="/service-area">service area page</a>, the <a href="/about">about page</a>, the <a href="/financing">financing options</a>, and the <a href="/testimonials">testimonials page</a>.</p>
+
+<p><strong>Call <a href="tel:+14075128342">(407) 512-8342</a></strong> or <a href="/contact">schedule your free in-home water test</a>. Same-week appointments are usually available across the Orlando metro.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
