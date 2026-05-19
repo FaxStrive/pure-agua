@@ -12,6 +12,12 @@ export type ImageCredit = {
 };
 
 export const IMAGE_CREDITS: Record<string, ImageCredit> = {
+  "/images/blog-hero/200-installs-central-florida-water-patterns.jpg": {
+    artist: "Ebyabe",
+    license: "CC BY-SA 3.0",
+    sourceFile: "File:Wekiwa Springs State Park river01.jpg",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Wekiwa_Springs_State_Park_river01.jpg",
+  },
   "/images/blog-hero/water-softener-cost-central-florida-2026.jpg": {
     artist: "రవిచంద్ర",
     license: "CC BY-SA 4.0",
