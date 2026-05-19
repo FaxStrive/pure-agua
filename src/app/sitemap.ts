@@ -58,6 +58,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/orlando-hard-water-stains-on-glass-diagnostic`, lastModified: new Date('2026-05-17'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/orlando-water-sulfur-rotten-egg-smell-2026`, lastModified: new Date('2026-05-17'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog/florida-drinking-water-standards-2026-pfas-lead-disinfection`, lastModified: new Date('2026-05-17'), changeFrequency: 'monthly', priority: 0.8 },
+    // 2026-05-19 credibility/diagnostic blog article
+    { url: `${baseUrl}/blog/200-installs-central-florida-water-patterns`, lastModified: new Date('2026-05-19'), changeFrequency: 'monthly', priority: 0.8 },
   ];
 
   // Phase 3 pillar pages
